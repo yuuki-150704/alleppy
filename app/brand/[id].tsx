@@ -78,7 +78,7 @@ export default function BrandMenuScreen() {
         style={[styles.menuCard, item.isDangerous && styles.menuCardDanger]}
         onPress={() => handleMenuPress(item.id)}
         activeOpacity={0.7}
-        accessibilityLabel={`${item.nameJa}${item.isDangerous ? "、注意：あなたのアレルギーが含まれています" : ""}`}
+        accessibilityLabel={`${item.nameJa}${item.isDangerous ? "、危険：あなたのアレルギーが含まれています" : ""}`}
       >
         <View style={styles.menuHeader}>
           <Text style={styles.menuName} numberOfLines={2}>
@@ -86,7 +86,7 @@ export default function BrandMenuScreen() {
           </Text>
           {item.isDangerous ? (
             <View style={styles.statusBadgeDanger}>
-              <Text style={styles.statusBadgeDangerText}>注意</Text>
+              <Text style={styles.statusBadgeDangerText}>危険</Text>
             </View>
           ) : (
             <View style={styles.statusBadgeSafe}>
@@ -113,8 +113,8 @@ export default function BrandMenuScreen() {
   };
 
   const filterButtons: { mode: FilterMode; label: string }[] = [
+    { mode: "danger", label: `危険 ${dangerCount}` },
     { mode: "safe", label: `安全 ${safeCount}` },
-    { mode: "danger", label: `注意 ${dangerCount}` },
     { mode: "all", label: "全て" },
   ];
 
@@ -212,7 +212,7 @@ export default function BrandMenuScreen() {
               {filterMode === "safe"
                 ? "このカテゴリに安全な料理はありません"
                 : filterMode === "danger"
-                ? "このカテゴリに注意が必要な料理はありません"
+                ? "このカテゴリに危険な料理はありません"
                 : "メニューがありません"}
             </Text>
           </View>

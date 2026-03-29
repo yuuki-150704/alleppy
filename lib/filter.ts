@@ -22,7 +22,10 @@ export function filterMenuItems(
     case "danger":
       return withDangerFlag.filter((item) => item.isDangerous);
     case "all":
-      return withDangerFlag;
+      return [...withDangerFlag].sort((a, b) => {
+        if (a.isDangerous === b.isDangerous) return 0;
+        return a.isDangerous ? -1 : 1;
+      });
   }
 }
 
