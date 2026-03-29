@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nameJa": "そば",
+    "nameEn": "Buckwheat",
+    "category": "mandatory",
+    "displayOrder": 1
+  },
+  {
+    "id": 2,
+    "nameJa": "落花生",
+    "nameEn": "Peanut",
+    "category": "mandatory",
+    "displayOrder": 2
+  },
+  {
+    "id": 3,
+    "nameJa": "小麦",
+    "nameEn": "Wheat",
+    "category": "mandatory",
+    "displayOrder": 3
+  },
+  {
+    "id": 4,
+    "nameJa": "卵",
+    "nameEn": "Egg",
+    "category": "mandatory",
+    "displayOrder": 4
+  },
+  {
+    "id": 5,
+    "nameJa": "乳",
+    "nameEn": "Milk",
+    "category": "mandatory",
+    "displayOrder": 5
+  },
+  {
+    "id": 6,
+    "nameJa": "えび",
+    "nameEn": "Shrimp",
+    "category": "mandatory",
+    "displayOrder": 6
+  },
+  {
+    "id": 7,
+    "nameJa": "かに",
+    "nameEn": "Crab",
+    "category": "mandatory",
+    "displayOrder": 7
+  },
+  {
+    "id": 8,
+    "nameJa": "くるみ",
+    "nameEn": "Walnut",
+    "category": "mandatory",
+    "displayOrder": 8
+  }
+]
