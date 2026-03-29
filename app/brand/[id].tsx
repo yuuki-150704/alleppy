@@ -50,18 +50,19 @@ export default function BrandMenuScreen() {
     return menuData.categories.flatMap((c) => c.items);
   }, [menuData]);
 
-  const safeCount = useMemo(() => {
-    return filterMenuItems(allItems, userAllergenNames, "safe").length;
-  }, [allItems, userAllergenNames]);
-
-  const dangerCount = useMemo(() => {
-    return filterMenuItems(allItems, userAllergenNames, "danger").length;
-  }, [allItems, userAllergenNames]);
+  const safeCount = useMemo(() =>
+    filterMenuItems(allItems, userAllergenNames, "safe").length,
+    [allItems, userAllergenNames]
+  );
+  const dangerCount = useMemo(() =>
+    filterMenuItems(allItems, userAllergenNames, "danger").length,
+    [allItems, userAllergenNames]
+  );
 
   if (!brand || !menuData) {
     return (
       <View style={styles.center}>
-        <Text style={styles.emptyText}>データが見つかりません</Text>
+        <Text style={styles.centerText}>データが見つかりません</Text>
       </View>
     );
   }
@@ -77,14 +78,19 @@ export default function BrandMenuScreen() {
         style={[styles.menuCard, item.isDangerous && styles.menuCardDanger]}
         onPress={() => handleMenuPress(item.id)}
         activeOpacity={0.7}
+        accessibilityLabel={`${item.nameJa}${item.isDangerous ? "、注意：あなたのアレルギーが含まれています" : ""}`}
       >
         <View style={styles.menuHeader}>
-          <Text style={[styles.menuName, item.isDangerous && styles.menuNameDanger]} numberOfLines={2}>
+          <Text style={styles.menuName} numberOfLines={2}>
             {item.nameJa}
           </Text>
-          {item.isDangerous && (
-            <View style={styles.dangerPill}>
-              <Text style={styles.dangerPillText}>!</Text>
+          {item.isDangerous ? (
+            <View style={styles.statusBadgeDanger}>
+              <Text style={styles.statusBadgeDangerText}>注意</Text>
+            </View>
+          ) : (
+            <View style={styles.statusBadgeSafe}>
+              <Text style={styles.statusBadgeSafeText}>安全</Text>
             </View>
           )}
         </View>
@@ -106,36 +112,49 @@ export default function BrandMenuScreen() {
     );
   };
 
+  const filterButtons: { mode: FilterMode; label: string; count?: number }[] = [
+    { mode: "safe", label: `安全 ${safeCount}`, count: safeCount },
+    { mode: "danger", label: `注意 ${dangerCount}`, count: dangerCount },
+    { mode: "all", label: "すべて" },
+  ];
+
   return (
     <View style={styles.container}>
       <Stack.Screen
         options={{
           headerTitle: brand.nameJa,
           headerStyle: { backgroundColor: Colors.background },
-          headerTitleStyle: { fontSize: 17, fontWeight: "600", letterSpacing: -0.2 },
+          headerTitleStyle: { fontSize: 17, fontWeight: "600", color: Colors.text },
           headerShadowVisible: false,
         }}
       />
 
-      {/* Filter Segmented Control */}
+      {/* フィルタ切り替え */}
       <View style={styles.filterWrap}>
-        <View style={styles.segmentedControl}>
-          {(["safe", "danger", "all"] as FilterMode[]).map((mode) => {
+        <View style={styles.filterBar}>
+          {filterButtons.map(({ mode, label }) => {
             const isActive = filterMode === mode;
-            const labels: Record<FilterMode, string> = {
-              safe: `Safe ${safeCount}`,
-              danger: `Alert ${dangerCount}`,
-              all: "All",
-            };
             return (
               <TouchableOpacity
                 key={mode}
-                style={[styles.segment, isActive && styles.segmentActive]}
+                style={[
+                  styles.filterBtn,
+                  isActive && mode === "safe" && styles.filterBtnSafe,
+                  isActive && mode === "danger" && styles.filterBtnDanger,
+                  isActive && mode === "all" && styles.filterBtnAll,
+                ]}
                 onPress={() => setFilterMode(mode)}
                 activeOpacity={0.8}
+                accessibilityRole="button"
+                accessibilityState={{ selected: isActive }}
               >
-                <Text style={[styles.segmentText, isActive && styles.segmentTextActive]}>
-                  {labels[mode]}
+                <Text style={[
+                  styles.filterText,
+                  isActive && mode === "safe" && styles.filterTextSafe,
+                  isActive && mode === "danger" && styles.filterTextDanger,
+                  isActive && mode === "all" && styles.filterTextAll,
+                ]}>
+                  {label}
                 </Text>
               </TouchableOpacity>
             );
@@ -143,12 +162,12 @@ export default function BrandMenuScreen() {
         </View>
       </View>
 
-      {/* Category Tabs */}
+      {/* カテゴリ */}
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
         style={styles.categoryBar}
-        contentContainerStyle={styles.categoryBarContent}
+        contentContainerStyle={styles.categoryContent}
       >
         {categories.map((cat) => {
           const isActive = selectedCategory === cat.id;
@@ -167,16 +186,16 @@ export default function BrandMenuScreen() {
         })}
       </ScrollView>
 
-      {/* No allergens notice */}
+      {/* アレルギー未登録の通知 */}
       {userAllergenNames.length === 0 && (
         <View style={styles.notice}>
           <Text style={styles.noticeText}>
-            アレルギーが未登録です — 設定から登録するとフィルタが有効になります
+            アレルギーが未登録です。設定画面から登録すると、フィルタが有効になります。
           </Text>
         </View>
       )}
 
-      {/* Menu List */}
+      {/* メニュー一覧 */}
       <FlatList
         data={filteredItems}
         keyExtractor={(item) => item.id}
@@ -185,22 +204,21 @@ export default function BrandMenuScreen() {
         showsVerticalScrollIndicator={false}
         ListEmptyComponent={
           <View style={styles.emptyWrap}>
-            <Text style={styles.emptyIcon}>{filterMode === "safe" ? "✓" : "—"}</Text>
             <Text style={styles.emptyText}>
               {filterMode === "safe"
                 ? "このカテゴリに安全な料理はありません"
                 : filterMode === "danger"
-                ? "危険な料理はありません"
+                ? "このカテゴリに注意が必要な料理はありません"
                 : "メニューがありません"}
             </Text>
           </View>
         }
       />
 
-      {/* Subtle disclaimer */}
+      {/* フッター */}
       <View style={styles.footer}>
         <Text style={styles.footerText}>
-          {brand.nameJa} 公式データに基づく · 店舗でもご確認ください
+          {brand.nameJa} 公式データに基づく情報です。店舗でもご確認ください。
         </Text>
       </View>
     </View>
@@ -210,83 +228,69 @@ export default function BrandMenuScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background },
   center: { flex: 1, justifyContent: "center", alignItems: "center" },
+  centerText: { color: Colors.textTertiary, fontSize: 15 },
 
-  // Segmented control
-  filterWrap: { paddingHorizontal: 20, paddingTop: 4, paddingBottom: 12 },
-  segmentedControl: {
+  // フィルタ
+  filterWrap: { paddingHorizontal: 20, paddingTop: 4, paddingBottom: 10 },
+  filterBar: {
     flexDirection: "row",
     backgroundColor: Colors.surfaceSecondary,
-    borderRadius: 10,
+    borderRadius: 12,
     padding: 3,
+    gap: 3,
   },
-  segment: {
+  filterBtn: {
     flex: 1,
-    paddingVertical: 8,
-    borderRadius: 8,
+    paddingVertical: 9,
+    borderRadius: 10,
     alignItems: "center",
+    minHeight: 44,
+    justifyContent: "center",
   },
-  segmentActive: {
-    backgroundColor: Colors.surface,
-    ...Shadows.small,
-  },
-  segmentText: {
-    fontSize: 13,
+  filterBtnSafe: { backgroundColor: Colors.safe },
+  filterBtnDanger: { backgroundColor: Colors.danger },
+  filterBtnAll: { backgroundColor: Colors.surface, ...Shadows.small },
+  filterText: {
+    fontSize: 14,
     fontWeight: "500",
     color: Colors.textTertiary,
-    letterSpacing: -0.1,
   },
-  segmentTextActive: {
-    color: Colors.text,
-    fontWeight: "600",
-  },
+  filterTextSafe: { color: Colors.textInverse, fontWeight: "600" },
+  filterTextDanger: { color: Colors.textInverse, fontWeight: "600" },
+  filterTextAll: { color: Colors.text, fontWeight: "600" },
 
-  // Category chips
-  categoryBar: {
-    maxHeight: 44,
-    marginBottom: 4,
-  },
-  categoryBarContent: {
-    paddingHorizontal: 20,
-    gap: 6,
-  },
+  // カテゴリ
+  categoryBar: { maxHeight: 46, marginBottom: 4 },
+  categoryContent: { paddingHorizontal: 20, gap: 6 },
   categoryChip: {
-    paddingHorizontal: 14,
-    paddingVertical: 7,
-    borderRadius: 8,
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderRadius: 10,
     backgroundColor: Colors.surfaceSecondary,
+    minHeight: 36,
+    justifyContent: "center",
   },
   categoryChipActive: {
-    backgroundColor: Colors.text,
+    backgroundColor: Colors.brand,
   },
-  categoryText: {
-    fontSize: 13,
-    fontWeight: "500",
-    color: Colors.textSecondary,
-  },
-  categoryTextActive: {
-    color: Colors.textInverse,
-    fontWeight: "600",
-  },
+  categoryText: { fontSize: 13, fontWeight: "500", color: Colors.textSecondary },
+  categoryTextActive: { color: Colors.textInverse, fontWeight: "600" },
 
-  // Notice
+  // 通知
   notice: {
     marginHorizontal: 20,
     marginTop: 8,
     paddingVertical: 10,
     paddingHorizontal: 14,
-    backgroundColor: Colors.accentSoft,
+    backgroundColor: Colors.warningSoft,
     borderRadius: 10,
+    borderLeftWidth: 3,
+    borderLeftColor: Colors.warning,
   },
-  noticeText: {
-    fontSize: 12,
-    color: Colors.accent,
-    fontWeight: "500",
-    textAlign: "center",
-  },
+  noticeText: { fontSize: 13, color: Colors.warning, fontWeight: "500" },
 
-  // List
-  listContent: { padding: 20, paddingTop: 12 },
-
+  // リスト
+  listContent: { padding: 20, paddingTop: 10 },
   menuCard: {
     backgroundColor: Colors.surface,
     borderRadius: 14,
@@ -310,65 +314,44 @@ const styles = StyleSheet.create({
     fontWeight: "500",
     color: Colors.text,
     flex: 1,
-    letterSpacing: -0.2,
-    lineHeight: 21,
+    lineHeight: 22,
   },
-  menuNameDanger: {
+  statusBadgeSafe: {
+    backgroundColor: Colors.safeMuted,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 6,
+  },
+  statusBadgeSafeText: {
+    fontSize: 11,
     fontWeight: "600",
+    color: Colors.safe,
   },
-  dangerPill: {
-    width: 22,
-    height: 22,
-    borderRadius: 11,
-    backgroundColor: Colors.danger,
-    justifyContent: "center",
-    alignItems: "center",
-    flexShrink: 0,
+  statusBadgeDanger: {
+    backgroundColor: Colors.dangerMuted,
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 6,
   },
-  dangerPillText: {
-    color: "#fff",
-    fontSize: 13,
-    fontWeight: "700",
+  statusBadgeDangerText: {
+    fontSize: 11,
+    fontWeight: "600",
+    color: Colors.danger,
   },
-  tagRow: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 5,
-    marginTop: 10,
-  },
+  tagRow: { flexDirection: "row", flexWrap: "wrap", gap: 5, marginTop: 10 },
   tag: {
     paddingHorizontal: 8,
     paddingVertical: 3,
-    borderRadius: 5,
+    borderRadius: 6,
     backgroundColor: Colors.surfaceSecondary,
   },
-  tagDanger: {
-    backgroundColor: Colors.dangerMuted,
-  },
-  tagText: {
-    fontSize: 11,
-    color: Colors.textSecondary,
-    fontWeight: "500",
-  },
-  tagTextDanger: {
-    color: Colors.danger,
-    fontWeight: "600",
-  },
+  tagDanger: { backgroundColor: Colors.dangerMuted },
+  tagText: { fontSize: 11, color: Colors.textSecondary, fontWeight: "500" },
+  tagTextDanger: { color: Colors.danger, fontWeight: "600" },
 
-  // Empty
-  emptyWrap: { padding: 48, alignItems: "center", gap: 8 },
-  emptyIcon: { fontSize: 28, color: Colors.textTertiary },
-  emptyText: { color: Colors.textTertiary, fontSize: 14 },
+  emptyWrap: { padding: 48, alignItems: "center" },
+  emptyText: { color: Colors.textTertiary, fontSize: 14, textAlign: "center" },
 
-  // Footer
-  footer: {
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-  },
-  footerText: {
-    fontSize: 11,
-    color: Colors.textTertiary,
-    textAlign: "center",
-    letterSpacing: -0.1,
-  },
+  footer: { paddingVertical: 10, paddingHorizontal: 20 },
+  footerText: { fontSize: 11, color: Colors.textTertiary, textAlign: "center" },
 });

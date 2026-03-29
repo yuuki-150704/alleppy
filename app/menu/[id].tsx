@@ -24,18 +24,14 @@ export default function MenuDetailScreen() {
   if (menuData) {
     for (const cat of menuData.categories) {
       const found = cat.items.find((item) => item.id === id);
-      if (found) {
-        menuItem = found;
-        categoryName = cat.nameJa;
-        break;
-      }
+      if (found) { menuItem = found; categoryName = cat.nameJa; break; }
     }
   }
 
   if (!menuItem || !brand) {
     return (
       <View style={styles.center}>
-        <Text style={styles.notFound}>データが見つかりません</Text>
+        <Text style={styles.centerText}>データが見つかりません</Text>
       </View>
     );
   }
@@ -55,29 +51,29 @@ export default function MenuDetailScreen() {
         }}
       />
 
-      {/* Hero section */}
+      {/* 料理名 */}
       <View style={styles.hero}>
         <Text style={styles.category}>{categoryName}</Text>
         <Text style={styles.title}>{menuItem.nameJa}</Text>
       </View>
 
-      {/* Status Banner */}
+      {/* 安全/危険バナー */}
       {isDangerous ? (
-        <View style={styles.bannerDanger}>
-          <View style={styles.bannerDot} />
+        <View style={styles.dangerBanner}>
+          <View style={styles.dangerDot} />
           <View style={styles.bannerContent}>
-            <Text style={styles.bannerTitle}>アレルギー物質が含まれています</Text>
-            <Text style={styles.bannerDetail}>{dangerousAllergens.join("、")}</Text>
+            <Text style={styles.dangerBannerTitle}>あなたのアレルギーが含まれています</Text>
+            <Text style={styles.dangerBannerDetail}>{dangerousAllergens.join("、")}</Text>
           </View>
         </View>
       ) : userAllergenNames.length > 0 ? (
-        <View style={styles.bannerSafe}>
-          <Text style={styles.bannerSafeIcon}>✓</Text>
-          <Text style={styles.bannerSafeText}>登録済みアレルギーは含まれていません</Text>
+        <View style={styles.safeBanner}>
+          <Text style={styles.safeBannerIcon}>✓</Text>
+          <Text style={styles.safeBannerText}>登録済みアレルギーは含まれていません</Text>
         </View>
       ) : null}
 
-      {/* Allergen Grid */}
+      {/* アレルゲン一覧 */}
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>特定原材料 8品目</Text>
         <View style={styles.allergenCard}>
@@ -95,10 +91,17 @@ export default function MenuDetailScreen() {
                   !isLast && styles.allergenRowBorder,
                   isAlert && styles.allergenRowAlert,
                 ]}
+                accessibilityLabel={`${allergen.nameJa}: ${contains ? "含む" : "含まない"}${isUserAllergen ? "（あなたのアレルギー）" : ""}`}
               >
                 <View style={styles.allergenLeft}>
-                  <View style={[styles.indicator, contains ? styles.indicatorDanger : styles.indicatorSafe]}>
-                    <Text style={styles.indicatorText}>
+                  <View style={[
+                    styles.indicator,
+                    contains ? styles.indicatorDanger : styles.indicatorSafe,
+                  ]}>
+                    <Text style={[
+                      styles.indicatorText,
+                      contains ? styles.indicatorTextDanger : styles.indicatorTextSafe,
+                    ]}>
                       {contains ? "!" : "✓"}
                     </Text>
                   </View>
@@ -110,11 +113,14 @@ export default function MenuDetailScreen() {
                   </View>
                   {isUserAllergen && (
                     <View style={styles.myBadge}>
-                      <Text style={styles.myBadgeText}>MY</Text>
+                      <Text style={styles.myBadgeText}>あなた</Text>
                     </View>
                   )}
                 </View>
-                <Text style={[styles.status, contains ? styles.statusDanger : styles.statusSafe]}>
+                <Text style={[
+                  styles.allergenStatus,
+                  contains ? styles.statusDanger : styles.statusSafe,
+                ]}>
                   {contains ? "含む" : "含まない"}
                 </Text>
               </View>
@@ -123,22 +129,25 @@ export default function MenuDetailScreen() {
         </View>
       </View>
 
-      {/* Info section */}
+      {/* 出典・免責 */}
       <View style={styles.section}>
         <View style={styles.infoCard}>
           <Text style={styles.infoText}>
-            {brand.nameJa} 公式データ（{menuData?.scrapedAt
+            この情報は{brand.nameJa}の公式データ（
+            {menuData?.scrapedAt
               ? new Date(menuData.scrapedAt).toLocaleDateString("ja-JP")
               : ""}
-            時点）に基づく情報です。原材料は予告なく変更される場合があります。
+            時点）に基づいています。原材料は予告なく変更される場合があります。必ず店舗でもご確認ください。
           </Text>
           <TouchableOpacity
-            style={styles.sourceButton}
+            style={styles.sourceLink}
             onPress={() => Linking.openURL(brand.sourceUrl)}
             activeOpacity={0.7}
+            accessibilityRole="link"
+            accessibilityLabel="公式アレルギー情報を開く"
           >
-            <Text style={styles.sourceText}>公式アレルギー情報</Text>
-            <Text style={styles.sourceArrow}>→</Text>
+            <Text style={styles.sourceLinkText}>公式アレルギー情報を見る</Text>
+            <Text style={styles.sourceLinkArrow}>→</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -151,97 +160,81 @@ export default function MenuDetailScreen() {
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background },
   center: { flex: 1, justifyContent: "center", alignItems: "center" },
-  notFound: { color: Colors.textTertiary, fontSize: 15 },
+  centerText: { color: Colors.textTertiary, fontSize: 15 },
 
-  // Hero
-  hero: {
-    paddingHorizontal: 24,
-    paddingTop: 4,
-    paddingBottom: 20,
-  },
+  hero: { paddingHorizontal: 24, paddingTop: 4, paddingBottom: 20 },
   category: {
     fontSize: 13,
     fontWeight: "500",
     color: Colors.textTertiary,
-    letterSpacing: 0.3,
-    marginBottom: 6,
+    marginBottom: 4,
   },
   title: {
-    fontSize: 26,
+    fontSize: 24,
     fontWeight: "700",
     color: Colors.text,
-    letterSpacing: -0.5,
-    lineHeight: 34,
+    lineHeight: 32,
   },
 
-  // Banner
-  bannerDanger: {
+  // 危険バナー
+  dangerBanner: {
     marginHorizontal: 20,
     marginBottom: 20,
     padding: 16,
     backgroundColor: Colors.dangerSoft,
     borderRadius: 14,
+    borderLeftWidth: 4,
+    borderLeftColor: Colors.danger,
     flexDirection: "row",
     alignItems: "flex-start",
     gap: 12,
   },
-  bannerDot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
+  dangerDot: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
     backgroundColor: Colors.danger,
-    marginTop: 5,
+    marginTop: 3,
   },
   bannerContent: { flex: 1 },
-  bannerTitle: {
+  dangerBannerTitle: {
     fontSize: 15,
     fontWeight: "600",
-    color: Colors.danger,
-    letterSpacing: -0.2,
+    color: Colors.dangerText,
   },
-  bannerDetail: {
+  dangerBannerDetail: {
     fontSize: 14,
     color: Colors.danger,
     marginTop: 3,
-    opacity: 0.8,
   },
-  bannerSafe: {
+
+  // 安全バナー
+  safeBanner: {
     marginHorizontal: 20,
     marginBottom: 20,
     padding: 14,
     backgroundColor: Colors.safeSoft,
     borderRadius: 14,
+    borderLeftWidth: 4,
+    borderLeftColor: Colors.safe,
     flexDirection: "row",
     alignItems: "center",
     gap: 10,
   },
-  bannerSafeIcon: {
-    fontSize: 16,
-    color: Colors.safe,
-    fontWeight: "bold",
-  },
-  bannerSafeText: {
-    fontSize: 14,
-    color: Colors.safe,
-    fontWeight: "500",
-  },
+  safeBannerIcon: { fontSize: 18, color: Colors.safe, fontWeight: "bold" },
+  safeBannerText: { fontSize: 14, color: Colors.safeText, fontWeight: "500" },
 
-  // Section
-  section: {
-    paddingHorizontal: 20,
-    marginBottom: 16,
-  },
+  // セクション
+  section: { paddingHorizontal: 20, marginBottom: 16 },
   sectionTitle: {
-    fontSize: 12,
+    fontSize: 13,
     fontWeight: "600",
-    color: Colors.textTertiary,
-    letterSpacing: 0.6,
-    textTransform: "uppercase",
+    color: Colors.textSecondary,
     marginBottom: 10,
-    marginLeft: 4,
+    paddingLeft: 2,
   },
 
-  // Allergen card
+  // アレルゲンカード
   allergenCard: {
     backgroundColor: Colors.surface,
     borderRadius: 16,
@@ -254,77 +247,41 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 14,
     paddingHorizontal: 16,
+    minHeight: 56,
   },
   allergenRowBorder: {
     borderBottomWidth: StyleSheet.hairlineWidth,
     borderBottomColor: Colors.separator,
   },
-  allergenRowAlert: {
-    backgroundColor: Colors.dangerSoft,
-  },
-  allergenLeft: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 12,
-  },
+  allergenRowAlert: { backgroundColor: Colors.dangerSoft },
+  allergenLeft: { flexDirection: "row", alignItems: "center", gap: 12 },
   indicator: {
-    width: 28,
-    height: 28,
-    borderRadius: 14,
+    width: 30,
+    height: 30,
+    borderRadius: 15,
     justifyContent: "center",
     alignItems: "center",
   },
-  indicatorDanger: {
-    backgroundColor: Colors.dangerMuted,
-  },
-  indicatorSafe: {
-    backgroundColor: Colors.safeMuted,
-  },
-  indicatorText: {
-    fontSize: 12,
-    fontWeight: "700",
-    color: Colors.text,
-  },
-  allergenName: {
-    fontSize: 15,
-    fontWeight: "500",
-    color: Colors.text,
-    letterSpacing: -0.2,
-  },
-  allergenNameAlert: {
-    fontWeight: "700",
-    color: Colors.danger,
-  },
-  allergenNameEn: {
-    fontSize: 11,
-    color: Colors.textTertiary,
-    marginTop: 1,
-  },
+  indicatorDanger: { backgroundColor: Colors.dangerMuted },
+  indicatorSafe: { backgroundColor: Colors.safeMuted },
+  indicatorText: { fontSize: 13, fontWeight: "700" },
+  indicatorTextDanger: { color: Colors.danger },
+  indicatorTextSafe: { color: Colors.safe },
+  allergenName: { fontSize: 15, fontWeight: "500", color: Colors.text },
+  allergenNameAlert: { fontWeight: "700", color: Colors.dangerText },
+  allergenNameEn: { fontSize: 11, color: Colors.textTertiary, marginTop: 1 },
   myBadge: {
-    paddingHorizontal: 5,
-    paddingVertical: 1,
+    paddingHorizontal: 6,
+    paddingVertical: 2,
     borderRadius: 4,
-    backgroundColor: Colors.accentSoft,
+    backgroundColor: Colors.brandSoft,
   },
-  myBadgeText: {
-    fontSize: 9,
-    fontWeight: "700",
-    color: Colors.accent,
-    letterSpacing: 0.5,
-  },
-  status: {
-    fontSize: 13,
-    fontWeight: "500",
-  },
-  statusDanger: {
-    color: Colors.danger,
-    fontWeight: "600",
-  },
-  statusSafe: {
-    color: Colors.safe,
-  },
+  myBadgeText: { fontSize: 9, fontWeight: "700", color: Colors.brand },
+  allergenStatus: { fontSize: 14, fontWeight: "500" },
+  statusDanger: { color: Colors.danger, fontWeight: "600" },
+  statusSafe: { color: Colors.safe },
 
-  // Info
+  // 出典
   infoCard: {
     backgroundColor: Colors.surface,
     borderRadius: 14,
@@ -335,9 +292,8 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: Colors.textSecondary,
     lineHeight: 20,
-    letterSpacing: -0.1,
   },
-  sourceButton: {
+  sourceLink: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
@@ -345,14 +301,8 @@ const styles = StyleSheet.create({
     paddingTop: 14,
     borderTopWidth: StyleSheet.hairlineWidth,
     borderTopColor: Colors.separator,
+    minHeight: 44,
   },
-  sourceText: {
-    fontSize: 14,
-    fontWeight: "500",
-    color: Colors.accent,
-  },
-  sourceArrow: {
-    fontSize: 16,
-    color: Colors.accent,
-  },
+  sourceLinkText: { fontSize: 14, fontWeight: "500", color: Colors.brand },
+  sourceLinkArrow: { fontSize: 16, color: Colors.brand },
 });

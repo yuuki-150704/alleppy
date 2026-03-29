@@ -51,15 +51,17 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
+      {/* 検索バー */}
       <View style={styles.searchWrap}>
         <View style={styles.searchBox}>
-          <Text style={styles.searchIcon}>⌕</Text>
+          <Text style={styles.searchIcon}>🔍</Text>
           <TextInput
             style={styles.searchInput}
-            placeholder="ブランドを検索"
+            placeholder="ブランドを検索..."
             value={search}
             onChangeText={setSearch}
             placeholderTextColor={Colors.textTertiary}
+            accessibilityLabel="ブランド検索"
           />
         </View>
       </View>
@@ -72,14 +74,14 @@ export default function HomeScreen() {
         ListHeaderComponent={
           recentBrands.length > 0 && !search ? (
             <View style={styles.section}>
-              <Text style={styles.sectionLabel}>Recently Viewed</Text>
+              <Text style={styles.sectionLabel}>最近見たブランド</Text>
               <View style={styles.recentRow}>
                 {recentBrands.map((brand) => (
                   <TouchableOpacity
                     key={brand.id}
                     style={styles.recentChip}
                     onPress={() => handleBrandPress(brand.id)}
-                    activeOpacity={0.8}
+                    activeOpacity={0.7}
                   >
                     <Text style={styles.recentChipText}>{brand.nameJa}</Text>
                   </TouchableOpacity>
@@ -97,21 +99,22 @@ export default function HomeScreen() {
                   key={brand.id}
                   style={[
                     styles.brandItem,
-                    index === 0 && styles.brandItemFirst,
-                    index === groupBrands.length - 1 && styles.brandItemLast,
+                    index < groupBrands.length - 1 && styles.brandItemBorder,
                   ]}
                   onPress={() => handleBrandPress(brand.id)}
                   activeOpacity={0.6}
+                  accessibilityRole="button"
+                  accessibilityLabel={`${brand.nameJa}のアレルゲン情報を見る`}
                 >
                   <View style={styles.brandLeft}>
-                    <View style={styles.brandAvatar}>
-                      <Text style={styles.brandAvatarText}>
+                    <View style={styles.brandIcon}>
+                      <Text style={styles.brandIconText}>
                         {brand.nameJa.charAt(0)}
                       </Text>
                     </View>
                     <View>
                       <Text style={styles.brandName}>{brand.nameJa}</Text>
-                      <Text style={styles.brandNameEn}>{brand.nameEn}</Text>
+                      <Text style={styles.brandSub}>{brand.nameEn}</Text>
                     </View>
                   </View>
                   <Text style={styles.chevron}>›</Text>
@@ -126,71 +129,48 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: Colors.background,
-  },
-  searchWrap: {
-    paddingHorizontal: 20,
-    paddingVertical: 12,
-  },
+  container: { flex: 1, backgroundColor: Colors.background },
+  searchWrap: { paddingHorizontal: 20, paddingVertical: 10 },
   searchBox: {
     flexDirection: "row",
     alignItems: "center",
     backgroundColor: Colors.surfaceSecondary,
     borderRadius: 12,
     paddingHorizontal: 14,
-    height: 44,
+    height: 46,
   },
-  searchIcon: {
-    fontSize: 18,
-    color: Colors.textTertiary,
-    marginRight: 8,
-  },
+  searchIcon: { fontSize: 14, marginRight: 10 },
   searchInput: {
     flex: 1,
     fontSize: 16,
     color: Colors.text,
-    letterSpacing: -0.2,
   },
-  listContent: {
-    paddingBottom: 20,
-  },
-  section: {
-    paddingHorizontal: 20,
-    marginTop: 8,
-    marginBottom: 12,
-  },
+  listContent: { paddingBottom: 24 },
+  section: { paddingHorizontal: 20, marginTop: 12, marginBottom: 8 },
   sectionLabel: {
-    fontSize: 12,
+    fontSize: 13,
     fontWeight: "600",
-    color: Colors.textTertiary,
-    letterSpacing: 0.6,
-    textTransform: "uppercase",
+    color: Colors.textSecondary,
     marginBottom: 10,
-    marginLeft: 4,
+    paddingLeft: 2,
   },
-  recentRow: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-  },
+  recentRow: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
   recentChip: {
-    backgroundColor: Colors.text,
+    backgroundColor: Colors.brand,
     paddingHorizontal: 16,
-    paddingVertical: 9,
-    borderRadius: 20,
+    paddingVertical: 10,
+    borderRadius: 22,
+    minHeight: 44,
+    justifyContent: "center",
   },
   recentChipText: {
     color: Colors.textInverse,
     fontSize: 14,
-    fontWeight: "500",
-    letterSpacing: -0.1,
+    fontWeight: "600",
   },
   brandList: {
     backgroundColor: Colors.surface,
     borderRadius: 14,
-    overflow: "hidden",
     ...Shadows.small,
   },
   brandItem: {
@@ -199,43 +179,32 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingVertical: 14,
     paddingHorizontal: 16,
+    minHeight: 56,
+  },
+  brandItemBorder: {
     borderBottomWidth: StyleSheet.hairlineWidth,
     borderBottomColor: Colors.separator,
   },
-  brandItemFirst: {
-    borderTopLeftRadius: 14,
-    borderTopRightRadius: 14,
-  },
-  brandItemLast: {
-    borderBottomWidth: 0,
-    borderBottomLeftRadius: 14,
-    borderBottomRightRadius: 14,
-  },
-  brandLeft: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 14,
-  },
-  brandAvatar: {
-    width: 38,
-    height: 38,
+  brandLeft: { flexDirection: "row", alignItems: "center", gap: 14 },
+  brandIcon: {
+    width: 40,
+    height: 40,
     borderRadius: 10,
-    backgroundColor: Colors.surfaceSecondary,
+    backgroundColor: Colors.brandSoft,
     justifyContent: "center",
     alignItems: "center",
   },
-  brandAvatarText: {
+  brandIconText: {
     fontSize: 16,
     fontWeight: "600",
-    color: Colors.textSecondary,
+    color: Colors.brand,
   },
   brandName: {
     fontSize: 16,
     fontWeight: "500",
     color: Colors.text,
-    letterSpacing: -0.2,
   },
-  brandNameEn: {
+  brandSub: {
     fontSize: 12,
     color: Colors.textTertiary,
     marginTop: 1,

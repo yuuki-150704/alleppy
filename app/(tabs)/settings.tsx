@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   StyleSheet,
   ScrollView,
-  Alert,
 } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import { Colors, Shadows } from "@/constants/colors";
@@ -40,9 +39,9 @@ export default function SettingsScreen() {
 
   return (
     <ScrollView style={styles.container} showsVerticalScrollIndicator={false}>
-      {/* Allergen Settings */}
+      {/* アレルギー設定 */}
       <View style={styles.section}>
-        <Text style={styles.sectionLabel}>Allergens</Text>
+        <Text style={styles.sectionLabel}>アレルギー設定</Text>
         <View style={styles.card}>
           <Text style={styles.cardTitle}>あなたのアレルギー</Text>
           <Text style={styles.cardSubtitle}>
@@ -54,14 +53,17 @@ export default function SettingsScreen() {
               return (
                 <TouchableOpacity
                   key={allergen.id}
-                  style={[styles.allergenChip, isSelected && styles.allergenChipSelected]}
+                  style={[styles.chip, isSelected && styles.chipSelected]}
                   onPress={() => toggle(allergen.id)}
                   activeOpacity={0.8}
+                  accessibilityRole="checkbox"
+                  accessibilityState={{ checked: isSelected }}
+                  accessibilityLabel={allergen.nameJa}
                 >
                   <Text style={[styles.chipName, isSelected && styles.chipNameSelected]}>
                     {allergen.nameJa}
                   </Text>
-                  <Text style={[styles.chipNameEn, isSelected && styles.chipNameEnSelected]}>
+                  <Text style={[styles.chipSub, isSelected && styles.chipSubSelected]}>
                     {allergen.nameEn}
                   </Text>
                 </TouchableOpacity>
@@ -69,44 +71,44 @@ export default function SettingsScreen() {
             })}
           </View>
           <TouchableOpacity
-            style={[styles.saveButton, saved && styles.saveButtonDone]}
+            style={[styles.saveBtn, saved && styles.saveBtnDone]}
             onPress={handleSave}
             activeOpacity={0.85}
           >
-            <Text style={styles.saveButtonText}>
+            <Text style={styles.saveBtnText}>
               {saved ? "✓ 保存しました" : "保存する"}
             </Text>
           </TouchableOpacity>
         </View>
       </View>
 
-      {/* About */}
+      {/* アプリ情報 */}
       <View style={styles.section}>
-        <Text style={styles.sectionLabel}>About</Text>
+        <Text style={styles.sectionLabel}>アプリ情報</Text>
         <View style={styles.card}>
           <View style={styles.infoRow}>
-            <Text style={styles.infoLabel}>Version</Text>
+            <Text style={styles.infoLabel}>バージョン</Text>
             <Text style={styles.infoValue}>0.1.0</Text>
           </View>
           <View style={[styles.infoRow, styles.infoRowLast]}>
-            <Text style={styles.infoLabel}>Data updated</Text>
-            <Text style={styles.infoValue}>2026/03/29</Text>
+            <Text style={styles.infoLabel}>データ更新日</Text>
+            <Text style={styles.infoValue}>2026年3月29日</Text>
           </View>
         </View>
       </View>
 
-      {/* Disclaimer */}
+      {/* 免責事項 */}
       <View style={styles.section}>
-        <Text style={styles.sectionLabel}>Disclaimer</Text>
+        <Text style={styles.sectionLabel}>ご利用にあたって</Text>
         <View style={styles.card}>
           <Text style={styles.disclaimerText}>
-            本アプリのアレルゲン情報は、各飲食チェーンの公式サイトで公開されているデータに基づいて作成しています。
+            本アプリ「Alleppy」のアレルゲン情報は、各飲食チェーンの公式サイトで公開されているデータに基づいて作成しています。
           </Text>
-          <Text style={[styles.disclaimerText, styles.disclaimerGap]}>
+          <Text style={[styles.disclaimerText, { marginTop: 12 }]}>
             原材料は予告なく変更される場合があります。本アプリの情報のみに依存せず、必ず店舗でもご確認ください。
           </Text>
-          <Text style={[styles.disclaimerText, styles.disclaimerGap]}>
-            調理器具・揚げ油等の共有による意図しない微量混入の可能性があります。アレルギー物質に対する感受性には個人差があります。最終的な判断は専門医にご相談の上、ご自身でご判断ください。
+          <Text style={[styles.disclaimerText, { marginTop: 12 }]}>
+            調理器具・揚げ油等の共有による意図しない微量混入の可能性があります。アレルギー物質に対する感受性には個人差がありますので、最終的な判断は専門医にご相談の上、ご自身でご判断ください。
           </Text>
         </View>
       </View>
@@ -118,117 +120,60 @@ export default function SettingsScreen() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: Colors.background },
-
-  section: {
-    paddingHorizontal: 20,
-    marginTop: 20,
-  },
+  section: { paddingHorizontal: 20, marginTop: 20 },
   sectionLabel: {
-    fontSize: 12,
+    fontSize: 13,
     fontWeight: "600",
-    color: Colors.textTertiary,
-    letterSpacing: 0.6,
-    textTransform: "uppercase",
+    color: Colors.textSecondary,
     marginBottom: 10,
-    marginLeft: 4,
+    paddingLeft: 2,
   },
-
   card: {
     backgroundColor: Colors.surface,
     borderRadius: 16,
     padding: 20,
     ...Shadows.small,
   },
-  cardTitle: {
-    fontSize: 18,
-    fontWeight: "600",
-    color: Colors.text,
-    letterSpacing: -0.3,
-  },
-  cardSubtitle: {
-    fontSize: 13,
-    color: Colors.textSecondary,
-    marginTop: 4,
-    marginBottom: 20,
-  },
-
-  grid: {
-    flexDirection: "row",
-    flexWrap: "wrap",
-    gap: 8,
-    marginBottom: 20,
-  },
-  allergenChip: {
+  cardTitle: { fontSize: 18, fontWeight: "600", color: Colors.text },
+  cardSubtitle: { fontSize: 13, color: Colors.textSecondary, marginTop: 4, marginBottom: 20 },
+  grid: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginBottom: 20 },
+  chip: {
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderRadius: 12,
     backgroundColor: Colors.surfaceSecondary,
     alignItems: "center",
+    borderWidth: 2,
+    borderColor: "transparent",
+    minHeight: 44,
   },
-  allergenChipSelected: {
-    backgroundColor: Colors.text,
+  chipSelected: {
+    borderColor: Colors.brand,
+    backgroundColor: Colors.brandSoft,
   },
-  chipName: {
-    fontSize: 15,
-    fontWeight: "500",
-    color: Colors.text,
-    letterSpacing: -0.2,
-  },
-  chipNameSelected: {
-    color: Colors.textInverse,
-  },
-  chipNameEn: {
-    fontSize: 10,
-    color: Colors.textTertiary,
-    marginTop: 2,
-  },
-  chipNameEnSelected: {
-    color: "rgba(255,255,255,0.45)",
-  },
-
-  saveButton: {
-    backgroundColor: Colors.text,
-    paddingVertical: 15,
+  chipName: { fontSize: 15, fontWeight: "500", color: Colors.text },
+  chipNameSelected: { color: Colors.brand, fontWeight: "600" },
+  chipSub: { fontSize: 10, color: Colors.textTertiary, marginTop: 2 },
+  chipSubSelected: { color: Colors.brand, opacity: 0.7 },
+  saveBtn: {
+    backgroundColor: Colors.brand,
+    paddingVertical: 16,
     borderRadius: 12,
     alignItems: "center",
+    minHeight: 52,
+    justifyContent: "center",
   },
-  saveButtonDone: {
-    backgroundColor: Colors.safe,
-  },
-  saveButtonText: {
-    color: Colors.textInverse,
-    fontSize: 15,
-    fontWeight: "600",
-    letterSpacing: -0.2,
-  },
-
+  saveBtnDone: { backgroundColor: Colors.safe },
+  saveBtnText: { color: Colors.textInverse, fontSize: 16, fontWeight: "600" },
   infoRow: {
     flexDirection: "row",
     justifyContent: "space-between",
-    paddingVertical: 13,
+    paddingVertical: 14,
     borderBottomWidth: StyleSheet.hairlineWidth,
     borderBottomColor: Colors.separator,
   },
-  infoRowLast: {
-    borderBottomWidth: 0,
-  },
-  infoLabel: {
-    fontSize: 15,
-    color: Colors.text,
-    fontWeight: "400",
-  },
-  infoValue: {
-    fontSize: 15,
-    color: Colors.textTertiary,
-  },
-
-  disclaimerText: {
-    fontSize: 13,
-    color: Colors.textSecondary,
-    lineHeight: 20,
-    letterSpacing: -0.1,
-  },
-  disclaimerGap: {
-    marginTop: 12,
-  },
+  infoRowLast: { borderBottomWidth: 0 },
+  infoLabel: { fontSize: 15, color: Colors.text },
+  infoValue: { fontSize: 15, color: Colors.textTertiary },
+  disclaimerText: { fontSize: 13, color: Colors.textSecondary, lineHeight: 21 },
 });

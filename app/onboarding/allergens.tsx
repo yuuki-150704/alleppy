@@ -39,12 +39,15 @@ export default function AllergenOnboarding() {
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
         <View style={styles.header}>
-          <Text style={styles.eyebrow}>Welcome to Alleppy</Text>
+          <View style={styles.logoPill}>
+            <Text style={styles.logoText}>Alleppy</Text>
+          </View>
           <Text style={styles.title}>
             あなたのアレルギーを{"\n"}教えてください
           </Text>
           <Text style={styles.subtitle}>
-            選択した品目が含まれる料理を自動で検出します
+            選択した品目を含む料理を自動で検出します。{"\n"}
+            あとから設定で変更できます。
           </Text>
         </View>
 
@@ -54,21 +57,21 @@ export default function AllergenOnboarding() {
             return (
               <TouchableOpacity
                 key={allergen.id}
-                style={[
-                  styles.card,
-                  isSelected && styles.cardSelected,
-                ]}
+                style={[styles.card, isSelected && styles.cardSelected]}
                 onPress={() => toggle(allergen.id)}
                 activeOpacity={0.8}
+                accessibilityRole="checkbox"
+                accessibilityState={{ checked: isSelected }}
+                accessibilityLabel={`${allergen.nameJa}（${allergen.nameEn}）`}
               >
                 <Text style={[styles.cardName, isSelected && styles.cardNameSelected]}>
                   {allergen.nameJa}
                 </Text>
-                <Text style={[styles.cardNameEn, isSelected && styles.cardNameEnSelected]}>
+                <Text style={[styles.cardSub, isSelected && styles.cardSubSelected]}>
                   {allergen.nameEn}
                 </Text>
                 {isSelected && (
-                  <View style={styles.checkCircle}>
+                  <View style={styles.checkBadge}>
                     <Text style={styles.checkIcon}>✓</Text>
                   </View>
                 )}
@@ -78,18 +81,13 @@ export default function AllergenOnboarding() {
         </View>
 
         <View style={styles.footer}>
-          <TouchableOpacity
-            style={[styles.button, selected.size === 0 && styles.buttonMuted]}
-            onPress={handleDone}
-            activeOpacity={0.85}
-          >
+          <TouchableOpacity style={styles.button} onPress={handleDone} activeOpacity={0.85}>
             <Text style={styles.buttonText}>
               {selected.size > 0
-                ? `${selected.size}件を登録して始める`
-                : "登録せずに始める"}
+                ? `${selected.size}件のアレルギーを登録する`
+                : "アレルギーなしで始める"}
             </Text>
           </TouchableOpacity>
-
           <TouchableOpacity onPress={handleSkip} style={styles.skipButton}>
             <Text style={styles.skipText}>あとで設定する</Text>
           </TouchableOpacity>
@@ -100,37 +98,30 @@ export default function AllergenOnboarding() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: Colors.background,
+  container: { flex: 1, backgroundColor: Colors.background },
+  content: { flex: 1, paddingHorizontal: 24, justifyContent: "center" },
+  header: { alignItems: "center", marginBottom: 32 },
+  logoPill: {
+    backgroundColor: Colors.brandSoft,
+    paddingHorizontal: 16,
+    paddingVertical: 6,
+    borderRadius: 20,
+    marginBottom: 20,
   },
-  content: {
-    flex: 1,
-    paddingHorizontal: 28,
-    justifyContent: "center",
-  },
-  header: {
-    marginBottom: 40,
-  },
-  eyebrow: {
-    fontSize: 13,
-    fontWeight: "600",
-    color: Colors.accent,
-    letterSpacing: 0.8,
-    textTransform: "uppercase",
-    textAlign: "center",
-    marginBottom: 12,
+  logoText: {
+    fontSize: 14,
+    fontWeight: "700",
+    color: Colors.brand,
   },
   title: {
-    fontSize: 28,
+    fontSize: 26,
     fontWeight: "700",
     color: Colors.text,
     textAlign: "center",
-    letterSpacing: -0.5,
     lineHeight: 36,
   },
   subtitle: {
-    fontSize: 15,
+    fontSize: 14,
     color: Colors.textSecondary,
     textAlign: "center",
     marginTop: 10,
@@ -141,79 +132,65 @@ const styles = StyleSheet.create({
     flexWrap: "wrap",
     justifyContent: "center",
     gap: 10,
-    marginBottom: 40,
+    marginBottom: 36,
   },
   card: {
     width: 100,
-    height: 88,
-    borderRadius: 16,
+    height: 84,
+    borderRadius: 14,
     backgroundColor: Colors.surface,
     justifyContent: "center",
     alignItems: "center",
     position: "relative",
-    ...Shadows.medium,
+    borderWidth: 2,
+    borderColor: Colors.separator,
   },
   cardSelected: {
-    backgroundColor: Colors.text,
+    borderColor: Colors.brand,
+    backgroundColor: Colors.brandSoft,
   },
   cardName: {
     fontSize: 17,
     fontWeight: "600",
     color: Colors.text,
-    letterSpacing: -0.2,
   },
   cardNameSelected: {
-    color: Colors.textInverse,
+    color: Colors.brand,
   },
-  cardNameEn: {
+  cardSub: {
     fontSize: 10,
     color: Colors.textTertiary,
     marginTop: 3,
-    letterSpacing: 0.3,
   },
-  cardNameEnSelected: {
-    color: "rgba(255,255,255,0.5)",
+  cardSubSelected: {
+    color: Colors.brand,
+    opacity: 0.7,
   },
-  checkCircle: {
+  checkBadge: {
     position: "absolute",
-    top: 6,
-    right: 6,
+    top: 5,
+    right: 5,
     width: 20,
     height: 20,
     borderRadius: 10,
-    backgroundColor: Colors.accent,
+    backgroundColor: Colors.brand,
     justifyContent: "center",
     alignItems: "center",
   },
-  checkIcon: {
-    color: "#fff",
-    fontSize: 11,
-    fontWeight: "bold",
-  },
-  footer: {
-    gap: 12,
-  },
+  checkIcon: { color: "#fff", fontSize: 11, fontWeight: "bold" },
+  footer: { gap: 12 },
   button: {
-    backgroundColor: Colors.text,
-    paddingVertical: 17,
+    backgroundColor: Colors.brand,
+    paddingVertical: 16,
     borderRadius: 14,
     alignItems: "center",
-  },
-  buttonMuted: {
-    backgroundColor: Colors.primarySoft,
+    ...Shadows.small,
   },
   buttonText: {
     color: Colors.textInverse,
     fontSize: 16,
     fontWeight: "600",
-    letterSpacing: -0.2,
   },
-  skipButton: {
-    alignItems: "center",
-    paddingVertical: 8,
-  },
-  skipText: {
-    color: Colors.textTertiary,
-    fontSize: 14,
-  },
+  skipButton: { alignItems: "center", paddingVertical: 8, minHeight: 44 },
+  skipText: { color: Colors.textTertiary, fontSize: 14 },
 });

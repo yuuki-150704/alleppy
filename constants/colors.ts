@@ -1,63 +1,61 @@
-export const Colors = {
-  // Core palette — muted, sophisticated
-  primary: "#1A1A1A",
-  primarySoft: "#3A3A3A",
-  accent: "#0A84FF",        // Apple blue
-  accentSoft: "rgba(10, 132, 255, 0.08)",
+// Alleppy Design System
+// Healthcare App palette: Teal (trust/safety) + Green (safe) + Red (danger)
+// Recommended by ui-ux-pro-max: Medical Clinic / Healthcare App palette
 
-  // Semantic — danger uses warm red, safe uses teal
-  danger: "#FF3B30",
-  dangerSoft: "rgba(255, 59, 48, 0.06)",
-  dangerMuted: "rgba(255, 59, 48, 0.12)",
-  safe: "#34C759",
-  safeSoft: "rgba(52, 199, 89, 0.06)",
-  safeMuted: "rgba(52, 199, 89, 0.12)",
-  warning: "#FF9F0A",
+export const Colors = {
+  // Brand — teal conveys trust, safety, medical reliability
+  brand: "#0891B2",
+  brandLight: "#22D3EE",
+  brandSoft: "rgba(8, 145, 178, 0.08)",
+  brandMuted: "rgba(8, 145, 178, 0.15)",
+
+  // Semantic — clear, immediate meaning
+  safe: "#059669",
+  safeSoft: "rgba(5, 150, 105, 0.07)",
+  safeMuted: "rgba(5, 150, 105, 0.14)",
+  safeText: "#065F46",
+
+  danger: "#DC2626",
+  dangerSoft: "rgba(220, 38, 38, 0.06)",
+  dangerMuted: "rgba(220, 38, 38, 0.12)",
+  dangerText: "#991B1B",
+
+  warning: "#D97706",
+  warningSoft: "rgba(217, 119, 6, 0.08)",
 
   // Surfaces
-  background: "#F5F5F7",    // Apple light gray
+  background: "#F8FAFB",
   surface: "#FFFFFF",
-  surfaceElevated: "#FFFFFF",
-  surfaceSecondary: "rgba(0, 0, 0, 0.03)",
+  surfaceSecondary: "#F1F5F9",
 
-  // Text
-  text: "#1D1D1F",          // Apple dark
-  textSecondary: "#86868B", // Apple secondary
-  textTertiary: "#AEAEB2",
+  // Text — high contrast for readability (WCAG AAA)
+  text: "#0F172A",
+  textSecondary: "#475569",
+  textTertiary: "#94A3B8",
   textInverse: "#FFFFFF",
 
-  // Borders & dividers
-  separator: "rgba(0, 0, 0, 0.06)",
-  separatorOpaque: "#E5E5EA",
+  // Borders
+  separator: "#E2E8F0",
+  separatorLight: "#F1F5F9",
 
-  // Shadows
-  shadowColor: "#000",
-
-  // Tab bar
-  tabActive: "#1D1D1F",
-  tabInactive: "#AEAEB2",
+  // Tab
+  tabActive: "#0891B2",
+  tabInactive: "#94A3B8",
 };
 
 export const Shadows = {
   small: {
-    shadowColor: Colors.shadowColor,
+    shadowColor: "#0F172A",
     shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.04,
+    shadowOpacity: 0.05,
     shadowRadius: 3,
     elevation: 1,
   },
   medium: {
-    shadowColor: Colors.shadowColor,
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.06,
-    shadowRadius: 8,
+    shadowColor: "#0F172A",
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.07,
+    shadowRadius: 10,
     elevation: 3,
-  },
-  large: {
-    shadowColor: Colors.shadowColor,
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.08,
-    shadowRadius: 16,
-    elevation: 5,
   },
 } as const;

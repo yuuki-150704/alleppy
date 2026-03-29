@@ -4,8 +4,8 @@
   "description": "日本の飲食店のアレルゲン情報に簡単アクセス",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#F5F5F7",
-  "theme_color": "#1D1D1F",
+  "background_color": "#F8FAFB",
+  "theme_color": "#0891B2",
   "orientation": "portrait",
   "lang": "ja",
   "icons": [
