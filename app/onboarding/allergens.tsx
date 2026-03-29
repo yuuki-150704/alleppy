@@ -7,7 +7,7 @@ import {
   SafeAreaView,
 } from "react-native";
 import { useRouter } from "expo-router";
-import { Colors } from "@/constants/colors";
+import { Colors, Shadows } from "@/constants/colors";
 import { allergens } from "@/lib/data";
 import { setUserAllergenIds, setOnboardingDone } from "@/lib/storage";
 
@@ -38,10 +38,15 @@ export default function AllergenOnboarding() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.content}>
-        <Text style={styles.title}>あなたのアレルギーを{"\n"}教えてください</Text>
-        <Text style={styles.subtitle}>
-          該当するものをタップしてください（複数選択可）
-        </Text>
+        <View style={styles.header}>
+          <Text style={styles.eyebrow}>Welcome to Alleppy</Text>
+          <Text style={styles.title}>
+            あなたのアレルギーを{"\n"}教えてください
+          </Text>
+          <Text style={styles.subtitle}>
+            選択した品目が含まれる料理を自動で検出します
+          </Text>
+        </View>
 
         <View style={styles.grid}>
           {allergens.map((allergen) => {
@@ -49,29 +54,46 @@ export default function AllergenOnboarding() {
             return (
               <TouchableOpacity
                 key={allergen.id}
-                style={[styles.allergenCard, isSelected && styles.allergenCardSelected]}
+                style={[
+                  styles.card,
+                  isSelected && styles.cardSelected,
+                ]}
                 onPress={() => toggle(allergen.id)}
-                activeOpacity={0.7}
+                activeOpacity={0.8}
               >
-                <Text style={styles.allergenName}>{allergen.nameJa}</Text>
-                <Text style={styles.allergenNameEn}>{allergen.nameEn}</Text>
-                {isSelected && <Text style={styles.checkmark}>✓</Text>}
+                <Text style={[styles.cardName, isSelected && styles.cardNameSelected]}>
+                  {allergen.nameJa}
+                </Text>
+                <Text style={[styles.cardNameEn, isSelected && styles.cardNameEnSelected]}>
+                  {allergen.nameEn}
+                </Text>
+                {isSelected && (
+                  <View style={styles.checkCircle}>
+                    <Text style={styles.checkIcon}>✓</Text>
+                  </View>
+                )}
               </TouchableOpacity>
             );
           })}
         </View>
 
-        <TouchableOpacity style={styles.button} onPress={handleDone}>
-          <Text style={styles.buttonText}>
-            {selected.size > 0
-              ? `${selected.size}件のアレルギーを登録する`
-              : "アレルギーなしで続ける"}
-          </Text>
-        </TouchableOpacity>
+        <View style={styles.footer}>
+          <TouchableOpacity
+            style={[styles.button, selected.size === 0 && styles.buttonMuted]}
+            onPress={handleDone}
+            activeOpacity={0.85}
+          >
+            <Text style={styles.buttonText}>
+              {selected.size > 0
+                ? `${selected.size}件を登録して始める`
+                : "登録せずに始める"}
+            </Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity onPress={handleSkip} style={styles.skipButton}>
-          <Text style={styles.skipText}>あとで設定する →</Text>
-        </TouchableOpacity>
+          <TouchableOpacity onPress={handleSkip} style={styles.skipButton}>
+            <Text style={styles.skipText}>あとで設定する</Text>
+          </TouchableOpacity>
+        </View>
       </View>
     </SafeAreaView>
   );
@@ -84,79 +106,114 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    padding: 24,
+    paddingHorizontal: 28,
     justifyContent: "center",
   },
+  header: {
+    marginBottom: 40,
+  },
+  eyebrow: {
+    fontSize: 13,
+    fontWeight: "600",
+    color: Colors.accent,
+    letterSpacing: 0.8,
+    textTransform: "uppercase",
+    textAlign: "center",
+    marginBottom: 12,
+  },
   title: {
-    fontSize: 24,
-    fontWeight: "bold",
+    fontSize: 28,
+    fontWeight: "700",
     color: Colors.text,
     textAlign: "center",
-    marginBottom: 8,
+    letterSpacing: -0.5,
+    lineHeight: 36,
   },
   subtitle: {
-    fontSize: 14,
+    fontSize: 15,
     color: Colors.textSecondary,
     textAlign: "center",
-    marginBottom: 32,
+    marginTop: 10,
+    lineHeight: 22,
   },
   grid: {
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "center",
-    gap: 12,
-    marginBottom: 32,
+    gap: 10,
+    marginBottom: 40,
   },
-  allergenCard: {
-    width: 90,
-    height: 80,
-    borderRadius: 12,
+  card: {
+    width: 100,
+    height: 88,
+    borderRadius: 16,
     backgroundColor: Colors.surface,
-    borderWidth: 2,
-    borderColor: Colors.border,
     justifyContent: "center",
     alignItems: "center",
     position: "relative",
+    ...Shadows.medium,
   },
-  allergenCardSelected: {
-    borderColor: Colors.danger,
-    backgroundColor: Colors.dangerLight,
+  cardSelected: {
+    backgroundColor: Colors.text,
   },
-  allergenName: {
-    fontSize: 16,
+  cardName: {
+    fontSize: 17,
     fontWeight: "600",
     color: Colors.text,
+    letterSpacing: -0.2,
   },
-  allergenNameEn: {
+  cardNameSelected: {
+    color: Colors.textInverse,
+  },
+  cardNameEn: {
     fontSize: 10,
-    color: Colors.textSecondary,
-    marginTop: 2,
+    color: Colors.textTertiary,
+    marginTop: 3,
+    letterSpacing: 0.3,
   },
-  checkmark: {
+  cardNameEnSelected: {
+    color: "rgba(255,255,255,0.5)",
+  },
+  checkCircle: {
     position: "absolute",
-    top: 4,
+    top: 6,
     right: 6,
-    fontSize: 16,
-    color: Colors.danger,
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    backgroundColor: Colors.accent,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  checkIcon: {
+    color: "#fff",
+    fontSize: 11,
     fontWeight: "bold",
+  },
+  footer: {
+    gap: 12,
   },
   button: {
-    backgroundColor: Colors.primary,
-    paddingVertical: 16,
-    borderRadius: 12,
+    backgroundColor: Colors.text,
+    paddingVertical: 17,
+    borderRadius: 14,
     alignItems: "center",
+  },
+  buttonMuted: {
+    backgroundColor: Colors.primarySoft,
   },
   buttonText: {
-    color: "#fff",
+    color: Colors.textInverse,
     fontSize: 16,
-    fontWeight: "bold",
+    fontWeight: "600",
+    letterSpacing: -0.2,
   },
   skipButton: {
-    marginTop: 16,
     alignItems: "center",
+    paddingVertical: 8,
   },
   skipText: {
-    color: Colors.textSecondary,
+    color: Colors.textTertiary,
     fontSize: 14,
   },
 });

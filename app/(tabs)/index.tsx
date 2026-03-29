@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import {
   View,
   Text,
@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 import { useFocusEffect } from "@react-navigation/native";
-import { Colors } from "@/constants/colors";
+import { Colors, Shadows } from "@/constants/colors";
 import { brands } from "@/lib/data";
 import { getRecentBrands } from "@/lib/storage";
 import type { Brand } from "@/types";
@@ -51,29 +51,35 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.searchContainer}>
-        <TextInput
-          style={styles.searchInput}
-          placeholder="🔍 ブランドを検索"
-          value={search}
-          onChangeText={setSearch}
-          placeholderTextColor={Colors.textLight}
-        />
+      <View style={styles.searchWrap}>
+        <View style={styles.searchBox}>
+          <Text style={styles.searchIcon}>⌕</Text>
+          <TextInput
+            style={styles.searchInput}
+            placeholder="ブランドを検索"
+            value={search}
+            onChangeText={setSearch}
+            placeholderTextColor={Colors.textTertiary}
+          />
+        </View>
       </View>
 
       <FlatList
         data={Object.entries(grouped)}
         keyExtractor={([group]) => group}
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={styles.listContent}
         ListHeaderComponent={
           recentBrands.length > 0 && !search ? (
             <View style={styles.section}>
-              <Text style={styles.sectionTitle}>最近見たブランド</Text>
+              <Text style={styles.sectionLabel}>Recently Viewed</Text>
               <View style={styles.recentRow}>
                 {recentBrands.map((brand) => (
                   <TouchableOpacity
                     key={brand.id}
                     style={styles.recentChip}
                     onPress={() => handleBrandPress(brand.id)}
+                    activeOpacity={0.8}
                   >
                     <Text style={styles.recentChipText}>{brand.nameJa}</Text>
                   </TouchableOpacity>
@@ -84,17 +90,34 @@ export default function HomeScreen() {
         }
         renderItem={({ item: [group, groupBrands] }) => (
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>{group}</Text>
-            {groupBrands.map((brand) => (
-              <TouchableOpacity
-                key={brand.id}
-                style={styles.brandItem}
-                onPress={() => handleBrandPress(brand.id)}
-              >
-                <Text style={styles.brandName}>{brand.nameJa}</Text>
-                <Text style={styles.brandArrow}>→</Text>
-              </TouchableOpacity>
-            ))}
+            <Text style={styles.sectionLabel}>{group}</Text>
+            <View style={styles.brandList}>
+              {groupBrands.map((brand, index) => (
+                <TouchableOpacity
+                  key={brand.id}
+                  style={[
+                    styles.brandItem,
+                    index === 0 && styles.brandItemFirst,
+                    index === groupBrands.length - 1 && styles.brandItemLast,
+                  ]}
+                  onPress={() => handleBrandPress(brand.id)}
+                  activeOpacity={0.6}
+                >
+                  <View style={styles.brandLeft}>
+                    <View style={styles.brandAvatar}>
+                      <Text style={styles.brandAvatarText}>
+                        {brand.nameJa.charAt(0)}
+                      </Text>
+                    </View>
+                    <View>
+                      <Text style={styles.brandName}>{brand.nameJa}</Text>
+                      <Text style={styles.brandNameEn}>{brand.nameEn}</Text>
+                    </View>
+                  </View>
+                  <Text style={styles.chevron}>›</Text>
+                </TouchableOpacity>
+              ))}
+            </View>
           </View>
         )}
       />
@@ -107,27 +130,45 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: Colors.background,
   },
-  searchContainer: {
-    padding: 16,
-    backgroundColor: Colors.surface,
-    borderBottomWidth: 1,
-    borderBottomColor: Colors.border,
+  searchWrap: {
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+  },
+  searchBox: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: Colors.surfaceSecondary,
+    borderRadius: 12,
+    paddingHorizontal: 14,
+    height: 44,
+  },
+  searchIcon: {
+    fontSize: 18,
+    color: Colors.textTertiary,
+    marginRight: 8,
   },
   searchInput: {
-    backgroundColor: Colors.background,
-    borderRadius: 10,
-    padding: 12,
+    flex: 1,
     fontSize: 16,
     color: Colors.text,
+    letterSpacing: -0.2,
+  },
+  listContent: {
+    paddingBottom: 20,
   },
   section: {
-    padding: 16,
+    paddingHorizontal: 20,
+    marginTop: 8,
+    marginBottom: 12,
   },
-  sectionTitle: {
-    fontSize: 14,
-    fontWeight: "bold",
-    color: Colors.textSecondary,
-    marginBottom: 8,
+  sectionLabel: {
+    fontSize: 12,
+    fontWeight: "600",
+    color: Colors.textTertiary,
+    letterSpacing: 0.6,
+    textTransform: "uppercase",
+    marginBottom: 10,
+    marginLeft: 4,
   },
   recentRow: {
     flexDirection: "row",
@@ -135,34 +176,73 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   recentChip: {
-    backgroundColor: Colors.primary,
-    paddingHorizontal: 14,
-    paddingVertical: 8,
+    backgroundColor: Colors.text,
+    paddingHorizontal: 16,
+    paddingVertical: 9,
     borderRadius: 20,
   },
   recentChipText: {
-    color: "#fff",
+    color: Colors.textInverse,
     fontSize: 14,
-    fontWeight: "600",
+    fontWeight: "500",
+    letterSpacing: -0.1,
+  },
+  brandList: {
+    backgroundColor: Colors.surface,
+    borderRadius: 14,
+    overflow: "hidden",
+    ...Shadows.small,
   },
   brandItem: {
-    backgroundColor: Colors.surface,
-    padding: 16,
-    borderRadius: 10,
-    marginBottom: 8,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    borderWidth: 1,
-    borderColor: Colors.border,
+    paddingVertical: 14,
+    paddingHorizontal: 16,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: Colors.separator,
+  },
+  brandItemFirst: {
+    borderTopLeftRadius: 14,
+    borderTopRightRadius: 14,
+  },
+  brandItemLast: {
+    borderBottomWidth: 0,
+    borderBottomLeftRadius: 14,
+    borderBottomRightRadius: 14,
+  },
+  brandLeft: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 14,
+  },
+  brandAvatar: {
+    width: 38,
+    height: 38,
+    borderRadius: 10,
+    backgroundColor: Colors.surfaceSecondary,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  brandAvatarText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: Colors.textSecondary,
   },
   brandName: {
     fontSize: 16,
-    fontWeight: "600",
+    fontWeight: "500",
     color: Colors.text,
+    letterSpacing: -0.2,
   },
-  brandArrow: {
-    fontSize: 18,
-    color: Colors.textLight,
+  brandNameEn: {
+    fontSize: 12,
+    color: Colors.textTertiary,
+    marginTop: 1,
+  },
+  chevron: {
+    fontSize: 22,
+    color: Colors.textTertiary,
+    fontWeight: "300",
   },
 });
