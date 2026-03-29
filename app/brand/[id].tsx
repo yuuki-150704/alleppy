@@ -3,7 +3,6 @@ import {
   View,
   Text,
   TouchableOpacity,
-  FlatList,
   StyleSheet,
   ScrollView,
 } from "react-native";
@@ -33,11 +32,12 @@ export default function BrandMenuScreen() {
 
   const categories = menuData?.categories || [];
 
+  // デフォルトカテゴリ設定
   useEffect(() => {
-    if (categories.length > 0 && !selectedCategory) {
+    if (categories.length > 0 && selectedCategory === null) {
       setSelectedCategory(categories[0].id);
     }
-  }, [categories]);
+  }, [categories.length]);
 
   const currentCategory = categories.find((c) => c.id === selectedCategory);
   const filteredItems = useMemo(() => {
@@ -71,7 +71,7 @@ export default function BrandMenuScreen() {
     router.push(`/menu/${menuItemId}?brandId=${id}`);
   };
 
-  const renderMenuItem = ({ item }: { item: MenuItemWithDanger }) => {
+  const MenuItemCard = ({ item }: { item: MenuItemWithDanger }) => {
     const containedAllergens = getContainedAllergens(item);
     return (
       <TouchableOpacity
@@ -112,10 +112,10 @@ export default function BrandMenuScreen() {
     );
   };
 
-  const filterButtons: { mode: FilterMode; label: string; count?: number }[] = [
-    { mode: "safe", label: `安全 ${safeCount}`, count: safeCount },
-    { mode: "danger", label: `注意 ${dangerCount}`, count: dangerCount },
-    { mode: "all", label: "すべて" },
+  const filterButtons: { mode: FilterMode; label: string }[] = [
+    { mode: "safe", label: `安全 ${safeCount}` },
+    { mode: "danger", label: `注意 ${dangerCount}` },
+    { mode: "all", label: "全て" },
   ];
 
   return (
@@ -163,28 +163,29 @@ export default function BrandMenuScreen() {
       </View>
 
       {/* カテゴリ */}
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        style={styles.categoryBar}
-        contentContainerStyle={styles.categoryContent}
-      >
-        {categories.map((cat) => {
-          const isActive = selectedCategory === cat.id;
-          return (
-            <TouchableOpacity
-              key={cat.id}
-              style={[styles.categoryChip, isActive && styles.categoryChipActive]}
-              onPress={() => setSelectedCategory(cat.id)}
-              activeOpacity={0.7}
-            >
-              <Text style={[styles.categoryText, isActive && styles.categoryTextActive]}>
-                {cat.nameJa}
-              </Text>
-            </TouchableOpacity>
-          );
-        })}
-      </ScrollView>
+      <View style={styles.categoryBarWrap}>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          contentContainerStyle={styles.categoryContent}
+        >
+          {categories.map((cat) => {
+            const isActive = selectedCategory === cat.id;
+            return (
+              <TouchableOpacity
+                key={cat.id}
+                style={[styles.categoryChip, isActive && styles.categoryChipActive]}
+                onPress={() => setSelectedCategory(cat.id)}
+                activeOpacity={0.7}
+              >
+                <Text style={[styles.categoryText, isActive && styles.categoryTextActive]}>
+                  {cat.nameJa}
+                </Text>
+              </TouchableOpacity>
+            );
+          })}
+        </ScrollView>
+      </View>
 
       {/* アレルギー未登録の通知 */}
       {userAllergenNames.length === 0 && (
@@ -195,14 +196,17 @@ export default function BrandMenuScreen() {
         </View>
       )}
 
-      {/* メニュー一覧 */}
-      <FlatList
-        data={filteredItems}
-        keyExtractor={(item) => item.id}
-        renderItem={renderMenuItem}
-        contentContainerStyle={styles.listContent}
+      {/* メニュー一覧（ScrollViewで確実にレンダリング） */}
+      <ScrollView
+        style={styles.menuScroll}
+        contentContainerStyle={styles.menuScrollContent}
         showsVerticalScrollIndicator={false}
-        ListEmptyComponent={
+      >
+        {filteredItems.length > 0 ? (
+          filteredItems.map((item) => (
+            <MenuItemCard key={item.id} item={item} />
+          ))
+        ) : (
           <View style={styles.emptyWrap}>
             <Text style={styles.emptyText}>
               {filterMode === "safe"
@@ -212,8 +216,8 @@ export default function BrandMenuScreen() {
                 : "メニューがありません"}
             </Text>
           </View>
-        }
-      />
+        )}
+      </ScrollView>
 
       {/* フッター */}
       <View style={styles.footer}>
@@ -250,18 +254,17 @@ const styles = StyleSheet.create({
   filterBtnSafe: { backgroundColor: Colors.safe },
   filterBtnDanger: { backgroundColor: Colors.danger },
   filterBtnAll: { backgroundColor: Colors.surface, ...Shadows.small },
-  filterText: {
-    fontSize: 14,
-    fontWeight: "500",
-    color: Colors.textTertiary,
-  },
+  filterText: { fontSize: 14, fontWeight: "500", color: Colors.textTertiary },
   filterTextSafe: { color: Colors.textInverse, fontWeight: "600" },
   filterTextDanger: { color: Colors.textInverse, fontWeight: "600" },
   filterTextAll: { color: Colors.text, fontWeight: "600" },
 
   // カテゴリ
-  categoryBar: { maxHeight: 46, marginBottom: 4 },
-  categoryContent: { paddingHorizontal: 20, gap: 6 },
+  categoryBarWrap: {
+    height: 46,
+    marginBottom: 4,
+  },
+  categoryContent: { paddingHorizontal: 20, gap: 6, alignItems: "center" },
   categoryChip: {
     paddingHorizontal: 16,
     paddingVertical: 8,
@@ -270,9 +273,7 @@ const styles = StyleSheet.create({
     minHeight: 36,
     justifyContent: "center",
   },
-  categoryChipActive: {
-    backgroundColor: Colors.brand,
-  },
+  categoryChipActive: { backgroundColor: Colors.brand },
   categoryText: { fontSize: 13, fontWeight: "500", color: Colors.textSecondary },
   categoryTextActive: { color: Colors.textInverse, fontWeight: "600" },
 
@@ -289,8 +290,9 @@ const styles = StyleSheet.create({
   },
   noticeText: { fontSize: 13, color: Colors.warning, fontWeight: "500" },
 
-  // リスト
-  listContent: { padding: 20, paddingTop: 10 },
+  // メニューリスト
+  menuScroll: { flex: 1 },
+  menuScrollContent: { padding: 20, paddingTop: 10 },
   menuCard: {
     backgroundColor: Colors.surface,
     borderRadius: 14,
@@ -322,22 +324,14 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
     borderRadius: 6,
   },
-  statusBadgeSafeText: {
-    fontSize: 11,
-    fontWeight: "600",
-    color: Colors.safe,
-  },
+  statusBadgeSafeText: { fontSize: 11, fontWeight: "600", color: Colors.safe },
   statusBadgeDanger: {
     backgroundColor: Colors.dangerMuted,
     paddingHorizontal: 10,
     paddingVertical: 4,
     borderRadius: 6,
   },
-  statusBadgeDangerText: {
-    fontSize: 11,
-    fontWeight: "600",
-    color: Colors.danger,
-  },
+  statusBadgeDangerText: { fontSize: 11, fontWeight: "600", color: Colors.danger },
   tagRow: { flexDirection: "row", flexWrap: "wrap", gap: 5, marginTop: 10 },
   tag: {
     paddingHorizontal: 8,

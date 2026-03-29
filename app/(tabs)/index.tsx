@@ -4,7 +4,7 @@ import {
   Text,
   TextInput,
   TouchableOpacity,
-  FlatList,
+  ScrollView,
   StyleSheet,
   SafeAreaView,
 } from "react-native";
@@ -57,41 +57,38 @@ export default function HomeScreen() {
           <Text style={styles.searchIcon}>🔍</Text>
           <TextInput
             style={styles.searchInput}
-            placeholder="ブランドを検索..."
+            placeholder="飲食店を検索..."
             value={search}
             onChangeText={setSearch}
             placeholderTextColor={Colors.textTertiary}
-            accessibilityLabel="ブランド検索"
+            accessibilityLabel="飲食店検索"
           />
         </View>
       </View>
 
-      <FlatList
-        data={Object.entries(grouped)}
-        keyExtractor={([group]) => group}
-        showsVerticalScrollIndicator={false}
-        contentContainerStyle={styles.listContent}
-        ListHeaderComponent={
-          recentBrands.length > 0 && !search ? (
-            <View style={styles.section}>
-              <Text style={styles.sectionLabel}>最近見たブランド</Text>
-              <View style={styles.recentRow}>
-                {recentBrands.map((brand) => (
-                  <TouchableOpacity
-                    key={brand.id}
-                    style={styles.recentChip}
-                    onPress={() => handleBrandPress(brand.id)}
-                    activeOpacity={0.7}
-                  >
-                    <Text style={styles.recentChipText}>{brand.nameJa}</Text>
-                  </TouchableOpacity>
-                ))}
-              </View>
-            </View>
-          ) : null
-        }
-        renderItem={({ item: [group, groupBrands] }) => (
+      <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.listContent}>
+        {/* 最近見た飲食店 */}
+        {recentBrands.length > 0 && !search && (
           <View style={styles.section}>
+            <Text style={styles.sectionLabel}>最近見た飲食店</Text>
+            <View style={styles.recentRow}>
+              {recentBrands.map((brand) => (
+                <TouchableOpacity
+                  key={brand.id}
+                  style={styles.recentChip}
+                  onPress={() => handleBrandPress(brand.id)}
+                  activeOpacity={0.7}
+                >
+                  <Text style={styles.recentChipText}>{brand.nameJa}</Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+          </View>
+        )}
+
+        {/* 飲食店一覧 */}
+        {Object.entries(grouped).map(([group, groupBrands]) => (
+          <View key={group} style={styles.section}>
             <Text style={styles.sectionLabel}>{group}</Text>
             <View style={styles.brandList}>
               {groupBrands.map((brand, index) => (
@@ -112,18 +109,15 @@ export default function HomeScreen() {
                         {brand.nameJa.charAt(0)}
                       </Text>
                     </View>
-                    <View>
-                      <Text style={styles.brandName}>{brand.nameJa}</Text>
-                      <Text style={styles.brandSub}>{brand.nameEn}</Text>
-                    </View>
+                    <Text style={styles.brandName}>{brand.nameJa}</Text>
                   </View>
                   <Text style={styles.chevron}>›</Text>
                 </TouchableOpacity>
               ))}
             </View>
           </View>
-        )}
-      />
+        ))}
+      </ScrollView>
     </SafeAreaView>
   );
 }
@@ -140,11 +134,7 @@ const styles = StyleSheet.create({
     height: 46,
   },
   searchIcon: { fontSize: 14, marginRight: 10 },
-  searchInput: {
-    flex: 1,
-    fontSize: 16,
-    color: Colors.text,
-  },
+  searchInput: { flex: 1, fontSize: 16, color: Colors.text },
   listContent: { paddingBottom: 24 },
   section: { paddingHorizontal: 20, marginTop: 12, marginBottom: 8 },
   sectionLabel: {
@@ -163,11 +153,7 @@ const styles = StyleSheet.create({
     minHeight: 44,
     justifyContent: "center",
   },
-  recentChipText: {
-    color: Colors.textInverse,
-    fontSize: 14,
-    fontWeight: "600",
-  },
+  recentChipText: { color: Colors.textInverse, fontSize: 14, fontWeight: "600" },
   brandList: {
     backgroundColor: Colors.surface,
     borderRadius: 14,
@@ -194,24 +180,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  brandIconText: {
-    fontSize: 16,
-    fontWeight: "600",
-    color: Colors.brand,
-  },
-  brandName: {
-    fontSize: 16,
-    fontWeight: "500",
-    color: Colors.text,
-  },
-  brandSub: {
-    fontSize: 12,
-    color: Colors.textTertiary,
-    marginTop: 1,
-  },
-  chevron: {
-    fontSize: 22,
-    color: Colors.textTertiary,
-    fontWeight: "300",
-  },
+  brandIconText: { fontSize: 16, fontWeight: "600", color: Colors.brand },
+  brandName: { fontSize: 16, fontWeight: "500", color: Colors.text },
+  chevron: { fontSize: 22, color: Colors.textTertiary, fontWeight: "300" },
 });
