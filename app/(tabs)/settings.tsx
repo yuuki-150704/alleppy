@@ -65,7 +65,7 @@ export default function SettingsScreen() {
                 >
                   {iconUri && (
                     <Image
-                      source={{ uri: iconUri }}
+                      source={iconUri}
                       style={[styles.chipIcon, isSelected && styles.chipIconSelected]}
                       resizeMode="contain"
                     />

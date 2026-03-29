@@ -69,7 +69,7 @@ export default function AllergenOnboarding() {
               >
                 {iconUri && (
                   <Image
-                    source={{ uri: iconUri }}
+                    source={iconUri}
                     style={[styles.cardIcon, isSelected && styles.cardIconSelected]}
                     resizeMode="contain"
                   />
