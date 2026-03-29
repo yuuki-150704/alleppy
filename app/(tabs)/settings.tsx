@@ -63,9 +63,6 @@ export default function SettingsScreen() {
                   <Text style={[styles.chipName, isSelected && styles.chipNameSelected]}>
                     {allergen.nameJa}
                   </Text>
-                  <Text style={[styles.chipSub, isSelected && styles.chipSubSelected]}>
-                    {allergen.nameEn}
-                  </Text>
                 </TouchableOpacity>
               );
             })}
@@ -153,8 +150,6 @@ const styles = StyleSheet.create({
   },
   chipName: { fontSize: 15, fontWeight: "500", color: Colors.text },
   chipNameSelected: { color: Colors.brand, fontWeight: "600" },
-  chipSub: { fontSize: 10, color: Colors.textTertiary, marginTop: 2 },
-  chipSubSelected: { color: Colors.brand, opacity: 0.7 },
   saveBtn: {
     backgroundColor: Colors.brand,
     paddingVertical: 16,

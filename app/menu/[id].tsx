@@ -109,7 +109,6 @@ export default function MenuDetailScreen() {
                     <Text style={[styles.allergenName, isAlert && styles.allergenNameAlert]}>
                       {allergen.nameJa}
                     </Text>
-                    <Text style={styles.allergenNameEn}>{allergen.nameEn}</Text>
                   </View>
                   {isUserAllergen && (
                     <View style={styles.myBadge}>
@@ -269,7 +268,6 @@ const styles = StyleSheet.create({
   indicatorTextSafe: { color: Colors.safe },
   allergenName: { fontSize: 15, fontWeight: "500", color: Colors.text },
   allergenNameAlert: { fontWeight: "700", color: Colors.dangerText },
-  allergenNameEn: { fontSize: 11, color: Colors.textTertiary, marginTop: 1 },
   myBadge: {
     paddingHorizontal: 6,
     paddingVertical: 2,

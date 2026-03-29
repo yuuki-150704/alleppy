@@ -62,13 +62,10 @@ export default function AllergenOnboarding() {
                 activeOpacity={0.8}
                 accessibilityRole="checkbox"
                 accessibilityState={{ checked: isSelected }}
-                accessibilityLabel={`${allergen.nameJa}（${allergen.nameEn}）`}
+                accessibilityLabel={allergen.nameJa}
               >
                 <Text style={[styles.cardName, isSelected && styles.cardNameSelected]}>
                   {allergen.nameJa}
-                </Text>
-                <Text style={[styles.cardSub, isSelected && styles.cardSubSelected]}>
-                  {allergen.nameEn}
                 </Text>
                 {isSelected && (
                   <View style={styles.checkBadge}>
@@ -156,15 +153,6 @@ const styles = StyleSheet.create({
   },
   cardNameSelected: {
     color: Colors.brand,
-  },
-  cardSub: {
-    fontSize: 10,
-    color: Colors.textTertiary,
-    marginTop: 3,
-  },
-  cardSubSelected: {
-    color: Colors.brand,
-    opacity: 0.7,
   },
   checkBadge: {
     position: "absolute",
