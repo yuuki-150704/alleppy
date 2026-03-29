@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" stroke="#4A5568" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- くるみ: 丸い殻 -->
+  <ellipse cx="40" cy="42" rx="22" ry="20"/>
+  <!-- 割れ目の線 -->
+  <path d="M40 22 C38 30 36 36 38 42 C40 48 42 54 40 62"/>
+  <!-- 脳のようなしわ模様 -->
+  <path d="M28 34 C32 32 34 36 30 40"/>
+  <path d="M52 34 C48 32 46 36 50 40"/>
+  <path d="M30 48 C34 46 36 50 32 52"/>
+  <path d="M50 48 C46 46 44 50 48 52"/>
+</svg>

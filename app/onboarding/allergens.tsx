@@ -2,6 +2,7 @@ import { useState } from "react";
 import {
   View,
   Text,
+  Image,
   TouchableOpacity,
   StyleSheet,
   SafeAreaView,
@@ -9,6 +10,7 @@ import {
 import { useRouter } from "expo-router";
 import { Colors, Shadows } from "@/constants/colors";
 import { allergens } from "@/lib/data";
+import { getAllergenIcon } from "@/constants/allergenIcons";
 import { setUserAllergenIds, setOnboardingDone } from "@/lib/storage";
 
 export default function AllergenOnboarding() {
@@ -54,6 +56,7 @@ export default function AllergenOnboarding() {
         <View style={styles.grid}>
           {allergens.map((allergen) => {
             const isSelected = selected.has(allergen.id);
+            const iconUri = getAllergenIcon(allergen.nameJa);
             return (
               <TouchableOpacity
                 key={allergen.id}
@@ -64,6 +67,13 @@ export default function AllergenOnboarding() {
                 accessibilityState={{ checked: isSelected }}
                 accessibilityLabel={allergen.nameJa}
               >
+                {iconUri && (
+                  <Image
+                    source={{ uri: iconUri }}
+                    style={[styles.cardIcon, isSelected && styles.cardIconSelected]}
+                    resizeMode="contain"
+                  />
+                )}
                 <Text style={[styles.cardName, isSelected && styles.cardNameSelected]}>
                   {allergen.nameJa}
                 </Text>
@@ -105,11 +115,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     marginBottom: 20,
   },
-  logoText: {
-    fontSize: 14,
-    fontWeight: "700",
-    color: Colors.brand,
-  },
+  logoText: { fontSize: 14, fontWeight: "700", color: Colors.brand },
   title: {
     fontSize: 26,
     fontWeight: "700",
@@ -137,36 +143,50 @@ const styles = StyleSheet.create({
     aspectRatio: 1,
     borderRadius: 14,
     backgroundColor: Colors.surface,
-    justifyContent: "center",
+    justifyContent: "flex-end",
     alignItems: "center",
     position: "relative",
     borderWidth: 2,
     borderColor: Colors.separator,
+    overflow: "hidden",
+    paddingBottom: 10,
   },
   cardSelected: {
     borderColor: Colors.brand,
     backgroundColor: Colors.brandSoft,
   },
+  cardIcon: {
+    position: "absolute",
+    top: 4,
+    width: "65%",
+    height: "65%",
+    opacity: 0.12,
+  },
+  cardIconSelected: {
+    opacity: 0.2,
+  },
   cardName: {
-    fontSize: 17,
+    fontSize: 15,
     fontWeight: "600",
     color: Colors.text,
+    zIndex: 1,
   },
   cardNameSelected: {
     color: Colors.brand,
   },
   checkBadge: {
     position: "absolute",
-    top: 5,
-    right: 5,
-    width: 20,
-    height: 20,
-    borderRadius: 10,
+    top: 4,
+    right: 4,
+    width: 18,
+    height: 18,
+    borderRadius: 9,
     backgroundColor: Colors.brand,
     justifyContent: "center",
     alignItems: "center",
+    zIndex: 2,
   },
-  checkIcon: { color: "#fff", fontSize: 11, fontWeight: "bold" },
+  checkIcon: { color: "#fff", fontSize: 10, fontWeight: "bold" },
   footer: { gap: 12 },
   button: {
     backgroundColor: Colors.brand,
@@ -175,11 +195,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     ...Shadows.small,
   },
-  buttonText: {
-    color: Colors.textInverse,
-    fontSize: 15,
-    fontWeight: "600",
-  },
+  buttonText: { color: Colors.textInverse, fontSize: 15, fontWeight: "600" },
   skipButton: { alignItems: "center", paddingVertical: 8, minHeight: 44 },
   skipText: { color: Colors.textTertiary, fontSize: 14 },
 });

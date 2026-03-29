@@ -2,6 +2,7 @@ import { useState, useCallback } from "react";
 import {
   View,
   Text,
+  Image,
   TouchableOpacity,
   StyleSheet,
   ScrollView,
@@ -9,6 +10,7 @@ import {
 import { useFocusEffect } from "@react-navigation/native";
 import { Colors, Shadows } from "@/constants/colors";
 import { allergens } from "@/lib/data";
+import { getAllergenIcon } from "@/constants/allergenIcons";
 import { getUserAllergenIds, setUserAllergenIds } from "@/lib/storage";
 
 export default function SettingsScreen() {
@@ -50,6 +52,7 @@ export default function SettingsScreen() {
           <View style={styles.grid}>
             {allergens.map((allergen) => {
               const isSelected = selectedIds.has(allergen.id);
+              const iconUri = getAllergenIcon(allergen.nameJa);
               return (
                 <TouchableOpacity
                   key={allergen.id}
@@ -60,6 +63,13 @@ export default function SettingsScreen() {
                   accessibilityState={{ checked: isSelected }}
                   accessibilityLabel={allergen.nameJa}
                 >
+                  {iconUri && (
+                    <Image
+                      source={{ uri: iconUri }}
+                      style={[styles.chipIcon, isSelected && styles.chipIconSelected]}
+                      resizeMode="contain"
+                    />
+                  )}
                   <Text style={[styles.chipName, isSelected && styles.chipNameSelected]}>
                     {allergen.nameJa}
                   </Text>
@@ -139,10 +149,23 @@ const styles = StyleSheet.create({
     aspectRatio: 1,
     borderRadius: 12,
     backgroundColor: Colors.surfaceSecondary,
-    justifyContent: "center",
+    justifyContent: "flex-end",
     alignItems: "center",
     borderWidth: 2,
     borderColor: "transparent",
+    overflow: "hidden",
+    paddingBottom: 8,
+    position: "relative",
+  },
+  chipIcon: {
+    position: "absolute",
+    top: 3,
+    width: "60%",
+    height: "60%",
+    opacity: 0.12,
+  },
+  chipIconSelected: {
+    opacity: 0.2,
   },
   chipSelected: {
     borderColor: Colors.brand,

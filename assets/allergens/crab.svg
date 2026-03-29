@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" stroke="#4A5568" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- かに: 甲羅 -->
+  <ellipse cx="40" cy="42" rx="20" ry="14"/>
+  <!-- 目 -->
+  <circle cx="34" cy="34" r="2.5"/>
+  <circle cx="46" cy="34" r="2.5"/>
+  <!-- ハサミ（左） -->
+  <path d="M20 40 L12 32 C10 28 8 30 10 34 L12 36"/>
+  <path d="M12 32 C14 28 12 26 10 28"/>
+  <!-- ハサミ（右） -->
+  <path d="M60 40 L68 32 C70 28 72 30 70 34 L68 36"/>
+  <path d="M68 32 C66 28 68 26 70 28"/>
+  <!-- 足（左） -->
+  <path d="M22 46 L14 52"/>
+  <path d="M22 50 L16 58"/>
+  <!-- 足（右） -->
+  <path d="M58 46 L66 52"/>
+  <path d="M58 50 L64 58"/>
+</svg>

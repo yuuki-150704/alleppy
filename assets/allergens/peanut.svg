@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" stroke="#4A5568" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 落花生: ピーナッツの殻 -->
+  <path d="M28 25 C20 28 16 38 22 45 C26 50 32 48 35 42"/>
+  <path d="M35 42 C38 36 42 36 45 42"/>
+  <path d="M45 42 C48 48 54 50 58 45 C64 38 60 28 52 25"/>
+  <path d="M52 25 C48 22 42 20 40 22 C38 20 32 22 28 25"/>
+  <!-- くびれの線 -->
+  <path d="M35 30 C37 35 43 35 45 30"/>
+  <!-- 表面の模様 -->
+  <path d="M25 35 C27 33 29 34 28 37"/>
+  <path d="M52 35 C54 33 56 34 55 37"/>
+</svg>
