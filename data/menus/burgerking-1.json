@@ -1,0 +1,280 @@
+{
+  "brandId": "burgerking",
+  "usageType": 1,
+  "scrapedAt": "2026-03-30T00:00:00Z",
+  "categories": [
+    {
+      "id": "メニュー",
+      "nameJa": "メニュー",
+      "displayOrder": 1,
+      "items": [
+        {
+          "id": "item-001",
+          "nameJa": "ワッパー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-002",
+          "nameJa": "ビーフバーガー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-003",
+          "nameJa": "チキンバーガー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-004",
+          "nameJa": "ポークバーガー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-005",
+          "nameJa": "フィッシュバーガー フィッシュバーガー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-006",
+          "nameJa": "ホットドッグ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-007",
+          "nameJa": "付属品",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-008",
+          "nameJa": "デザートメニュー",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-009",
+          "nameJa": "アップルパイ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-010",
+          "nameJa": "フロートドリンク コカ・コーラフロートドリンク コカ・コーラゼロフロートドリンクフロートドリンク メロンソーダ（氷含む）フロートドリンク ドクターペッパー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-011",
+          "nameJa": "フロートドリンク アイスコーヒー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-012",
+          "nameJa": "ドリンクメニュー",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-013",
+          "nameJa": "コカ・コーラSコカ・コーラMコカ・コーラL",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-014",
+          "nameJa": "コールドドリンク（氷含む）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-015",
+          "nameJa": "アイスティーL",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-016",
+          "nameJa": "ブレンドコーヒーSブレンドコーヒーMホットドリンクダージリンティーSダージリンティーM",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-017",
+          "nameJa": "ガムシロップコーヒーフレッシュ付属品レモンポーションスティックシュガー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-018",
+          "nameJa": "店舗限定メニュー",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-019",
+          "nameJa": "モーニングメニュー チーズ&チーズチキン",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    }
+  ]
+}

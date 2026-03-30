@@ -530,5 +530,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "sushiro",
+    "nameJa": "スシロー",
+    "brandCode": "sushiro",
+    "groupName": "FOOD&LIFE COMPANIES",
+    "sourceUrl": "https://www.akindo-sushiro.co.jp/menu/allergy.html",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "burgerking",
+    "nameJa": "バーガーキング",
+    "brandCode": "burgerking",
+    "groupName": "BKジャパン",
+    "sourceUrl": "https://www.burgerking.co.jp/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
