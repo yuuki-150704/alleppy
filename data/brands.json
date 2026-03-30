@@ -600,5 +600,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "tullys",
+    "nameJa": "タリーズ",
+    "brandCode": "tullys",
+    "groupName": "伊藤園",
+    "sourceUrl": "https://www.tullys.co.jp/menu/allergy.html",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "joyfull",
+    "nameJa": "ジョイフル",
+    "brandCode": "joyfull",
+    "groupName": "ジョイフル",
+    "sourceUrl": "https://www.joyfull.co.jp/safety/nutrition/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
   }
 ]

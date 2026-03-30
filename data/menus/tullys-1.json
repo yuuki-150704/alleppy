@@ -1,0 +1,2520 @@
+{
+  "brandId": "tullys",
+  "usageType": 1,
+  "scrapedAt": "2026-03-31T00:00:00Z",
+  "categories": [
+    {
+      "id": "メニュー",
+      "nameJa": "メニュー",
+      "displayOrder": 1,
+      "items": [
+        {
+          "id": "item-001",
+          "nameJa": "! 店 All 舗 er で ge 意 n 図 s d せ e ず riv 混 e 入 d f す ro る m ア p レ r ル od ギ u",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-002",
+          "nameJa": "イングリッシュマフィン ツナチーズ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-003",
+          "nameJa": "みみまでやわらかフレンチトースト",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-004",
+          "nameJa": "ボールパークドッグ プレーン",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": true,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-005",
+          "nameJa": "TOM and JERRY Panini-Style Pork Cutlet Sandwich ~",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-006",
+          "nameJa": "ベーグルサンド アールグレイミルクティー",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": true,
+            "かに": true,
+            "そば": true,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-007",
+          "nameJa": "Chicken Cutlet Sandwich 〜Mustard & Demi Sauce",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-008",
+          "nameJa": "! 店 All 舗 er で ge 意 n 図 s d せ e ず riv 混 e 入 d f す ro る m ア p レ r ル od ギ u",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-009",
+          "nameJa": "ボールパークドッグ オリジナル",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-010",
+          "nameJa": "ボールパークドッグ アボカド",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-011",
+          "nameJa": "トマトケチャップ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-012",
+          "nameJa": "マスタード",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-013",
+          "nameJa": "! 店 All 舗 er で ge 意 n 図 s d せ e ず riv 混 e 入 d f す ro る m ア p レ r ル od ギ u",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-014",
+          "nameJa": "薫りとコクのカルボナーラ withパンチェッタ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-015",
+          "nameJa": "旬かぶの彩りジェノベーゼ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-016",
+          "nameJa": "タバスコペッパーソース（1gあたり）",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-017",
+          "nameJa": "パルメザンチーズ（1gあたり）",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-018",
+          "nameJa": "TCJオリジナルドレッシング",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-019",
+          "nameJa": "! 店 All 舗 er で ge 意 n 図 s d せ e ず riv 混 e 入 d f す ro る m ア p レ r ル od ギ u",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-020",
+          "nameJa": "ミルクレープ ダブルクリーム",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-021",
+          "nameJa": "レモンライムミントのタルト",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-022",
+          "nameJa": "クッキークリームチーズケーキ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": true,
+            "落花生": true,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-023",
+          "nameJa": "ザッハトルテ",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-024",
+          "nameJa": "ストロベリー＆チーズムースパイ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": true,
+            "かに": true,
+            "そば": true,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-025",
+          "nameJa": "【北海道産かぼちゃ】パンプキンプディングタルト",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-026",
+          "nameJa": "クラシック チョコレートケーキ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-027",
+          "nameJa": "Rice Flour ＆ Wheat Pancake Maple & Butter",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-028",
+          "nameJa": "ニューヨークチーズケーキ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": true,
+            "落花生": true,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-029",
+          "nameJa": "フローズンカップ アサイーヨーグルトテイスト",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-030",
+          "nameJa": "Rice Flour & Wheat Pancake with Maple",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-031",
+          "nameJa": "! 店 All 舗 er で ge 意 n 図 s d せ e ず riv 混 e 入 d f す ro る m ア p レ r ル od ギ u",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-032",
+          "nameJa": "ふわふわマフィン アールグレイ＆ホワイトチョコ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-033",
+          "nameJa": "セサミ&ソルトプレッツェルクロワッサン",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-034",
+          "nameJa": "シナモンロール",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-035",
+          "nameJa": "チョコオールドファッション",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-036",
+          "nameJa": "アップルパイ 〜国産りんご＆北海道⽜乳クリーム〜",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-037",
+          "nameJa": "ハニーウォルナッツドーナツ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-038",
+          "nameJa": "ふんわり７穀のシュガードーナツ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-039",
+          "nameJa": "! 店 All 舗 er で ge 意 n 図 s d せ e ず riv 混 e 入 d f す ro る m ア p レ r ル od ギ u",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-040",
+          "nameJa": "トムとジェリー チーズ味カリカリスティック",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-041",
+          "nameJa": "タリーズクランチチョコ グラノーラ＆ストロベリー",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": true,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-042",
+          "nameJa": "タリーズクランチチョコ キャラメル＆アーモンド",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-043",
+          "nameJa": "バターフィナンシェ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-044",
+          "nameJa": "さつまいもチップス 塩バター仕⽴て",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-045",
+          "nameJa": "スナックブラン サワークリーム＆オニオン",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-046",
+          "nameJa": "ソフトクッキー バニラ＆チョコレートチャンク",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-047",
+          "nameJa": "ソフトクッキー プラリネ＆ダブルアーモンド",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": true,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-048",
+          "nameJa": "Rice Flour & Wheat Pancakes with Honey & Maple",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-049",
+          "nameJa": "! 店 All 舗 erg で e 意 ns 図 de せ riv ず ed 混 f 入 rom す p る ro ア du レ ct ル s ギ ha",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-050",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-051",
+          "nameJa": "【2026年3⽉18⽇〜】 豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-052",
+          "nameJa": "Honey Honey Milk Latte 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-053",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-054",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-055",
+          "nameJa": "【2026年3⽉18⽇〜】 豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-056",
+          "nameJa": "&TEA Honey Honey Royal Milk Tea 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-057",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-058",
+          "nameJa": "ハニーアサイースワークル® ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-059",
+          "nameJa": "カリッとキャンディーキャラメルシェイク ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-060",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-061",
+          "nameJa": "【2026年3⽉18⽇〜】 豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-062",
+          "nameJa": "White Mocha 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-063",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-064",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-065",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-066",
+          "nameJa": "Rusk‐topped Peanut Butter Latte 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-067",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-068",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-069",
+          "nameJa": "&TEA さくさくラスクのストロベリー 豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-070",
+          "nameJa": "Rusk‐topped Strawberry Royal Milk Tea 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-071",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-072",
+          "nameJa": "! 店 All 舗 erg で e 意 ns 図 de せ riv ず ed 混 f 入 rom す p る ro ア du レ ct ル s ギ ha",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-073",
+          "nameJa": "HOT 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-074",
+          "nameJa": "ICED 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-075",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-076",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-077",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-078",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-079",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-080",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-081",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-082",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-083",
+          "nameJa": "HOT 豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-084",
+          "nameJa": "ICED 豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-085",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-086",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-087",
+          "nameJa": "HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-088",
+          "nameJa": "ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-089",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-090",
+          "nameJa": "キャラメルラテ 豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-091",
+          "nameJa": "Salty Caramel Latte 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-092",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-093",
+          "nameJa": "! 店 All 舗 erg で e 意 ns 図 de せ riv ず ed 混 f 入 rom す p る ro ア du レ ct ル s ギ ha",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-094",
+          "nameJa": "エスプレッソ HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-095",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-096",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-097",
+          "nameJa": "エスプレッソコンパナ HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-098",
+          "nameJa": "本日のコーヒー HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-099",
+          "nameJa": "アイスコーヒー ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-100",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-101",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-102",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-103",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-104",
+          "nameJa": "HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-105",
+          "nameJa": "ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-106",
+          "nameJa": "イマージョンコーヒー HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-107",
+          "nameJa": "抹茶リスタ ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-108",
+          "nameJa": "ほうじ茶リスタ ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-109",
+          "nameJa": "エスプレッソシェイク ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-110",
+          "nameJa": "マンゴータンゴスワークル ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-111",
+          "nameJa": "ティーリスタ アールグレイロイヤル ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-112",
+          "nameJa": "チョコリスタ® ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-113",
+          "nameJa": "! 店 All 舗 erg で e 意 ns 図 de せ riv ず ed 混 f 入 rom す p る ro ア du レ ct ル s ギ ha",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-114",
+          "nameJa": "＆TEA オリジナル マラウイ＆ダージリン HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-115",
+          "nameJa": "水出しアイスティー ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-116",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-117",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-118",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-119",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-120",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-121",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-122",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-123",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-124",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-125",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-126",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-127",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-128",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-129",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-130",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-131",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-132",
+          "nameJa": "! 店 All 舗 erg で e 意 ns 図 de せ riv ず ed 混 f 入 rom す p る ro ア du レ ct ル s ギ ha",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-133",
+          "nameJa": "ブラッドオレンジジュース ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-134",
+          "nameJa": "りんごストレート100％ ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-135",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-136",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-137",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-138",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-139",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-140",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-141",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-142",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-143",
+          "nameJa": "ヨーグルト＆アサイー ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-144",
+          "nameJa": "HOT 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-145",
+          "nameJa": "ICED 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-146",
+          "nameJa": "HOT 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-147",
+          "nameJa": "ICED 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-148",
+          "nameJa": "りんごストレート100% ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-149",
+          "nameJa": "! 店 All 舗 erg で e 意 ns 図 de せ riv ず ed 混 f 入 rom す p る ro ア du レ ct ル s ギ ha",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-150",
+          "nameJa": "C シ in ナ na モ m ン on パ P ウ ow ダ d",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-151",
+          "nameJa": "チ Ch ョ oc コ ol パ ate ウ P ダ ow",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-152",
+          "nameJa": "HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-153",
+          "nameJa": "ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-154",
+          "nameJa": "牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-155",
+          "nameJa": "豆乳",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-156",
+          "nameJa": "HOT",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-157",
+          "nameJa": "ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-158",
+          "nameJa": "エ Es ス pr プ es レ so ッ S ソ ho シ t ョット",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-159",
+          "nameJa": "D デ e カ ca フ f ェ Es エ pre ス ss プ o レ Sh ッ o ソ t ショット",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-160",
+          "nameJa": "ほ Ho う jic じ ha 茶 S シ ho ョ t ット",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-161",
+          "nameJa": "抹 Uji 茶 M シ at ョ ch ッ a S ト hot",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-162",
+          "nameJa": "紅 Te 茶 a S シ h ョ ot ット",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-163",
+          "nameJa": "ソ Sa ル lt C テ a ィ ra キ me ャ l ラ Sa メ uc ル e ソース",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": true,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-164",
+          "nameJa": "チ Ch ョ oc コ ol ソ ate",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-165",
+          "nameJa": "は Ho ち ne み y つ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-166",
+          "nameJa": "ポ Co",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": true,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-167",
+          "nameJa": "シ Su ュ ga ガ r",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-168",
+          "nameJa": "ガ Su ム ga シ r S ロ y ッ rup プ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-169",
+          "nameJa": "ノ No ン n カ Ca ロ lo リ ry",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-170",
+          "nameJa": "! 店 All 舗 erg で e 意 ns 図 de せ riv ず ed 混 f 入 rom す p る ro ア du レ ct ル s ギ ha",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-171",
+          "nameJa": "カ T's フ C ェ af ク é C ラ la シ ss コ ico アイスミルク",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": true,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-172",
+          "nameJa": "アイスラッシュ ストロベリー ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-173",
+          "nameJa": "アイスラッシュ 宇治抹茶 ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-174",
+          "nameJa": "アイスラッシュ ほうじ茶 ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-175",
+          "nameJa": "エスプレッソシェイク with ホイップクリーム ICED",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": true,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-176",
+          "nameJa": "HOT 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-177",
+          "nameJa": "ICED 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-178",
+          "nameJa": "HOT 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-179",
+          "nameJa": "ICED 牛乳",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        }
+      ]
+    }
+  ]
+}
