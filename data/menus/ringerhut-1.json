@@ -1,0 +1,2450 @@
+{
+  "brandId": "ringerhut",
+  "usageType": 1,
+  "scrapedAt": "2026-03-30T00:00:00Z",
+  "categories": [
+    {
+      "id": "メニュー",
+      "nameJa": "メニュー",
+      "displayOrder": 1,
+      "items": [
+        {
+          "id": "item-001",
+          "nameJa": "しょうゆちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-002",
+          "nameJa": "低糖質麺 しょうゆちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-003",
+          "nameJa": "しょうゆちゃんぽん 麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-004",
+          "nameJa": "みそちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-005",
+          "nameJa": "低糖質麺 みそちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-006",
+          "nameJa": "みそちゃんぽん 麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-007",
+          "nameJa": "野菜たっぷり食べるスープ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-008",
+          "nameJa": "海鮮ちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": true,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-009",
+          "nameJa": "低糖質麺 海鮮ちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": true,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-010",
+          "nameJa": "海鮮ちゃんぽん 麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": true,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-011",
+          "nameJa": "プレミアム長崎ちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-012",
+          "nameJa": "低糖質麺 プレミアム長崎ちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-013",
+          "nameJa": "プレミアム長崎ちゃんぽん 麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-014",
+          "nameJa": "リンガーハットの焼きそば（麺300g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-015",
+          "nameJa": "リンガーハットの焼きそば（麺200g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-016",
+          "nameJa": "鶏白湯つけめん炭火鴨肉",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-017",
+          "nameJa": "低糖質麺 鶏白湯つけめん炭火鴨肉",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-018",
+          "nameJa": "鶏白湯つけめん炭火鴨肉（麺増量1.5倍）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-019",
+          "nameJa": "鶏白湯つけめん炭火鴨肉（麺増量2倍）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-020",
+          "nameJa": "肉味噌釜玉ちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-021",
+          "nameJa": "低糖質麺 肉味噌釜玉ちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-022",
+          "nameJa": "肉味噌釜玉ちゃんぽん麺増量",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-023",
+          "nameJa": "肉みそまぜめん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-024",
+          "nameJa": "低糖質麺 肉みそまぜめん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-025",
+          "nameJa": "肉みそまぜめん 麺増量",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-026",
+          "nameJa": "角煮ちゃんぽん（麺200g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-027",
+          "nameJa": "低糖質麺200g 角煮ちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-028",
+          "nameJa": "角煮ちゃんぽん（麺100g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-029",
+          "nameJa": "赤富士ちゃんぽん（麺200g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-030",
+          "nameJa": "低糖質麺200g 赤富士ちゃんぽん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-031",
+          "nameJa": "赤富士ちゃんぽん（麺100g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-032",
+          "nameJa": "呉冷麺",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-033",
+          "nameJa": "呉冷麺 麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-034",
+          "nameJa": "広島お好み焼き風皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-035",
+          "nameJa": "広島お好み焼き風皿うどん麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-036",
+          "nameJa": "ちゃルボナーラ（麺300g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-037",
+          "nameJa": "ちゃルボナーラ（麺200g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-038",
+          "nameJa": "ちゃんぽんこっぺ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-039",
+          "nameJa": "焼きそばこっぺ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-040",
+          "nameJa": "たまごサラダこっぺ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-041",
+          "nameJa": "あまおうホイップこっぺ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-042",
+          "nameJa": "ナポリタン（レギュラー）コッペパン",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-043",
+          "nameJa": "ナポリタン（麺少なめ）コッペパン",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-044",
+          "nameJa": "コッペパン",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-045",
+          "nameJa": "リンガーパスタボンゴレ（麺300g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-046",
+          "nameJa": "リンガーパスタボンゴレ（麺200g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-047",
+          "nameJa": "リンガーパスタナポリタン（麺300g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-048",
+          "nameJa": "リンガーパスタナポリタン（麺200g）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-049",
+          "nameJa": "リンガーパスタカルボナーラ風（麺300g",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-050",
+          "nameJa": "リンガーパスタカルボナーラ風（麺200g",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-051",
+          "nameJa": "長崎皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-052",
+          "nameJa": "長崎皿うどん麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-053",
+          "nameJa": "スモール皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-054",
+          "nameJa": "長崎皿うどん（麺増量2倍）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-055",
+          "nameJa": "野菜たっぷり皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-056",
+          "nameJa": "野菜たっぷり皿うどん麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-057",
+          "nameJa": "野菜たっぷり皿うどん（麺増量2倍）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-058",
+          "nameJa": "TOお手軽皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-059",
+          "nameJa": "ピリカラ皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-060",
+          "nameJa": "ピリカラ皿うどん麺少なめ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-061",
+          "nameJa": "ピリカラ皿うどん（麺増量2倍）",
+          "allergens": {
+            "そば": null,
+            "落花生": false,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": false,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-062",
+          "nameJa": "焼き太めん皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-063",
+          "nameJa": "焼き太めん皿うどん（麺増量2倍）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-064",
+          "nameJa": "やわらか太めん皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-065",
+          "nameJa": "やわらか太めん皿うどん（麺増量2倍）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-066",
+          "nameJa": "減塩皿うどん",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-067",
+          "nameJa": "ぎょうざ（3個）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-068",
+          "nameJa": "ぎょうざ（5個）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-069",
+          "nameJa": "ぎょうざ15個定食",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-070",
+          "nameJa": "ぎょうざ10個定食",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-071",
+          "nameJa": "ぎょうざ7個定食",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-072",
+          "nameJa": "ぎょうざ7個定食（半チャーハン）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-073",
+          "nameJa": "にんにく竹炭ぎょうざ(3個)",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-074",
+          "nameJa": "にんにく竹炭ぎょうざ(5個)",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-075",
+          "nameJa": "にんにく竹炭ぎょうざ15個定食",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-076",
+          "nameJa": "にんにく竹炭ぎょうざ10個定食",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-077",
+          "nameJa": "にんにく竹炭ぎょうざ7個定食",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-078",
+          "nameJa": "にんにく竹炭ぎょうざ7個定食（半チャーハン）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-079",
+          "nameJa": "ちびっこちゃんぽん（単品）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-080",
+          "nameJa": "ちびっこさらうどん（単品）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-081",
+          "nameJa": "ちびっこチャーハン（単品）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-082",
+          "nameJa": "リンガーハットのプリン",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-083",
+          "nameJa": "ちびっこちゃんぽん（ぎょうざ+プリン）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-084",
+          "nameJa": "ちびっこさらうどん（ぎょうざ+プリン）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-085",
+          "nameJa": "ちびっこチャーハン（ぎょうざ+プリン）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-086",
+          "nameJa": "半チャーハン",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-087",
+          "nameJa": "ごはん 100gあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-088",
+          "nameJa": "生姜みそ漬 10ｇあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-089",
+          "nameJa": "漬物（ぶらぶら漬け）10gあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-090",
+          "nameJa": "胡瓜漬け 10gあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-091",
+          "nameJa": "ぎょうざのタレ10gあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-092",
+          "nameJa": "黒胡椒バター醤油ソース",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-093",
+          "nameJa": "ハニーマスタードソース",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-094",
+          "nameJa": "塩タレ 10ccあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-095",
+          "nameJa": "ゆず胡椒 2gあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-096",
+          "nameJa": "ピリカラ１辛(10g)あたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-097",
+          "nameJa": "ちゃんぽんﾄﾞﾚｯｼﾝｸﾞ 1人前(15g)あたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-098",
+          "nameJa": "トマトドレッシング 15gあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-099",
+          "nameJa": "酢10ｇあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-100",
+          "nameJa": "ねりからし1パックあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-101",
+          "nameJa": "ウスターソース10gあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-102",
+          "nameJa": "オニオンスープ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-103",
+          "nameJa": "温度卵トッピング",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-104",
+          "nameJa": "杏仁豆腐",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-105",
+          "nameJa": "ミルクセーキ（小）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-106",
+          "nameJa": "ブルーベリートッピング 10ｇあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-107",
+          "nameJa": "ソフトクリーム（イオン鳥取）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-108",
+          "nameJa": "アイスクリーム（抹茶）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-109",
+          "nameJa": "アイスクリーム（ラムレーズン）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-110",
+          "nameJa": "アイスクリーム（ストロベリー）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-111",
+          "nameJa": "アイスクリーム（バナナ）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-112",
+          "nameJa": "アイスクリーム（カプチーノ）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-113",
+          "nameJa": "アイスクリーム（紅茶）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-114",
+          "nameJa": "アイスクリーム（チョコ）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-115",
+          "nameJa": "アイスクリーム（バニラ）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-116",
+          "nameJa": "アイスクリーム（ピスタチオ）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-117",
+          "nameJa": "マンゴーシャーベット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-118",
+          "nameJa": "ラ・フランスシャーベット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-119",
+          "nameJa": "コカコーラ180mlあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-120",
+          "nameJa": "メロンソーダ180mlあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-121",
+          "nameJa": "Qooオレンジ180mlあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-122",
+          "nameJa": "カルピス180mlあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-123",
+          "nameJa": "カルピスソーダ180mlあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-124",
+          "nameJa": "カルピスメロンソーダ180ｍｌあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-125",
+          "nameJa": "爽健美茶180mlあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-126",
+          "nameJa": "アイスコーヒー180mlあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-127",
+          "nameJa": "野菜生活100ml（やさいとりんご）",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-128",
+          "nameJa": "アップルジュース1本あたり",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-129",
+          "nameJa": "キリン ゼロＩＣＨＩ",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-130",
+          "nameJa": "キリン 一番搾り(中瓶)",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-131",
+          "nameJa": "キリン 一番搾り(中ジョッキ)",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-132",
+          "nameJa": "キリン 一番搾り(グラス)",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-133",
+          "nameJa": "キリン 一番搾り(350ｍｌ)",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-134",
+          "nameJa": "アサヒ ポイントゼロ",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-135",
+          "nameJa": "アサヒ スーパードライ(中瓶)",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-136",
+          "nameJa": "アサヒ スーパードライ(中ｼﾞｮｯｷ",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": false,
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-137",
+          "nameJa": "アサヒ スーパードライ(グラス)",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-138",
+          "nameJa": "アサヒ スーパードライ(350ｍｌ",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": false,
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-139",
+          "nameJa": "オリオンザドラフト",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-140",
+          "nameJa": "オリオンクリアフリー",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-141",
+          "nameJa": "豚丼（レギュラー）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-142",
+          "nameJa": "豚丼（スモール）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-143",
+          "nameJa": "豚丼セット",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-144",
+          "nameJa": "牛丼（レギュラー）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-145",
+          "nameJa": "牛丼（スモール）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-146",
+          "nameJa": "玉子丼",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-147",
+          "nameJa": "親子丼",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-148",
+          "nameJa": "かつ丼",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-149",
+          "nameJa": "ロースかつ（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-150",
+          "nameJa": "チキンかつ（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-151",
+          "nameJa": "豚しょうが焼き（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-152",
+          "nameJa": "唐揚げ（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-153",
+          "nameJa": "鶏肉の黒酢あんかけ（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-154",
+          "nameJa": "チーズ入りミンチかつ（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-155",
+          "nameJa": "ミックスかつ（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-156",
+          "nameJa": "チキン南蛮（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-157",
+          "nameJa": "朝定食（鮭）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-158",
+          "nameJa": "朝定食（鯖）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-159",
+          "nameJa": "焼きさば（定食）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-160",
+          "nameJa": "ロースかつカレー",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-161",
+          "nameJa": "ロースかつカレー（少なめ）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-162",
+          "nameJa": "ロースかつカレー（大盛）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-163",
+          "nameJa": "唐揚げカレー",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-164",
+          "nameJa": "唐揚げカレー（少なめ）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-165",
+          "nameJa": "唐揚げカレー（大盛）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-166",
+          "nameJa": "日替わり（ロースかつ）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-167",
+          "nameJa": "日替わり（チーズ入りミンチかつ）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-168",
+          "nameJa": "日替わり（唐揚げ）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-169",
+          "nameJa": "キャベツ90g",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-170",
+          "nameJa": "とんかつソース30g",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-171",
+          "nameJa": "タルタルソース20g",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": false,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-172",
+          "nameJa": "生ドレッシング30ｇあたり（野菜と黒酢、りんご）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-173",
+          "nameJa": "胡麻クリーミィドレッシング30gあたり",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-174",
+          "nameJa": "みそ汁（具なし）",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": ""
+          }
+        }
+      ]
+    }
+  ]
+}

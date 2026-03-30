@@ -488,5 +488,47 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "hanamaru",
+    "nameJa": "はなまるうどん",
+    "brandCode": "hanamaru",
+    "groupName": "吉野家HD",
+    "sourceUrl": "https://www.hanamaruudon.com/assets/pdf/allergy.pdf",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "kourakuen",
+    "nameJa": "幸楽苑",
+    "brandCode": "kourakuen",
+    "groupName": "幸楽苑HD",
+    "sourceUrl": "https://www.kourakuen.co.jp/upload/pdf/allergy.pdf",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "ringerhut",
+    "nameJa": "リンガーハット",
+    "brandCode": "ringerhut",
+    "groupName": "リンガーハットジャパン",
+    "sourceUrl": "https://www.ringerhut.jp/quality/allergy-nutrition_value/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]

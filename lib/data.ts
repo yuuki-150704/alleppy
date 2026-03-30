@@ -51,6 +51,11 @@ import cocoichi from "@/data/menus/cocoichi-1.json";
 import osakaOhsho from "@/data/menus/osaka-ohsho-1.json";
 // 吉野家HD
 import yoshinoya from "@/data/menus/yoshinoya-1.json";
+import hanamaru from "@/data/menus/hanamaru-1.json";
+// 幸楽苑HD
+import kourakuen from "@/data/menus/kourakuen-1.json";
+// リンガーハット
+import ringerhut from "@/data/menus/ringerhut-1.json";
 
 export const allergens: Allergen[] = allergensJson;
 export const brands: Brand[] = brandsJson;
@@ -104,6 +109,11 @@ const menuDataMap: Record<string, MenuData> = {
   "osaka-ohsho-1": osakaOhsho as MenuData,
   // 吉野家HD
   "yoshinoya-1": yoshinoya as MenuData,
+  "hanamaru-1": hanamaru as MenuData,
+  // 幸楽苑HD
+  "kourakuen-1": kourakuen as MenuData,
+  // リンガーハット
+  "ringerhut-1": ringerhut as MenuData,
 };
 
 export function getMenuData(brandId: string, usageType: number): MenuData | null {
