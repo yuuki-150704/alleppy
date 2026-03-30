@@ -278,5 +278,19 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "cocos",
+    "nameJa": "ココス",
+    "brandCode": "cocos",
+    "groupName": "ゼンショーグループ",
+    "sourceUrl": "https://www.cocos-jpn.co.jp/tabel/list.html",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
