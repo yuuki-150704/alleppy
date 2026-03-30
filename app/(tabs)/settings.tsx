@@ -159,19 +159,19 @@ const styles = StyleSheet.create({
   },
   chipIcon: {
     position: "absolute",
-    top: 3,
-    width: "60%",
-    height: "60%",
-    opacity: 0.12,
+    top: 5,
+    width: "50%",
+    height: "50%",
+    opacity: 0.13,
   },
   chipIconSelected: {
-    opacity: 0.2,
+    opacity: 0.22,
   },
   chipSelected: {
     borderColor: Colors.brand,
     backgroundColor: Colors.brandSoft,
   },
-  chipName: { fontSize: 15, fontWeight: "500", color: Colors.text },
+  chipName: { fontSize: 14, fontWeight: "700", color: Colors.text },
   chipNameSelected: { color: Colors.brand, fontWeight: "600" },
   saveBtn: {
     backgroundColor: Colors.brand,

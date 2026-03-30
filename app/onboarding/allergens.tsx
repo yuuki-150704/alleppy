@@ -156,7 +156,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: Colors.separator,
     overflow: "hidden",
-    paddingBottom: 10,
+    paddingBottom: 8,
   },
   cardSelected: {
     borderColor: Colors.brand,
@@ -164,24 +164,24 @@ const styles = StyleSheet.create({
   },
   cardIcon: {
     position: "absolute",
-    top: 4,
-    width: "65%",
-    height: "65%",
-    opacity: 0.12,
+    top: 6,
+    width: "50%",
+    height: "50%",
+    opacity: 0.13,
   },
   cardIconSelected: {
-    opacity: 0.2,
+    opacity: 0.22,
   },
   cardName: {
     fontSize: 14,
-    fontWeight: "600",
+    fontWeight: "700",
     color: Colors.text,
     zIndex: 1,
     letterSpacing: 0.5,
   },
   cardNameSelected: {
     color: Colors.brand,
-    fontWeight: "700",
+    fontWeight: "800",
   },
   checkBadge: {
     position: "absolute",
