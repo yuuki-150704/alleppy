@@ -162,30 +162,32 @@ export default function BrandMenuScreen() {
         </View>
       </View>
 
-      {/* カテゴリ */}
-      <View style={styles.categoryBarWrap}>
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          contentContainerStyle={styles.categoryContent}
-        >
-          {categories.map((cat) => {
-            const isActive = selectedCategory === cat.id;
-            return (
-              <TouchableOpacity
-                key={cat.id}
-                style={[styles.categoryChip, isActive && styles.categoryChipActive]}
-                onPress={() => setSelectedCategory(cat.id)}
-                activeOpacity={0.7}
-              >
-                <Text style={[styles.categoryText, isActive && styles.categoryTextActive]}>
-                  {cat.nameJa}
-                </Text>
-              </TouchableOpacity>
-            );
-          })}
-        </ScrollView>
-      </View>
+      {/* カテゴリ（2つ以上ある場合のみ表示） */}
+      {categories.length > 1 && (
+        <View style={styles.categoryBarWrap}>
+          <ScrollView
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={styles.categoryContent}
+          >
+            {categories.map((cat) => {
+              const isActive = selectedCategory === cat.id;
+              return (
+                <TouchableOpacity
+                  key={cat.id}
+                  style={[styles.categoryChip, isActive && styles.categoryChipActive]}
+                  onPress={() => setSelectedCategory(cat.id)}
+                  activeOpacity={0.7}
+                >
+                  <Text style={[styles.categoryText, isActive && styles.categoryTextActive]}>
+                    {cat.nameJa}
+                  </Text>
+                </TouchableOpacity>
+              );
+            })}
+          </ScrollView>
+        </View>
+      )}
 
       {/* アレルギー未登録の通知 */}
       {userAllergenNames.length === 0 && (
