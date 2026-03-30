@@ -10,7 +10,7 @@
       "items": [
         {
           "id": "item-001",
-          "nameJa": "手仕込ささみカツ(1本))",
+          "nameJa": "ポークソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -24,11 +24,11 @@
         },
         {
           "id": "item-002",
-          "nameJa": "ローストチキンスープカレー",
+          "nameJa": "甘口ポークソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
+            "小麦": false,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -38,7 +38,7 @@
         },
         {
           "id": "item-003",
-          "nameJa": "ベーススープカレー",
+          "nameJa": "ビーフソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -52,7 +52,7 @@
         },
         {
           "id": "item-004",
-          "nameJa": "ローストチキン4個",
+          "nameJa": "ココイチベジソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -66,11 +66,11 @@
         },
         {
           "id": "item-005",
-          "nameJa": "魚介類のカレー* ポークソースをベースとした場合",
+          "nameJa": "ハヤシライスソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
+            "小麦": true,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -80,11 +80,11 @@
         },
         {
           "id": "item-006",
-          "nameJa": "フィッシュフライ(2本)カレー",
+          "nameJa": "手仕込ささみカツ(1本)piece)",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
+            "小麦": true,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -94,7 +94,7 @@
         },
         {
           "id": "item-007",
-          "nameJa": "たっぷりあさりカレー",
+          "nameJa": "ローストチキンスープカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -108,7 +108,7 @@
         },
         {
           "id": "item-008",
-          "nameJa": "エビにこみカレー",
+          "nameJa": "ベーススープカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -122,7 +122,7 @@
         },
         {
           "id": "item-009",
-          "nameJa": "エビあさりカレー",
+          "nameJa": "ローストチキン4個",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -136,13 +136,13 @@
         },
         {
           "id": "item-010",
-          "nameJa": "プチエビフライカレー",
+          "nameJa": "魚介類のカレー* ポークソースをベースとした場合",
           "allergens": {
-            "そば": false,
+            "そば": "",
             "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -150,7 +150,7 @@
         },
         {
           "id": "item-011",
-          "nameJa": "ニコニコジュニアカレー(トッピング11種類の中より２つ選択。)",
+          "nameJa": "フィッシュフライ(2本)カレー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -164,11 +164,11 @@
         },
         {
           "id": "item-012",
-          "nameJa": "ニコニコジュニアカレー",
+          "nameJa": "たっぷりあさりカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
+            "小麦": true,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -178,7 +178,7 @@
         },
         {
           "id": "item-013",
-          "nameJa": "Mild p(甘口ポークソース)",
+          "nameJa": "イカカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -192,7 +192,7 @@
         },
         {
           "id": "item-014",
-          "nameJa": "ニコニコジュニアカレー",
+          "nameJa": "エビにこみカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -206,21 +206,7 @@
         },
         {
           "id": "item-015",
-          "nameJa": "Sausaソーセージ2本",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-016",
-          "nameJa": "【トッピング】Fried",
+          "nameJa": "エビあさりカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -233,8 +219,22 @@
           }
         },
         {
+          "id": "item-016",
+          "nameJa": "海の幸カレー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
           "id": "item-017",
-          "nameJa": "フライドチキン2個",
+          "nameJa": "プチエビフライカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -248,13 +248,13 @@
         },
         {
           "id": "item-018",
-          "nameJa": "【トッピング】",
+          "nameJa": "ニコニコジュニアカレー(トッピング11種類の中より２つ選択。) (",
           "allergens": {
-            "そば": false,
+            "そば": "",
             "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -262,7 +262,7 @@
         },
         {
           "id": "item-019",
-          "nameJa": "Creamクリームコロッケ(カニ入り）1個",
+          "nameJa": "ニコニコジュニアカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -276,11 +276,11 @@
         },
         {
           "id": "item-020",
-          "nameJa": "Cheesチーズ(ハーフ)",
+          "nameJa": "ニコニコジュニアカレー",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
+            "小麦": true,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -290,7 +290,7 @@
         },
         {
           "id": "item-021",
-          "nameJa": "【トッピング】Spina",
+          "nameJa": "【トッピング】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -304,13 +304,13 @@
         },
         {
           "id": "item-022",
-          "nameJa": "ほうれん草(ハーフ)",
+          "nameJa": "Sausaソーセージ2本",
           "allergens": {
-            "そば": false,
+            "そば": "",
             "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -318,7 +318,7 @@
         },
         {
           "id": "item-023",
-          "nameJa": "【トッピング】hamb",
+          "nameJa": "【トッピング】Fried",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -332,6 +332,20 @@
         },
         {
           "id": "item-024",
+          "nameJa": "フライドチキン2個",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-025",
           "nameJa": "【トッピング】",
           "allergens": {
             "そば": false,
@@ -345,28 +359,14 @@
           }
         },
         {
-          "id": "item-025",
-          "nameJa": "Squidイカ(ハーフ)",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-026",
-          "nameJa": "【トッピング】Scram",
+          "nameJa": "Creamクリームコロッケ(カニ入り）1個",
           "allergens": {
-            "そば": false,
+            "そば": "",
             "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -374,7 +374,7 @@
         },
         {
           "id": "item-027",
-          "nameJa": "スクランブルエッグ(ハーフ)",
+          "nameJa": "【トッピング】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -388,13 +388,13 @@
         },
         {
           "id": "item-028",
-          "nameJa": "とろ～りたまフライ",
+          "nameJa": "Cheesチーズ(ハーフ)",
           "allergens": {
-            "そば": false,
+            "そば": "",
             "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -402,11 +402,11 @@
         },
         {
           "id": "item-029",
-          "nameJa": "旨辛にんにく",
+          "nameJa": "【トッピング】Spina",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
+            "小麦": false,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -416,13 +416,13 @@
         },
         {
           "id": "item-030",
-          "nameJa": "ハンバーグ",
+          "nameJa": "ほうれん草(ハーフ)",
           "allergens": {
-            "そば": false,
+            "そば": "",
             "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -430,7 +430,7 @@
         },
         {
           "id": "item-031",
-          "nameJa": "フィッシュフライ",
+          "nameJa": "【トッピング】hamb",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -444,7 +444,21 @@
         },
         {
           "id": "item-032",
-          "nameJa": "プチエビフライ",
+          "nameJa": "ハンバーグ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-033",
+          "nameJa": "【トッピング】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -457,28 +471,14 @@
           }
         },
         {
-          "id": "item-033",
-          "nameJa": "ドリンク・スープ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-034",
-          "nameJa": "キリン ノンアルコールビール",
+          "nameJa": "Squidイカ(ハーフ)",
           "allergens": {
-            "そば": false,
+            "そば": "",
             "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -486,7 +486,7 @@
         },
         {
           "id": "item-035",
-          "nameJa": "コーンスープ",
+          "nameJa": "【トッピング】Scram",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -500,13 +500,13 @@
         },
         {
           "id": "item-036",
-          "nameJa": "スティックシュガー",
+          "nameJa": "スクランブルエッグ(ハーフ)",
           "allergens": {
-            "そば": false,
+            "そば": "",
             "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -514,7 +514,7 @@
         },
         {
           "id": "item-037",
-          "nameJa": "オリジナルドレッシング",
+          "nameJa": "とろ～りたまフライ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -528,7 +528,343 @@
         },
         {
           "id": "item-038",
+          "nameJa": "クリーミータルタルソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-039",
+          "nameJa": "半熟タマゴ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-040",
+          "nameJa": "ゆでタマゴ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-041",
+          "nameJa": "コーン",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-042",
+          "nameJa": "単品ポテト",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-043",
+          "nameJa": "ツナ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-044",
+          "nameJa": "半熟タマゴタルタルソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-045",
+          "nameJa": "旨辛にんにく",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-046",
+          "nameJa": "ハンバーグ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-047",
+          "nameJa": "フィッシュフライ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-048",
+          "nameJa": "プチエビフライ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-049",
+          "nameJa": "ドリンク・スープ",
+          "allergens": {
+            "そば": "",
+            "落花生": false,
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-050",
+          "nameJa": "ホットコーヒー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-051",
+          "nameJa": "キリン ノンアルコールビール",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-052",
+          "nameJa": "コーンスープ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-053",
+          "nameJa": "フレッシュ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-054",
+          "nameJa": "ガムシロップ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-055",
+          "nameJa": "スティックシュガー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-056",
+          "nameJa": "オリジナルドレッシング",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-057",
           "nameJa": "ごまドレッシング",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-058",
+          "nameJa": "とろ～り甘くなるソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-059",
+          "nameJa": "1辛～20辛",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-060",
+          "nameJa": "ポークソース —",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-061",
+          "nameJa": "甘口ポークソース —",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-062",
+          "nameJa": "芳醇ソース —",
           "allergens": {
             "そば": false,
             "落花生": false,
