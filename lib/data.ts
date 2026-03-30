@@ -58,6 +58,9 @@ import ringerhut from "@/data/menus/ringerhut-1.json";
 import sushiro from "@/data/menus/sushiro-1.json";
 // BKジャパン
 import burgerking from "@/data/menus/burgerking-1.json";
+// プレナス
+import hottomotto from "@/data/menus/hottomotto-1.json";
+import yayoiken from "@/data/menus/yayoiken-1.json";
 
 export const allergens: Allergen[] = allergensJson;
 export const brands: Brand[] = brandsJson;
@@ -118,6 +121,9 @@ const menuDataMap: Record<string, MenuData> = {
   "sushiro-1": sushiro as MenuData,
   // BKジャパン
   "burgerking-1": burgerking as MenuData,
+  // プレナス
+  "hottomotto-1": hottomotto as MenuData,
+  "yayoiken-1": yayoiken as MenuData,
 };
 
 export function getMenuData(brandId: string, usageType: number): MenuData | null {

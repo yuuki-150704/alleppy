@@ -544,5 +544,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "hottomotto",
+    "nameJa": "ほっともっと",
+    "brandCode": "hottomotto",
+    "groupName": "プレナス",
+    "sourceUrl": "https://www.hottomotto.com/menu_list/info/13",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "yayoiken",
+    "nameJa": "やよい軒",
+    "brandCode": "yayoiken",
+    "groupName": "プレナス",
+    "sourceUrl": "https://www.yayoiken.com/menu_list/info/13",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
   }
 ]
