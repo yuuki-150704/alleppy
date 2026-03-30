@@ -362,5 +362,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "sukiya",
+    "nameJa": "すき家",
+    "brandCode": "sukiya",
+    "groupName": "ゼンショーグループ",
+    "sourceUrl": "https://www.sukiya.jp/about/safety.html",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "hamasushi",
+    "nameJa": "はま寿司",
+    "brandCode": "hamasushi",
+    "groupName": "ゼンショーグループ",
+    "sourceUrl": "https://www.hamazushi.com/menu/allergen/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
