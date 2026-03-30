@@ -572,5 +572,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "torikizoku",
+    "nameJa": "鳥貴族",
+    "brandCode": "torikizoku",
+    "groupName": "鳥貴族HD",
+    "sourceUrl": "https://torikizoku.co.jp/allergy/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "misdo",
+    "nameJa": "ミスタードーナツ",
+    "brandCode": "misdo",
+    "groupName": "ダスキン",
+    "sourceUrl": "https://www.misterdonut.jp/m_menu/eiyou/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
   }
 ]

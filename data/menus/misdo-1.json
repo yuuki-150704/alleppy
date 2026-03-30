@@ -1,0 +1,2590 @@
+{
+  "brandId": "misdo",
+  "usageType": 1,
+  "scrapedAt": "2026-03-31T00:00:00Z",
+  "categories": [
+    {
+      "id": "メニュー",
+      "nameJa": "メニュー",
+      "displayOrder": 1,
+      "items": [
+        {
+          "id": "item-001",
+          "nameJa": "▼UJI Matcha Donut Series",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-002",
+          "nameJa": "Matcha “Dorayaki” Donut - Chunky Red Bean Paste & Floral Whipped Cream",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-003",
+          "nameJa": "Matcha “Dorayaki” Donut - Chestnut Bean Paste & Matcha Whipped Cream",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-004",
+          "nameJa": "Pon De Ring Double UJI Matcha",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-005",
+          "nameJa": "Pon De Ring Crunch - UJI Matcha Milk Flavor",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-006",
+          "nameJa": "Pon De Ring UJI Matcha - Red Bean Paste & Matcha Warabimochi",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-007",
+          "nameJa": "▼Sakuramochi Soft Donut",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-008",
+          "nameJa": "Sakuramochi Soft Donut - Springtide Strawberry Flavor",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-009",
+          "nameJa": "Sakuramochi Soft Donut - Blossoming Sakura Strawberry Milk",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-010",
+          "nameJa": "Sakuramochi Soft Donut - Springtide Strawberry Whipped Cream Daifuku-style",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-011",
+          "nameJa": "Sakuramochi Soft Donut - Floral Strawberry Milk Custard",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-012",
+          "nameJa": "▼Ｍｉｓｔｅｒ Ｄｏｎｕｔ×ＧＯＤＩＶＡ",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-013",
+          "nameJa": "Truffle Chocolate Donut - Noir",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-014",
+          "nameJa": "Truffle Chocolate Donut - Praliné",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-015",
+          "nameJa": "Soft French Cruller - Chocolat Noir",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-016",
+          "nameJa": "Soft French Cruller - Chocolat Caramel Praliné",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-017",
+          "nameJa": "Chocolate Pie - Deux",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-018",
+          "nameJa": "▼Donut Variety",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-019",
+          "nameJa": "Pon De Ring Golden Strawberry",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-020",
+          "nameJa": "Chocolate Crunch Custard French",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-021",
+          "nameJa": "Coconut & Whipped Cream Fashion",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-022",
+          "nameJa": "Dotted Chocolate Donut",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-023",
+          "nameJa": "Dotted Chocolate Donut - Strawberry",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-024",
+          "nameJa": "▼Pon De Ring",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-025",
+          "nameJa": "Pon De Ring",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-026",
+          "nameJa": "Pon De Ring KOKUTO",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-027",
+          "nameJa": "Pon De Ring Angel",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-028",
+          "nameJa": "Pon De Ring Strawberry",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-029",
+          "nameJa": "Pon De Ring Plain",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-030",
+          "nameJa": "▼Yeast Donut",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-031",
+          "nameJa": "Angel Cream",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-032",
+          "nameJa": "Custard Cream",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-033",
+          "nameJa": "Honey Dip",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-034",
+          "nameJa": "Sugar Raised",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-035",
+          "nameJa": "Chocolate Ring",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-036",
+          "nameJa": "Strawberry Ring",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-037",
+          "nameJa": "White Chocolate Ring",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-038",
+          "nameJa": "Cinnamon Ring",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-039",
+          "nameJa": "▼French Cruller",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-040",
+          "nameJa": "French Cruller",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-041",
+          "nameJa": "Angel French",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-042",
+          "nameJa": "Strawberry Custard French",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-043",
+          "nameJa": "▼Old Fashion",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-044",
+          "nameJa": "Old Fashion",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-045",
+          "nameJa": "Chocolate Old Fashion",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-046",
+          "nameJa": "Old Fashion Honey",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-047",
+          "nameJa": "Old Fashion Cinnamon",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-048",
+          "nameJa": "▼Chocolate",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-049",
+          "nameJa": "Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-050",
+          "nameJa": "Double Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-051",
+          "nameJa": "Golden Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-052",
+          "nameJa": "Coconut Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-053",
+          "nameJa": "▼Churro",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-054",
+          "nameJa": "Honey Churro",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-055",
+          "nameJa": "Chocolate Churro",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-056",
+          "nameJa": "Strawberry Churro",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-057",
+          "nameJa": "▼Chewy Fruit Stick",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-058",
+          "nameJa": "Chewy Fruit Stick Plain",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-059",
+          "nameJa": "Chewy Fruit Stick Cinnamon",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-060",
+          "nameJa": "Chewy Fruit Stick Honey",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-061",
+          "nameJa": "▼Pie",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-062",
+          "nameJa": "Hot & Sweet Pie Apple",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-063",
+          "nameJa": "Hot & Savory Pie BBQ Frankfurter",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-064",
+          "nameJa": "Shrimp Gratin Pie",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": true,
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-065",
+          "nameJa": "Meat Sauce & Mashed Potato Pie",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-066",
+          "nameJa": "Croque-Monsieur-Style Pie with White Sauce",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-067",
+          "nameJa": "Butter Chicken Curry Pie",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-068",
+          "nameJa": "Creamy Mushroom & Chicken Stew Pie",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-069",
+          "nameJa": "Meat Sauce Lasagna-Style Pie",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-070",
+          "nameJa": "Chunky Corn Cream Pie",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-071",
+          "nameJa": "▼Muffin",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-072",
+          "nameJa": "Moist Muffin - Butter Flavor",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-073",
+          "nameJa": "Moist Muffin - Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-074",
+          "nameJa": "▼Donuts that do not contain specific allergenic ingredients",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-075",
+          "nameJa": "Soft Baked Donut Plain",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-076",
+          "nameJa": "▼Donut Pop",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-077",
+          "nameJa": "Donut Pop - Angel Cream Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-078",
+          "nameJa": "Donut Pop - Strawberry Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-079",
+          "nameJa": "Donut Pop - Golden Chocolate Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-080",
+          "nameJa": "Donut Pop - Coconut Chocolate Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-081",
+          "nameJa": "Donut Pop - Pon De Ring Strawberry Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-082",
+          "nameJa": "Donut Pop - Pon De Ring Chocolate Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-083",
+          "nameJa": "Donut Pop - Pon De Ring Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-084",
+          "nameJa": "Donut Pop - Pon De Ring Sugar Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-085",
+          "nameJa": "Donut Pop - Old Fashion Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-086",
+          "nameJa": "Donut Pop - Chocolate Fashion Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-087",
+          "nameJa": "Donut Pop - Strawberry Fashion Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-088",
+          "nameJa": "Donut Pop - Old Fashion KOKUTO Ball",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-089",
+          "nameJa": "▼Available only via the MISDO online ordering system",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-090",
+          "nameJa": "Thick Chocolate Fashion",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-091",
+          "nameJa": "Strawberry & Chocolate Fashion",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-092",
+          "nameJa": "Custard & Angel Cream",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-093",
+          "nameJa": "Double Cream French",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-094",
+          "nameJa": "▼Fancy Donut",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-095",
+          "nameJa": "Smooth Chocolate Donut - Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-096",
+          "nameJa": "Smooth Chocolate Donut - Custard",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-097",
+          "nameJa": "Smooth Chocolate Donut - Coconut",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-098",
+          "nameJa": "Chocolate Flavored Churro",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-099",
+          "nameJa": "Ganache Cream & Whipped Cream",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-100",
+          "nameJa": "Praline & Golden Fashion",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-101",
+          "nameJa": "Salted Caramel French",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-102",
+          "nameJa": "Flake Chocolate Ring",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-103",
+          "nameJa": "Flake Chocolate & Whipped Cream",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-104",
+          "nameJa": "Almond White Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-105",
+          "nameJa": "Almond & Whipped Cream French",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-106",
+          "nameJa": "Cocoa Ring",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-107",
+          "nameJa": "Strawberry Sugar Fashion",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-108",
+          "nameJa": "▼Yam Cha",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-109",
+          "nameJa": "Soy Sauce Noodles",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-110",
+          "nameJa": "Sichuan Dandan Noodles",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-111",
+          "nameJa": "Egg Fried Rice 【Uses rice grown in Japan】",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-112",
+          "nameJa": "Egg Fried Rice (Half-sized) 【Uses rice grown in Japan】",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-113",
+          "nameJa": "Cold Noodles with Chicken, Grated Daikon & Aromatic Kabosu Soup",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-114",
+          "nameJa": "Cold Noodles with Seafood & Vegetables in Tomato Soup, Served with Lemon Jelly",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-115",
+          "nameJa": "Spicy Cold Noodles with Yuzu & Soy Milk",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-116",
+          "nameJa": "Taiwanese-Style Simmered Pork Noodles",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-117",
+          "nameJa": "Taiwanese-Style Chewy Dumpling Noodles",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": "",
+            "えび": true,
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-118",
+          "nameJa": "Taiwanese-Style Spicy Soy Milk Vegetable Noodles",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-119",
+          "nameJa": "▼Soup",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-120",
+          "nameJa": "Hokkaido Corn Soup",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-121",
+          "nameJa": "▼Coffee",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-122",
+          "nameJa": "MISDO Blend Coffee",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-123",
+          "nameJa": "MISDO Iced Coffee",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-124",
+          "nameJa": "▼Decaf Coffee",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-125",
+          "nameJa": "Decaffeinated Coffee",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-126",
+          "nameJa": "Decaf Iced Coffee",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-127",
+          "nameJa": "▼Café au Lait",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-128",
+          "nameJa": "MISDO Café au Lait",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-129",
+          "nameJa": "MISDO Iced Café au Lait",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-130",
+          "nameJa": "▼Decaf Café au Lait",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-131",
+          "nameJa": "Decaf Café au Lait",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-132",
+          "nameJa": "Decaf Iced Café au Lait",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-133",
+          "nameJa": "▼Royal Milk Tea",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-134",
+          "nameJa": "Royal Milk Tea",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-135",
+          "nameJa": "Iced Royal Milk Tea",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-136",
+          "nameJa": "▼Tea",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-137",
+          "nameJa": "Hot Tea - Darjeeling",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-138",
+          "nameJa": "Hot Tea - Darjeeling Milk",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-139",
+          "nameJa": "Hot Tea - Darjeeling Lemon",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-140",
+          "nameJa": "Iced Tea - Earl Grey",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-141",
+          "nameJa": "Iced Tea - Earl Grey Milk",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-142",
+          "nameJa": "Iced Tea - Earl Grey Lemon",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-143",
+          "nameJa": "Hot Jasmine Tea",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-144",
+          "nameJa": "Iced Jasmine Tea",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-145",
+          "nameJa": "Iced Oolong Tea",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-146",
+          "nameJa": "▼Milk",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-147",
+          "nameJa": "Hot Milk",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-148",
+          "nameJa": "Iced Milk",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-149",
+          "nameJa": "▼Rich Shake",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-150",
+          "nameJa": "Madagascar Vanilla",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-151",
+          "nameJa": "Chocolate Fudge",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-152",
+          "nameJa": "▼Soft Drink",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-153",
+          "nameJa": "Minute Maid Orange Juice",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-154",
+          "nameJa": "Apple 100% Juice ※Concentrated and reconstituted",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-155",
+          "nameJa": "Coca Cola",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-156",
+          "nameJa": "Melon Soda",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-157",
+          "nameJa": "CALPIS",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-158",
+          "nameJa": "▼Tapioca Drink",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-159",
+          "nameJa": "Chewy Tapioca Brown Sugar Royal Milk Tea",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-160",
+          "nameJa": "Chewy Tapioca Brown Sugar Milk",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-161",
+          "nameJa": "▼Bouncy Fen Guo Fruit Tea",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-162",
+          "nameJa": "Bouncy Fen Guo Fruit Tea - Peach & Dragon Fruit",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-163",
+          "nameJa": "Bouncy Fen Guo Fruit Tea - Pineapple, Mango & Passion Fruit",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": "",
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-164",
+          "nameJa": "▼【Only Available in Certain Shops】 Drink",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-165",
+          "nameJa": "Mild Cafè Latte",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-166",
+          "nameJa": "Iced Mild Café Latte",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-167",
+          "nameJa": "Chocolate Cafè Latte",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-168",
+          "nameJa": "Iced Chocolate Cafè Latte",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-169",
+          "nameJa": "Hot Milk Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-170",
+          "nameJa": "Iced Milk Chocolate",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-171",
+          "nameJa": "Double Espresso Latte",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-172",
+          "nameJa": "Iced Double Espresso Latte",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": "",
+            "卵": "",
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-173",
+          "nameJa": "▼【Only Available in Certain Shops】 Donuts",
+          "allergens": {
+            "そば": null,
+            "落花生": null,
+            "小麦": null,
+            "卵": null,
+            "乳": null,
+            "えび": null,
+            "かに": null,
+            "くるみ": null
+          }
+        },
+        {
+          "id": "item-174",
+          "nameJa": "Home Cut",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-175",
+          "nameJa": "Honey Dough",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-176",
+          "nameJa": "Powdered",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-177",
+          "nameJa": "Cinnamon",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-178",
+          "nameJa": "Coconut",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-179",
+          "nameJa": "Butter Crunch",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-180",
+          "nameJa": "Plain Cruller",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-181",
+          "nameJa": "Sugar Cruller",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-182",
+          "nameJa": "Cinnamon Cruller",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-183",
+          "nameJa": "Twisty",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        },
+        {
+          "id": "item-184",
+          "nameJa": "Coffee Roll",
+          "allergens": {
+            "そば": "",
+            "落花生": "",
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": "",
+            "かに": "",
+            "くるみ": ""
+          }
+        }
+      ]
+    }
+  ]
+}
