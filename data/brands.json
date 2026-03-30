@@ -1,1 +1,226 @@
-[]
+[
+  {
+    "id": "gusto",
+    "nameJa": "ガスト",
+    "brandCode": "010016",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=010016&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "bamiyan",
+    "nameJa": "バーミヤン",
+    "brandCode": "170001",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=170001&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "jonathans",
+    "nameJa": "ジョナサン",
+    "brandCode": "020001",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=020001&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "steakgusto",
+    "nameJa": "ステーキガスト",
+    "brandCode": "010042",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=010042&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "musashinomori",
+    "nameJa": "むさしの森珈琲",
+    "brandCode": "190011",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=190011&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "karayoshi",
+    "nameJa": "から好し",
+    "brandCode": "010221",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=010221&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "aiya",
+    "nameJa": "藍屋",
+    "brandCode": "130001",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=130001&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "laohana",
+    "nameJa": "La Ohana",
+    "brandCode": "190012",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=190012&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "tonkaratei",
+    "nameJa": "とんから亭",
+    "brandCode": "010217",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=010217&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "chawan",
+    "nameJa": "chawan",
+    "brandCode": "010207",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=010207&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "totoyamichi",
+    "nameJa": "魚屋路",
+    "brandCode": "010006",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=010006&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "momona",
+    "nameJa": "桃菜",
+    "brandCode": "010046",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=010046&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "grazie",
+    "nameJa": "グラッチェガーデンズ",
+    "brandCode": "010035",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=010035&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "hachirosoba",
+    "nameJa": "八郎そば",
+    "brandCode": "131011",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=131011&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "yumean-shokudo",
+    "nameJa": "ゆめあん食堂",
+    "brandCode": "131001",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=131001&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "sanmarusan",
+    "nameJa": "三○三",
+    "brandCode": "130489",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=130489&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  }
+]
