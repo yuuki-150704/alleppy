@@ -474,5 +474,19 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "yoshinoya",
+    "nameJa": "吉野家",
+    "brandCode": "yoshinoya",
+    "groupName": "吉野家HD",
+    "sourceUrl": "https://www.yoshinoya.com/pdf/allergy/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
