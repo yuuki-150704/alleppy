@@ -292,5 +292,19 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "mos",
+    "nameJa": "モスバーガー",
+    "brandCode": "mos",
+    "groupName": "モスフードサービス",
+    "sourceUrl": "https://www.mos.jp/menu/allergy/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
