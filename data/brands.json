@@ -306,5 +306,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "marugame",
+    "nameJa": "丸亀製麺",
+    "brandCode": "marugame",
+    "groupName": "トリドールHD",
+    "sourceUrl": "https://jp.marugame.com/en/menu/allergic/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "saizeriya",
+    "nameJa": "サイゼリヤ",
+    "brandCode": "saizeriya",
+    "groupName": "サイゼリヤ",
+    "sourceUrl": "https://allergy.saizeriya.co.jp/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]

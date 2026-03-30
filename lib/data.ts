@@ -29,6 +29,10 @@ import mcdonalds from "@/data/menus/mcdonalds-1.json";
 import cocos from "@/data/menus/cocos-1.json";
 // モスフードサービス
 import mos from "@/data/menus/mos-1.json";
+// サイゼリヤ
+import saizeriya from "@/data/menus/saizeriya-1.json";
+// トリドールHD
+import marugame from "@/data/menus/marugame-1.json";
 
 export const allergens: Allergen[] = allergensJson;
 export const brands: Brand[] = brandsJson;
@@ -60,6 +64,10 @@ const menuDataMap: Record<string, MenuData> = {
   "cocos-1": cocos as MenuData,
   // モスフードサービス
   "mos-1": mos as MenuData,
+  // サイゼリヤ
+  "saizeriya-1": saizeriya as MenuData,
+  // トリドールHD
+  "marugame-1": marugame as MenuData,
 };
 
 export function getMenuData(brandId: string, usageType: number): MenuData | null {
