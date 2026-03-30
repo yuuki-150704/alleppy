@@ -168,10 +168,18 @@ async function main() {
     for (const brand of brandsToScrape) {
       console.log(`\n[${ brandsToScrape.indexOf(brand) + 1}/${brandsToScrape.length}] ${brand.nameJa} (${brand.brandCode})`);
 
+      // 同一ページを再利用（SPAのセッション/Cookie状態を維持）
       const page = await browser.newPage();
 
       try {
-        const success = await navigateToChart(page, brand.brandCode, brand.type);
+        let success = await navigateToChart(page, brand.brandCode, brand.type);
+
+        // 失敗した場合、ページを閉じずにリトライ
+        if (!success) {
+          console.log(`  リトライ中...`);
+          await page.waitForTimeout(3000);
+          success = await navigateToChart(page, brand.brandCode, brand.type);
+        }
 
         if (!success) {
           console.log(`  ⚠ テーブルが見つかりません。スキップします。`);

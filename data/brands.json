@@ -222,5 +222,19 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "shabuyou",
+    "nameJa": "しゃぶ葉",
+    "brandCode": "190010",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=190010&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
