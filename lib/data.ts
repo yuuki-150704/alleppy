@@ -33,6 +33,10 @@ import mos from "@/data/menus/mos-1.json";
 import saizeriya from "@/data/menus/saizeriya-1.json";
 // トリドールHD
 import marugame from "@/data/menus/marugame-1.json";
+// 日本KFC
+import kfc from "@/data/menus/kfc-1.json";
+// 松屋フーズ（松のや）
+import matsunoya from "@/data/menus/matsunoya-1.json";
 
 export const allergens: Allergen[] = allergensJson;
 export const brands: Brand[] = brandsJson;
@@ -68,6 +72,10 @@ const menuDataMap: Record<string, MenuData> = {
   "saizeriya-1": saizeriya as MenuData,
   // トリドールHD
   "marugame-1": marugame as MenuData,
+  // 日本KFC
+  "kfc-1": kfc as MenuData,
+  // 松屋フーズ（松のや）
+  "matsunoya-1": matsunoya as MenuData,
 };
 
 export function getMenuData(brandId: string, usageType: number): MenuData | null {

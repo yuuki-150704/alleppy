@@ -334,5 +334,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "kfc",
+    "nameJa": "ケンタッキー",
+    "brandCode": "kfc",
+    "groupName": "日本KFCホールディングス",
+    "sourceUrl": "https://www.kfc.co.jp/menu/allergy/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "matsunoya",
+    "nameJa": "松のや",
+    "brandCode": "matsunoya",
+    "groupName": "松屋フーズ",
+    "sourceUrl": "https://www.matsuyafoods.co.jp/matsunoya/safety/allergen.html",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
