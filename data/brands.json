@@ -250,5 +250,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "matsuya",
+    "nameJa": "松屋",
+    "brandCode": "matsuya",
+    "groupName": "松屋フーズ",
+    "sourceUrl": "https://www.matsuyafoods.co.jp/matsuya/safety/allergen.html",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "mcdonalds",
+    "nameJa": "マクドナルド",
+    "brandCode": "mcdonalds",
+    "groupName": "日本マクドナルド",
+    "sourceUrl": "https://www.mcdonalds.co.jp/quality/allergy_Nutrition/allergy/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]

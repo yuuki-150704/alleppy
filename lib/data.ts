@@ -21,6 +21,10 @@ import yumeanShokudo from "@/data/menus/yumean-shokudo-1.json";
 import sanmarusan from "@/data/menus/sanmarusan-1.json";
 import shabuyou from "@/data/menus/shabuyou-1.json";
 import yumean from "@/data/menus/yumean-1.json";
+// 松屋フーズ
+import matsuya from "@/data/menus/matsuya-1.json";
+// マクドナルド
+import mcdonalds from "@/data/menus/mcdonalds-1.json";
 
 export const allergens: Allergen[] = allergensJson;
 export const brands: Brand[] = brandsJson;
@@ -44,6 +48,10 @@ const menuDataMap: Record<string, MenuData> = {
   "sanmarusan-1": sanmarusan as MenuData,
   "shabuyou-1": shabuyou as MenuData,
   "yumean-1": yumean as MenuData,
+  // 松屋フーズ
+  "matsuya-1": matsuya as MenuData,
+  // マクドナルド
+  "mcdonalds-1": mcdonalds as MenuData,
 };
 
 export function getMenuData(brandId: string, usageType: number): MenuData | null {
