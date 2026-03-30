@@ -19,7 +19,7 @@ export default function BrandMenuScreen() {
   const brand = getBrand(id);
   const menuData = getMenuData(id, 1);
 
-  const [filterMode, setFilterMode] = useState<FilterMode>("safe");
+  const [filterMode, setFilterMode] = useState<FilterMode>("danger");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [userAllergenNames, setUserAllergenNames] = useState<string[]>([]);
 
