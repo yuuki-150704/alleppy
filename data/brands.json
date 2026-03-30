@@ -236,5 +236,19 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "yumean",
+    "nameJa": "夢庵",
+    "brandCode": "130002",
+    "groupName": "すかいらーくグループ",
+    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=130002&usage=1",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
