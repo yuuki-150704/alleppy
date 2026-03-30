@@ -418,5 +418,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "dennys",
+    "nameJa": "デニーズ",
+    "brandCode": "dennys",
+    "groupName": "セブン&アイ・フードシステムズ",
+    "sourceUrl": "https://www.dennys-jp.com/allergy.html",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "tenya",
+    "nameJa": "天丼てんや",
+    "brandCode": "tenya",
+    "groupName": "ロイヤルHD",
+    "sourceUrl": "https://www.tenya.co.jp/menu/allergy/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
