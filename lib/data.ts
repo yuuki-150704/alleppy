@@ -47,8 +47,6 @@ import dennys from "@/data/menus/dennys-1.json";
 import tenya from "@/data/menus/tenya-1.json";
 // 壱番屋
 import cocoichi from "@/data/menus/cocoichi-1.json";
-// イートアンドHD
-import osakaOhsho from "@/data/menus/osaka-ohsho-1.json";
 // 吉野家HD
 import yoshinoya from "@/data/menus/yoshinoya-1.json";
 import hanamaru from "@/data/menus/hanamaru-1.json";
@@ -109,8 +107,6 @@ const menuDataMap: Record<string, MenuData> = {
   "tenya-1": tenya as MenuData,
   // 壱番屋
   "cocoichi-1": cocoichi as MenuData,
-  // イートアンドHD
-  "osaka-ohsho-1": osakaOhsho as MenuData,
   // 吉野家HD
   "yoshinoya-1": yoshinoya as MenuData,
   "hanamaru-1": hanamaru as MenuData,

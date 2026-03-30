@@ -462,20 +462,6 @@
     "lastScrapedAt": "2026-03-30T00:00:00Z"
   },
   {
-    "id": "osaka-ohsho",
-    "nameJa": "大阪王将",
-    "brandCode": "osaka-ohsho",
-    "groupName": "イートアンドHD",
-    "sourceUrl": "https://www.osaka-ohsho.com/quality/allergy/",
-    "usageTypes": [
-      {
-        "id": 1,
-        "nameJa": "店内メニュー"
-      }
-    ],
-    "lastScrapedAt": "2026-03-30T00:00:00Z"
-  },
-  {
     "id": "yoshinoya",
     "nameJa": "吉野家",
     "brandCode": "yoshinoya",

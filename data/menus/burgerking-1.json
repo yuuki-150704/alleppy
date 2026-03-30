@@ -10,519 +10,1639 @@
       "items": [
         {
           "id": "item-001",
-          "nameJa": "ワッパー",
+          "nameJa": "ワッパーチーズ",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-002",
-          "nameJa": "ビーフバーガー",
+          "nameJa": "ワッパーチーズジュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-003",
-          "nameJa": "チキンバーガー",
+          "nameJa": "ダブルワッパーチーズ",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-004",
-          "nameJa": "ポークバーガー",
+          "nameJa": "ダブルワッパーチーズジュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-005",
-          "nameJa": "フィッシュバーガー",
+          "nameJa": "トリプルワッパーチーズ",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-006",
-          "nameJa": "ホットドッグ",
+          "nameJa": "アボカドワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-007",
-          "nameJa": "フレンチフライ S",
+          "nameJa": "アボカドワッパージュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-008",
-          "nameJa": "フレンチフライ M",
+          "nameJa": "クアトロチーズワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-009",
-          "nameJa": "フレンチフライ L",
+          "nameJa": "クアトロチーズワッパージュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-010",
-          "nameJa": "チリチーズフライ",
+          "nameJa": "ダブルクアトロチーズワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-011",
-          "nameJa": "メキシカンチーズフライ",
+          "nameJa": "ダブルクアトロチーズワッパージュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-012",
-          "nameJa": "オニオンリング",
+          "nameJa": "トリプルクアトロチーズワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-013",
-          "nameJa": "シーザーサラダ（ドレッシングあり）",
+          "nameJa": "ワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-014",
-          "nameJa": "シーザーサラダ（ドレッシングなし）",
+          "nameJa": "ワッパージュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-015",
-          "nameJa": "サイドメニュー （別添）シーザードレッシング",
+          "nameJa": "スモーキーBBQワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-016",
-          "nameJa": "チキンナゲット(5ピース、ソース抜き)",
+          "nameJa": "スモーキーBBQワッパージュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-017",
-          "nameJa": "チキンナゲット(8ピース、ソース抜き)",
+          "nameJa": "テリヤキワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-018",
-          "nameJa": "チキンナゲット 極辛ZⅡ(5ピース、ソース抜き)",
+          "nameJa": "テリヤキワッパージュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
+            "卵": true,
+            "乳": true,
             "小麦": true,
-            "卵": false,
-            "乳": false,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-019",
-          "nameJa": "チキンナゲット 極辛ZⅡ(8ピース、ソース抜き)",
+          "nameJa": "スパイシーワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
+            "卵": true,
+            "乳": true,
             "小麦": true,
-            "卵": false,
-            "乳": false,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-020",
-          "nameJa": "スナックチキン",
+          "nameJa": "スパイシーワッパージュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
+            "卵": true,
+            "乳": true,
             "小麦": true,
-            "卵": false,
-            "乳": false,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-021",
-          "nameJa": "アメリカンスモーキーチキン 4ピース",
+          "nameJa": "ベーコンチーズワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
+            "卵": true,
+            "乳": true,
             "小麦": true,
-            "卵": false,
-            "乳": false,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-022",
-          "nameJa": "ハッシュブラウン",
+          "nameJa": "ベーコンチーズワッパージュニア",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-023",
-          "nameJa": "ビッグチキンフィレパティ",
+          "nameJa": "メキシカン・アボカドワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
+            "卵": true,
+            "乳": true,
             "小麦": true,
-            "卵": false,
-            "乳": false,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-024",
-          "nameJa": "アップルパイ",
+          "nameJa": "ダブルメキシカン・アボカドワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
+            "卵": true,
+            "乳": true,
             "小麦": true,
-            "卵": false,
-            "乳": false,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-025",
-          "nameJa": "フロートドリンク コカ・コーラ",
+          "nameJa": "チーズメキシカン・アボカドワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-026",
-          "nameJa": "フロートドリンク コカ・コーラゼロフロートドリンク",
+          "nameJa": "クリーミーメキシカン・アボカドワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-027",
-          "nameJa": "フロートドリンク メロンソーダ（氷含む）",
+          "nameJa": "ダブルクリーミーメキシカン・アボカドワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-028",
-          "nameJa": "フロートドリンク アイスコーヒー",
+          "nameJa": "チーズクリーミーメキシカン・アボカドワッパー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "卵": true,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-029",
-          "nameJa": "コカ・コーラS",
+          "nameJa": "ベーコンダブルチーズバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
             "卵": false,
-            "乳": false,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-030",
-          "nameJa": "コカ・コーラM",
+          "nameJa": "ダブルチーズバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
             "卵": false,
-            "乳": false,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-031",
-          "nameJa": "コカ・コーラL",
+          "nameJa": "ハンバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
             "卵": false,
-            "乳": false,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-032",
-          "nameJa": "アイスティーL",
+          "nameJa": "チーズバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
             "卵": false,
-            "乳": false,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-033",
-          "nameJa": "ブレンドコーヒーS",
+          "nameJa": "チーズダブルチーズバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
             "卵": false,
-            "乳": false,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-034",
-          "nameJa": "ブレンドコーヒーM",
+          "nameJa": "チーズアグリーバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-035",
-          "nameJa": "ダージリンティーS",
+          "nameJa": "ダブルチーズアグリーバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-036",
-          "nameJa": "ダージリンティーM",
+          "nameJa": "トリプルチーズアグリーバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         },
         {
           "id": "item-037",
-          "nameJa": "【モーニング】チーズ&チーズチキン",
+          "nameJa": "チーズ＆チーズ ビッグマウスバーガー",
           "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
             "卵": false,
             "乳": true,
+            "小麦": true,
             "えび": false,
             "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-038",
+          "nameJa": "ベーコンダブル ビッグマウスバーガー",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-039",
+          "nameJa": "デラマキシ ザ・ワンパウンダー",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-040",
+          "nameJa": "ピックルボールバーガー",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-041",
+          "nameJa": "ビッグチキンフィレ",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-042",
+          "nameJa": "チキンバーガー ビッグチキンフィレ デラックス",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-043",
+          "nameJa": "タルタルチキンバーガー",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-044",
+          "nameJa": "スモーキーテリヤキバーガー",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-045",
+          "nameJa": "ポークバーガー ハッシュ＆BBQバーガー",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-046",
+          "nameJa": "BBQレタスバーガー",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-047",
+          "nameJa": "フィッシュバーガー フィッシュバーガー",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-048",
+          "nameJa": "クラシック ホットドッグ",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-049",
+          "nameJa": "BBQ＆チーズ ホットドッグ",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-050",
+          "nameJa": "フレンチフライ S",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-051",
+          "nameJa": "フレンチフライ M",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-052",
+          "nameJa": "フレンチフライ L",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-053",
+          "nameJa": "チリチーズフライ",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-054",
+          "nameJa": "メキシカンチーズフライ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-055",
+          "nameJa": "オニオンリング",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-056",
+          "nameJa": "シーザーサラダ（ドレッシングあり）",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-057",
+          "nameJa": "シーザーサラダ（ドレッシングなし）",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-058",
+          "nameJa": "サイドメニュー （別添）シーザードレッシング",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-059",
+          "nameJa": "チキンナゲット(5ピース、ソース抜き)",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-060",
+          "nameJa": "チキンナゲット(8ピース、ソース抜き)",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-061",
+          "nameJa": "チキンナゲット 極辛ZⅡ(5ピース、ソース抜き)",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-062",
+          "nameJa": "チキンナゲット 極辛ZⅡ(8ピース、ソース抜き)",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-063",
+          "nameJa": "スナックチキン",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-064",
+          "nameJa": "アメリカンスモーキーチキン",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-065",
+          "nameJa": "ハッシュブラウン",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-066",
+          "nameJa": "ビッグチキンフィレパティ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-067",
+          "nameJa": "ハニーマスタードソース",
+          "allergens": {
+            "卵": true,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-068",
+          "nameJa": "バーベキューソース",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-069",
+          "nameJa": "アップルパイ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-070",
+          "nameJa": "ラズベリーサンデー",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-071",
+          "nameJa": "デザート チョコレートサンデー",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-072",
+          "nameJa": "プレーン",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-073",
+          "nameJa": "わたくしのビスコフサンデー",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-074",
+          "nameJa": "フロートドリンク コカ・コーラ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-075",
+          "nameJa": "フロートドリンク コカ・コーラゼロ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-076",
+          "nameJa": "（氷含む） フロートドリンク メロンソーダ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-077",
+          "nameJa": "フロートドリンク ドクターペッパー",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-078",
+          "nameJa": "フロートドリンク アイスコーヒー",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-079",
+          "nameJa": "コカ・コーラS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-080",
+          "nameJa": "コカ・コーラM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-081",
+          "nameJa": "コカ・コーラL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-082",
+          "nameJa": "コカ・コーラゼロS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-083",
+          "nameJa": "コカ・コーラゼロM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-084",
+          "nameJa": "コカ・コーラゼロL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-085",
+          "nameJa": "ドクターペッパーS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-086",
+          "nameJa": "ドクターペッパーM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-087",
+          "nameJa": "ドクターペッパーL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-088",
+          "nameJa": "カナダドライジンジャエールS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-089",
+          "nameJa": "カナダドライジンジャエールM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-090",
+          "nameJa": "カナダドライジンジャエールL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-091",
+          "nameJa": "「ファン」烏龍茶S",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-092",
+          "nameJa": "「ファン」烏龍茶M",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-093",
+          "nameJa": "コールドドリンク 「ファン」烏龍茶L",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-094",
+          "nameJa": "（氷含む） ファンタメロンソーダS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-095",
+          "nameJa": "ファンタメロンソーダM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-096",
+          "nameJa": "ファンタメロンソーダL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-097",
+          "nameJa": "ミニッツメイドオレンジS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-098",
+          "nameJa": "ミニッツメイドオレンジM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-099",
+          "nameJa": "ミニッツメイドオレンジL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-100",
+          "nameJa": "スプライトS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-101",
+          "nameJa": "スプライトM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-102",
+          "nameJa": "スプライトL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-103",
+          "nameJa": "アイスコーヒーS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-104",
+          "nameJa": "アイスコーヒーM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-105",
+          "nameJa": "アイスコーヒーL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-106",
+          "nameJa": "アイスティーS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-107",
+          "nameJa": "アイスティーM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-108",
+          "nameJa": "アイスティーL",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-109",
+          "nameJa": "ブレンドコーヒーS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-110",
+          "nameJa": "ブレンドコーヒーM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-111",
+          "nameJa": "ダージリンティーS",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-112",
+          "nameJa": "ダージリンティーM",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-113",
+          "nameJa": "ガムシロップ",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-114",
+          "nameJa": "コーヒーフレッシュ",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-115",
+          "nameJa": "レモンポーション",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-116",
+          "nameJa": "スティックシュガー",
+          "allergens": {
+            "卵": false,
+            "乳": false,
+            "小麦": false,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-117",
+          "nameJa": "モーニングメニュー チーズ&チーズチキン",
+          "allergens": {
+            "卵": false,
+            "乳": true,
+            "小麦": true,
+            "えび": false,
+            "かに": false,
+            "そば": false,
+            "落花生": false,
             "くるみ": false
           }
         }
