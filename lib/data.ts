@@ -29,6 +29,8 @@ import mcdonalds from "@/data/menus/mcdonalds-1.json";
 import cocos from "@/data/menus/cocos-1.json";
 import sukiya from "@/data/menus/sukiya-1.json";
 import hamasushi from "@/data/menus/hamasushi-1.json";
+import lotteria from "@/data/menus/lotteria-1.json";
+import hanayayohei from "@/data/menus/hanayayohei-1.json";
 // モスフードサービス
 import mos from "@/data/menus/mos-1.json";
 // サイゼリヤ
@@ -70,6 +72,8 @@ const menuDataMap: Record<string, MenuData> = {
   "cocos-1": cocos as MenuData,
   "sukiya-1": sukiya as MenuData,
   "hamasushi-1": hamasushi as MenuData,
+  "lotteria-1": lotteria as MenuData,
+  "hanayayohei-1": hanayayohei as MenuData,
   // モスフードサービス
   "mos-1": mos as MenuData,
   // サイゼリヤ

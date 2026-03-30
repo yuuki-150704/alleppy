@@ -390,5 +390,33 @@
       }
     ],
     "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "lotteria",
+    "nameJa": "ロッテリア",
+    "brandCode": "lotteria",
+    "groupName": "ゼンショーグループ",
+    "sourceUrl": "https://www.lotteria.jp/quality/allergy/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
+  },
+  {
+    "id": "hanayayohei",
+    "nameJa": "華屋与兵衛",
+    "brandCode": "hanayayohei",
+    "groupName": "ゼンショーグループ",
+    "sourceUrl": "https://www.hanayayohei.co.jp/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-30T00:00:00Z"
   }
 ]
