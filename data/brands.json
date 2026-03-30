@@ -1,18 +1,1 @@
-[
-  {
-    "id": "bamiyan",
-    "nameJa": "バーミヤン",
-    "nameEn": "Bamiyan",
-    "brandCode": "170001",
-    "groupName": "すかいらーくグループ",
-    "sourceUrl": "https://allergy.skylark.co.jp/chart?brand=170001&usage=1",
-    "usageTypes": [
-      {
-        "id": 1,
-        "nameJa": "店内メニュー",
-        "nameEn": "Dine-in"
-      }
-    ],
-    "lastScrapedAt": "2026-03-28T15:51:02.087Z"
-  }
-]
+[]

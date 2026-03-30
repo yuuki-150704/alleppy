@@ -1,0 +1,413 @@
+{
+  "brandId": "sanmarusan",
+  "usageType": 1,
+  "scrapedAt": "2026-03-30T04:50:06.620Z",
+  "categories": [
+    {
+      "id": "_お持ち帰り_丼_お重_ちらし寿司",
+      "nameJa": "【お持ち帰り】丼・お重・ちらし寿司",
+      "displayOrder": 1,
+      "items": [
+        {
+          "id": "item-001",
+          "nameJa": "［お持ち帰り］ひれかつ丼",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-002",
+          "nameJa": "［お持ち帰り］うな重（お吸い物付）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-003",
+          "nameJa": "［お持ち帰り］まぐろとサーモンのちらし寿司",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-004",
+          "nameJa": "［お持ち帰り］まぐろとねぎとろのちらし寿司",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-005",
+          "nameJa": "［お持ち帰り］ねぎとろ丼",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-006",
+          "nameJa": "［お持ち帰り］夢庵海鮮ちらし寿司",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-007",
+          "nameJa": "［お持ち帰り］夢庵うまか丼",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-008",
+          "nameJa": "［お持ち帰り］上海老天丼",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-009",
+          "nameJa": "［お持ち帰り］上海老天重",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_お持ち帰り_弁当",
+      "nameJa": "【お持ち帰り】弁当",
+      "displayOrder": 2,
+      "items": [
+        {
+          "id": "item-010",
+          "nameJa": "［お持ち帰り］弁当大盛り御飯",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-011",
+          "nameJa": "［お持ち帰り］弁当御飯",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_お持ち帰り_おかず_単品",
+      "nameJa": "【お持ち帰り】おかず・単品",
+      "displayOrder": 3,
+      "items": [
+        {
+          "id": "item-012",
+          "nameJa": "［お持ち帰り］お好み天：おくら天（４個）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-013",
+          "nameJa": "［お持ち帰り］お好み天：舞茸天（２個）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-014",
+          "nameJa": "［お持ち帰り］お好み天：もち天（４個）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-015",
+          "nameJa": "［お持ち帰り］お好み天：上海老天（１本）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-016",
+          "nameJa": "［お持ち帰り］うなぎ蒲焼",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-017",
+          "nameJa": "［お持ち帰り］お好み天：いとより天（１個）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-018",
+          "nameJa": "［お持ち帰り］お好み天：れんこん天（２個）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-019",
+          "nameJa": "［お持ち帰り］お好み天：かぼちゃ天（２個）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-020",
+          "nameJa": "［お持ち帰り］上海老天ぷら盛り合わせ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-021",
+          "nameJa": "［お持ち帰り］上海老天ぷら盛り合わせ（1人前）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_お持ち帰り_サラダ_スイ_ツ",
+      "nameJa": "【お持ち帰り】サラダ・スイーツ",
+      "displayOrder": 4,
+      "items": [
+        {
+          "id": "item-022",
+          "nameJa": "［お持ち帰り］北海道濃厚ソフト",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-023",
+          "nameJa": "［お持ち帰り］チョコソースソフト",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-024",
+          "nameJa": "［お持ち帰り］黒みつきなこソフト",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-025",
+          "nameJa": "［お持ち帰り］冷し抹茶",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-026",
+          "nameJa": "［お持ち帰り］冷し抹茶オレ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-027",
+          "nameJa": "［お持ち帰り］冷し抹茶オレホイップ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,966 @@
+{
+  "brandId": "musashinomori",
+  "usageType": 1,
+  "scrapedAt": "2026-03-30T04:47:39.276Z",
+  "categories": [
+    {
+      "id": "ライスプレ_ト",
+      "nameJa": "ライスプレート",
+      "displayOrder": 1,
+      "items": [
+        {
+          "id": "item-001",
+          "nameJa": "ロコモコTERIYAKIソース（スープ付） 【羽田空港店除く】",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_モ_ニング",
+      "nameJa": "【テイクアウト】モーニング",
+      "displayOrder": 2,
+      "items": [
+        {
+          "id": "item-002",
+          "nameJa": "【お持ち帰り】ﾓｰﾆﾝｸﾞトースト＆ゆで玉子セット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-003",
+          "nameJa": "【お持ち帰り】モーニングセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_ライスプレ_ト",
+      "nameJa": "【テイクアウト】ライスプレート",
+      "displayOrder": 3,
+      "items": [
+        {
+          "id": "item-004",
+          "nameJa": "【お持ち帰り】グリルビーフのサラダジャンバラヤwithサルサソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-005",
+          "nameJa": "【お持ち帰り】バターチキンカレー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-006",
+          "nameJa": "【お持ち帰り】サルサDEタコライス",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": true
+          }
+        },
+        {
+          "id": "item-007",
+          "nameJa": "【お持ち帰り】まぐろアボカドGOHAN",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-008",
+          "nameJa": "【お持ち帰り】ロコモコTERIYAKIソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-009",
+          "nameJa": "［お持ち帰り］チキンとほうれん草のドリア",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-010",
+          "nameJa": "［お持ち帰り］クワトロフォルマッジグラタン",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-011",
+          "nameJa": "［お持ち帰り］オマール海老の濃厚トマトクリームオムライス",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-012",
+          "nameJa": "［お持ち帰り］彩り野菜とバジルのガパオ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": true
+          }
+        },
+        {
+          "id": "item-013",
+          "nameJa": "［お持ち帰り］ふわっとろオムライスビーフシチューソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_サラダ_ブレッド_ガレット",
+      "nameJa": "【テイクアウト】サラダ・ブレッド・ガレット",
+      "displayOrder": 4,
+      "items": [
+        {
+          "id": "item-014",
+          "nameJa": "【お持ち帰り】【単品】オマール海老のビスク",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-015",
+          "nameJa": "【お持ち帰り】ベーコンエッグサンド",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-016",
+          "nameJa": "【お持ち帰り】GOODバランスサラダ",
+          "allergens": {
+            "そば": false,
+            "落花生": true,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": true
+          }
+        },
+        {
+          "id": "item-017",
+          "nameJa": "［お持ち帰り］ＰＩＺＺＡトースト",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_デザ_ト_ちぎりパン",
+      "nameJa": "【テイクアウト】デザート・ちぎりパン",
+      "displayOrder": 5,
+      "items": [
+        {
+          "id": "item-018",
+          "nameJa": "【お持ち帰り】ちぎりパン≪塩バター≫（小）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-019",
+          "nameJa": "【お持ち帰り】ちぎりパン≪塩バター≫（大）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-020",
+          "nameJa": "【お持ち帰り】ロールケーキ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-021",
+          "nameJa": "【お持ち帰り】ちぎりパン≪アールグレイ≫（小）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-022",
+          "nameJa": "【お持ち帰り】ちぎりパン≪アールグレイ≫（大）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-023",
+          "nameJa": "【お持ち帰り】ちぎりパン≪ショコラオランジェ≫（小）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-024",
+          "nameJa": "【お持ち帰り】ちぎりパン≪ショコラオランジェ≫（大）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_カフェhot",
+      "nameJa": "【テイクアウト】カフェHOT",
+      "displayOrder": 6,
+      "items": [
+        {
+          "id": "item-025",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)ブレンド珈琲",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-026",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)カフェラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-027",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)抹茶ラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-028",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)キャラメルマキアート",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-029",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)ストロベリーショコララテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-030",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)金木犀ラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-031",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)チェスナッツラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": true
+          }
+        },
+        {
+          "id": "item-032",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)濃厚ビターラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-033",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)アメリカン珈琲",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-034",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)ショコラ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-035",
+          "nameJa": "【お持ち帰り】ロイヤルミルクティー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-036",
+          "nameJa": "【お持ち帰り】いちごとチョコのミルクティー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-037",
+          "nameJa": "【お持ち帰り】いちごとチョコのミルクティー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_カフェice",
+      "nameJa": "【テイクアウト】カフェICE",
+      "displayOrder": 7,
+      "items": [
+        {
+          "id": "item-038",
+          "nameJa": "【お持ち帰り】(ｱｲｽ)珈琲",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-039",
+          "nameJa": "【お持ち帰り】(ｱｲｽ)カフェラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-040",
+          "nameJa": "【お持ち帰り】(ｱｲｽ)ショコラ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-041",
+          "nameJa": "【お持ち帰り】(ｱｲｽ)抹茶ラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-042",
+          "nameJa": "【お持ち帰り】(ｱｲｽ)キャラメルマキアート",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-043",
+          "nameJa": "【お持ち帰り】(ｱｲｽ)ストロベリーショコララテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_カフェインレス",
+      "nameJa": "【テイクアウト】カフェインレス",
+      "displayOrder": 8,
+      "items": [
+        {
+          "id": "item-044",
+          "nameJa": "【お持ち帰り】(ﾎｯﾄ)カフェインレス珈琲",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-045",
+          "nameJa": "【お持ち帰り】(ｱｲｽ)カフェインレス珈琲",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_フロ_ズンドリンク",
+      "nameJa": "【テイクアウト】フローズンドリンク",
+      "displayOrder": 9,
+      "items": [
+        {
+          "id": "item-046",
+          "nameJa": "【お持ち帰り】バナナスムージー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-047",
+          "nameJa": "【お持ち帰り】いちごバナナスムージー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-048",
+          "nameJa": "【お持ち帰り】フローズンキャラメルラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-049",
+          "nameJa": "【お持ち帰り】フローズンダークモカチップラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_ドリンク",
+      "nameJa": "【テイクアウト】ドリンク",
+      "displayOrder": 10,
+      "items": [
+        {
+          "id": "item-050",
+          "nameJa": "【お持ち帰り】アイスティー（アールグレイ）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-051",
+          "nameJa": "【お持ち帰り】ピーチアイスティー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-052",
+          "nameJa": "【お持ち帰り】ミラベルシトラスソーダ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-053",
+          "nameJa": "【お持ち帰り】ラズベリーＭＩＸソーダ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-054",
+          "nameJa": "【お持ち帰り】濃縮還元100%オレンジジュース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-055",
+          "nameJa": "【お持ち帰り】濃縮還元100%アップルジュース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-056",
+          "nameJa": "【お持ち帰り】フルーツwithアイスティー（１杯分）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-057",
+          "nameJa": "【お持ち帰り】フルーツソーダ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-058",
+          "nameJa": "【お持ち帰り】ぷるぷる珈琲ゼリーｉｎアイスカフェオレ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_テイクアウト_珈琲豆",
+      "nameJa": "【テイクアウト】珈琲豆",
+      "displayOrder": 11,
+      "items": [
+        {
+          "id": "item-059",
+          "nameJa": "【お持ち帰り】むさしの森ブレンド珈琲豆100g",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-060",
+          "nameJa": "【お持ち帰り】むさしの森アイス珈琲豆100g",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-061",
+          "nameJa": "【お持ち帰り】「森林珈琲」エチオピアモカ豆100g",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-062",
+          "nameJa": "【お持ち帰り】カフェインレス珈琲豆100g(レインフォレスト・アライアンス/有機W認証）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-063",
+          "nameJa": "【お持ち帰り】ブルーマウンテン№１珈琲豆100g",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    }
+  ]
+}

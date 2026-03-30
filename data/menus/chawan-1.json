@@ -1,0 +1,651 @@
+{
+  "brandId": "chawan",
+  "usageType": 1,
+  "scrapedAt": "2026-03-30T04:48:40.335Z",
+  "categories": [
+    {
+      "id": "_お持ち帰り_bowl_めん",
+      "nameJa": "【お持ち帰り】Bowl＆めん",
+      "displayOrder": 1,
+      "items": [
+        {
+          "id": "item-001",
+          "nameJa": "［お持ち帰り］和風ローストビーフBowl（温泉玉子付）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-002",
+          "nameJa": "［お持ち帰り］ガパオライスBowl",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-003",
+          "nameJa": "［お持ち帰り］和風ロコモコBowl",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-004",
+          "nameJa": "［お持ち帰り］ローストチキン",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_お持ち帰り_おかず",
+      "nameJa": "【お持ち帰り】おかず",
+      "displayOrder": 2,
+      "items": [
+        {
+          "id": "item-005",
+          "nameJa": "［お持ち帰り］タルタルソースで楽しむ　サクサク鶏竜田",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-006",
+          "nameJa": "［お持ち帰り］ごろっと野菜と鶏むね肉のバルサミコ香酢和え",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-007",
+          "nameJa": "［お持ち帰り］ハーブ三元豚の和風香味ソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-008",
+          "nameJa": "［お持ち帰り］肉三昧プレート",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-009",
+          "nameJa": "［お持ち帰り］ジューシー大葉おろしハンバーグ塩麹醤油ソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-010",
+          "nameJa": "［お持ち帰り］みすじステーキ　香味野菜の和風おろしソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-011",
+          "nameJa": "［お持ち帰り］北海道野付産黒カレイの唐揚げ　香味野菜甘酢かけ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-012",
+          "nameJa": "［お持ち帰り］自家製やわらかひれかつと広島県産牡蠣フライ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-013",
+          "nameJa": "［お持ち帰り］銀ひらすの西京焼き",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_お持ち帰り_選べるおかずセット",
+      "nameJa": "【お持ち帰り】選べるおかずセット",
+      "displayOrder": 3,
+      "items": [
+        {
+          "id": "item-014",
+          "nameJa": "［お持ち帰り］ローストビーフ＆鶏むね肉のバルサミコ香酢和えセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-015",
+          "nameJa": "［お持ち帰り］鶏竜田＆鶏むね肉のバルサミコ香酢和えセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-016",
+          "nameJa": "［お持ち帰り］ローストビーフ＆大葉おろしハンバーグセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-017",
+          "nameJa": "［お持ち帰り］鶏竜田＆大葉おろしハンバーグセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-018",
+          "nameJa": "［お持ち帰り］鶏竜田＆野付産黒カレイの唐揚げ香味野菜甘酢かけセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-019",
+          "nameJa": "［お持ち帰り］鶏竜田＆牡蠣フライと自家製やわらかひれかつセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-020",
+          "nameJa": "［お持ち帰り］鶏竜田＆銀ひらすの西京焼きセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-021",
+          "nameJa": "［お持ち帰り］ローストビーフ＆野付産黒カレイの唐揚げ香味野菜甘酢かけセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-022",
+          "nameJa": "［お持ち帰り］ローストビーフ＆自家製やわらかひれかつと牡蠣フライセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-023",
+          "nameJa": "［お持ち帰り］ローストビーフ＆銀ひらすの西京焼きセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_お持ち帰り_おつまみ_サラダ",
+      "nameJa": "【お持ち帰り】おつまみ・サラダ",
+      "displayOrder": 4,
+      "items": [
+        {
+          "id": "item-024",
+          "nameJa": "［お持ち帰り］味噌汁",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-025",
+          "nameJa": "［お持ち帰り］フライドポテト",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-026",
+          "nameJa": "［お持ち帰り］ローストビーフのサラダ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-027",
+          "nameJa": "［お持ち帰り］ミニサラダ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-028",
+          "nameJa": "［お持ち帰り］キヌアごはん黒米入り",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-029",
+          "nameJa": "［お持ち帰り］大盛りキヌアごはん黒米入り",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-030",
+          "nameJa": "［お持ち帰り］白米",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-031",
+          "nameJa": "［お持ち帰り］大盛り白米",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_お持ち帰り_おこさまメニュ_",
+      "nameJa": "【お持ち帰り】おこさまメニュー",
+      "displayOrder": 5,
+      "items": [
+        {
+          "id": "item-032",
+          "nameJa": "［お持ち帰り］（キッズ）ハンバーグ＆からあげ（ゼリー付き）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_お持ち帰り_ドリンク",
+      "nameJa": "【お持ち帰り】ドリンク",
+      "displayOrder": 6,
+      "items": [
+        {
+          "id": "item-033",
+          "nameJa": "［お持ち帰り］フルーティー！アイスティー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-034",
+          "nameJa": "［お持ち帰り］とろとろ国産桃のソーダ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-035",
+          "nameJa": "［お持ち帰り］アメリカンコーヒー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-036",
+          "nameJa": "［お持ち帰り］ブレンドコーヒー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-037",
+          "nameJa": "［お持ち帰り］アイスコーヒー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-038",
+          "nameJa": "［お持ち帰り］アイスティー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-039",
+          "nameJa": "［お持ち帰り］ほうじ茶ラテ（ホット）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-040",
+          "nameJa": "［お持ち帰り］ほうじ茶ラテ（アイス）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-041",
+          "nameJa": "［お持ち帰り］冷やし抹茶",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-042",
+          "nameJa": "［お持ち帰り］抹茶ラテ（ホット）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-043",
+          "nameJa": "［お持ち帰り］抹茶ラテ（アイス）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    }
+  ]
+}

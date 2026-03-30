@@ -1,16 +1,16 @@
 {
-  "brandId": "bamiyan",
+  "brandId": "grazie",
   "usageType": 1,
-  "scrapedAt": "2026-03-30T04:46:11.037Z",
+  "scrapedAt": "2026-03-30T04:49:16.282Z",
   "categories": [
     {
-      "id": "ランチ",
-      "nameJa": "ランチ",
+      "id": "ロコフ_ド",
+      "nameJa": "ロコフード",
       "displayOrder": 1,
       "items": [
         {
           "id": "item-001",
-          "nameJa": "【日替わりランチ】からあげの甘酢あんかけランチ【スープ除く】",
+          "nameJa": "サーモンアヒポキＤＯＮ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -24,7 +24,7 @@
         },
         {
           "id": "item-002",
-          "nameJa": "【日替わりランチ】ハンバーグ麻婆ランチ【スープ除く】",
+          "nameJa": "アボカドチーズロコモコ（デミグラスソース）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -38,13 +38,13 @@
         },
         {
           "id": "item-003",
-          "nameJa": "武蔵野麻婆定食【スープ除く】",
+          "nameJa": "アボカドチーズロコモコ（ＴＥＲＩＹＡＫＩソース）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -52,13 +52,13 @@
         },
         {
           "id": "item-004",
-          "nameJa": "本格四川麻婆豆腐定食【スープ除く】",
+          "nameJa": "アボカドチーズロコモコ（メキシカンソース）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -66,13 +66,13 @@
         },
         {
           "id": "item-005",
-          "nameJa": "【日替わりランチ】チキンのチリソースランチ【スープ除く】",
+          "nameJa": "ビーフステーキロコモコ",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -80,12 +80,12 @@
         },
         {
           "id": "item-006",
-          "nameJa": "【日替わりランチ】鶏肉と揚げ茄子のホイコーソース【スープ除く】",
+          "nameJa": "ＬａＯｈａｎａスペシャルバーガー",
           "allergens": {
             "そば": false,
-            "落花生": false,
+            "落花生": true,
             "小麦": true,
-            "卵": false,
+            "卵": true,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -94,10 +94,10 @@
         },
         {
           "id": "item-007",
-          "nameJa": "【日替わりランチ】からあげの甘酢あんかけランチ（餃子3個付）【スープ除く】",
+          "nameJa": "チーズバーガー",
           "allergens": {
             "そば": false,
-            "落花生": false,
+            "落花生": true,
             "小麦": true,
             "卵": true,
             "乳": true,
@@ -108,10 +108,10 @@
         },
         {
           "id": "item-008",
-          "nameJa": "【日替わりランチ】ハンバーグ麻婆ランチ（餃子3個付）【スープ除く】",
+          "nameJa": "マヒマヒ・サーフ・キング",
           "allergens": {
             "そば": false,
-            "落花生": false,
+            "落花生": true,
             "小麦": true,
             "卵": true,
             "乳": true,
@@ -122,7 +122,7 @@
         },
         {
           "id": "item-009",
-          "nameJa": "【日替わりランチ】チキンのチリソースランチ（餃子3個付）【スープ除く】",
+          "nameJa": "オアフ・トロピカルポキ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -133,16 +133,23 @@
             "かに": false,
             "くるみ": false
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "肉料理",
+      "nameJa": "肉料理",
+      "displayOrder": 2,
+      "items": [
         {
           "id": "item-010",
-          "nameJa": "【日替わりランチ】酸辣麻婆茄子ランチ（餃子3個付）【スープ除く】",
+          "nameJa": "ＢＢＱバックリブ4ＰＣs",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": true,
-            "乳": true,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -150,13 +157,13 @@
         },
         {
           "id": "item-011",
-          "nameJa": "【日替わりランチ】鶏肉と揚げ茄子のホイコーソース（餃子3個付）【スープ除く】",
+          "nameJa": "ＢＢＱバックリブ2ＰＣs",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": true,
-            "乳": true,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -164,77 +171,7 @@
         },
         {
           "id": "item-012",
-          "nameJa": "【日替わりランチ】からあげの甘酢あんかけランチ（小ラーメン付）【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-013",
-          "nameJa": "【日替わりランチ】ハンバーグ麻婆ランチ（小ラーメン付）【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-014",
-          "nameJa": "【日替わりランチ】チキンのチリソースランチ（小ラーメン付）【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-015",
-          "nameJa": "【日替わりランチ】酸辣麻婆茄子ランチ（小ラーメン付）【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-016",
-          "nameJa": "【日替わりランチ】鶏肉と揚げ茄子のホイコーソース（小ラーメン付）【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-017",
-          "nameJa": "【日替わりランチ】酸辣麻婆茄子ランチ【スープ除く】",
+          "nameJa": "アルゼンチンビーフ（約150g）ペッパードミソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -247,22 +184,92 @@
           }
         },
         {
-          "id": "item-018",
-          "nameJa": "肉野菜炒め定食【スープ除く】",
+          "id": "item-013",
+          "nameJa": "アルゼンチンビーフステーキとフリフリチキンハーフ",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": true,
-            "乳": false,
+            "卵": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
+          "id": "item-014",
+          "nameJa": "サーロインステーキ　ダイヤモンドヘッド",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-015",
+          "nameJa": "サーロインステーキ　withシーサイドブロシェット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-016",
+          "nameJa": "サーロインステーキ約140g（（選択）ソース除く）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-017",
+          "nameJa": "ハワイアングリルチキン　パイナップル照り焼きソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-018",
+          "nameJa": "ハンバーグ デミグラスソース＆海老フライ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
           "id": "item-019",
-          "nameJa": "RGC定食",
+          "nameJa": "ハンバーグビーフシチューソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -276,13 +283,13 @@
         },
         {
           "id": "item-020",
-          "nameJa": "ホイコーロウ定食【スープ除く】",
+          "nameJa": "アメリカンハンバーグ",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -290,7 +297,21 @@
         },
         {
           "id": "item-021",
-          "nameJa": "油淋鶏定食【スープ除く】",
+          "nameJa": "ハワイアングリルチキン　ハニーレモンマスタードソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-022",
+          "nameJa": "Great！肉盛りプレート",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -303,8 +324,22 @@
           }
         },
         {
-          "id": "item-022",
-          "nameJa": "黒酢の酢豚定食【スープ除く】",
+          "id": "item-023",
+          "nameJa": "サーロインステーキ約140g＆海老フライ（（選択）ソース除く）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-024",
+          "nameJa": "まるまる一羽！フリフリチキンＬaＯｈａｎａ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -319,41 +354,13 @@
       ]
     },
     {
-      "id": "定食",
-      "nameJa": "定食",
-      "displayOrder": 2,
+      "id": "ライス_パスタプレ_ト",
+      "nameJa": "ライス・パスタプレート",
+      "displayOrder": 3,
       "items": [
         {
-          "id": "item-023",
-          "nameJa": "武蔵野麻婆定食（餃子付）【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-024",
-          "nameJa": "本格四川麻婆豆腐定食（餃子付）【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-025",
-          "nameJa": "肉野菜炒め定食（餃子付）【スープ除く】",
+          "nameJa": "サルサＤEタコライス",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -367,12 +374,12 @@
         },
         {
           "id": "item-026",
-          "nameJa": "RGC定食",
+          "nameJa": "ガーリックピラフ",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": true,
+            "卵": false,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -381,12 +388,12 @@
         },
         {
           "id": "item-027",
-          "nameJa": "ホイコーロウ定食（餃子付）【スープ除く】",
+          "nameJa": "ガーリックステーキピラフデミグラスバターソース",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": true,
+            "卵": false,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -395,7 +402,35 @@
         },
         {
           "id": "item-028",
-          "nameJa": "油淋鶏定食（餃子付）【スープ除く】",
+          "nameJa": "ガーリックシュリンプ＆ピラフ照り焼きバターソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-029",
+          "nameJa": "シュリンプトマトパスタ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-030",
+          "nameJa": "ベーコンときのこのクリームパスタ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -408,29 +443,8 @@
           }
         },
         {
-          "id": "item-029",
-          "nameJa": "黒酢の酢豚定食（餃子付）【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "点心_餃子",
-      "nameJa": "点心/餃子",
-      "displayOrder": 3,
-      "items": [
-        {
-          "id": "item-030",
-          "nameJa": "「沈さんの」まるごと海老蒸し餃子（2コ）",
+          "id": "item-031",
+          "nameJa": "海老とアボカドの塩レモンパスタ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -441,30 +455,23 @@
             "かに": false,
             "くるみ": false
           }
-        },
-        {
-          "id": "item-031",
-          "nameJa": "本格焼餃子（6コ）",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
+        }
+      ]
+    },
+    {
+      "id": "アペタイザ_",
+      "nameJa": "アペタイザー",
+      "displayOrder": 4,
+      "items": [
         {
           "id": "item-032",
-          "nameJa": "本格焼餃子（3コ）",
+          "nameJa": "選択）シーザードレッシング(６０ｃｃ)",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
-            "乳": true,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -472,13 +479,13 @@
         },
         {
           "id": "item-033",
-          "nameJa": "小籠包（3コ）",
+          "nameJa": "選択）コブドレッシング(６０ｃｃ)",
           "allergens": {
             "そば": false,
-            "落花生": false,
+            "落花生": true,
             "小麦": true,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -486,40 +493,40 @@
         },
         {
           "id": "item-034",
-          "nameJa": "肉シュウマイ（5コ）",
+          "nameJa": "オマール海老のビスク",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": false,
-            "乳": false,
-            "えび": false,
+            "乳": true,
+            "えび": true,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-035",
-          "nameJa": "皿ワンタン",
+          "nameJa": "ガーリックシュリンプ（6尾）",
           "allergens": {
             "そば": false,
-            "落花生": true,
-            "小麦": true,
+            "落花生": false,
+            "小麦": false,
             "卵": false,
             "乳": false,
-            "えび": false,
+            "えび": true,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-036",
-          "nameJa": "大根餅",
+          "nameJa": "ガーリックシュリンプ（10尾）",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
+            "小麦": false,
+            "卵": false,
             "乳": false,
             "えび": true,
             "かに": false,
@@ -528,34 +535,27 @@
         },
         {
           "id": "item-037",
-          "nameJa": "海老餃子と肉シュウマイ",
+          "nameJa": "シーサイド ブロシェット",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": true,
+            "卵": false,
             "乳": false,
             "えび": true,
             "かに": false,
             "くるみ": false
           }
-        }
-      ]
-    },
-    {
-      "id": "冷菜",
-      "nameJa": "冷菜",
-      "displayOrder": 4,
-      "items": [
+        },
         {
           "id": "item-038",
-          "nameJa": "ネギザーサイ",
+          "nameJa": "ナニ・サーモンポテトロール",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -563,13 +563,13 @@
         },
         {
           "id": "item-039",
-          "nameJa": "蒸し鶏の胡麻ソース",
+          "nameJa": "サニーブロッコリー ガーリックアンチョビ",
           "allergens": {
             "そば": false,
-            "落花生": true,
-            "小麦": true,
+            "落花生": false,
+            "小麦": false,
             "卵": false,
-            "乳": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -577,7 +577,35 @@
         },
         {
           "id": "item-040",
-          "nameJa": "中華風漬けまぐろ～秘醤ソース～",
+          "nameJa": "やみつきガーリックビーン",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-041",
+          "nameJa": "ＬaＯｈａｎａコブサラダ",
+          "allergens": {
+            "そば": false,
+            "落花生": true,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-042",
+          "nameJa": "ボルケーノ オニオンリングタワー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -590,43 +618,8 @@
           }
         },
         {
-          "id": "item-041",
-          "nameJa": "海老マヨネーズ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "北京ダック_揚げ物",
-      "nameJa": "北京ダック/揚げ物",
-      "displayOrder": 5,
-      "items": [
-        {
-          "id": "item-042",
-          "nameJa": "海老春巻（2本）",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-043",
-          "nameJa": "北京ダック（3枚）",
+          "nameJa": "Ｃｒｉｓｐｙポテトフライ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -640,7 +633,7 @@
         },
         {
           "id": "item-044",
-          "nameJa": "山盛りフライドポテト",
+          "nameJa": "骨付きバッファローチキン",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -654,13 +647,13 @@
         },
         {
           "id": "item-045",
-          "nameJa": "トッピング（ケチャップ）",
+          "nameJa": "アロハシーザーサラダS",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -668,7 +661,21 @@
         },
         {
           "id": "item-046",
-          "nameJa": "トッピング（自家製甜面醤）",
+          "nameJa": "アロハシーザーサラダ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-047",
+          "nameJa": "モチコチキン",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -681,12 +688,12 @@
           }
         },
         {
-          "id": "item-047",
-          "nameJa": "からあげ（4コ）",
+          "id": "item-048",
+          "nameJa": "イタリア産モッツァレラのカプレーゼ ハーフ",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
+            "小麦": false,
             "卵": false,
             "乳": true,
             "えび": false,
@@ -695,48 +702,27 @@
           }
         },
         {
-          "id": "item-048",
-          "nameJa": "トッピング（マヨネーズ）",
+          "id": "item-049",
+          "nameJa": "イタリア産モッツァレラのカプレーゼ",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": false,
-            "卵": true,
-            "乳": false,
+            "卵": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
-          "id": "item-049",
-          "nameJa": "海老の2種春巻",
+          "id": "item-050",
+          "nameJa": "マヒマヒのフィッシュ＆チップス",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "主菜_中華小皿",
-      "nameJa": "主菜/中華小皿",
-      "displayOrder": 6,
-      "items": [
-        {
-          "id": "item-050",
-          "nameJa": "トッピング（味変!!胡麻ソース）",
-          "allergens": {
-            "そば": false,
-            "落花生": true,
-            "小麦": true,
-            "卵": false,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -745,12 +731,12 @@
         },
         {
           "id": "item-051",
-          "nameJa": "武蔵野麻婆",
+          "nameJa": "フライングレアホア！",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": false,
+            "卵": true,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -759,7 +745,7 @@
         },
         {
           "id": "item-052",
-          "nameJa": "本格四川麻婆豆腐",
+          "nameJa": "レモンドレッシング30ｃｃ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -770,16 +756,23 @@
             "かに": false,
             "くるみ": false
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "キッズ",
+      "nameJa": "キッズ",
+      "displayOrder": 5,
+      "items": [
         {
           "id": "item-053",
-          "nameJa": "秘伝！ジューシーとんてき（小皿）",
+          "nameJa": "Ｋｉｄｓサーモンアヒポキライス",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
-            "乳": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -787,55 +780,69 @@
         },
         {
           "id": "item-054",
-          "nameJa": "秘伝！ジューシーとんてき",
+          "nameJa": "Ｋｉｄｓロコモコプレート",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
-            "乳": false,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "コ_ス",
+      "nameJa": "コース",
+      "displayOrder": 6,
+      "items": [
+        {
+          "id": "item-055",
+          "nameJa": "アニヴァーサリーコース（ﾄﾞﾘﾝｸ・ﾗｲｽ・ﾌﾞﾚｯﾄﾞ・ﾌｫｶｯﾁｬ・ｿｰｽ・ﾒｲﾌﾟﾙ除く）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "パンケ_キ",
+      "nameJa": "パンケーキ",
+      "displayOrder": 7,
+      "items": [
+        {
+          "id": "item-056",
+          "nameJa": "（追加）ハワイアンスイーツパンケーキ１枚（メープル除く）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
-          "id": "item-055",
-          "nameJa": "えび玉ほうれん草炒め（小皿）",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-056",
-          "nameJa": "えび玉ほうれん草炒め",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-057",
-          "nameJa": "広東風鶏もも肉の照り煮",
+          "nameJa": "【Sweet　Pancake】LaOhanaフルーツスペシャル（メイプル除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -843,13 +850,13 @@
         },
         {
           "id": "item-058",
-          "nameJa": "広東風鶏もも肉の照り煮（小皿）",
+          "nameJa": "【Sweet　Pancake】ホイップ＆ホイップ（メイプル除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": false,
-            "乳": false,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -857,123 +864,130 @@
         },
         {
           "id": "item-059",
-          "nameJa": "海老のチリソース",
+          "nameJa": "【Sweet　Pancake】パイナップルホイップ（メイプル除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
-            "乳": false,
-            "えび": true,
+            "乳": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-060",
-          "nameJa": "海老のチリソース（小皿）",
+          "nameJa": "【Sweet　Pancake】バナナホイップ（メイプル除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
-            "乳": false,
-            "えび": true,
+            "乳": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-061",
-          "nameJa": "海老天（小皿）",
+          "nameJa": "【Sweet　Pancake】キウイホイップ（メイプル除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
             "乳": true,
-            "えび": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-062",
-          "nameJa": "海老の黒胡椒ねぎ塩炒め",
+          "nameJa": "モチコチキンパンケーキ（ドレッシング除く）【メープル除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
             "乳": true,
-            "えび": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-063",
-          "nameJa": "海老の黒胡椒ねぎ塩炒め（小皿）",
+          "nameJa": "スモークサーモンパンケーキ（ドレッシング除く）【メープル除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
             "乳": true,
-            "えび": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-064",
-          "nameJa": "香港風えびのオイスター炒め",
+          "nameJa": "【Sweet　Pancake】マカダミアンナッツ（メイプル除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
             "乳": true,
-            "えび": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-065",
-          "nameJa": "香港風えびのオイスター炒め（小皿）",
+          "nameJa": "【Sweet　Pancake】ベリーパンケーキ（メイプル除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
             "乳": true,
-            "えび": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-066",
-          "nameJa": "ぷりぷり海老と豆腐の旨塩煮",
+          "nameJa": "【Sweet　Pancake】国産フレッシュいちごたっぷりのハワイアンパンケーキ（メイプル除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
             "乳": true,
-            "えび": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "デザ_ト",
+      "nameJa": "デザート",
+      "displayOrder": 8,
+      "items": [
         {
           "id": "item-067",
-          "nameJa": "ごろっと野菜の山海珍味薬膳スープ",
+          "nameJa": "【追加】ホイップ",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
+            "小麦": false,
             "卵": false,
             "乳": true,
             "えび": false,
@@ -983,13 +997,13 @@
         },
         {
           "id": "item-068",
-          "nameJa": "豚肉玉子炒め",
+          "nameJa": "【追加】キウイ",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -997,26 +1011,26 @@
         },
         {
           "id": "item-069",
-          "nameJa": "海老天",
+          "nameJa": "【追加】パイナップル",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-070",
-          "nameJa": "おつまみ焼ビーフン（小皿）",
+          "nameJa": "【追加】バナナ",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": false,
-            "卵": true,
+            "卵": false,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -1025,11 +1039,11 @@
         },
         {
           "id": "item-071",
-          "nameJa": "チンジャオロース",
+          "nameJa": "トッピング）バニラアイス",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
+            "小麦": false,
             "卵": true,
             "乳": true,
             "えび": false,
@@ -1039,7 +1053,105 @@
         },
         {
           "id": "item-072",
-          "nameJa": "肉2倍チンジャオロース",
+          "nameJa": "トッピング）カシスソルベ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-073",
+          "nameJa": "トッピング)チョコアイス",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-074",
+          "nameJa": "【追加】チョコレートソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-075",
+          "nameJa": "シェイブアイス～３colors",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-076",
+          "nameJa": "【単品】バニラアイス",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-077",
+          "nameJa": "【単品】チョコアイス",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-078",
+          "nameJa": "【単品】カシスソルベ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-079",
+          "nameJa": "チョコバナナサンデー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1052,106 +1164,8 @@
           }
         },
         {
-          "id": "item-073",
-          "nameJa": "油淋鶏",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-074",
-          "nameJa": "ホイコーロウ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-075",
-          "nameJa": "肉2倍ホイコーロウ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-076",
-          "nameJa": "肉野菜炒め",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-077",
-          "nameJa": "肉2倍肉野菜炒め",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-078",
-          "nameJa": "黒酢の酢豚",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-079",
-          "nameJa": "黒酢の酢豚（小皿）",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-080",
-          "nameJa": "豚天（小皿）",
+          "nameJa": "ベリーベリーサンデー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1165,7 +1179,7 @@
         },
         {
           "id": "item-081",
-          "nameJa": "豚天",
+          "nameJa": "デンファレ クレームダンジュ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1179,27 +1193,27 @@
         },
         {
           "id": "item-082",
-          "nameJa": "【米香監修】海鮮焼ビーフン",
+          "nameJa": "ガトーショコラ",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
             "乳": true,
-            "えび": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-083",
-          "nameJa": "【米香監修】鱈(タラ）の唐揚げ野菜甘酢あんかけ",
+          "nameJa": "アサイーボウル",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": true,
-            "乳": false,
+            "卵": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1207,13 +1221,13 @@
         },
         {
           "id": "item-084",
-          "nameJa": "【米香監修】鱈(タラ）の唐揚げ野菜甘酢あんかけ （小）",
+          "nameJa": "アサイーボウル（小）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
-            "卵": true,
-            "乳": false,
+            "卵": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1221,7 +1235,7 @@
         },
         {
           "id": "item-085",
-          "nameJa": "【米香監修】豚の角煮",
+          "nameJa": "コナ珈琲入り自家製コーヒーゼリー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1235,13 +1249,13 @@
         },
         {
           "id": "item-086",
-          "nameJa": "【米香監修】オアチェン（牡蠣オムレツ）",
+          "nameJa": "国産フレッシュいちごたっぷりのパフェ",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": true,
             "卵": true,
-            "乳": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1249,13 +1263,13 @@
         },
         {
           "id": "item-087",
-          "nameJa": "【米香監修】オアチェン（牡蠣オムレツ） （小）",
+          "nameJa": "（追加）練乳",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1264,17 +1278,31 @@
       ]
     },
     {
-      "id": "麺",
-      "nameJa": "麺",
-      "displayOrder": 7,
+      "id": "カフェ_ティ_",
+      "nameJa": "カフェ・ティー",
+      "displayOrder": 9,
       "items": [
         {
           "id": "item-088",
-          "nameJa": "メンマ",
+          "nameJa": "コーヒーミルク（ニューホイップ）10cc",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-089",
+          "nameJa": "コーヒーシュガー（ペルーシュブラウン）1コ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -1283,41 +1311,27 @@
           }
         },
         {
-          "id": "item-089",
-          "nameJa": "（醤油）小ラーメン",
+          "id": "item-090",
+          "nameJa": "ガムシロップ１コ",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
-          "id": "item-090",
-          "nameJa": "海老と白菜のあんかけ麺",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-091",
-          "nameJa": "酸辣湯麺",
+          "nameJa": "ポットティーダージリン【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
+            "小麦": false,
+            "卵": false,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -1326,12 +1340,12 @@
         },
         {
           "id": "item-092",
-          "nameJa": "味付け玉子",
+          "nameJa": "ポットティーアールグレイ【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
+            "小麦": false,
+            "卵": false,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -1340,11 +1354,11 @@
         },
         {
           "id": "item-093",
-          "nameJa": "自家製焼豚",
+          "nameJa": "ポットティーアサイーベリー【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
+            "小麦": false,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -1354,7 +1368,7 @@
         },
         {
           "id": "item-094",
-          "nameJa": "どっさり青ネギ",
+          "nameJa": "オハナブレンドコーヒー【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1368,7 +1382,7 @@
         },
         {
           "id": "item-095",
-          "nameJa": "海苔5枚",
+          "nameJa": "コナブレンドコーヒー【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1382,41 +1396,41 @@
         },
         {
           "id": "item-096",
-          "nameJa": "トッピング紅白点心",
+          "nameJa": "100％コナコーヒー【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
+            "小麦": false,
             "卵": false,
             "乳": false,
             "えび": false,
-            "かに": true,
+            "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-097",
-          "nameJa": "トッピング海老",
+          "nameJa": "カフェ・ラテ（ホット）（砂糖除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": false,
-            "卵": true,
-            "乳": false,
-            "えび": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-098",
-          "nameJa": "トッピングほうれん草",
+          "nameJa": "カフェ・ラテ（アイス）（ガムシロップ除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": false,
             "卵": false,
-            "乳": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1424,12 +1438,12 @@
         },
         {
           "id": "item-099",
-          "nameJa": "濃厚担々麺",
+          "nameJa": "キャラメル・ラテ（ホット）",
           "allergens": {
             "そば": false,
-            "落花生": true,
-            "小麦": true,
-            "卵": true,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -1438,12 +1452,12 @@
         },
         {
           "id": "item-100",
-          "nameJa": "やわらか鮑の麻辣湯",
+          "nameJa": "キャラメル・ラテ（アイス）",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
+            "小麦": false,
+            "卵": false,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -1452,13 +1466,13 @@
         },
         {
           "id": "item-101",
-          "nameJa": "濃厚担々麺（ラー油抜き）",
+          "nameJa": "プランテーションアイスティー【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
-            "落花生": true,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1466,13 +1480,13 @@
         },
         {
           "id": "item-102",
-          "nameJa": "バーミヤンラーメン",
+          "nameJa": "オハナアメリカンコーヒー【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1480,13 +1494,13 @@
         },
         {
           "id": "item-103",
-          "nameJa": "味玉バーミヤンラーメン",
+          "nameJa": "アイスティ（アールグレイ）【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1494,27 +1508,34 @@
         },
         {
           "id": "item-104",
-          "nameJa": "チャーシューメン",
+          "nameJa": "アイスコーヒー【ミルク・砂糖除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "ソフトドリンク",
+      "nameJa": "ソフトドリンク",
+      "displayOrder": 10,
+      "items": [
         {
           "id": "item-105",
-          "nameJa": "ワンタンメン",
+          "nameJa": "お子様濃縮還元100%オレンジジュース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1522,21 +1543,21 @@
         },
         {
           "id": "item-106",
-          "nameJa": "「小籠包入り！」紅白点心の麻辣湯",
+          "nameJa": "お子様ミルク",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
+            "小麦": false,
+            "卵": false,
             "乳": true,
             "えび": false,
-            "かに": true,
+            "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-107",
-          "nameJa": "山盛りきくらげ",
+          "nameJa": "フルーツティーソーダ～ハイビスカスブリーズ～",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1550,90 +1571,83 @@
         },
         {
           "id": "item-108",
-          "nameJa": "台湾担仔麺（タンツー麺）",
+          "nameJa": "お子様濃縮還元100%アップルジュース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-109",
-          "nameJa": "台湾担仔麺（タンツー麺）（小）",
+          "nameJa": "濃縮還元100％パイナップルジュース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-110",
-          "nameJa": "五目麺",
+          "nameJa": "コカ・コーラ",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-111",
-          "nameJa": "五目焼そば",
+          "nameJa": "濃縮還元100％アップルジュース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
+            "小麦": false,
+            "卵": false,
             "乳": false,
-            "えび": true,
+            "えび": false,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-112",
-          "nameJa": "もやしあんかけ麺",
+          "nameJa": "濃縮還元100％オレンジジュース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
           }
-        }
-      ]
-    },
-    {
-      "id": "飯",
-      "nameJa": "飯",
-      "displayOrder": 8,
-      "items": [
+        },
         {
           "id": "item-113",
-          "nameJa": "チャーハン【スープ除く】",
+          "nameJa": "レモネードソーダ",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1641,13 +1655,13 @@
         },
         {
           "id": "item-114",
-          "nameJa": "レタスチャーハン【スープ除く】",
+          "nameJa": "ハイビスカスパッションソーダ",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -1655,12 +1669,12 @@
         },
         {
           "id": "item-115",
-          "nameJa": "濃厚とんてきチャーハン【スープ除く】",
+          "nameJa": "パイナップルソーダ",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
+            "小麦": false,
+            "卵": false,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -1669,7 +1683,7 @@
         },
         {
           "id": "item-116",
-          "nameJa": "ごはん",
+          "nameJa": "マリンレモネードソーダ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1683,172 +1697,11 @@
         },
         {
           "id": "item-117",
-          "nameJa": "天津飯【スープ除く】",
+          "nameJa": "濃縮還元100％マンゴーミックスジュース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": true,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-118",
-          "nameJa": "台湾大からあげチャーハン【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-119",
-          "nameJa": "麻婆チャーハン＆台湾大からあげ【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-120",
-          "nameJa": "中華丼【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-121",
-          "nameJa": "豚肉玉子炒め 大盛りご飯のお得丼【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-122",
-          "nameJa": "海老あんかけチャーハン【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": true,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-123",
-          "nameJa": "天津チャーハン【スープ除く】",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": true,
-            "くるみ": false
-          }
-        }
-      ]
-    },
-    {
-      "id": "デザ_ト",
-      "nameJa": "デザート",
-      "displayOrder": 9,
-      "items": [
-        {
-          "id": "item-124",
-          "nameJa": "はちみつ揚げパンバニラアイス添え",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-125",
-          "nameJa": "あったか蒸籠蒸し台湾カステラ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-126",
-          "nameJa": "ひんやり冷たい台湾カステラ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-127",
-          "nameJa": "カスタード桃まん（2コ）",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-128",
-          "nameJa": "ごま付きだんご",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
+            "小麦": false,
             "卵": false,
             "乳": false,
             "えび": false,
@@ -1857,12 +1710,187 @@
           }
         },
         {
-          "id": "item-129",
-          "nameJa": "バニラアイスつき",
+          "id": "item-118",
+          "nameJa": "ココナッツジュース",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "フロ_ズン_スム_ジ_",
+      "nameJa": "フローズン・スムージー",
+      "displayOrder": 11,
+      "items": [
+        {
+          "id": "item-119",
+          "nameJa": "ストロベリーバナナスムージー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-120",
+          "nameJa": "バナナスムージー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-121",
+          "nameJa": "フローズンキャラメルラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-122",
+          "nameJa": "フローズンダークモカチップラテ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-123",
+          "nameJa": "丸ごとパインスムージー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "ノンアルコ_ルドリンク",
+      "nameJa": "ノンアルコールドリンク",
+      "displayOrder": 12,
+      "items": [
+        {
+          "id": "item-124",
+          "nameJa": "バナナミルクココレカ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-125",
+          "nameJa": "トロピカルフルーツパンチ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-126",
+          "nameJa": "苺ミルククーラー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-127",
+          "nameJa": "ヴァージンピニャコラーダクーラー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_ランチ_weekday_special",
+      "nameJa": "【ランチ】Weekday　Special",
+      "displayOrder": 13,
+      "items": [
+        {
+          "id": "item-128",
+          "nameJa": "【Weekday　Special】サルサDEタコライス",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-129",
+          "nameJa": "【Weekday　Special】サーロインステーキ　ダイヤモンドヘッド",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
             "卵": false,
             "乳": true,
             "えび": false,
@@ -1872,12 +1900,12 @@
         },
         {
           "id": "item-130",
-          "nameJa": "アンニンドウフ",
+          "nameJa": "【Weekday　Special】ハワイアングリルチキン　パイナップル照り焼きソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "小麦": true,
+            "卵": true,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -1886,11 +1914,11 @@
         },
         {
           "id": "item-131",
-          "nameJa": "とろとろ白桃アンニン",
+          "nameJa": "【Weekday　Special】ガーリックステーキピラフデミグラスバターソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
+            "小麦": true,
             "卵": false,
             "乳": true,
             "えび": false,
@@ -1900,11 +1928,11 @@
         },
         {
           "id": "item-132",
-          "nameJa": "タピオカ黒糖ミルク",
+          "nameJa": "【Weekday　Special】サーモンアヒポキDON",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
+            "小麦": true,
             "卵": false,
             "乳": true,
             "えび": false,
@@ -1914,26 +1942,26 @@
         },
         {
           "id": "item-133",
-          "nameJa": "果肉入りレモンのオーギョーチ",
+          "nameJa": "【Weekday　Special】ガーリックシュリンプ＆ピラフ照り焼きバターソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
+            "小麦": true,
             "卵": false,
-            "乳": false,
-            "えび": false,
+            "乳": true,
+            "えび": true,
             "かに": false,
             "くるみ": false
           }
         },
         {
           "id": "item-134",
-          "nameJa": "珈琲ゼリー",
+          "nameJa": "【Weekday　Special】ロコモコデミグラスソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "小麦": true,
+            "卵": true,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -1942,33 +1970,26 @@
         },
         {
           "id": "item-135",
-          "nameJa": "いちご杏仁ミルク",
+          "nameJa": "【Weekday　Special】ロコモコＴＥＲＩＹＡＫＩソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "小麦": true,
+            "卵": true,
             "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
           }
-        }
-      ]
-    },
-    {
-      "id": "キッズ",
-      "nameJa": "キッズ",
-      "displayOrder": 10,
-      "items": [
+        },
         {
           "id": "item-136",
-          "nameJa": "キッズアイス（いちご）",
+          "nameJa": "【Weekday　Special】アボカドロコモコデミグラスソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "小麦": true,
+            "卵": true,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -1977,12 +1998,12 @@
         },
         {
           "id": "item-137",
-          "nameJa": "キッズアイス（バニラ）",
+          "nameJa": "【Weekday　Special】アボカドロコモコＴＥＲＩＹＡＫＩソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
+            "小麦": true,
+            "卵": true,
             "乳": true,
             "えび": false,
             "かに": false,
@@ -1991,13 +2012,13 @@
         },
         {
           "id": "item-138",
-          "nameJa": "低アレルゲンキッズカレー",
+          "nameJa": "【Weekday　Special】ハンバーグ　ビーフシチューソース",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -2005,7 +2026,7 @@
         },
         {
           "id": "item-139",
-          "nameJa": "キッズメンメン",
+          "nameJa": "【Weekday　Special】アメリカンハンバーグ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2019,7 +2040,7 @@
         },
         {
           "id": "item-140",
-          "nameJa": "ラッキー中華セット",
+          "nameJa": "【Weekday　Special】ハワイアングリルチキン　ハニーレモンマスタードソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2033,7 +2054,7 @@
         },
         {
           "id": "item-141",
-          "nameJa": "キッズラーメンセット",
+          "nameJa": "【Weekday　Special】ビーフステーキロコモコ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2047,7 +2068,35 @@
         },
         {
           "id": "item-142",
-          "nameJa": "キッズハンバーグごはん",
+          "nameJa": "【Weekday　Special】チーズバーガー",
+          "allergens": {
+            "そば": false,
+            "落花生": true,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-143",
+          "nameJa": "【Weekday　Special】シュリンプトマトパスタ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-144",
+          "nameJa": "【Weekday　Special】ベーコンときのこのクリームパスタ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2060,8 +2109,22 @@
           }
         },
         {
-          "id": "item-143",
-          "nameJa": "ラッキーラーメン＆ハンバーグごはんセット",
+          "id": "item-145",
+          "nameJa": "【Weekday　Special】海老とアボカドの塩レモンパスタ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-146",
+          "nameJa": "【Weekday　Special】モチコチキンパンケーキ（ドレッシング除く）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2076,61 +2139,19 @@
       ]
     },
     {
-      "id": "セット_ライス",
-      "nameJa": "セット/ライス",
-      "displayOrder": 11,
+      "id": "_モ_ニング_パンケ_キ",
+      "nameJa": "【モーニング】パンケーキ",
+      "displayOrder": 14,
       "items": [
         {
-          "id": "item-144",
-          "nameJa": "スープバー",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-145",
-          "nameJa": "餃子・半チャーハンセット",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-146",
-          "nameJa": "餃子・醤油小ラーメンセット",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-147",
-          "nameJa": "ごはんセット【スープ除く】",
+          "nameJa": "パイナップルホイップ（パンケーキ）【メープル除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
@@ -2138,7 +2159,7 @@
         },
         {
           "id": "item-148",
-          "nameJa": "餃子・ごはんセット【スープ除く】",
+          "nameJa": "バナナホイップ（パンケーキ）【メープル除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2152,7 +2173,7 @@
         },
         {
           "id": "item-149",
-          "nameJa": "半チャーハンセット",
+          "nameJa": "キウイホイップ（パンケーキ）【メープル除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2166,7 +2187,28 @@
         },
         {
           "id": "item-150",
-          "nameJa": "餃子・アンニンセット",
+          "nameJa": "ホイップ＆ホイップ（パンケーキ）【メープル除く】",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "_モ_ニング_レギュラ_モ_ニング",
+      "nameJa": "【モーニング】レギュラーモーニング",
+      "displayOrder": 15,
+      "items": [
+        {
+          "id": "item-151",
+          "nameJa": "モーニングプレート（目玉焼き）【メープル除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2179,22 +2221,8 @@
           }
         },
         {
-          "id": "item-151",
-          "nameJa": "蒸し鶏の胡麻ソース・アンニンセット",
-          "allergens": {
-            "そば": false,
-            "落花生": true,
-            "小麦": true,
-            "卵": false,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-152",
-          "nameJa": "チャーマヨ丼セット",
+          "nameJa": "モーニングプレート（スクランブルエッグ）【メープル除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2208,7 +2236,7 @@
         },
         {
           "id": "item-153",
-          "nameJa": "アジフライ・ごはんセット【スープ除く】",
+          "nameJa": "パンケーキハワイアンブレックファースト【メープル除く】",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2222,7 +2250,42 @@
         },
         {
           "id": "item-154",
-          "nameJa": "（醤油）小ラーメンセット",
+          "nameJa": "パンケーキブランチプレート【メープル・ドレッシング除く】",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-155",
+          "nameJa": "おかわりパンケーキ（2枚）【メープル除く】",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "トッピング",
+      "nameJa": "トッピング",
+      "displayOrder": 16,
+      "items": [
+        {
+          "id": "item-156",
+          "nameJa": "【追加】ソーセージ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2235,11 +2298,123 @@
           }
         },
         {
-          "id": "item-155",
-          "nameJa": "蒸し鶏ゴマソース・半チャーハンセット",
+          "id": "item-157",
+          "nameJa": "【追加】ベーコン",
           "allergens": {
             "そば": false,
-            "落花生": true,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-158",
+          "nameJa": "蜂蜜入りメイプルシロップ(２０ｃｃ)",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-159",
+          "nameJa": "シラチャーソース(２０ｇ)",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-160",
+          "nameJa": "ハニーマスタードソース(２０ｇ)",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": true,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-161",
+          "nameJa": "ライス",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-162",
+          "nameJa": "ライス大盛",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-163",
+          "nameJa": "ハーフライス",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-164",
+          "nameJa": "オニオンソース",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-165",
+          "nameJa": "ブレッド",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
             "小麦": true,
             "卵": true,
             "乳": true,
@@ -2249,14 +2424,84 @@
           }
         },
         {
-          "id": "item-156",
-          "nameJa": "蒸し鶏ゴマソース・ごはんセット【スープ除く】",
+          "id": "item-166",
+          "nameJa": "BBQソース",
           "allergens": {
             "そば": false,
-            "落花生": true,
+            "落花生": false,
             "小麦": true,
             "卵": false,
             "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-167",
+          "nameJa": "フォカッチャ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-168",
+          "nameJa": "ミニサラダ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-169",
+          "nameJa": "バター（5コ）",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-170",
+          "nameJa": "粉チーズ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": true,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-171",
+          "nameJa": "バジルガーリックオイル",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": true,
             "えび": false,
             "かに": false,
             "くるみ": false
