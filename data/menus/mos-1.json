@@ -10,7 +10,7 @@
       "items": [
         {
           "id": "item-001",
-          "nameJa": "とろったまベーコン テリヤキバーガー／Creamy Egg Bacon Teriyaki Burger",
+          "nameJa": "とろったまベーコン テリヤキバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -24,7 +24,7 @@
         },
         {
           "id": "item-002",
-          "nameJa": "チーズベーコン テリヤキバーガー／Cheese Bacon Teriyaki Burger",
+          "nameJa": "チーズベーコン テリヤキバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -38,7 +38,7 @@
         },
         {
           "id": "item-003",
-          "nameJa": "ダブルとろったまベーコン テリヤキバーガー／Creamy Egg Bacon Teriyaki Burger Double Patty",
+          "nameJa": "ダブルとろったまベーコン テリヤキバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -52,7 +52,7 @@
         },
         {
           "id": "item-004",
-          "nameJa": "ダブルチーズベーコン テリヤキバーガー／Cheese Bacon Teriyaki Burger Double Patty",
+          "nameJa": "ダブルチーズベーコン テリヤキバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -66,7 +66,7 @@
         },
         {
           "id": "item-005",
-          "nameJa": "モスバーガー／MOS Burger",
+          "nameJa": "モスバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -80,7 +80,7 @@
         },
         {
           "id": "item-006",
-          "nameJa": "テリヤキバーガー／Teriyaki Burger",
+          "nameJa": "テリヤキバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -94,7 +94,7 @@
         },
         {
           "id": "item-007",
-          "nameJa": "テリヤキチキンバーガー／Teriyaki Chicken Burger",
+          "nameJa": "テリヤキチキンバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -108,7 +108,7 @@
         },
         {
           "id": "item-008",
-          "nameJa": "モスチーズバーガー／MOS Cheese Burger",
+          "nameJa": "モスチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -122,7 +122,7 @@
         },
         {
           "id": "item-009",
-          "nameJa": "モス野菜バーガー／MOS Yasai Burger",
+          "nameJa": "モス野菜バーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -136,7 +136,7 @@
         },
         {
           "id": "item-010",
-          "nameJa": "海老カツバーガー／Shrimp Cutlet Burger",
+          "nameJa": "海老カツバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -150,7 +150,7 @@
         },
         {
           "id": "item-011",
-          "nameJa": "ロースカツバーガー／Pork Cutlet Burger",
+          "nameJa": "ロースカツバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -164,7 +164,7 @@
         },
         {
           "id": "item-012",
-          "nameJa": "フィッシュバーガー／Fish Burger",
+          "nameJa": "フィッシュバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -178,7 +178,7 @@
         },
         {
           "id": "item-013",
-          "nameJa": "チキンバーガー／Chicken Burger",
+          "nameJa": "チキンバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -192,7 +192,7 @@
         },
         {
           "id": "item-014",
-          "nameJa": "ハンバーガー／Hamburger",
+          "nameJa": "ハンバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -206,7 +206,7 @@
         },
         {
           "id": "item-015",
-          "nameJa": "チーズバーガー／Cheeseburger",
+          "nameJa": "チーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -220,7 +220,7 @@
         },
         {
           "id": "item-016",
-          "nameJa": "ダブルモスバーガー／MOS Burger Double Patty",
+          "nameJa": "ダブルモスバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -234,7 +234,7 @@
         },
         {
           "id": "item-017",
-          "nameJa": "ダブルモスチーズバーガー／MOS Cheese Burger Double Patty",
+          "nameJa": "ダブルモスチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -248,7 +248,7 @@
         },
         {
           "id": "item-018",
-          "nameJa": "ダブルテリヤキバーガー／Teriyaki Burger Double Patty",
+          "nameJa": "ダブルテリヤキバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -262,7 +262,7 @@
         },
         {
           "id": "item-019",
-          "nameJa": "ダブルモス野菜バーガー／MOS Yasai Burger Double Patty",
+          "nameJa": "ダブルモス野菜バーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -276,7 +276,7 @@
         },
         {
           "id": "item-020",
-          "nameJa": "ダブルハンバーガー／Hamburger Double Patty",
+          "nameJa": "ダブルハンバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -290,7 +290,7 @@
         },
         {
           "id": "item-021",
-          "nameJa": "ダブルチーズバーガー／Cheeseburger Double Patty",
+          "nameJa": "ダブルチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -304,7 +304,7 @@
         },
         {
           "id": "item-022",
-          "nameJa": "スパイシーモスバーガー／Spicy MOS Burger",
+          "nameJa": "スパイシーモスバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -318,7 +318,7 @@
         },
         {
           "id": "item-023",
-          "nameJa": "スパイシーモスチーズバーガー／Spicy MOS Cheese Burger",
+          "nameJa": "スパイシーモスチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -332,7 +332,7 @@
         },
         {
           "id": "item-024",
-          "nameJa": "スパイシーダブルモスバーガー／Spicy MOS Burger Double Patty",
+          "nameJa": "スパイシーダブルモスバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -346,7 +346,7 @@
         },
         {
           "id": "item-025",
-          "nameJa": "スパイシーダブルモスチーズバーガー／Spicy MOS Cheese Burger Double Patty",
+          "nameJa": "スパイシーダブルモスチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -360,7 +360,7 @@
         },
         {
           "id": "item-026",
-          "nameJa": "グリーンバーガー＜テリヤキ＞／Green Burger〈Teriyaki〉",
+          "nameJa": "グリーンバーガー＜テリヤキ＞",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -374,7 +374,7 @@
         },
         {
           "id": "item-027",
-          "nameJa": "グリーンバーガー＜テリヤキ＞（ソース含まず）／Green Burger〈Teriyaki〉（No Sauce）",
+          "nameJa": "グリーンバーガー＜テリヤキ＞（ソース含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -388,7 +388,7 @@
         },
         {
           "id": "item-028",
-          "nameJa": "グリーンテリマヨソース／Green Terimayo Sauce",
+          "nameJa": "グリーンテリマヨソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -402,7 +402,7 @@
         },
         {
           "id": "item-029",
-          "nameJa": "モスの菜摘モス野菜／NATSUMI MOS Yasai Burger",
+          "nameJa": "モスの菜摘モス野菜",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -416,7 +416,7 @@
         },
         {
           "id": "item-030",
-          "nameJa": "モスの菜摘テリヤキチキン／NATSUMI Teriyaki Chicken Burger",
+          "nameJa": "モスの菜摘テリヤキチキン",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -430,7 +430,7 @@
         },
         {
           "id": "item-031",
-          "nameJa": "モスの菜摘フィッシュ／NATSUMI Fish Burger",
+          "nameJa": "モスの菜摘フィッシュ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -444,7 +444,7 @@
         },
         {
           "id": "item-032",
-          "nameJa": "モスの菜摘海老カツ ／NATSUMI Shrimp Cutlet Burger",
+          "nameJa": "モスの菜摘海老カツ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -458,7 +458,7 @@
         },
         {
           "id": "item-033",
-          "nameJa": "モスの菜摘ロースカツ／NATSUMI Pork Cutlet Burger",
+          "nameJa": "モスの菜摘ロースカツ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -472,7 +472,7 @@
         },
         {
           "id": "item-034",
-          "nameJa": "モスの菜摘チキン／NATSUMI Chicken Burger",
+          "nameJa": "モスの菜摘チキン",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -486,7 +486,7 @@
         },
         {
           "id": "item-035",
-          "nameJa": "モスの菜摘ソイモス野菜／NATSUMI Soy Patty MOS Yasai Burger",
+          "nameJa": "モスの菜摘ソイモス野菜",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -500,7 +500,7 @@
         },
         {
           "id": "item-036",
-          "nameJa": "ソイモスバーガー／Soy Patty MOS Burger",
+          "nameJa": "ソイモスバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -514,7 +514,7 @@
         },
         {
           "id": "item-037",
-          "nameJa": "ソイスパイシーモスバーガー／Soy Patty Spicy MOS Burger",
+          "nameJa": "ソイスパイシーモスバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -528,7 +528,7 @@
         },
         {
           "id": "item-038",
-          "nameJa": "ソイモスチーズバーガー／Soy Patty MOS Cheese Burger",
+          "nameJa": "ソイモスチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -542,7 +542,7 @@
         },
         {
           "id": "item-039",
-          "nameJa": "ソイスパイシーモスチーズバーガー／Soy Patty Spicy MOS Cheese Burger",
+          "nameJa": "ソイスパイシーモスチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -556,7 +556,7 @@
         },
         {
           "id": "item-040",
-          "nameJa": "ソイテリヤキバーガー／Soy Patty Teriyaki Burger",
+          "nameJa": "ソイテリヤキバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -570,7 +570,7 @@
         },
         {
           "id": "item-041",
-          "nameJa": "ソイモス野菜バーガー／Soy Patty MOS Yasai Burger",
+          "nameJa": "ソイモス野菜バーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -584,7 +584,7 @@
         },
         {
           "id": "item-042",
-          "nameJa": "ソイハンバーガー／Soy Patty Hamburger",
+          "nameJa": "ソイハンバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -598,7 +598,7 @@
         },
         {
           "id": "item-043",
-          "nameJa": "ソイチーズバーガー／Soy Patty Cheeseburger",
+          "nameJa": "ソイチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -612,7 +612,7 @@
         },
         {
           "id": "item-044",
-          "nameJa": "モスライスバーガー 海鮮かきあげ（塩だれ）／MOS Rice Burger Kaisen Kakiage",
+          "nameJa": "モスライスバーガー 海鮮かきあげ（塩だれ）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -626,7 +626,7 @@
         },
         {
           "id": "item-045",
-          "nameJa": "モスライスバーガー焼肉／MOS Rice Burger Yakiniku",
+          "nameJa": "モスライスバーガー焼肉",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -640,7 +640,7 @@
         },
         {
           "id": "item-046",
-          "nameJa": "ホットドッグ ／Hot Dog",
+          "nameJa": "ホットドッグ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -654,7 +654,7 @@
         },
         {
           "id": "item-047",
-          "nameJa": "チリドッグ／Chili Dog",
+          "nameJa": "チリドッグ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -668,7 +668,7 @@
         },
         {
           "id": "item-048",
-          "nameJa": "スパイシーチリドッグ ／Spicy Chili Dog",
+          "nameJa": "スパイシーチリドッグ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -696,7 +696,7 @@
         },
         {
           "id": "item-050",
-          "nameJa": "フレンチフライポテト／French Fries",
+          "nameJa": "フレンチフライポテト",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -710,7 +710,7 @@
         },
         {
           "id": "item-051",
-          "nameJa": "オニオンフライ／Onion Rings",
+          "nameJa": "オニオンフライ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -724,7 +724,7 @@
         },
         {
           "id": "item-052",
-          "nameJa": "オニポテ／Onion Potato",
+          "nameJa": "オニポテ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -738,7 +738,7 @@
         },
         {
           "id": "item-053",
-          "nameJa": "こだわりサラダ 和風ドレッシング<減塩タイプ>／Mixed Salad Japanese Dressing 〈Reduced Salt〉",
+          "nameJa": "こだわりサラダ 和風ドレッシング<減塩タイプ>",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -752,7 +752,7 @@
         },
         {
           "id": "item-054",
-          "nameJa": "こだわりサラダ（ドレッシング含まず）／Mixed Salad（No Dressing)",
+          "nameJa": "こだわりサラダ（ドレッシング含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -766,7 +766,7 @@
         },
         {
           "id": "item-055",
-          "nameJa": "和風ドレッシング<減塩タイプ>／Low Salt Japanese Dressing",
+          "nameJa": "和風ドレッシング<減塩タイプ>",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -780,7 +780,7 @@
         },
         {
           "id": "item-056",
-          "nameJa": "チキンナゲット／Chicken Nuggets (5pcs)",
+          "nameJa": "チキンナゲット",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -794,7 +794,7 @@
         },
         {
           "id": "item-057",
-          "nameJa": "モスチキン／MOS Chicken",
+          "nameJa": "モスチキン",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -808,7 +808,7 @@
         },
         {
           "id": "item-058",
-          "nameJa": "冷凍モスチキン／Frozen MOS Chicken",
+          "nameJa": "冷凍モスチキン",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -822,7 +822,7 @@
         },
         {
           "id": "item-059",
-          "nameJa": "チリディップソース／Chili Dip",
+          "nameJa": "チリディップソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -836,7 +836,7 @@
         },
         {
           "id": "item-060",
-          "nameJa": "カップハラペーニョ／Jalapeño Cup",
+          "nameJa": "カップハラペーニョ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -850,7 +850,7 @@
         },
         {
           "id": "item-061",
-          "nameJa": "バーベキューソース／BBQ Sauce",
+          "nameJa": "バーベキューソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -864,7 +864,7 @@
         },
         {
           "id": "item-062",
-          "nameJa": "マスタードソース／ Mustard Sauce",
+          "nameJa": "マスタードソース",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -878,7 +878,7 @@
         },
         {
           "id": "item-063",
-          "nameJa": "和風ドレッシング<減塩タイプ>／Low Salt Japanese Dressing",
+          "nameJa": "和風ドレッシング<減塩タイプ>",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -892,7 +892,7 @@
         },
         {
           "id": "item-064",
-          "nameJa": "バラエティパックＡ／New Variety Pack A",
+          "nameJa": "バラエティパックＡ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -906,7 +906,7 @@
         },
         {
           "id": "item-065",
-          "nameJa": "バラエティパックＢ （ソース含まず）／New Variety Pack B（No Sauce）",
+          "nameJa": "バラエティパックＢ （ソース含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -920,7 +920,7 @@
         },
         {
           "id": "item-066",
-          "nameJa": "アイスコーヒー／Iced Coffee",
+          "nameJa": "アイスコーヒー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -934,7 +934,7 @@
         },
         {
           "id": "item-067",
-          "nameJa": "アイスティー キャンディ茶葉／Iced Tea",
+          "nameJa": "アイスティー キャンディ茶葉",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -948,7 +948,7 @@
         },
         {
           "id": "item-068",
-          "nameJa": "ペプシコーラ／PEPSI",
+          "nameJa": "ペプシコーラ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -962,7 +962,7 @@
         },
         {
           "id": "item-069",
-          "nameJa": "ジンジャーエール／Ginger Ale",
+          "nameJa": "ジンジャーエール",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -976,7 +976,7 @@
         },
         {
           "id": "item-070",
-          "nameJa": "メロンソーダ（無果汁）／Melon Soda",
+          "nameJa": "メロンソーダ（無果汁）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -990,7 +990,7 @@
         },
         {
           "id": "item-071",
-          "nameJa": "アイスウーロン茶／Iced Oolong Tea",
+          "nameJa": "アイスウーロン茶",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1004,7 +1004,7 @@
         },
         {
           "id": "item-072",
-          "nameJa": "いちごミルク ～ とちあいか ～／Strawberry Milk～ Tochiaika ～",
+          "nameJa": "いちごミルク ～ とちあいか ～",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1018,7 +1018,7 @@
         },
         {
           "id": "item-073",
-          "nameJa": "抹茶ミルク ～ 出雲の抹茶 ～／Matcha Milk ～ Izumo Matcha ～",
+          "nameJa": "抹茶ミルク ～ 出雲の抹茶 ～",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1032,7 +1032,7 @@
         },
         {
           "id": "item-074",
-          "nameJa": "まぜるシェイク 出雲の抹茶／Mix Shake Izumo Matcha",
+          "nameJa": "まぜるシェイク 出雲の抹茶",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1046,7 +1046,7 @@
         },
         {
           "id": "item-075",
-          "nameJa": "まぜるシェイク いちご ～ とちあいか ～／Mix Shake Strawberry 〜 Tochiaika 〜",
+          "nameJa": "まぜるシェイク いちご ～ とちあいか ～",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1060,7 +1060,7 @@
         },
         {
           "id": "item-076",
-          "nameJa": "モスシェイク バニラ／MOS Shake Vanilla",
+          "nameJa": "モスシェイク バニラ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1074,7 +1074,7 @@
         },
         {
           "id": "item-077",
-          "nameJa": "モスシェイク コーヒー／MOS Shake Coffee",
+          "nameJa": "モスシェイク コーヒー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1088,7 +1088,7 @@
         },
         {
           "id": "item-078",
-          "nameJa": "りんごジュース（１２５ｍｌ紙パック）／Apple Juice(125ml pack)",
+          "nameJa": "りんごジュース（１２５ｍｌ紙パック）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1102,7 +1102,7 @@
         },
         {
           "id": "item-079",
-          "nameJa": "モスシュガー／Sugar",
+          "nameJa": "モスシュガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1116,7 +1116,7 @@
         },
         {
           "id": "item-080",
-          "nameJa": "ガムシロップ／Corn Syrup",
+          "nameJa": "ガムシロップ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1130,7 +1130,7 @@
         },
         {
           "id": "item-081",
-          "nameJa": "コーヒーフレッシュ／Coffee Cream",
+          "nameJa": "コーヒーフレッシュ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1144,7 +1144,7 @@
         },
         {
           "id": "item-082",
-          "nameJa": "コーンスープ 北海道産コーン使用／Corn Soup",
+          "nameJa": "コーンスープ 北海道産コーン使用",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1158,7 +1158,7 @@
         },
         {
           "id": "item-083",
-          "nameJa": "クラムチャウダー／Clam Chowder",
+          "nameJa": "クラムチャウダー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1172,7 +1172,7 @@
         },
         {
           "id": "item-084",
-          "nameJa": "シングル ふんわりスフレパンケーキ＜メープルシロップ＞／The Fluffy Soufflé Pancake Single〈Maple syrup〉",
+          "nameJa": "シングル ふんわりスフレパンケーキ＜メープルシロップ＞",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1186,7 +1186,7 @@
         },
         {
           "id": "item-085",
-          "nameJa": "シングル ふんわりスフレパンケーキ（メープルシロップ含まず）／The Fluffy Soufflé Pancake Single(No Maple syrup)",
+          "nameJa": "シングル ふんわりスフレパンケーキ（メープルシロップ含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1200,7 +1200,7 @@
         },
         {
           "id": "item-086",
-          "nameJa": "メープルシロップ／Maple syrup",
+          "nameJa": "メープルシロップ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1214,7 +1214,7 @@
         },
         {
           "id": "item-087",
-          "nameJa": "ダブル ふんわりスフレパンケーキ＜メープルシロップ＞／The Fluffy Soufflé Pancake Double 〈Maple syrup〉",
+          "nameJa": "ダブル ふんわりスフレパンケーキ＜メープルシロップ＞",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1228,7 +1228,7 @@
         },
         {
           "id": "item-088",
-          "nameJa": "ダブル ふんわりスフレパンケーキ（メープルシロップ含まず）／The Fluffy Soufflé Pancake Double （No Maple syrup）",
+          "nameJa": "ダブル ふんわりスフレパンケーキ（メープルシロップ含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1242,7 +1242,7 @@
         },
         {
           "id": "item-089",
-          "nameJa": "メープルシロップ／Maple syrup",
+          "nameJa": "メープルシロップ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1256,7 +1256,7 @@
         },
         {
           "id": "item-090",
-          "nameJa": "＜冷凍＞ふんわりスフレパンケーキ／〈Frozen〉The Fluffy Soufflé Pancake",
+          "nameJa": "＜冷凍＞ふんわりスフレパンケーキ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1270,7 +1270,7 @@
         },
         {
           "id": "item-091",
-          "nameJa": "アイスドルチェ カップ ショコラ風ムースケーキ／Iced Dolce Chocolaty Mousse Cake Cup",
+          "nameJa": "アイスドルチェ カップ ショコラ風ムースケーキ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1284,7 +1284,7 @@
         },
         {
           "id": "item-092",
-          "nameJa": "ポークサンド<米粉>／Pork Burger <Rice Flour>",
+          "nameJa": "ポークサンド<米粉>",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1298,7 +1298,7 @@
         },
         {
           "id": "item-093",
-          "nameJa": "ポークサンド<米粉>（ケチャップ含まず）／Pork Burger <Rice Flour> （No ketchup）",
+          "nameJa": "ポークサンド<米粉>（ケチャップ含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1312,7 +1312,7 @@
         },
         {
           "id": "item-094",
-          "nameJa": "トマトケチャップ減塩タイプ／Low Salt Tomato Ketchup",
+          "nameJa": "トマトケチャップ減塩タイプ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1326,7 +1326,7 @@
         },
         {
           "id": "item-095",
-          "nameJa": "ポークロール<米粉>／Pork Hot Dog <Rice Flour>",
+          "nameJa": "ポークロール<米粉>",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1340,7 +1340,7 @@
         },
         {
           "id": "item-096",
-          "nameJa": "ポークロール<米粉>（ケチャップ含まず）／ Pork Hot Dog <Rice Flour>（No ketchup）",
+          "nameJa": "ポークロール<米粉>（ケチャップ含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1354,7 +1354,7 @@
         },
         {
           "id": "item-097",
-          "nameJa": "トマトケチャップ減塩タイプ／Low Salt Tomato Ketchup",
+          "nameJa": "トマトケチャップ減塩タイプ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1368,7 +1368,7 @@
         },
         {
           "id": "item-098",
-          "nameJa": "ワイワイモスチーズバーガーセット（バーガー単品）／Y-Y MOS Cheeseburger",
+          "nameJa": "ワイワイモスチーズバーガーセット（バーガー単品）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1382,7 +1382,7 @@
         },
         {
           "id": "item-099",
-          "nameJa": "ワイワイテリヤキバーガーセット（バーガー単品）／Y-Y Teriyakiburger Set",
+          "nameJa": "ワイワイテリヤキバーガーセット（バーガー単品）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1396,7 +1396,7 @@
         },
         {
           "id": "item-100",
-          "nameJa": "ワイワイバーガーセット（バーガー単品）／Y-Y Hamburger",
+          "nameJa": "ワイワイバーガーセット（バーガー単品）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1410,7 +1410,7 @@
         },
         {
           "id": "item-101",
-          "nameJa": "ワイワイチーズバーガーセット（バーガー単品）／Y-Y Cheeseburger",
+          "nameJa": "ワイワイチーズバーガーセット（バーガー単品）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1424,7 +1424,7 @@
         },
         {
           "id": "item-102",
-          "nameJa": "ワイワイナゲットセット（ナゲット単品）／Y-Y Nugget",
+          "nameJa": "ワイワイナゲットセット（ナゲット単品）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1438,7 +1438,7 @@
         },
         {
           "id": "item-103",
-          "nameJa": "フレンチフライポテト／French Fries",
+          "nameJa": "フレンチフライポテト",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1452,7 +1452,7 @@
         },
         {
           "id": "item-104",
-          "nameJa": "朝の野菜バーガー ～オーロラソース～／Morning Yasai Burger～ Aurora Sauce～",
+          "nameJa": "朝の野菜バーガー ～オーロラソース～",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1466,7 +1466,7 @@
         },
         {
           "id": "item-105",
-          "nameJa": "朝のとろったまチーズバーガー ～テリヤキソース～／Morning CreamyEgg Cheese Burger～Teriyaki Sauce～",
+          "nameJa": "朝のとろったまチーズバーガー ～テリヤキソース～",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1480,7 +1480,7 @@
         },
         {
           "id": "item-106",
-          "nameJa": "ソイ朝の野菜バーガー ～オーロラソース～／Soy Patty Morning YasaiBurger～Aurora Sauce～",
+          "nameJa": "ソイ朝の野菜バーガー ～オーロラソース～",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1494,7 +1494,7 @@
         },
         {
           "id": "item-107",
-          "nameJa": "ソイ朝のとろったまチーズバーガー ～テリヤキソース～／Soy PattyMorning Creamy Egg Cheese Burger～Teriyaki Sauce～",
+          "nameJa": "ソイ朝のとろったまチーズバーガー ～テリヤキソース～",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1508,7 +1508,7 @@
         },
         {
           "id": "item-108",
-          "nameJa": "朝のホットドッグ／Morning Hot Dog",
+          "nameJa": "朝のホットドッグ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1522,7 +1522,7 @@
         },
         {
           "id": "item-109",
-          "nameJa": "トースト／Toast",
+          "nameJa": "トースト",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1536,7 +1536,7 @@
         },
         {
           "id": "item-110",
-          "nameJa": "トースト（バター含まず） ／Toast (No butter)",
+          "nameJa": "トースト（バター含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1550,7 +1550,7 @@
         },
         {
           "id": "item-111",
-          "nameJa": "ポーションバター／butter",
+          "nameJa": "ポーションバター",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1564,7 +1564,7 @@
         },
         {
           "id": "item-112",
-          "nameJa": "朝モスプレート／Morning MOS Plate",
+          "nameJa": "朝モスプレート",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1578,7 +1578,7 @@
         },
         {
           "id": "item-113",
-          "nameJa": "朝モスプレート （バター含まず）／Morning MOS Plate(No butter)",
+          "nameJa": "朝モスプレート （バター含まず）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1592,7 +1592,7 @@
         },
         {
           "id": "item-114",
-          "nameJa": "ポーションバター／butter",
+          "nameJa": "ポーションバター",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1606,7 +1606,7 @@
         },
         {
           "id": "item-115",
-          "nameJa": "ストロベリージャム／Strawberry Jam",
+          "nameJa": "ストロベリージャム",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1620,7 +1620,7 @@
         },
         {
           "id": "item-116",
-          "nameJa": "トリプルモスバーガー／MOS Burger Triple Patty",
+          "nameJa": "トリプルモスバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -1634,7 +1634,7 @@
         },
         {
           "id": "item-117",
-          "nameJa": "トリプルモスチーズバーガー／MOS Cheese Burger Triple Patty",
+          "nameJa": "トリプルモスチーズバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
