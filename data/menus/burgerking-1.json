@@ -66,7 +66,7 @@
         },
         {
           "id": "item-005",
-          "nameJa": "フィッシュバーガー フィッシュバーガー",
+          "nameJa": "フィッシュバーガー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -332,34 +332,6 @@
         },
         {
           "id": "item-024",
-          "nameJa": "付属品",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-025",
-          "nameJa": "デザートメニュー",
-          "allergens": {
-            "そば": null,
-            "落花生": false,
-            "小麦": null,
-            "卵": null,
-            "乳": null,
-            "えび": null,
-            "かに": null,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-026",
           "nameJa": "アップルパイ",
           "allergens": {
             "そば": false,
@@ -373,21 +345,7 @@
           }
         },
         {
-          "id": "item-027",
-          "nameJa": "デザート",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-028",
+          "id": "item-025",
           "nameJa": "フロートドリンク コカ・コーラ",
           "allergens": {
             "そば": false,
@@ -401,7 +359,7 @@
           }
         },
         {
-          "id": "item-029",
+          "id": "item-026",
           "nameJa": "フロートドリンク コカ・コーラゼロフロートドリンク",
           "allergens": {
             "そば": false,
@@ -415,8 +373,8 @@
           }
         },
         {
-          "id": "item-030",
-          "nameJa": "フロートドリンク メロンソーダ（氷含む）フロートドリンク ドクターペッパー",
+          "id": "item-027",
+          "nameJa": "フロートドリンク メロンソーダ（氷含む）",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -429,7 +387,7 @@
           }
         },
         {
-          "id": "item-031",
+          "id": "item-028",
           "nameJa": "フロートドリンク アイスコーヒー",
           "allergens": {
             "そば": false,
@@ -443,21 +401,7 @@
           }
         },
         {
-          "id": "item-032",
-          "nameJa": "ドリンクメニュー",
-          "allergens": {
-            "そば": null,
-            "落花生": false,
-            "小麦": null,
-            "卵": null,
-            "乳": null,
-            "えび": null,
-            "かに": null,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-033",
+          "id": "item-029",
           "nameJa": "コカ・コーラS",
           "allergens": {
             "そば": false,
@@ -471,7 +415,7 @@
           }
         },
         {
-          "id": "item-034",
+          "id": "item-030",
           "nameJa": "コカ・コーラM",
           "allergens": {
             "そば": false,
@@ -485,7 +429,7 @@
           }
         },
         {
-          "id": "item-035",
+          "id": "item-031",
           "nameJa": "コカ・コーラL",
           "allergens": {
             "そば": false,
@@ -499,35 +443,7 @@
           }
         },
         {
-          "id": "item-036",
-          "nameJa": "コールドドリンク",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-037",
-          "nameJa": "（氷含む）",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-038",
+          "id": "item-032",
           "nameJa": "アイスティーL",
           "allergens": {
             "そば": false,
@@ -541,7 +457,7 @@
           }
         },
         {
-          "id": "item-039",
+          "id": "item-033",
           "nameJa": "ブレンドコーヒーS",
           "allergens": {
             "そば": false,
@@ -555,8 +471,8 @@
           }
         },
         {
-          "id": "item-040",
-          "nameJa": "ブレンドコーヒーMホットドリンク",
+          "id": "item-034",
+          "nameJa": "ブレンドコーヒーM",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -569,7 +485,7 @@
           }
         },
         {
-          "id": "item-041",
+          "id": "item-035",
           "nameJa": "ダージリンティーS",
           "allergens": {
             "そば": false,
@@ -583,7 +499,7 @@
           }
         },
         {
-          "id": "item-042",
+          "id": "item-036",
           "nameJa": "ダージリンティーM",
           "allergens": {
             "そば": false,
@@ -597,92 +513,8 @@
           }
         },
         {
-          "id": "item-043",
-          "nameJa": "ガムシロップ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-044",
-          "nameJa": "コーヒーフレッシュ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-045",
-          "nameJa": "付属品",
-          "allergens": {
-            "そば": "",
-            "落花生": false,
-            "小麦": "",
-            "卵": "",
-            "乳": "",
-            "えび": "",
-            "かに": "",
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-046",
-          "nameJa": "レモンポーション",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-047",
-          "nameJa": "スティックシュガー",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-048",
-          "nameJa": "店舗限定メニュー",
-          "allergens": {
-            "そば": null,
-            "落花生": false,
-            "小麦": null,
-            "卵": null,
-            "乳": null,
-            "えび": null,
-            "かに": null,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-049",
-          "nameJa": "モーニングメニュー チーズ&チーズチキン",
+          "id": "item-037",
+          "nameJa": "【モーニング】チーズ&チーズチキン",
           "allergens": {
             "そば": false,
             "落花生": false,
