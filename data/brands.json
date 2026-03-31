@@ -712,5 +712,19 @@
       }
     ],
     "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "starbucks",
+    "nameJa": "スターバックス",
+    "brandCode": "starbucks",
+    "groupName": "スターバックス",
+    "sourceUrl": "https://product.starbucks.co.jp/allergy/allergen/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
   }
 ]

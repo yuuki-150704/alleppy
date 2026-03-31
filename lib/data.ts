@@ -80,6 +80,8 @@ import kurasushi from "@/data/menus/kurasushi-1.json";
 import pizzala from "@/data/menus/pizzala-1.json";
 // ドトール日レスHD
 import doutor from "@/data/menus/doutor-1.json";
+// スターバックス
+import starbucks from "@/data/menus/starbucks-1.json";
 
 export const allergens: Allergen[] = allergensJson;
 export const brands: Brand[] = brandsJson;
@@ -162,6 +164,8 @@ const menuDataMap: Record<string, MenuData> = {
   "pizzala-1": pizzala as MenuData,
   // ドトール日レスHD
   "doutor-1": doutor as MenuData,
+  // スターバックス
+  "starbucks-1": starbucks as MenuData,
 };
 
 export function getMenuData(brandId: string, usageType: number): MenuData | null {
