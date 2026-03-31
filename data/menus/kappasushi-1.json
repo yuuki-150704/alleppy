@@ -192,7 +192,7 @@
         },
         {
           "id": "item-014",
-          "nameJa": "通年定番",
+          "nameJa": "冬季節定番",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -206,7 +206,7 @@
         },
         {
           "id": "item-015",
-          "nameJa": "通年定番コラボ",
+          "nameJa": "通年定番",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -220,7 +220,7 @@
         },
         {
           "id": "item-016",
-          "nameJa": "限定店舗居酒屋",
+          "nameJa": "通年定番コラボ",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -234,12 +234,12 @@
         },
         {
           "id": "item-017",
-          "nameJa": "限定店舗居酒屋限定店舗居酒屋",
+          "nameJa": "コラボラーメン",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": false,
-            "卵": false,
+            "卵": true,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -248,7 +248,7 @@
         },
         {
           "id": "item-018",
-          "nameJa": "握り握り",
+          "nameJa": "限定店舗居酒屋",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -262,7 +262,7 @@
         },
         {
           "id": "item-019",
-          "nameJa": "軍艦軍艦",
+          "nameJa": "限定店舗居酒屋限定店舗居酒屋",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -276,7 +276,7 @@
         },
         {
           "id": "item-020",
-          "nameJa": "包み包み",
+          "nameJa": "握り",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -290,7 +290,7 @@
         },
         {
           "id": "item-021",
-          "nameJa": "巻物・いなり巻物・いなり",
+          "nameJa": "握り握り",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -304,7 +304,7 @@
         },
         {
           "id": "item-022",
-          "nameJa": "ごち寿司ごち寿司",
+          "nameJa": "軍艦軍艦",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -318,7 +318,7 @@
         },
         {
           "id": "item-023",
-          "nameJa": "お子様お子様",
+          "nameJa": "包み包み",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -332,12 +332,12 @@
         },
         {
           "id": "item-024",
-          "nameJa": "お子様",
+          "nameJa": "巻物・いなり巻物・いなり",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": false,
-            "卵": true,
+            "卵": false,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -346,7 +346,7 @@
         },
         {
           "id": "item-025",
-          "nameJa": "お子様サイドメニュー",
+          "nameJa": "ごち寿司ごち寿司",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -360,7 +360,7 @@
         },
         {
           "id": "item-026",
-          "nameJa": "サイドメニューサイドメニュー",
+          "nameJa": "お子様お子様",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -374,12 +374,12 @@
         },
         {
           "id": "item-027",
-          "nameJa": "サイドメニューどんぶり",
+          "nameJa": "お子様",
           "allergens": {
             "そば": false,
             "落花生": false,
             "小麦": false,
-            "卵": false,
+            "卵": true,
             "乳": false,
             "えび": false,
             "かに": false,
@@ -388,7 +388,7 @@
         },
         {
           "id": "item-028",
-          "nameJa": "デザートデザート",
+          "nameJa": "お子様サイドメニュー",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -402,6 +402,48 @@
         },
         {
           "id": "item-029",
+          "nameJa": "サイドメニューサイドメニュー",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-030",
+          "nameJa": "サイドメニューどんぶり",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-031",
+          "nameJa": "デザートデザート",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-032",
           "nameJa": "ドリンクドリンク",
           "allergens": {
             "そば": false,

@@ -1,7 +1,7 @@
 {
   "brandId": "kourakuen",
   "usageType": 1,
-  "scrapedAt": "2026-03-30T00:00:00Z",
+  "scrapedAt": "2026-03-31T00:00:00Z",
   "categories": [
     {
       "id": "メニュー",
@@ -122,6 +122,20 @@
         },
         {
           "id": "item-009",
+          "nameJa": "お子様デザートセット",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": true,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-010",
           "nameJa": "担担麺",
           "allergens": {
             "そば": false,
@@ -135,7 +149,7 @@
           }
         },
         {
-          "id": "item-010",
+          "id": "item-011",
           "nameJa": "担担麺餃子セット",
           "allergens": {
             "そば": false,
@@ -149,7 +163,7 @@
           }
         },
         {
-          "id": "item-011",
+          "id": "item-012",
           "nameJa": "担担麺餃子ライスセット",
           "allergens": {
             "そば": false,
@@ -163,7 +177,7 @@
           }
         },
         {
-          "id": "item-012",
+          "id": "item-013",
           "nameJa": "担担麺チャーハンセット",
           "allergens": {
             "そば": false,
@@ -177,7 +191,7 @@
           }
         },
         {
-          "id": "item-013",
+          "id": "item-014",
           "nameJa": "ごま味噌らーめん",
           "allergens": {
             "そば": false,
@@ -191,7 +205,7 @@
           }
         },
         {
-          "id": "item-014",
+          "id": "item-015",
           "nameJa": "ごま味噌らーめん餃子セット",
           "allergens": {
             "そば": false,
@@ -205,7 +219,7 @@
           }
         },
         {
-          "id": "item-015",
+          "id": "item-016",
           "nameJa": "ごま味噌らーめんチャーハンセット",
           "allergens": {
             "そば": false,
@@ -219,7 +233,7 @@
           }
         },
         {
-          "id": "item-016",
+          "id": "item-017",
           "nameJa": "ごま味噌らーめんミックスチャーハンセット",
           "allergens": {
             "そば": false,
@@ -233,7 +247,7 @@
           }
         },
         {
-          "id": "item-017",
+          "id": "item-018",
           "nameJa": "魚介とんこつらーめん",
           "allergens": {
             "そば": false,
@@ -247,7 +261,7 @@
           }
         },
         {
-          "id": "item-018",
+          "id": "item-019",
           "nameJa": "魚介とんこつらーめん餃子セット",
           "allergens": {
             "そば": false,
@@ -261,7 +275,7 @@
           }
         },
         {
-          "id": "item-019",
+          "id": "item-020",
           "nameJa": "魚介とんこつらーめんチャーハンセット",
           "allergens": {
             "そば": false,
@@ -275,7 +289,7 @@
           }
         },
         {
-          "id": "item-020",
+          "id": "item-021",
           "nameJa": "魚介とんこつらーめんﾐｯｸｽﾁｬｰﾊﾝｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -289,7 +303,7 @@
           }
         },
         {
-          "id": "item-021",
+          "id": "item-022",
           "nameJa": "ゆず塩らーめん",
           "allergens": {
             "そば": false,
@@ -303,7 +317,7 @@
           }
         },
         {
-          "id": "item-022",
+          "id": "item-023",
           "nameJa": "ゆず塩らーめん餃子セット",
           "allergens": {
             "そば": false,
@@ -317,7 +331,7 @@
           }
         },
         {
-          "id": "item-023",
+          "id": "item-024",
           "nameJa": "ゆず塩らーめんチャーハンセット",
           "allergens": {
             "そば": false,
@@ -331,7 +345,7 @@
           }
         },
         {
-          "id": "item-024",
+          "id": "item-025",
           "nameJa": "ゆず塩らーめんﾐｯｸｽﾁｬｰﾊﾝｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -345,7 +359,7 @@
           }
         },
         {
-          "id": "item-025",
+          "id": "item-026",
           "nameJa": "エビ味噌らーめん",
           "allergens": {
             "そば": false,
@@ -359,7 +373,7 @@
           }
         },
         {
-          "id": "item-026",
+          "id": "item-027",
           "nameJa": "エビ味噌らーめん餃子ｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -373,7 +387,7 @@
           }
         },
         {
-          "id": "item-027",
+          "id": "item-028",
           "nameJa": "エビ味噌らーめんチャーハンセット",
           "allergens": {
             "そば": false,
@@ -387,7 +401,7 @@
           }
         },
         {
-          "id": "item-028",
+          "id": "item-029",
           "nameJa": "エビ味噌らーめんミックスチャーハンセット",
           "allergens": {
             "そば": false,
@@ -401,7 +415,7 @@
           }
         },
         {
-          "id": "item-029",
+          "id": "item-030",
           "nameJa": "郡山ブラック",
           "allergens": {
             "そば": false,
@@ -415,7 +429,7 @@
           }
         },
         {
-          "id": "item-030",
+          "id": "item-031",
           "nameJa": "郡山ブラック素らーめんｷﾞｮｰｻﾞｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -429,7 +443,7 @@
           }
         },
         {
-          "id": "item-031",
+          "id": "item-032",
           "nameJa": "プレミアム醤油セット",
           "allergens": {
             "そば": false,
@@ -443,7 +457,7 @@
           }
         },
         {
-          "id": "item-032",
+          "id": "item-033",
           "nameJa": "プレミアム味噌セット",
           "allergens": {
             "そば": false,
@@ -457,7 +471,7 @@
           }
         },
         {
-          "id": "item-033",
+          "id": "item-034",
           "nameJa": "プレミアム塩セット",
           "allergens": {
             "そば": false,
@@ -471,7 +485,7 @@
           }
         },
         {
-          "id": "item-034",
+          "id": "item-035",
           "nameJa": "ﾁｬｰｼｭｰとﾒﾝﾏとｻﾞｰｻｲの盛り合わせｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -485,7 +499,7 @@
           }
         },
         {
-          "id": "item-035",
+          "id": "item-036",
           "nameJa": "メンマとザーサイの青菜炒めセット",
           "allergens": {
             "そば": false,
@@ -499,7 +513,7 @@
           }
         },
         {
-          "id": "item-036",
+          "id": "item-037",
           "nameJa": "メンマとザーサイのねぎラー油和えセット",
           "allergens": {
             "そば": false,
@@ -513,7 +527,7 @@
           }
         },
         {
-          "id": "item-037",
+          "id": "item-038",
           "nameJa": "庄助セット",
           "allergens": {
             "そば": false,
@@ -527,7 +541,7 @@
           }
         },
         {
-          "id": "item-038",
+          "id": "item-039",
           "nameJa": "れもんのお酒餃子セット",
           "allergens": {
             "そば": false,
@@ -541,7 +555,7 @@
           }
         },
         {
-          "id": "item-039",
+          "id": "item-040",
           "nameJa": "白ぶどうのお酒餃子セット",
           "allergens": {
             "そば": false,
@@ -555,7 +569,7 @@
           }
         },
         {
-          "id": "item-040",
+          "id": "item-041",
           "nameJa": "れもんのお酒素らーめんセット",
           "allergens": {
             "そば": false,
@@ -569,7 +583,7 @@
           }
         },
         {
-          "id": "item-041",
+          "id": "item-042",
           "nameJa": "白ぶどうのお酒素らーめんセット",
           "allergens": {
             "そば": false,
@@ -583,7 +597,7 @@
           }
         },
         {
-          "id": "item-042",
+          "id": "item-043",
           "nameJa": "素らーめん鶏そぼろキムチ丼セット",
           "allergens": {
             "そば": false,
@@ -597,7 +611,7 @@
           }
         },
         {
-          "id": "item-043",
+          "id": "item-044",
           "nameJa": "素らーめん鶏そぼろキムチ丼餃子セット",
           "allergens": {
             "そば": false,
@@ -611,7 +625,7 @@
           }
         },
         {
-          "id": "item-044",
+          "id": "item-045",
           "nameJa": "素らーめん温玉丼セット",
           "allergens": {
             "そば": false,
@@ -625,7 +639,7 @@
           }
         },
         {
-          "id": "item-045",
+          "id": "item-046",
           "nameJa": "素らーめんチャーハンセット",
           "allergens": {
             "そば": false,
@@ -639,7 +653,7 @@
           }
         },
         {
-          "id": "item-046",
+          "id": "item-047",
           "nameJa": "素らーめんチャーハン餃子セット",
           "allergens": {
             "そば": false,
@@ -653,7 +667,7 @@
           }
         },
         {
-          "id": "item-047",
+          "id": "item-048",
           "nameJa": "ミニザーサイ",
           "allergens": {
             "そば": false,
@@ -667,7 +681,7 @@
           }
         },
         {
-          "id": "item-048",
+          "id": "item-049",
           "nameJa": "ランチセット",
           "allergens": {
             "そば": false,
@@ -681,7 +695,7 @@
           }
         },
         {
-          "id": "item-049",
+          "id": "item-050",
           "nameJa": "野菜炒めセット",
           "allergens": {
             "そば": false,
@@ -695,7 +709,7 @@
           }
         },
         {
-          "id": "item-050",
+          "id": "item-051",
           "nameJa": "W餃子チャーハンセット",
           "allergens": {
             "そば": false,
@@ -709,7 +723,7 @@
           }
         },
         {
-          "id": "item-051",
+          "id": "item-052",
           "nameJa": "レバニラ炒めセット",
           "allergens": {
             "そば": false,
@@ -723,7 +737,7 @@
           }
         },
         {
-          "id": "item-052",
+          "id": "item-053",
           "nameJa": "旨辛の極み土鍋四川麻婆豆腐セット",
           "allergens": {
             "そば": false,
@@ -737,7 +751,7 @@
           }
         },
         {
-          "id": "item-053",
+          "id": "item-054",
           "nameJa": "黒酢香る豚角煮セット",
           "allergens": {
             "そば": false,
@@ -751,7 +765,7 @@
           }
         },
         {
-          "id": "item-054",
+          "id": "item-055",
           "nameJa": "野菜炒めセット(餃子)",
           "allergens": {
             "そば": false,
@@ -765,7 +779,7 @@
           }
         },
         {
-          "id": "item-055",
+          "id": "item-056",
           "nameJa": "W餃子チャーハンセット(餃子)",
           "allergens": {
             "そば": false,
@@ -779,7 +793,7 @@
           }
         },
         {
-          "id": "item-056",
+          "id": "item-057",
           "nameJa": "レバニラ炒めセット(餃子)",
           "allergens": {
             "そば": false,
@@ -793,7 +807,7 @@
           }
         },
         {
-          "id": "item-057",
+          "id": "item-058",
           "nameJa": "旨辛の極み土鍋四川麻婆豆腐セット(餃子)",
           "allergens": {
             "そば": false,
@@ -807,7 +821,7 @@
           }
         },
         {
-          "id": "item-058",
+          "id": "item-059",
           "nameJa": "黒酢香る豚角煮セット(餃子)",
           "allergens": {
             "そば": false,
@@ -821,7 +835,7 @@
           }
         },
         {
-          "id": "item-059",
+          "id": "item-060",
           "nameJa": "野菜炒めセット(素・らーめん)",
           "allergens": {
             "そば": false,
@@ -835,7 +849,7 @@
           }
         },
         {
-          "id": "item-060",
+          "id": "item-061",
           "nameJa": "W餃子チャーハンセット(素・らーめん)",
           "allergens": {
             "そば": false,
@@ -849,7 +863,7 @@
           }
         },
         {
-          "id": "item-061",
+          "id": "item-062",
           "nameJa": "レバニラ炒めセット(素・らーめん)",
           "allergens": {
             "そば": false,
@@ -863,7 +877,7 @@
           }
         },
         {
-          "id": "item-062",
+          "id": "item-063",
           "nameJa": "旨辛の極み土鍋四川麻婆豆腐ｾｯﾄ(素ﾗｰﾒﾝ）",
           "allergens": {
             "そば": false,
@@ -877,7 +891,7 @@
           }
         },
         {
-          "id": "item-063",
+          "id": "item-064",
           "nameJa": "黒酢香る豚角煮セット(素・らーめん)",
           "allergens": {
             "そば": false,
@@ -891,7 +905,7 @@
           }
         },
         {
-          "id": "item-064",
+          "id": "item-065",
           "nameJa": "野菜炒め",
           "allergens": {
             "そば": false,
@@ -905,7 +919,7 @@
           }
         },
         {
-          "id": "item-065",
+          "id": "item-066",
           "nameJa": "レバニラ炒め",
           "allergens": {
             "そば": false,
@@ -919,7 +933,7 @@
           }
         },
         {
-          "id": "item-066",
+          "id": "item-067",
           "nameJa": "旨辛の極み土鍋四川麻婆豆腐",
           "allergens": {
             "そば": false,
@@ -933,7 +947,7 @@
           }
         },
         {
-          "id": "item-067",
+          "id": "item-068",
           "nameJa": "黒酢香る豚角煮",
           "allergens": {
             "そば": false,
@@ -947,7 +961,7 @@
           }
         },
         {
-          "id": "item-068",
+          "id": "item-069",
           "nameJa": "中華スープセット",
           "allergens": {
             "そば": false,
@@ -961,7 +975,7 @@
           }
         },
         {
-          "id": "item-069",
+          "id": "item-070",
           "nameJa": "ギョーザセット",
           "allergens": {
             "そば": false,
@@ -975,7 +989,7 @@
           }
         },
         {
-          "id": "item-070",
+          "id": "item-071",
           "nameJa": "チャーハンセット",
           "allergens": {
             "そば": false,
@@ -989,7 +1003,7 @@
           }
         },
         {
-          "id": "item-071",
+          "id": "item-072",
           "nameJa": "チャーシュー丼セット",
           "allergens": {
             "そば": false,
@@ -1003,7 +1017,7 @@
           }
         },
         {
-          "id": "item-072",
+          "id": "item-073",
           "nameJa": "カレーライスセット",
           "allergens": {
             "そば": false,
@@ -1017,7 +1031,7 @@
           }
         },
         {
-          "id": "item-073",
+          "id": "item-074",
           "nameJa": "ミックスチャーハンセット",
           "allergens": {
             "そば": false,
@@ -1031,7 +1045,7 @@
           }
         },
         {
-          "id": "item-074",
+          "id": "item-075",
           "nameJa": "ミックスチャーシュー丼セット",
           "allergens": {
             "そば": false,
@@ -1045,7 +1059,7 @@
           }
         },
         {
-          "id": "item-075",
+          "id": "item-076",
           "nameJa": "ミックスカレーライスセット",
           "allergens": {
             "そば": false,
@@ -1059,7 +1073,7 @@
           }
         },
         {
-          "id": "item-076",
+          "id": "item-077",
           "nameJa": "餃子",
           "allergens": {
             "そば": false,
@@ -1073,7 +1087,7 @@
           }
         },
         {
-          "id": "item-077",
+          "id": "item-078",
           "nameJa": "ライス",
           "allergens": {
             "そば": false,
@@ -1087,7 +1101,7 @@
           }
         },
         {
-          "id": "item-078",
+          "id": "item-079",
           "nameJa": "カレーライス",
           "allergens": {
             "そば": false,
@@ -1101,7 +1115,7 @@
           }
         },
         {
-          "id": "item-079",
+          "id": "item-080",
           "nameJa": "チャーハン",
           "allergens": {
             "そば": false,
@@ -1115,7 +1129,7 @@
           }
         },
         {
-          "id": "item-080",
+          "id": "item-081",
           "nameJa": "チャーシュー丼",
           "allergens": {
             "そば": false,
@@ -1129,7 +1143,7 @@
           }
         },
         {
-          "id": "item-081",
+          "id": "item-082",
           "nameJa": "鶏そぼろキムチ丼",
           "allergens": {
             "そば": false,
@@ -1143,7 +1157,7 @@
           }
         },
         {
-          "id": "item-082",
+          "id": "item-083",
           "nameJa": "メンマ",
           "allergens": {
             "そば": false,
@@ -1157,7 +1171,7 @@
           }
         },
         {
-          "id": "item-083",
+          "id": "item-084",
           "nameJa": "千切りねぎ",
           "allergens": {
             "そば": false,
@@ -1171,7 +1185,7 @@
           }
         },
         {
-          "id": "item-084",
+          "id": "item-085",
           "nameJa": "温泉玉子",
           "allergens": {
             "そば": false,
@@ -1185,7 +1199,7 @@
           }
         },
         {
-          "id": "item-085",
+          "id": "item-086",
           "nameJa": "味玉",
           "allergens": {
             "そば": false,
@@ -1199,7 +1213,21 @@
           }
         },
         {
-          "id": "item-086",
+          "id": "item-087",
+          "nameJa": "背脂",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-088",
           "nameJa": "コーン",
           "allergens": {
             "そば": false,
@@ -1213,7 +1241,7 @@
           }
         },
         {
-          "id": "item-087",
+          "id": "item-089",
           "nameJa": "バター",
           "allergens": {
             "そば": false,
@@ -1227,7 +1255,7 @@
           }
         },
         {
-          "id": "item-088",
+          "id": "item-090",
           "nameJa": "赤マー油",
           "allergens": {
             "そば": false,
@@ -1241,7 +1269,7 @@
           }
         },
         {
-          "id": "item-089",
+          "id": "item-091",
           "nameJa": "にんにく",
           "allergens": {
             "そば": false,
@@ -1255,7 +1283,7 @@
           }
         },
         {
-          "id": "item-090",
+          "id": "item-092",
           "nameJa": "辛しにんにく",
           "allergens": {
             "そば": false,
@@ -1269,7 +1297,7 @@
           }
         },
         {
-          "id": "item-091",
+          "id": "item-093",
           "nameJa": "唐辛し",
           "allergens": {
             "そば": false,
@@ -1283,7 +1311,21 @@
           }
         },
         {
-          "id": "item-092",
+          "id": "item-094",
+          "nameJa": "節粉",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-095",
           "nameJa": "のり(5枚)",
           "allergens": {
             "そば": false,
@@ -1297,7 +1339,7 @@
           }
         },
         {
-          "id": "item-093",
+          "id": "item-096",
           "nameJa": "単品ﾁｬｰｼｭｰ",
           "allergens": {
             "そば": false,
@@ -1311,7 +1353,7 @@
           }
         },
         {
-          "id": "item-094",
+          "id": "item-097",
           "nameJa": "単品チャーシュープレミアム",
           "allergens": {
             "そば": false,
@@ -1325,7 +1367,7 @@
           }
         },
         {
-          "id": "item-095",
+          "id": "item-098",
           "nameJa": "ザーサイ",
           "allergens": {
             "そば": false,
@@ -1339,7 +1381,7 @@
           }
         },
         {
-          "id": "item-096",
+          "id": "item-099",
           "nameJa": "キムチ",
           "allergens": {
             "そば": false,
@@ -1353,7 +1395,7 @@
           }
         },
         {
-          "id": "item-097",
+          "id": "item-100",
           "nameJa": "盛り合わせ",
           "allergens": {
             "そば": false,
@@ -1367,7 +1409,7 @@
           }
         },
         {
-          "id": "item-098",
+          "id": "item-101",
           "nameJa": "メンマとザーサイの青菜炒め",
           "allergens": {
             "そば": false,
@@ -1381,7 +1423,7 @@
           }
         },
         {
-          "id": "item-099",
+          "id": "item-102",
           "nameJa": "メンマとザーサイのねぎラー油和え",
           "allergens": {
             "そば": false,
@@ -1395,7 +1437,7 @@
           }
         },
         {
-          "id": "item-100",
+          "id": "item-103",
           "nameJa": "生ビール(ジョッキ)",
           "allergens": {
             "そば": false,
@@ -1409,7 +1451,7 @@
           }
         },
         {
-          "id": "item-101",
+          "id": "item-104",
           "nameJa": "生ビール(小ジョッキ)",
           "allergens": {
             "そば": false,
@@ -1423,7 +1465,7 @@
           }
         },
         {
-          "id": "item-102",
+          "id": "item-105",
           "nameJa": "瓶ビール(中瓶)",
           "allergens": {
             "そば": false,
@@ -1437,7 +1479,7 @@
           }
         },
         {
-          "id": "item-103",
+          "id": "item-106",
           "nameJa": "ドライゼロ(小瓶)",
           "allergens": {
             "そば": false,
@@ -1451,7 +1493,7 @@
           }
         },
         {
-          "id": "item-104",
+          "id": "item-107",
           "nameJa": "焼酎ソーダ",
           "allergens": {
             "そば": false,
@@ -1465,7 +1507,7 @@
           }
         },
         {
-          "id": "item-105",
+          "id": "item-108",
           "nameJa": "ウーロンハイ",
           "allergens": {
             "そば": false,
@@ -1479,7 +1521,7 @@
           }
         },
         {
-          "id": "item-106",
+          "id": "item-109",
           "nameJa": "ジャスミンハイ",
           "allergens": {
             "そば": false,
@@ -1493,7 +1535,7 @@
           }
         },
         {
-          "id": "item-107",
+          "id": "item-110",
           "nameJa": "緑茶ハイ",
           "allergens": {
             "そば": false,
@@ -1507,7 +1549,7 @@
           }
         },
         {
-          "id": "item-108",
+          "id": "item-111",
           "nameJa": "コーラサワー",
           "allergens": {
             "そば": false,
@@ -1521,7 +1563,7 @@
           }
         },
         {
-          "id": "item-109",
+          "id": "item-112",
           "nameJa": "青りんごサワー",
           "allergens": {
             "そば": false,
@@ -1535,7 +1577,7 @@
           }
         },
         {
-          "id": "item-110",
+          "id": "item-113",
           "nameJa": "ブラックニッカハイボール",
           "allergens": {
             "そば": false,
@@ -1549,7 +1591,7 @@
           }
         },
         {
-          "id": "item-111",
+          "id": "item-114",
           "nameJa": "樽ハイ倶楽部レモンサワー",
           "allergens": {
             "そば": false,
@@ -1563,7 +1605,7 @@
           }
         },
         {
-          "id": "item-112",
+          "id": "item-115",
           "nameJa": "会津花春大吟醸",
           "allergens": {
             "そば": false,
@@ -1577,7 +1619,7 @@
           }
         },
         {
-          "id": "item-113",
+          "id": "item-116",
           "nameJa": "花春れもんのお酒",
           "allergens": {
             "そば": false,
@@ -1591,7 +1633,7 @@
           }
         },
         {
-          "id": "item-114",
+          "id": "item-117",
           "nameJa": "花春白ぶどうのお酒",
           "allergens": {
             "そば": false,
@@ -1605,7 +1647,7 @@
           }
         },
         {
-          "id": "item-115",
+          "id": "item-118",
           "nameJa": "POPメロンソーダ",
           "allergens": {
             "そば": false,
@@ -1619,7 +1661,7 @@
           }
         },
         {
-          "id": "item-116",
+          "id": "item-119",
           "nameJa": "ペプシコーラ",
           "allergens": {
             "そば": false,
@@ -1633,7 +1675,7 @@
           }
         },
         {
-          "id": "item-117",
+          "id": "item-120",
           "nameJa": "なっちゃんアップル",
           "allergens": {
             "そば": false,
@@ -1647,7 +1689,7 @@
           }
         },
         {
-          "id": "item-118",
+          "id": "item-121",
           "nameJa": "サントリーウーロン茶",
           "allergens": {
             "そば": false,
@@ -1661,7 +1703,7 @@
           }
         },
         {
-          "id": "item-119",
+          "id": "item-122",
           "nameJa": "BOSSアイスコーヒー",
           "allergens": {
             "そば": false,
@@ -1675,7 +1717,7 @@
           }
         },
         {
-          "id": "item-120",
+          "id": "item-123",
           "nameJa": "バニラアイス",
           "allergens": {
             "そば": false,
@@ -1689,7 +1731,7 @@
           }
         },
         {
-          "id": "item-121",
+          "id": "item-124",
           "nameJa": "アンニン豆腐",
           "allergens": {
             "そば": false,
@@ -1703,7 +1745,7 @@
           }
         },
         {
-          "id": "item-122",
+          "id": "item-125",
           "nameJa": "南アルプスの天然水(550ml)",
           "allergens": {
             "そば": false,
@@ -1717,7 +1759,7 @@
           }
         },
         {
-          "id": "item-123",
+          "id": "item-126",
           "nameJa": "ウィルキンソンタンサン",
           "allergens": {
             "そば": false,
@@ -1731,7 +1773,7 @@
           }
         },
         {
-          "id": "item-124",
+          "id": "item-127",
           "nameJa": "ﾍﾟﾌﾟｼｼﾞｬﾊﾟﾝｺｰﾗ(490ml)",
           "allergens": {
             "そば": false,
@@ -1745,7 +1787,7 @@
           }
         },
         {
-          "id": "item-125",
+          "id": "item-128",
           "nameJa": "カルピスウォーター",
           "allergens": {
             "そば": false,
@@ -1759,7 +1801,7 @@
           }
         },
         {
-          "id": "item-126",
+          "id": "item-129",
           "nameJa": "伊右衛門(600ml)",
           "allergens": {
             "そば": false,
@@ -1773,7 +1815,7 @@
           }
         },
         {
-          "id": "item-127",
+          "id": "item-130",
           "nameJa": "伊右衛門ジャスミン茶(600ml)",
           "allergens": {
             "そば": false,
@@ -1787,7 +1829,7 @@
           }
         },
         {
-          "id": "item-128",
+          "id": "item-131",
           "nameJa": "冷凍生餃子",
           "allergens": {
             "そば": false,
@@ -1801,7 +1843,7 @@
           }
         },
         {
-          "id": "item-129",
+          "id": "item-132",
           "nameJa": "お持ち帰り幸楽苑のメンマ",
           "allergens": {
             "そば": false,
@@ -1815,7 +1857,7 @@
           }
         },
         {
-          "id": "item-130",
+          "id": "item-133",
           "nameJa": "お持ち帰り幸楽苑の味付ザーサイ",
           "allergens": {
             "そば": false,
@@ -1829,7 +1871,7 @@
           }
         },
         {
-          "id": "item-131",
+          "id": "item-134",
           "nameJa": "お持ち帰りらーめん2食入り(中華)",
           "allergens": {
             "そば": false,
@@ -1843,7 +1885,7 @@
           }
         },
         {
-          "id": "item-132",
+          "id": "item-135",
           "nameJa": "お持ち帰りらーめん2食入り(味噌)",
           "allergens": {
             "そば": false,
@@ -1857,7 +1899,7 @@
           }
         },
         {
-          "id": "item-133",
+          "id": "item-136",
           "nameJa": "特別純米(契約栽培コシヒカリ)",
           "allergens": {
             "そば": false,
@@ -1871,7 +1913,7 @@
           }
         },
         {
-          "id": "item-134",
+          "id": "item-137",
           "nameJa": "夢の香純米吟醸",
           "allergens": {
             "そば": false,
@@ -1885,7 +1927,7 @@
           }
         },
         {
-          "id": "item-135",
+          "id": "item-138",
           "nameJa": "純米大吟醸磨き40",
           "allergens": {
             "そば": false,
@@ -1899,7 +1941,7 @@
           }
         },
         {
-          "id": "item-136",
+          "id": "item-139",
           "nameJa": "山田錦大吟醸",
           "allergens": {
             "そば": false,
@@ -1913,7 +1955,7 @@
           }
         },
         {
-          "id": "item-137",
+          "id": "item-140",
           "nameJa": "花春夢の香大吟醸",
           "allergens": {
             "そば": false,
@@ -1927,7 +1969,7 @@
           }
         },
         {
-          "id": "item-138",
+          "id": "item-141",
           "nameJa": "会津のにごり純米吟醸",
           "allergens": {
             "そば": false,
@@ -1941,7 +1983,7 @@
           }
         },
         {
-          "id": "item-139",
+          "id": "item-142",
           "nameJa": "花春濃醇純米酒(720ml)",
           "allergens": {
             "そば": false,
@@ -1955,7 +1997,7 @@
           }
         },
         {
-          "id": "item-140",
+          "id": "item-143",
           "nameJa": "花春濃醇純米酒(1800ml)",
           "allergens": {
             "そば": false,
@@ -1969,7 +2011,7 @@
           }
         },
         {
-          "id": "item-141",
+          "id": "item-144",
           "nameJa": "花春辛口純米酒",
           "allergens": {
             "そば": false,
@@ -1983,7 +2025,7 @@
           }
         },
         {
-          "id": "item-142",
+          "id": "item-145",
           "nameJa": "(花春)純米吟醸酒",
           "allergens": {
             "そば": false,
@@ -1997,7 +2039,7 @@
           }
         },
         {
-          "id": "item-143",
+          "id": "item-146",
           "nameJa": "れもんのお酒",
           "allergens": {
             "そば": false,
@@ -2011,7 +2053,7 @@
           }
         },
         {
-          "id": "item-144",
+          "id": "item-147",
           "nameJa": "白ぶどうのお酒",
           "allergens": {
             "そば": false,
@@ -2025,7 +2067,7 @@
           }
         },
         {
-          "id": "item-145",
+          "id": "item-148",
           "nameJa": "はちみつ梅酒",
           "allergens": {
             "そば": false,
@@ -2039,7 +2081,7 @@
           }
         },
         {
-          "id": "item-146",
+          "id": "item-149",
           "nameJa": "花春焼酎",
           "allergens": {
             "そば": false,
@@ -2053,7 +2095,7 @@
           }
         },
         {
-          "id": "item-147",
+          "id": "item-150",
           "nameJa": "純米料理酒",
           "allergens": {
             "そば": false,
@@ -2067,7 +2109,7 @@
           }
         },
         {
-          "id": "item-148",
+          "id": "item-151",
           "nameJa": "にんにくバターらーめん",
           "allergens": {
             "そば": false,
@@ -2081,7 +2123,7 @@
           }
         },
         {
-          "id": "item-149",
+          "id": "item-152",
           "nameJa": "スタミナらーめん",
           "allergens": {
             "そば": false,
@@ -2095,7 +2137,7 @@
           }
         },
         {
-          "id": "item-150",
+          "id": "item-153",
           "nameJa": "つけめん(1.5玉)",
           "allergens": {
             "そば": false,
@@ -2109,7 +2151,7 @@
           }
         },
         {
-          "id": "item-151",
+          "id": "item-154",
           "nameJa": "つけめん(熱盛)",
           "allergens": {
             "そば": false,
@@ -2123,7 +2165,7 @@
           }
         },
         {
-          "id": "item-152",
+          "id": "item-155",
           "nameJa": "担担麺ミニからあげ丼セット",
           "allergens": {
             "そば": false,
@@ -2137,7 +2179,7 @@
           }
         },
         {
-          "id": "item-153",
+          "id": "item-156",
           "nameJa": "担担麺ミニからあげ丼(タルタル)セット",
           "allergens": {
             "そば": false,
@@ -2151,7 +2193,7 @@
           }
         },
         {
-          "id": "item-154",
+          "id": "item-157",
           "nameJa": "カルボらーめん",
           "allergens": {
             "そば": false,
@@ -2165,7 +2207,7 @@
           }
         },
         {
-          "id": "item-155",
+          "id": "item-158",
           "nameJa": "カルボらーめん餃子セット",
           "allergens": {
             "そば": false,
@@ -2179,7 +2221,7 @@
           }
         },
         {
-          "id": "item-156",
+          "id": "item-159",
           "nameJa": "カルボらーめん餃子ライスセット",
           "allergens": {
             "そば": false,
@@ -2193,7 +2235,7 @@
           }
         },
         {
-          "id": "item-157",
+          "id": "item-160",
           "nameJa": "カルボらーめんミニからあげ丼セット",
           "allergens": {
             "そば": false,
@@ -2207,7 +2249,7 @@
           }
         },
         {
-          "id": "item-158",
+          "id": "item-161",
           "nameJa": "カルボらーめんミニからあげ丼(ﾀﾙﾀﾙ)セット",
           "allergens": {
             "そば": false,
@@ -2221,7 +2263,7 @@
           }
         },
         {
-          "id": "item-159",
+          "id": "item-162",
           "nameJa": "ごま味噌らーめん餃子ライスセット",
           "allergens": {
             "そば": false,
@@ -2235,7 +2277,7 @@
           }
         },
         {
-          "id": "item-160",
+          "id": "item-163",
           "nameJa": "ごま味噌らーめんミニからあげ丼セット",
           "allergens": {
             "そば": false,
@@ -2249,7 +2291,7 @@
           }
         },
         {
-          "id": "item-161",
+          "id": "item-164",
           "nameJa": "ごま味噌らーめんﾐﾆからあげ丼(ﾀﾙﾀﾙ)ｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -2263,7 +2305,7 @@
           }
         },
         {
-          "id": "item-162",
+          "id": "item-165",
           "nameJa": "魚介とんこつらーめん餃子ライスセット",
           "allergens": {
             "そば": false,
@@ -2277,7 +2319,7 @@
           }
         },
         {
-          "id": "item-163",
+          "id": "item-166",
           "nameJa": "魚介とんこつらーめんﾐﾆからあげ丼ｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -2291,7 +2333,7 @@
           }
         },
         {
-          "id": "item-164",
+          "id": "item-167",
           "nameJa": "魚介とんこつらーめんﾐﾆからあげ丼(ﾀﾙﾀﾙ)S",
           "allergens": {
             "そば": false,
@@ -2305,7 +2347,7 @@
           }
         },
         {
-          "id": "item-165",
+          "id": "item-168",
           "nameJa": "ゆず塩らーめん餃子ライスセット",
           "allergens": {
             "そば": false,
@@ -2319,7 +2361,7 @@
           }
         },
         {
-          "id": "item-166",
+          "id": "item-169",
           "nameJa": "ゆず塩らーめんﾐﾆからあげ丼ｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -2333,7 +2375,7 @@
           }
         },
         {
-          "id": "item-167",
+          "id": "item-170",
           "nameJa": "ゆず塩らーめんﾐﾆからあげ丼(ﾀﾙﾀﾙ)ｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -2347,7 +2389,7 @@
           }
         },
         {
-          "id": "item-168",
+          "id": "item-171",
           "nameJa": "エビ味噌らーめん餃子ライスセット",
           "allergens": {
             "そば": false,
@@ -2361,7 +2403,7 @@
           }
         },
         {
-          "id": "item-169",
+          "id": "item-172",
           "nameJa": "エビ味噌らーめんミニからあげ丼セット",
           "allergens": {
             "そば": false,
@@ -2375,7 +2417,7 @@
           }
         },
         {
-          "id": "item-170",
+          "id": "item-173",
           "nameJa": "ｴﾋﾞ味噌らーめんミニからあげ丼(ﾀﾙﾀﾙ)ｾｯﾄ",
           "allergens": {
             "そば": false,
@@ -2389,7 +2431,7 @@
           }
         },
         {
-          "id": "item-171",
+          "id": "item-174",
           "nameJa": "ミニからあげ丼",
           "allergens": {
             "そば": false,
@@ -2403,7 +2445,7 @@
           }
         },
         {
-          "id": "item-172",
+          "id": "item-175",
           "nameJa": "ミニからあげ丼(タルタル)",
           "allergens": {
             "そば": false,
@@ -2417,7 +2459,7 @@
           }
         },
         {
-          "id": "item-173",
+          "id": "item-176",
           "nameJa": "から揚げ定食",
           "allergens": {
             "そば": false,
@@ -2431,7 +2473,7 @@
           }
         },
         {
-          "id": "item-174",
+          "id": "item-177",
           "nameJa": "餃子から揚げ定食(6個)",
           "allergens": {
             "そば": false,
@@ -2445,7 +2487,7 @@
           }
         },
         {
-          "id": "item-175",
+          "id": "item-178",
           "nameJa": "からあげ(醤油味)1個",
           "allergens": {
             "そば": false,
@@ -2459,7 +2501,7 @@
           }
         },
         {
-          "id": "item-176",
+          "id": "item-179",
           "nameJa": "ポテトフライS",
           "allergens": {
             "そば": false,
@@ -2473,7 +2515,7 @@
           }
         },
         {
-          "id": "item-177",
+          "id": "item-180",
           "nameJa": "ポテトフライM",
           "allergens": {
             "そば": false,
@@ -2487,7 +2529,7 @@
           }
         },
         {
-          "id": "item-178",
+          "id": "item-181",
           "nameJa": "ポテトフライL",
           "allergens": {
             "そば": false,
@@ -2501,7 +2543,7 @@
           }
         },
         {
-          "id": "item-179",
+          "id": "item-182",
           "nameJa": "ボイル野菜",
           "allergens": {
             "そば": false,
@@ -2515,7 +2557,7 @@
           }
         },
         {
-          "id": "item-180",
+          "id": "item-183",
           "nameJa": "餃子定食",
           "allergens": {
             "そば": false,
@@ -2529,7 +2571,7 @@
           }
         },
         {
-          "id": "item-181",
+          "id": "item-184",
           "nameJa": "W餃子定食",
           "allergens": {
             "そば": false,
@@ -2543,7 +2585,7 @@
           }
         },
         {
-          "id": "item-182",
+          "id": "item-185",
           "nameJa": "四川麻婆豆腐定食",
           "allergens": {
             "そば": false,
@@ -2557,7 +2599,7 @@
           }
         },
         {
-          "id": "item-183",
+          "id": "item-186",
           "nameJa": "焼餃子",
           "allergens": {
             "そば": false,
@@ -2571,7 +2613,7 @@
           }
         },
         {
-          "id": "item-184",
+          "id": "item-187",
           "nameJa": "おつまみ餃子(ﾊﾞｼﾞﾘｺｿｰｽ)",
           "allergens": {
             "そば": false,
@@ -2585,7 +2627,7 @@
           }
         },
         {
-          "id": "item-185",
+          "id": "item-188",
           "nameJa": "おつまみ餃子(ﾅﾎﾟﾘﾀﾝｿｰｽ)",
           "allergens": {
             "そば": false,
@@ -2599,7 +2641,7 @@
           }
         },
         {
-          "id": "item-186",
+          "id": "item-189",
           "nameJa": "おつまみ餃子(ｶﾚｰｿｰｽ)",
           "allergens": {
             "そば": false,
@@ -2613,7 +2655,7 @@
           }
         },
         {
-          "id": "item-187",
+          "id": "item-190",
           "nameJa": "おつまみ餃子(ﾀﾙﾀﾙｿｰｽ)",
           "allergens": {
             "そば": false,
@@ -2627,7 +2669,7 @@
           }
         },
         {
-          "id": "item-188",
+          "id": "item-191",
           "nameJa": "おつまみ餃子4種全部盛り",
           "allergens": {
             "そば": false,
@@ -2641,7 +2683,7 @@
           }
         },
         {
-          "id": "item-189",
+          "id": "item-192",
           "nameJa": "味よしのもつ煮込み",
           "allergens": {
             "そば": false,
@@ -2655,7 +2697,7 @@
           }
         },
         {
-          "id": "item-190",
+          "id": "item-193",
           "nameJa": "四川麻婆豆腐",
           "allergens": {
             "そば": false,
@@ -2669,7 +2711,7 @@
           }
         },
         {
-          "id": "item-191",
+          "id": "item-194",
           "nameJa": "煮たまご",
           "allergens": {
             "そば": false,
@@ -2683,7 +2725,7 @@
           }
         },
         {
-          "id": "item-192",
+          "id": "item-195",
           "nameJa": "白菜キムチ",
           "allergens": {
             "そば": false,
@@ -2697,50 +2739,8 @@
           }
         },
         {
-          "id": "item-193",
-          "nameJa": "ピリ辛枝豆",
-          "allergens": {
-            "そば": false,
-            "落花生": true,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-194",
-          "nameJa": "たたきキュウリ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-195",
-          "nameJa": "味よし特製の葱ザーサイ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
           "id": "item-196",
-          "nameJa": "冷やっこ",
+          "nameJa": "枝豆",
           "allergens": {
             "そば": false,
             "落花生": false,
@@ -2754,6 +2754,62 @@
         },
         {
           "id": "item-197",
+          "nameJa": "ピリ辛枝豆",
+          "allergens": {
+            "そば": false,
+            "落花生": true,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": true,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-198",
+          "nameJa": "たたきキュウリ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-199",
+          "nameJa": "味よし特製の葱ザーサイ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": true,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-200",
+          "nameJa": "冷やっこ",
+          "allergens": {
+            "そば": false,
+            "落花生": false,
+            "小麦": false,
+            "卵": false,
+            "乳": false,
+            "えび": false,
+            "かに": false,
+            "くるみ": false
+          }
+        },
+        {
+          "id": "item-201",
           "nameJa": "麻辣やっこ",
           "allergens": {
             "そば": false,
@@ -2767,7 +2823,7 @@
           }
         },
         {
-          "id": "item-198",
+          "id": "item-202",
           "nameJa": "ちょっとおつまみ3種盛り",
           "allergens": {
             "そば": false,
@@ -2781,7 +2837,7 @@
           }
         },
         {
-          "id": "item-199",
+          "id": "item-203",
           "nameJa": "もやしナムル",
           "allergens": {
             "そば": false,
@@ -2795,7 +2851,7 @@
           }
         },
         {
-          "id": "item-200",
+          "id": "item-204",
           "nameJa": "オニオンスライス",
           "allergens": {
             "そば": false,
@@ -2809,7 +2865,7 @@
           }
         },
         {
-          "id": "item-201",
+          "id": "item-205",
           "nameJa": "ポテサラチャーシューのせ",
           "allergens": {
             "そば": false,
@@ -2823,7 +2879,7 @@
           }
         },
         {
-          "id": "item-202",
+          "id": "item-206",
           "nameJa": "よだれ鶏",
           "allergens": {
             "そば": false,
@@ -2837,7 +2893,7 @@
           }
         },
         {
-          "id": "item-203",
+          "id": "item-207",
           "nameJa": "炙りチャーシュー",
           "allergens": {
             "そば": false,
@@ -2851,7 +2907,7 @@
           }
         },
         {
-          "id": "item-204",
+          "id": "item-208",
           "nameJa": "肉味噌もやし",
           "allergens": {
             "そば": false,
@@ -2865,7 +2921,7 @@
           }
         },
         {
-          "id": "item-205",
+          "id": "item-209",
           "nameJa": "チャーシューエッグ",
           "allergens": {
             "そば": false,
@@ -2879,7 +2935,7 @@
           }
         },
         {
-          "id": "item-206",
+          "id": "item-210",
           "nameJa": "フライドポテト",
           "allergens": {
             "そば": false,
@@ -2893,7 +2949,7 @@
           }
         },
         {
-          "id": "item-207",
+          "id": "item-211",
           "nameJa": "大判鶏ﾓﾓ1枚から揚げ",
           "allergens": {
             "そば": false,
@@ -2907,7 +2963,7 @@
           }
         },
         {
-          "id": "item-208",
+          "id": "item-212",
           "nameJa": "味よしの自慢の昔ながらのハムカツ",
           "allergens": {
             "そば": false,
@@ -2921,7 +2977,7 @@
           }
         },
         {
-          "id": "item-209",
+          "id": "item-213",
           "nameJa": "いかげそから揚げ",
           "allergens": {
             "そば": false,
@@ -2935,7 +2991,7 @@
           }
         },
         {
-          "id": "item-210",
+          "id": "item-214",
           "nameJa": "大判あじフライ",
           "allergens": {
             "そば": false,
@@ -2949,7 +3005,7 @@
           }
         },
         {
-          "id": "item-211",
+          "id": "item-215",
           "nameJa": "コーラフロート",
           "allergens": {
             "そば": false,
@@ -2963,7 +3019,7 @@
           }
         },
         {
-          "id": "item-212",
+          "id": "item-216",
           "nameJa": "トマトジュース",
           "allergens": {
             "そば": false,
@@ -2977,7 +3033,7 @@
           }
         },
         {
-          "id": "item-213",
+          "id": "item-217",
           "nameJa": "オレンジジュース",
           "allergens": {
             "そば": false,
@@ -2991,7 +3047,7 @@
           }
         },
         {
-          "id": "item-214",
+          "id": "item-218",
           "nameJa": "ジャスミン茶",
           "allergens": {
             "そば": false,
@@ -3005,7 +3061,7 @@
           }
         },
         {
-          "id": "item-215",
+          "id": "item-219",
           "nameJa": "花春大吟醸180㏄",
           "allergens": {
             "そば": false,
