@@ -74,6 +74,12 @@ import katsuya from "@/data/menus/katsuya-1.json";
 // コロワイドG
 import freshness from "@/data/menus/freshness-1.json";
 import kappasushi from "@/data/menus/kappasushi-1.json";
+// くら寿司
+import kurasushi from "@/data/menus/kurasushi-1.json";
+// フォーシーズ
+import pizzala from "@/data/menus/pizzala-1.json";
+// ドトール日レスHD
+import doutor from "@/data/menus/doutor-1.json";
 
 export const allergens: Allergen[] = allergensJson;
 export const brands: Brand[] = brandsJson;
@@ -150,6 +156,12 @@ const menuDataMap: Record<string, MenuData> = {
   // コロワイドG
   "freshness-1": freshness as MenuData,
   "kappasushi-1": kappasushi as MenuData,
+  // くら寿司
+  "kurasushi-1": kurasushi as MenuData,
+  // フォーシーズ
+  "pizzala-1": pizzala as MenuData,
+  // ドトール日レスHD
+  "doutor-1": doutor as MenuData,
 };
 
 export function getMenuData(brandId: string, usageType: number): MenuData | null {

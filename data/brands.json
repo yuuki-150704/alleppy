@@ -670,5 +670,47 @@
       }
     ],
     "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "kurasushi",
+    "nameJa": "くら寿司",
+    "brandCode": "kurasushi",
+    "groupName": "くら寿司",
+    "sourceUrl": "https://www.kurasushi.co.jp/app/app_allergen.html",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "pizzala",
+    "nameJa": "ピザーラ",
+    "brandCode": "pizzala",
+    "groupName": "フォーシーズ",
+    "sourceUrl": "https://www.pizza-la.co.jp/sc_Allergen_top.aspx",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "doutor",
+    "nameJa": "ドトール",
+    "brandCode": "doutor",
+    "groupName": "ドトール日レスHD",
+    "sourceUrl": "https://www.doutor.co.jp/dcs/allergy/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
   }
 ]
