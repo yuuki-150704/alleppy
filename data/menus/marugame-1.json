@@ -934,20 +934,6 @@
         },
         {
           "id": "item-067",
-          "nameJa": "天かす",
-          "allergens": {
-            "そば": null,
-            "落花生": false,
-            "小麦": false,
-            "卵": null,
-            "乳": null,
-            "えび": null,
-            "かに": null,
-            "くるみ": null
-          }
-        },
-        {
-          "id": "item-068",
           "nameJa": "ウインナー天",
           "allergens": {
             "そば": false,
@@ -961,7 +947,7 @@
           }
         },
         {
-          "id": "item-069",
+          "id": "item-068",
           "nameJa": "雪国まいたけ天",
           "allergens": {
             "そば": false,
@@ -975,7 +961,7 @@
           }
         },
         {
-          "id": "item-070",
+          "id": "item-069",
           "nameJa": "コロッケ",
           "allergens": {
             "そば": false,
@@ -989,7 +975,7 @@
           }
         },
         {
-          "id": "item-071",
+          "id": "item-070",
           "nameJa": "厚切りハムカツ",
           "allergens": {
             "そば": false,
@@ -1003,7 +989,7 @@
           }
         },
         {
-          "id": "item-072",
+          "id": "item-071",
           "nameJa": "げそ天",
           "allergens": {
             "そば": false,
@@ -1017,7 +1003,7 @@
           }
         },
         {
-          "id": "item-073",
+          "id": "item-072",
           "nameJa": "きす天",
           "allergens": {
             "そば": false,
@@ -1031,7 +1017,7 @@
           }
         },
         {
-          "id": "item-074",
+          "id": "item-073",
           "nameJa": "鶏天",
           "allergens": {
             "そば": false,
@@ -1045,7 +1031,7 @@
           }
         },
         {
-          "id": "item-075",
+          "id": "item-074",
           "nameJa": "いか磯辺かき揚げ",
           "allergens": {
             "そば": false,
@@ -1059,7 +1045,7 @@
           }
         },
         {
-          "id": "item-076",
+          "id": "item-075",
           "nameJa": "ちくわ磯辺かき揚げ",
           "allergens": {
             "そば": false,
@@ -1073,7 +1059,7 @@
           }
         },
         {
-          "id": "item-077",
+          "id": "item-076",
           "nameJa": "半熟たまご磯辺天",
           "allergens": {
             "そば": false,
@@ -1087,7 +1073,7 @@
           }
         },
         {
-          "id": "item-078",
+          "id": "item-077",
           "nameJa": "いなり",
           "allergens": {
             "そば": false,
@@ -1101,7 +1087,7 @@
           }
         },
         {
-          "id": "item-079",
+          "id": "item-078",
           "nameJa": "わさびいなり",
           "allergens": {
             "そば": false,
@@ -1115,7 +1101,7 @@
           }
         },
         {
-          "id": "item-080",
+          "id": "item-079",
           "nameJa": "梅おむすび",
           "allergens": {
             "そば": false,
@@ -1129,7 +1115,7 @@
           }
         },
         {
-          "id": "item-081",
+          "id": "item-080",
           "nameJa": "梅しそおむすび",
           "allergens": {
             "そば": false,
@@ -1143,7 +1129,7 @@
           }
         },
         {
-          "id": "item-082",
+          "id": "item-081",
           "nameJa": "こんぶおむすび",
           "allergens": {
             "そば": false,
@@ -1157,7 +1143,7 @@
           }
         },
         {
-          "id": "item-083",
+          "id": "item-082",
           "nameJa": "鮭おむすび",
           "allergens": {
             "そば": false,
@@ -1171,7 +1157,7 @@
           }
         },
         {
-          "id": "item-084",
+          "id": "item-083",
           "nameJa": "高菜おむすび",
           "allergens": {
             "そば": false,
@@ -1185,7 +1171,7 @@
           }
         },
         {
-          "id": "item-085",
+          "id": "item-084",
           "nameJa": "明太子おむすび",
           "allergens": {
             "そば": false,
@@ -1199,7 +1185,7 @@
           }
         },
         {
-          "id": "item-086",
+          "id": "item-085",
           "nameJa": "親子丼",
           "allergens": {
             "そば": false,
@@ -1213,7 +1199,7 @@
           }
         },
         {
-          "id": "item-087",
+          "id": "item-086",
           "nameJa": "かやくご飯",
           "allergens": {
             "そば": false,
@@ -1227,7 +1213,7 @@
           }
         },
         {
-          "id": "item-088",
+          "id": "item-087",
           "nameJa": "天丼",
           "allergens": {
             "そば": false,
@@ -1241,7 +1227,7 @@
           }
         },
         {
-          "id": "item-089",
+          "id": "item-088",
           "nameJa": "牛すき丼",
           "allergens": {
             "そば": false,
@@ -1255,7 +1241,7 @@
           }
         },
         {
-          "id": "item-090",
+          "id": "item-089",
           "nameJa": "海老天とじ丼",
           "allergens": {
             "そば": false,
@@ -1269,7 +1255,7 @@
           }
         },
         {
-          "id": "item-091",
+          "id": "item-090",
           "nameJa": "牛焼肉丼",
           "allergens": {
             "そば": false,
@@ -1283,7 +1269,7 @@
           }
         },
         {
-          "id": "item-092",
+          "id": "item-091",
           "nameJa": "定番うどん弁当（温/冷）",
           "allergens": {
             "そば": false,
@@ -1297,7 +1283,7 @@
           }
         },
         {
-          "id": "item-093",
+          "id": "item-092",
           "nameJa": "えび天のうどん弁当（温/冷）",
           "allergens": {
             "そば": false,
@@ -1311,7 +1297,7 @@
           }
         },
         {
-          "id": "item-094",
+          "id": "item-093",
           "nameJa": "紅しょうがバラ天うどん弁当",
           "allergens": {
             "そば": false,
@@ -1325,7 +1311,7 @@
           }
         },
         {
-          "id": "item-095",
+          "id": "item-094",
           "nameJa": "タル鶏天うどん弁当",
           "allergens": {
             "そば": false,
@@ -1339,7 +1325,7 @@
           }
         },
         {
-          "id": "item-096",
+          "id": "item-095",
           "nameJa": "すだちおろしうどん弁当",
           "allergens": {
             "そば": false,
@@ -1353,7 +1339,7 @@
           }
         },
         {
-          "id": "item-097",
+          "id": "item-096",
           "nameJa": "かしわ天うどん弁当",
           "allergens": {
             "そば": false,
@@ -1367,7 +1353,7 @@
           }
         },
         {
-          "id": "item-098",
+          "id": "item-097",
           "nameJa": "げそ天うどん弁当",
           "allergens": {
             "そば": false,
@@ -1381,7 +1367,7 @@
           }
         },
         {
-          "id": "item-099",
+          "id": "item-098",
           "nameJa": "山菜うどん弁当",
           "allergens": {
             "そば": false,
@@ -1395,7 +1381,7 @@
           }
         },
         {
-          "id": "item-100",
+          "id": "item-099",
           "nameJa": "ぶっかけつゆ（小袋）",
           "allergens": {
             "そば": false,

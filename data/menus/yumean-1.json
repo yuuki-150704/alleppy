@@ -1389,20 +1389,6 @@
         },
         {
           "id": "item-097",
-          "nameJa": "納豆",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-098",
           "nameJa": "小天ぷら",
           "allergens": {
             "そば": false,
@@ -1416,7 +1402,7 @@
           }
         },
         {
-          "id": "item-099",
+          "id": "item-098",
           "nameJa": "ひれかつ（1枚）",
           "allergens": {
             "そば": false,
@@ -1430,7 +1416,7 @@
           }
         },
         {
-          "id": "item-100",
+          "id": "item-099",
           "nameJa": "月見つくね串（3本）",
           "allergens": {
             "そば": false,
@@ -1444,7 +1430,7 @@
           }
         },
         {
-          "id": "item-101",
+          "id": "item-100",
           "nameJa": "ひれかつ煮",
           "allergens": {
             "そば": false,
@@ -1458,7 +1444,7 @@
           }
         },
         {
-          "id": "item-102",
+          "id": "item-101",
           "nameJa": "いかげそ唐揚げマヨネーズ添え",
           "allergens": {
             "そば": false,
@@ -1472,7 +1458,7 @@
           }
         },
         {
-          "id": "item-103",
+          "id": "item-102",
           "nameJa": "とろろ",
           "allergens": {
             "そば": false,
@@ -1486,7 +1472,7 @@
           }
         },
         {
-          "id": "item-104",
+          "id": "item-103",
           "nameJa": "もちの天ぷら（４個）",
           "allergens": {
             "そば": false,
@@ -1500,7 +1486,7 @@
           }
         },
         {
-          "id": "item-105",
+          "id": "item-104",
           "nameJa": "山盛りポテトフライ",
           "allergens": {
             "そば": false,
@@ -1514,7 +1500,7 @@
           }
         },
         {
-          "id": "item-106",
+          "id": "item-105",
           "nameJa": "山盛りポテトフライ（明太マヨ付）",
           "allergens": {
             "そば": false,
@@ -1528,7 +1514,7 @@
           }
         },
         {
-          "id": "item-107",
+          "id": "item-106",
           "nameJa": "上海老天ぷら盛り合わせ（1人前）",
           "allergens": {
             "そば": false,
@@ -1542,7 +1528,7 @@
           }
         },
         {
-          "id": "item-108",
+          "id": "item-107",
           "nameJa": "北海道産ほくほくコロッケ（1個）",
           "allergens": {
             "そば": false,
@@ -1556,7 +1542,7 @@
           }
         },
         {
-          "id": "item-109",
+          "id": "item-108",
           "nameJa": "月見つくね串（2本）",
           "allergens": {
             "そば": false,
@@ -1570,7 +1556,7 @@
           }
         },
         {
-          "id": "item-110",
+          "id": "item-109",
           "nameJa": "おつまみ唐揚げ",
           "allergens": {
             "そば": false,
@@ -1584,7 +1570,7 @@
           }
         },
         {
-          "id": "item-111",
+          "id": "item-110",
           "nameJa": "芝海老唐揚げ",
           "allergens": {
             "そば": false,
@@ -1598,7 +1584,7 @@
           }
         },
         {
-          "id": "item-112",
+          "id": "item-111",
           "nameJa": "栃尾揚げハーフ",
           "allergens": {
             "そば": false,
@@ -1612,7 +1598,7 @@
           }
         },
         {
-          "id": "item-113",
+          "id": "item-112",
           "nameJa": "とろたくユッケ風",
           "allergens": {
             "そば": false,
@@ -1626,21 +1612,7 @@
           }
         },
         {
-          "id": "item-114",
-          "nameJa": "枝豆",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-115",
+          "id": "item-113",
           "nameJa": "栃尾揚げ",
           "allergens": {
             "そば": false,
@@ -1654,7 +1626,7 @@
           }
         },
         {
-          "id": "item-116",
+          "id": "item-114",
           "nameJa": "人気フライ盛り合わせ（2～3人前）",
           "allergens": {
             "そば": false,
@@ -1668,7 +1640,7 @@
           }
         },
         {
-          "id": "item-117",
+          "id": "item-115",
           "nameJa": "うなぎ蒲焼",
           "allergens": {
             "そば": false,
@@ -1682,7 +1654,7 @@
           }
         },
         {
-          "id": "item-118",
+          "id": "item-116",
           "nameJa": "キムチ納豆",
           "allergens": {
             "そば": false,
@@ -1696,7 +1668,7 @@
           }
         },
         {
-          "id": "item-119",
+          "id": "item-117",
           "nameJa": "ねぎとろまぐろサーモン刺身",
           "allergens": {
             "そば": false,
@@ -1710,7 +1682,7 @@
           }
         },
         {
-          "id": "item-120",
+          "id": "item-118",
           "nameJa": "刺身４点盛り（2人前）",
           "allergens": {
             "そば": false,
@@ -1724,7 +1696,7 @@
           }
         },
         {
-          "id": "item-121",
+          "id": "item-119",
           "nameJa": "刺身４点盛り（3人前）",
           "allergens": {
             "そば": false,
@@ -1738,7 +1710,7 @@
           }
         },
         {
-          "id": "item-122",
+          "id": "item-120",
           "nameJa": "上海老天ぷら盛り合わせ（2人前）",
           "allergens": {
             "そば": false,
@@ -1752,7 +1724,7 @@
           }
         },
         {
-          "id": "item-123",
+          "id": "item-121",
           "nameJa": "合鴨ロースの旨煮",
           "allergens": {
             "そば": false,
@@ -1766,7 +1738,7 @@
           }
         },
         {
-          "id": "item-124",
+          "id": "item-122",
           "nameJa": "海老しんじょうの揚げ出し",
           "allergens": {
             "そば": false,
@@ -1780,7 +1752,7 @@
           }
         },
         {
-          "id": "item-125",
+          "id": "item-123",
           "nameJa": "焼きおにぎり茶漬け",
           "allergens": {
             "そば": false,
@@ -1794,7 +1766,7 @@
           }
         },
         {
-          "id": "item-126",
+          "id": "item-124",
           "nameJa": "国産さばの塩焼き",
           "allergens": {
             "そば": false,
@@ -1808,7 +1780,7 @@
           }
         },
         {
-          "id": "item-127",
+          "id": "item-125",
           "nameJa": "国産もつ煮豆富",
           "allergens": {
             "そば": false,
@@ -1822,7 +1794,7 @@
           }
         },
         {
-          "id": "item-128",
+          "id": "item-126",
           "nameJa": "青のりの夢杉玉ポテト",
           "allergens": {
             "そば": false,
@@ -1836,7 +1808,7 @@
           }
         },
         {
-          "id": "item-129",
+          "id": "item-127",
           "nameJa": "手羽先唐揚げ（2本）",
           "allergens": {
             "そば": false,
@@ -1850,7 +1822,7 @@
           }
         },
         {
-          "id": "item-130",
+          "id": "item-128",
           "nameJa": "大粒牡蠣フライ（2個）",
           "allergens": {
             "そば": false,
@@ -1864,7 +1836,7 @@
           }
         },
         {
-          "id": "item-131",
+          "id": "item-129",
           "nameJa": "自家製おぼろ豆富（くるみだれ付）",
           "allergens": {
             "そば": false,
@@ -1878,7 +1850,7 @@
           }
         },
         {
-          "id": "item-132",
+          "id": "item-130",
           "nameJa": "焼きおにぎり",
           "allergens": {
             "そば": false,
@@ -1892,7 +1864,7 @@
           }
         },
         {
-          "id": "item-133",
+          "id": "item-131",
           "nameJa": "季節の天ぷら（1人前）",
           "allergens": {
             "そば": false,
@@ -1906,7 +1878,7 @@
           }
         },
         {
-          "id": "item-134",
+          "id": "item-132",
           "nameJa": "季節の天ぷら（2人前）",
           "allergens": {
             "そば": false,
@@ -1920,7 +1892,7 @@
           }
         },
         {
-          "id": "item-135",
+          "id": "item-133",
           "nameJa": "（単品）桜海老のかき揚げ",
           "allergens": {
             "そば": false,
@@ -1934,7 +1906,7 @@
           }
         },
         {
-          "id": "item-136",
+          "id": "item-134",
           "nameJa": "（単品）大根おろし（サブ選択兼用）",
           "allergens": {
             "そば": false,
@@ -1948,7 +1920,7 @@
           }
         },
         {
-          "id": "item-137",
+          "id": "item-135",
           "nameJa": "小松菜と湯葉の昆布和え",
           "allergens": {
             "そば": false,
@@ -1962,7 +1934,7 @@
           }
         },
         {
-          "id": "item-138",
+          "id": "item-136",
           "nameJa": "新明太ポテトサラダ",
           "allergens": {
             "そば": false,
@@ -1976,7 +1948,7 @@
           }
         },
         {
-          "id": "item-139",
+          "id": "item-137",
           "nameJa": "メヒカリの唐揚げ",
           "allergens": {
             "そば": false,
@@ -1990,7 +1962,7 @@
           }
         },
         {
-          "id": "item-140",
+          "id": "item-138",
           "nameJa": "豆富豚チゲハーフ",
           "allergens": {
             "そば": false,
@@ -2004,7 +1976,7 @@
           }
         },
         {
-          "id": "item-141",
+          "id": "item-139",
           "nameJa": "長崎県産あじフライ（1枚）",
           "allergens": {
             "そば": false,
@@ -2018,7 +1990,7 @@
           }
         },
         {
-          "id": "item-142",
+          "id": "item-140",
           "nameJa": "ほろ夢セットサブ選択（あじフライ＆唐揚げ）",
           "allergens": {
             "そば": false,
@@ -2032,7 +2004,7 @@
           }
         },
         {
-          "id": "item-143",
+          "id": "item-141",
           "nameJa": "ほろ夢セットサブ選択（鶏のみぞれ煮）＋100円",
           "allergens": {
             "そば": false,
@@ -2053,7 +2025,7 @@
       "displayOrder": 7,
       "items": [
         {
-          "id": "item-144",
+          "id": "item-142",
           "nameJa": "大根パリパリサラダ（玉ねぎ醤油ドレッシング）",
           "allergens": {
             "そば": false,
@@ -2067,7 +2039,7 @@
           }
         },
         {
-          "id": "item-145",
+          "id": "item-143",
           "nameJa": "大根パリパリサラダ（味噌ドレッシング）",
           "allergens": {
             "そば": false,
@@ -2081,7 +2053,7 @@
           }
         },
         {
-          "id": "item-146",
+          "id": "item-144",
           "nameJa": "ミニ大根サラダ（玉ねぎ醤油ドレッシング）",
           "allergens": {
             "そば": false,
@@ -2095,7 +2067,7 @@
           }
         },
         {
-          "id": "item-147",
+          "id": "item-145",
           "nameJa": "ミニ大根サラダ（味噌ドレッシング）",
           "allergens": {
             "そば": false,
@@ -2109,7 +2081,7 @@
           }
         },
         {
-          "id": "item-148",
+          "id": "item-146",
           "nameJa": "豆富のサラダ（玉ねぎ醤油ドレッシング）",
           "allergens": {
             "そば": false,
@@ -2123,7 +2095,7 @@
           }
         },
         {
-          "id": "item-149",
+          "id": "item-147",
           "nameJa": "豆富のサラダ（味噌ドレッシング）",
           "allergens": {
             "そば": false,
@@ -2144,7 +2116,7 @@
       "displayOrder": 8,
       "items": [
         {
-          "id": "item-150",
+          "id": "item-148",
           "nameJa": "お味噌汁",
           "allergens": {
             "そば": false,
@@ -2158,7 +2130,7 @@
           }
         },
         {
-          "id": "item-151",
+          "id": "item-149",
           "nameJa": "小天丼",
           "allergens": {
             "そば": false,
@@ -2172,7 +2144,7 @@
           }
         },
         {
-          "id": "item-152",
+          "id": "item-150",
           "nameJa": "小ひれかつ丼",
           "allergens": {
             "そば": false,
@@ -2186,7 +2158,7 @@
           }
         },
         {
-          "id": "item-153",
+          "id": "item-151",
           "nameJa": "大盛り御飯",
           "allergens": {
             "そば": false,
@@ -2200,7 +2172,7 @@
           }
         },
         {
-          "id": "item-154",
+          "id": "item-152",
           "nameJa": "小ねぎとろ丼",
           "allergens": {
             "そば": false,
@@ -2214,7 +2186,7 @@
           }
         },
         {
-          "id": "item-155",
+          "id": "item-153",
           "nameJa": "小海鮮丼",
           "allergens": {
             "そば": false,
@@ -2228,7 +2200,7 @@
           }
         },
         {
-          "id": "item-156",
+          "id": "item-154",
           "nameJa": "深川御飯",
           "allergens": {
             "そば": false,
@@ -2242,7 +2214,7 @@
           }
         },
         {
-          "id": "item-157",
+          "id": "item-155",
           "nameJa": "（単品）蟹せいろ御飯",
           "allergens": {
             "そば": false,
@@ -2256,7 +2228,7 @@
           }
         },
         {
-          "id": "item-158",
+          "id": "item-156",
           "nameJa": "小御飯",
           "allergens": {
             "そば": false,
@@ -2270,21 +2242,7 @@
           }
         },
         {
-          "id": "item-159",
-          "nameJa": "御飯",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-160",
+          "id": "item-157",
           "nameJa": "（単品）三陸産花鯛のせいろ御飯",
           "allergens": {
             "そば": false,
@@ -2298,7 +2256,7 @@
           }
         },
         {
-          "id": "item-161",
+          "id": "item-158",
           "nameJa": "（単品）桜海老のせいろ御飯",
           "allergens": {
             "そば": false,
@@ -2312,7 +2270,7 @@
           }
         },
         {
-          "id": "item-162",
+          "id": "item-159",
           "nameJa": "小鶏竜田てりたま丼",
           "allergens": {
             "そば": false,
@@ -2333,7 +2291,7 @@
       "displayOrder": 9,
       "items": [
         {
-          "id": "item-163",
+          "id": "item-160",
           "nameJa": "お好み天：おくら天（４本）",
           "allergens": {
             "そば": false,
@@ -2347,7 +2305,7 @@
           }
         },
         {
-          "id": "item-164",
+          "id": "item-161",
           "nameJa": "お好み天：舞茸天（２個）",
           "allergens": {
             "そば": false,
@@ -2361,7 +2319,7 @@
           }
         },
         {
-          "id": "item-165",
+          "id": "item-162",
           "nameJa": "お好み天：上海老天（１本）",
           "allergens": {
             "そば": false,
@@ -2375,7 +2333,7 @@
           }
         },
         {
-          "id": "item-166",
+          "id": "item-163",
           "nameJa": "トッピングもち天（2個）",
           "allergens": {
             "そば": false,
@@ -2389,7 +2347,7 @@
           }
         },
         {
-          "id": "item-167",
+          "id": "item-164",
           "nameJa": "お好み天：いとより天（１個）",
           "allergens": {
             "そば": false,
@@ -2403,7 +2361,7 @@
           }
         },
         {
-          "id": "item-168",
+          "id": "item-165",
           "nameJa": "お好み天：れんこん天（２個）",
           "allergens": {
             "そば": false,
@@ -2417,7 +2375,7 @@
           }
         },
         {
-          "id": "item-169",
+          "id": "item-166",
           "nameJa": "お好み天：かぼちゃ天（２個）",
           "allergens": {
             "そば": false,
@@ -2438,7 +2396,7 @@
       "displayOrder": 10,
       "items": [
         {
-          "id": "item-170",
+          "id": "item-167",
           "nameJa": "ラッキーポテからセット（コイン付き）",
           "allergens": {
             "そば": false,
@@ -2452,7 +2410,7 @@
           }
         },
         {
-          "id": "item-171",
+          "id": "item-168",
           "nameJa": "お子様低アレルゲンカレー",
           "allergens": {
             "そば": false,
@@ -2466,7 +2424,7 @@
           }
         },
         {
-          "id": "item-172",
+          "id": "item-169",
           "nameJa": "お子様はんばーぐ",
           "allergens": {
             "そば": false,
@@ -2480,7 +2438,7 @@
           }
         },
         {
-          "id": "item-173",
+          "id": "item-170",
           "nameJa": "ちびっこうどん（ゼリー付）",
           "allergens": {
             "そば": false,
@@ -2494,7 +2452,7 @@
           }
         },
         {
-          "id": "item-174",
+          "id": "item-171",
           "nameJa": "お子様うどんセット（冷",
           "allergens": {
             "そば": false,
@@ -2508,7 +2466,7 @@
           }
         },
         {
-          "id": "item-175",
+          "id": "item-172",
           "nameJa": "お子様ねぎとろ丼",
           "allergens": {
             "そば": false,
@@ -2522,7 +2480,7 @@
           }
         },
         {
-          "id": "item-176",
+          "id": "item-173",
           "nameJa": "ラッキーミニねぎとろ丼御膳",
           "allergens": {
             "そば": false,
@@ -2536,7 +2494,7 @@
           }
         },
         {
-          "id": "item-177",
+          "id": "item-174",
           "nameJa": "ラッキーミニ天丼御膳",
           "allergens": {
             "そば": false,
@@ -2550,7 +2508,7 @@
           }
         },
         {
-          "id": "item-178",
+          "id": "item-175",
           "nameJa": "お子様焼きおにぎり",
           "allergens": {
             "そば": false,
@@ -2571,7 +2529,7 @@
       "displayOrder": 11,
       "items": [
         {
-          "id": "item-179",
+          "id": "item-176",
           "nameJa": "すけそう鱈と彩り野菜の黒酢あんランチ（鱈4個）",
           "allergens": {
             "そば": false,
@@ -2585,7 +2543,7 @@
           }
         },
         {
-          "id": "item-180",
+          "id": "item-177",
           "nameJa": "若鶏と彩り野菜の黒酢あんランチ（若鶏4個）",
           "allergens": {
             "そば": false,
@@ -2599,7 +2557,7 @@
           }
         },
         {
-          "id": "item-181",
+          "id": "item-178",
           "nameJa": "ランチ天丼味噌汁セット",
           "allergens": {
             "そば": false,
@@ -2613,7 +2571,7 @@
           }
         },
         {
-          "id": "item-182",
+          "id": "item-179",
           "nameJa": "ランチ天丼小麺セット（小麺除く）",
           "allergens": {
             "そば": false,
@@ -2627,7 +2585,7 @@
           }
         },
         {
-          "id": "item-183",
+          "id": "item-180",
           "nameJa": "ひれかつおろしポン酢ランチ",
           "allergens": {
             "そば": false,
@@ -2641,7 +2599,7 @@
           }
         },
         {
-          "id": "item-184",
+          "id": "item-181",
           "nameJa": "ひれかつランチ",
           "allergens": {
             "そば": false,
@@ -2655,7 +2613,7 @@
           }
         },
         {
-          "id": "item-185",
+          "id": "item-182",
           "nameJa": "ランチ天丼せいろそばセット",
           "allergens": {
             "そば": true,
@@ -2669,7 +2627,7 @@
           }
         },
         {
-          "id": "item-186",
+          "id": "item-183",
           "nameJa": "若鶏の竜田揚げおろしポン酢（4コ）ランチ",
           "allergens": {
             "そば": false,
@@ -2683,7 +2641,7 @@
           }
         },
         {
-          "id": "item-187",
+          "id": "item-184",
           "nameJa": "若鶏の竜田揚げ南蛮風（4コ）ランチ",
           "allergens": {
             "そば": false,
@@ -2697,7 +2655,7 @@
           }
         },
         {
-          "id": "item-188",
+          "id": "item-185",
           "nameJa": "天せいろそばと小ねぎとろ丼",
           "allergens": {
             "そば": true,
@@ -2711,7 +2669,7 @@
           }
         },
         {
-          "id": "item-189",
+          "id": "item-186",
           "nameJa": "お昼のかけうどんと小天丼セット",
           "allergens": {
             "そば": false,
@@ -2725,7 +2683,7 @@
           }
         },
         {
-          "id": "item-190",
+          "id": "item-187",
           "nameJa": "お昼のせいろそばと小天丼セット",
           "allergens": {
             "そば": true,
@@ -2739,7 +2697,7 @@
           }
         },
         {
-          "id": "item-191",
+          "id": "item-188",
           "nameJa": "若鶏の唐揚げ（5コ）ランチ",
           "allergens": {
             "そば": false,
@@ -2753,7 +2711,7 @@
           }
         },
         {
-          "id": "item-192",
+          "id": "item-189",
           "nameJa": "若鶏のみぞれ煮とおぼろ豆富ランチ",
           "allergens": {
             "そば": false,
@@ -2767,7 +2725,7 @@
           }
         },
         {
-          "id": "item-193",
+          "id": "item-190",
           "nameJa": "お昼のお楽しみ膳（小鶏竜田てりたま丼）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2781,7 +2739,7 @@
           }
         },
         {
-          "id": "item-194",
+          "id": "item-191",
           "nameJa": "お昼のなないろ夢和膳（鶏のみぞれ煮）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2795,7 +2753,7 @@
           }
         },
         {
-          "id": "item-195",
+          "id": "item-192",
           "nameJa": "お昼のなないろ夢和膳（長崎県産あじフライ＆唐揚げ）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2809,7 +2767,7 @@
           }
         },
         {
-          "id": "item-196",
+          "id": "item-193",
           "nameJa": "ランチ牛カルビ丼小麺セット（小麺除く）",
           "allergens": {
             "そば": false,
@@ -2823,7 +2781,7 @@
           }
         },
         {
-          "id": "item-197",
+          "id": "item-194",
           "nameJa": "ランチ牛カルビ丼せいろそばセット",
           "allergens": {
             "そば": true,
@@ -2837,7 +2795,7 @@
           }
         },
         {
-          "id": "item-198",
+          "id": "item-195",
           "nameJa": "ランチ牛カルビ丼味噌汁セット",
           "allergens": {
             "そば": false,
@@ -2851,7 +2809,7 @@
           }
         },
         {
-          "id": "item-199",
+          "id": "item-196",
           "nameJa": "お昼のお楽しみ膳（深川御飯）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2865,7 +2823,7 @@
           }
         },
         {
-          "id": "item-200",
+          "id": "item-197",
           "nameJa": "お昼のお楽しみ膳（小まぐろサーモン丼）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2879,7 +2837,7 @@
           }
         },
         {
-          "id": "item-201",
+          "id": "item-198",
           "nameJa": "お昼のなないろ夢和膳（竜田揚げおろしポン酢）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2893,7 +2851,7 @@
           }
         },
         {
-          "id": "item-202",
+          "id": "item-199",
           "nameJa": "お昼のなないろ夢和膳（ねぎとろまぐろサーモン刺身）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2907,7 +2865,7 @@
           }
         },
         {
-          "id": "item-203",
+          "id": "item-200",
           "nameJa": "お昼のなないろ夢和膳（すけそう鱈の黒酢あん）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2921,7 +2879,7 @@
           }
         },
         {
-          "id": "item-204",
+          "id": "item-201",
           "nameJa": "お昼のなないろ夢和膳（国産さばの塩焼き）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2935,7 +2893,7 @@
           }
         },
         {
-          "id": "item-205",
+          "id": "item-202",
           "nameJa": "お昼のなないろ夢和膳（ひれかつ煮）（冷うどんの場合）",
           "allergens": {
             "そば": false,
@@ -2949,7 +2907,7 @@
           }
         },
         {
-          "id": "item-206",
+          "id": "item-203",
           "nameJa": "お昼の夢そば膳（三つ仕切り＋せいろうどん）",
           "allergens": {
             "そば": false,
@@ -2963,7 +2921,7 @@
           }
         },
         {
-          "id": "item-207",
+          "id": "item-204",
           "nameJa": "お昼の夢そば膳（三つ仕切り＋せいろそば）",
           "allergens": {
             "そば": true,
@@ -2984,7 +2942,7 @@
       "displayOrder": 12,
       "items": [
         {
-          "id": "item-208",
+          "id": "item-205",
           "nameJa": "お子様ソフトクリーム",
           "allergens": {
             "そば": false,
@@ -2998,7 +2956,7 @@
           }
         },
         {
-          "id": "item-209",
+          "id": "item-206",
           "nameJa": "チョコレートパルフェ",
           "allergens": {
             "そば": false,
@@ -3012,7 +2970,7 @@
           }
         },
         {
-          "id": "item-210",
+          "id": "item-207",
           "nameJa": "黒糖ゼリーソフト",
           "allergens": {
             "そば": false,
@@ -3026,7 +2984,7 @@
           }
         },
         {
-          "id": "item-211",
+          "id": "item-208",
           "nameJa": "豆乳のチーズケーキ（ラズベリーソース）",
           "allergens": {
             "そば": false,
@@ -3040,7 +2998,7 @@
           }
         },
         {
-          "id": "item-212",
+          "id": "item-209",
           "nameJa": "冷し白玉しるこ",
           "allergens": {
             "そば": false,
@@ -3054,7 +3012,7 @@
           }
         },
         {
-          "id": "item-213",
+          "id": "item-210",
           "nameJa": "チョコオンチョコレートケーキ（ホイップ）",
           "allergens": {
             "そば": false,
@@ -3068,7 +3026,7 @@
           }
         },
         {
-          "id": "item-214",
+          "id": "item-211",
           "nameJa": "黒みつきなこソフト",
           "allergens": {
             "そば": false,
@@ -3082,7 +3040,7 @@
           }
         },
         {
-          "id": "item-215",
+          "id": "item-212",
           "nameJa": "北海道濃厚ソフト",
           "allergens": {
             "そば": false,
@@ -3096,7 +3054,7 @@
           }
         },
         {
-          "id": "item-216",
+          "id": "item-213",
           "nameJa": "北海道濃厚ソフト（チョコソース）",
           "allergens": {
             "そば": false,
@@ -3110,7 +3068,7 @@
           }
         },
         {
-          "id": "item-217",
+          "id": "item-214",
           "nameJa": "夢庵プリン",
           "allergens": {
             "そば": false,
@@ -3124,7 +3082,7 @@
           }
         },
         {
-          "id": "item-218",
+          "id": "item-215",
           "nameJa": "黒糖ゼリーと抹茶ムース",
           "allergens": {
             "そば": false,
@@ -3138,7 +3096,7 @@
           }
         },
         {
-          "id": "item-219",
+          "id": "item-216",
           "nameJa": "あったか焼き芋＆ソフト",
           "allergens": {
             "そば": false,
@@ -3152,7 +3110,7 @@
           }
         },
         {
-          "id": "item-220",
+          "id": "item-217",
           "nameJa": "あったか焼き芋ぜんざい",
           "allergens": {
             "そば": false,
@@ -3166,7 +3124,7 @@
           }
         },
         {
-          "id": "item-221",
+          "id": "item-218",
           "nameJa": "ソフト白玉あんみつ",
           "allergens": {
             "そば": false,
@@ -3180,7 +3138,7 @@
           }
         },
         {
-          "id": "item-222",
+          "id": "item-219",
           "nameJa": "白玉あんみつ",
           "allergens": {
             "そば": false,
@@ -3194,7 +3152,7 @@
           }
         },
         {
-          "id": "item-223",
+          "id": "item-220",
           "nameJa": "冷し抹茶",
           "allergens": {
             "そば": false,
@@ -3208,7 +3166,7 @@
           }
         },
         {
-          "id": "item-224",
+          "id": "item-221",
           "nameJa": "冷し抹茶オレ",
           "allergens": {
             "そば": false,
@@ -3222,7 +3180,7 @@
           }
         },
         {
-          "id": "item-225",
+          "id": "item-222",
           "nameJa": "冷し抹茶オレホイップ",
           "allergens": {
             "そば": false,
@@ -3236,7 +3194,7 @@
           }
         },
         {
-          "id": "item-226",
+          "id": "item-223",
           "nameJa": "北海道濃厚ソフトダブル",
           "allergens": {
             "そば": false,
@@ -3250,7 +3208,7 @@
           }
         },
         {
-          "id": "item-227",
+          "id": "item-224",
           "nameJa": "北海道濃厚ソフトダブル（チョコソース）",
           "allergens": {
             "そば": false,
@@ -3264,7 +3222,7 @@
           }
         },
         {
-          "id": "item-228",
+          "id": "item-225",
           "nameJa": "いちごと抹茶のソフトパルフェ",
           "allergens": {
             "そば": false,
@@ -3278,7 +3236,7 @@
           }
         },
         {
-          "id": "item-229",
+          "id": "item-226",
           "nameJa": "いちごと抹茶の白玉あんみつ",
           "allergens": {
             "そば": false,
@@ -3292,7 +3250,7 @@
           }
         },
         {
-          "id": "item-230",
+          "id": "item-227",
           "nameJa": "いちごと抹茶のソフト白玉あんみつ",
           "allergens": {
             "そば": false,
@@ -3306,7 +3264,7 @@
           }
         },
         {
-          "id": "item-231",
+          "id": "item-228",
           "nameJa": "いちごの甘味三彩（抹茶寒天・プリンホイップ・いちごソフト）",
           "allergens": {
             "そば": false,
@@ -3320,7 +3278,7 @@
           }
         },
         {
-          "id": "item-232",
+          "id": "item-229",
           "nameJa": "いちごの豆乳チーズケーキ",
           "allergens": {
             "そば": false,
@@ -3334,7 +3292,7 @@
           }
         },
         {
-          "id": "item-233",
+          "id": "item-230",
           "nameJa": "いちご＆ホイップ",
           "allergens": {
             "そば": false,
@@ -3348,7 +3306,7 @@
           }
         },
         {
-          "id": "item-234",
+          "id": "item-231",
           "nameJa": "いちごソフト",
           "allergens": {
             "そば": false,
@@ -3362,7 +3320,7 @@
           }
         },
         {
-          "id": "item-235",
+          "id": "item-232",
           "nameJa": "和栗のモンブラン",
           "allergens": {
             "そば": false,
@@ -3376,7 +3334,7 @@
           }
         },
         {
-          "id": "item-236",
+          "id": "item-233",
           "nameJa": "抹茶ソフト白玉あんみつ",
           "allergens": {
             "そば": false,
@@ -3390,7 +3348,7 @@
           }
         },
         {
-          "id": "item-237",
+          "id": "item-234",
           "nameJa": "いちごのモンブラン",
           "allergens": {
             "そば": false,
@@ -3404,7 +3362,7 @@
           }
         },
         {
-          "id": "item-238",
+          "id": "item-235",
           "nameJa": "抹茶ゼリー",
           "allergens": {
             "そば": false,
@@ -3418,7 +3376,7 @@
           }
         },
         {
-          "id": "item-239",
+          "id": "item-236",
           "nameJa": "抹茶ゼリーソフト",
           "allergens": {
             "そば": false,
@@ -3430,34 +3388,6 @@
             "かに": false,
             "くるみ": false
           }
-        },
-        {
-          "id": "item-240",
-          "nameJa": "黒糖ゼリーソフト",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-241",
-          "nameJa": "夢庵プリン",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": true
-          }
         }
       ]
     },
@@ -3467,7 +3397,7 @@
       "displayOrder": 13,
       "items": [
         {
-          "id": "item-242",
+          "id": "item-237",
           "nameJa": "わいわいコース（ねぎとろ丼）",
           "allergens": {
             "そば": false,
@@ -3481,7 +3411,7 @@
           }
         },
         {
-          "id": "item-243",
+          "id": "item-238",
           "nameJa": "わいわいコース（天丼）",
           "allergens": {
             "そば": false,
@@ -3495,7 +3425,7 @@
           }
         },
         {
-          "id": "item-244",
+          "id": "item-239",
           "nameJa": "わいわいコース（うまか丼）",
           "allergens": {
             "そば": false,
@@ -3509,7 +3439,7 @@
           }
         },
         {
-          "id": "item-245",
+          "id": "item-240",
           "nameJa": "会食（くつろぎコース）2000",
           "allergens": {
             "そば": false,
@@ -3523,7 +3453,7 @@
           }
         },
         {
-          "id": "item-246",
+          "id": "item-241",
           "nameJa": "会食（おもてなしコース）4000",
           "allergens": {
             "そば": true,
@@ -3537,7 +3467,7 @@
           }
         },
         {
-          "id": "item-247",
+          "id": "item-242",
           "nameJa": "会食（はなやぎコース）3000",
           "allergens": {
             "そば": true,
@@ -3558,7 +3488,7 @@
       "displayOrder": 14,
       "items": [
         {
-          "id": "item-248",
+          "id": "item-243",
           "nameJa": "[食べ放題]牛肉",
           "allergens": {
             "そば": false,
@@ -3572,7 +3502,7 @@
           }
         },
         {
-          "id": "item-249",
+          "id": "item-244",
           "nameJa": "[食べ放題]鶏肉",
           "allergens": {
             "そば": false,
@@ -3586,7 +3516,7 @@
           }
         },
         {
-          "id": "item-250",
+          "id": "item-245",
           "nameJa": "[食べ放題]オクラ",
           "allergens": {
             "そば": false,
@@ -3600,7 +3530,7 @@
           }
         },
         {
-          "id": "item-251",
+          "id": "item-246",
           "nameJa": "[食べ放題]かぼちゃ",
           "allergens": {
             "そば": false,
@@ -3614,7 +3544,7 @@
           }
         },
         {
-          "id": "item-252",
+          "id": "item-247",
           "nameJa": "[食べ放題]もみじおろし",
           "allergens": {
             "そば": false,
@@ -3628,7 +3558,7 @@
           }
         },
         {
-          "id": "item-253",
+          "id": "item-248",
           "nameJa": "[食べ放題]細切りねぎ",
           "allergens": {
             "そば": false,
@@ -3642,7 +3572,7 @@
           }
         },
         {
-          "id": "item-254",
+          "id": "item-249",
           "nameJa": "[食べ放題]生たまご",
           "allergens": {
             "そば": false,
@@ -3656,7 +3586,7 @@
           }
         },
         {
-          "id": "item-255",
+          "id": "item-250",
           "nameJa": "[食べ放題]大根おろし",
           "allergens": {
             "そば": false,
@@ -3670,7 +3600,7 @@
           }
         },
         {
-          "id": "item-256",
+          "id": "item-251",
           "nameJa": "[食べ放題]漬物",
           "allergens": {
             "そば": false,
@@ -3684,7 +3614,7 @@
           }
         },
         {
-          "id": "item-257",
+          "id": "item-252",
           "nameJa": "[食べ放題]万能ねぎ",
           "allergens": {
             "そば": false,
@@ -3698,7 +3628,7 @@
           }
         },
         {
-          "id": "item-258",
+          "id": "item-253",
           "nameJa": "（追加）ぽん酢",
           "allergens": {
             "そば": false,
@@ -3712,7 +3642,7 @@
           }
         },
         {
-          "id": "item-259",
+          "id": "item-254",
           "nameJa": "[食べ放題]春雨",
           "allergens": {
             "そば": false,
@@ -3726,7 +3656,7 @@
           }
         },
         {
-          "id": "item-260",
+          "id": "item-255",
           "nameJa": "（追加）ごまだれ",
           "allergens": {
             "そば": false,
@@ -3740,7 +3670,7 @@
           }
         },
         {
-          "id": "item-261",
+          "id": "item-256",
           "nameJa": "[食べ放題]基本）白だし",
           "allergens": {
             "そば": false,
@@ -3754,7 +3684,7 @@
           }
         },
         {
-          "id": "item-262",
+          "id": "item-257",
           "nameJa": "[食べ放題]白菜",
           "allergens": {
             "そば": false,
@@ -3768,7 +3698,7 @@
           }
         },
         {
-          "id": "item-263",
+          "id": "item-258",
           "nameJa": "[食べ放題]舞茸",
           "allergens": {
             "そば": false,
@@ -3782,7 +3712,7 @@
           }
         },
         {
-          "id": "item-264",
+          "id": "item-259",
           "nameJa": "[食べ放題]レタスミックス",
           "allergens": {
             "そば": false,
@@ -3796,7 +3726,7 @@
           }
         },
         {
-          "id": "item-265",
+          "id": "item-260",
           "nameJa": "[食べ放題]基本）チゲ味噌だし",
           "allergens": {
             "そば": false,
@@ -3810,7 +3740,7 @@
           }
         },
         {
-          "id": "item-266",
+          "id": "item-261",
           "nameJa": "[食べ放題]もやし",
           "allergens": {
             "そば": false,
@@ -3824,7 +3754,7 @@
           }
         },
         {
-          "id": "item-267",
+          "id": "item-262",
           "nameJa": "[食べ放題]キャベツ",
           "allergens": {
             "そば": false,
@@ -3838,7 +3768,7 @@
           }
         },
         {
-          "id": "item-268",
+          "id": "item-263",
           "nameJa": "[食べ放題]うどん",
           "allergens": {
             "そば": false,
@@ -3852,7 +3782,7 @@
           }
         },
         {
-          "id": "item-269",
+          "id": "item-264",
           "nameJa": "[食べ放題]豚バラ",
           "allergens": {
             "そば": false,
@@ -3866,7 +3796,7 @@
           }
         },
         {
-          "id": "item-270",
+          "id": "item-265",
           "nameJa": "[食べ放題]つくね",
           "allergens": {
             "そば": false,
@@ -3880,7 +3810,7 @@
           }
         },
         {
-          "id": "item-271",
+          "id": "item-266",
           "nameJa": "[食べ放題]冷凍餃子（4コ）",
           "allergens": {
             "そば": false,
@@ -3894,7 +3824,7 @@
           }
         },
         {
-          "id": "item-272",
+          "id": "item-267",
           "nameJa": "[食べ放題]わかめ",
           "allergens": {
             "そば": false,
@@ -3908,7 +3838,7 @@
           }
         },
         {
-          "id": "item-273",
+          "id": "item-268",
           "nameJa": "[食べ放題]れんこん",
           "allergens": {
             "そば": false,
@@ -3922,7 +3852,7 @@
           }
         },
         {
-          "id": "item-274",
+          "id": "item-269",
           "nameJa": "[食べ放題]ラーメン",
           "allergens": {
             "そば": false,
@@ -3936,7 +3866,7 @@
           }
         },
         {
-          "id": "item-275",
+          "id": "item-270",
           "nameJa": "ミニソフト",
           "allergens": {
             "そば": false,
@@ -3950,7 +3880,7 @@
           }
         },
         {
-          "id": "item-276",
+          "id": "item-271",
           "nameJa": "[食べ放題]基本）寄せ鍋だし",
           "allergens": {
             "そば": false,
@@ -3964,7 +3894,7 @@
           }
         },
         {
-          "id": "item-277",
+          "id": "item-272",
           "nameJa": "夢郎スープ（1人前）",
           "allergens": {
             "そば": false,
@@ -3978,7 +3908,7 @@
           }
         },
         {
-          "id": "item-278",
+          "id": "item-273",
           "nameJa": "[食べ放題]大根細切り",
           "allergens": {
             "そば": false,
@@ -3992,7 +3922,7 @@
           }
         },
         {
-          "id": "item-279",
+          "id": "item-274",
           "nameJa": "[食べ放題]オニオンスライス",
           "allergens": {
             "そば": false,
@@ -4006,7 +3936,7 @@
           }
         },
         {
-          "id": "item-280",
+          "id": "item-275",
           "nameJa": "[食べ放題]温泉卵",
           "allergens": {
             "そば": false,
@@ -4020,7 +3950,7 @@
           }
         },
         {
-          "id": "item-281",
+          "id": "item-276",
           "nameJa": "[食べ放題]おもち（４個）",
           "allergens": {
             "そば": false,
@@ -4034,7 +3964,7 @@
           }
         },
         {
-          "id": "item-282",
+          "id": "item-277",
           "nameJa": "[食べ放題]キムチ",
           "allergens": {
             "そば": false,
@@ -4048,7 +3978,7 @@
           }
         },
         {
-          "id": "item-283",
+          "id": "item-278",
           "nameJa": "[食べ放題]そば",
           "allergens": {
             "そば": true,
@@ -4062,7 +3992,7 @@
           }
         },
         {
-          "id": "item-284",
+          "id": "item-279",
           "nameJa": "[食べ放題]基本）すき焼風だし",
           "allergens": {
             "そば": false,
@@ -4076,7 +4006,7 @@
           }
         },
         {
-          "id": "item-285",
+          "id": "item-280",
           "nameJa": "[食べ放題]小松菜",
           "allergens": {
             "そば": false,
@@ -4090,7 +4020,7 @@
           }
         },
         {
-          "id": "item-286",
+          "id": "item-281",
           "nameJa": "[食べ放題]野菜セット",
           "allergens": {
             "そば": false,
@@ -4104,7 +4034,7 @@
           }
         },
         {
-          "id": "item-287",
+          "id": "item-282",
           "nameJa": "[食べ放題]牛カルビ",
           "allergens": {
             "そば": false,
@@ -4118,7 +4048,7 @@
           }
         },
         {
-          "id": "item-288",
+          "id": "item-283",
           "nameJa": "[食べ放題]栃尾の油揚げ",
           "allergens": {
             "そば": false,
@@ -4132,7 +4062,7 @@
           }
         },
         {
-          "id": "item-289",
+          "id": "item-284",
           "nameJa": "[食べ放題]おぼろ豆富",
           "allergens": {
             "そば": false,
@@ -4146,7 +4076,7 @@
           }
         },
         {
-          "id": "item-290",
+          "id": "item-285",
           "nameJa": "[食べ放題]基本）柚子塩だし",
           "allergens": {
             "そば": false,

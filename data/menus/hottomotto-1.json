@@ -1830,34 +1830,6 @@
         },
         {
           "id": "item-131",
-          "nameJa": "オードブル",
-          "allergens": {
-            "そば": true,
-            "落花生": true,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": true,
-            "くるみ": true
-          }
-        },
-        {
-          "id": "item-132",
-          "nameJa": "オードブル",
-          "allergens": {
-            "そば": true,
-            "落花生": true,
-            "小麦": true,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": true,
-            "くるみ": true
-          }
-        },
-        {
-          "id": "item-133",
           "nameJa": "おつまみプレート",
           "allergens": {
             "そば": true,
@@ -1871,7 +1843,7 @@
           }
         },
         {
-          "id": "item-134",
+          "id": "item-132",
           "nameJa": "特注弁当　松",
           "allergens": {
             "そば": true,
@@ -1885,7 +1857,7 @@
           }
         },
         {
-          "id": "item-135",
+          "id": "item-133",
           "nameJa": "特注弁当　竹",
           "allergens": {
             "そば": true,
@@ -1899,7 +1871,7 @@
           }
         },
         {
-          "id": "item-136",
+          "id": "item-134",
           "nameJa": "特注弁当　梅",
           "allergens": {
             "そば": true,
@@ -1913,7 +1885,7 @@
           }
         },
         {
-          "id": "item-137",
+          "id": "item-135",
           "nameJa": "特注弁当",
           "allergens": {
             "そば": true,
@@ -1927,7 +1899,7 @@
           }
         },
         {
-          "id": "item-138",
+          "id": "item-136",
           "nameJa": "おにぎりセット",
           "allergens": {
             "そば": true,
@@ -1941,7 +1913,7 @@
           }
         },
         {
-          "id": "item-139",
+          "id": "item-137",
           "nameJa": "スポーツ弁当　しょうが焼き＆焼売",
           "allergens": {
             "そば": true,
@@ -1955,7 +1927,7 @@
           }
         },
         {
-          "id": "item-140",
+          "id": "item-138",
           "nameJa": "スポーツ弁当　から揚＆デミメンチ",
           "allergens": {
             "そば": true,
@@ -1969,7 +1941,7 @@
           }
         },
         {
-          "id": "item-141",
+          "id": "item-139",
           "nameJa": "スポーツ弁当　のり",
           "allergens": {
             "そば": true,
@@ -1983,7 +1955,7 @@
           }
         },
         {
-          "id": "item-142",
+          "id": "item-140",
           "nameJa": "スポーツ弁当　バラエティ",
           "allergens": {
             "そば": true,
@@ -1997,7 +1969,7 @@
           }
         },
         {
-          "id": "item-143",
+          "id": "item-141",
           "nameJa": "スポーツ弁当　12品目の幕の内",
           "allergens": {
             "そば": true,

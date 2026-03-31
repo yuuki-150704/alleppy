@@ -52,20 +52,6 @@
         },
         {
           "id": "item-004",
-          "nameJa": "ご飯物",
-          "allergens": {
-            "そば": false,
-            "落花生": "",
-            "小麦": true,
-            "卵": "",
-            "乳": "",
-            "えび": "",
-            "かに": "",
-            "くるみ": ""
-          }
-        },
-        {
-          "id": "item-005",
           "nameJa": "天ぷら",
           "allergens": {
             "そば": false,
@@ -79,7 +65,7 @@
           }
         },
         {
-          "id": "item-006",
+          "id": "item-005",
           "nameJa": "揚げ物",
           "allergens": {
             "そば": false,
@@ -93,7 +79,7 @@
           }
         },
         {
-          "id": "item-007",
+          "id": "item-006",
           "nameJa": "おでん",
           "allergens": {
             "そば": false,
@@ -107,7 +93,7 @@
           }
         },
         {
-          "id": "item-008",
+          "id": "item-007",
           "nameJa": "トッピング",
           "allergens": {
             "そば": false,
@@ -121,7 +107,7 @@
           }
         },
         {
-          "id": "item-009",
+          "id": "item-008",
           "nameJa": "サラダ",
           "allergens": {
             "そば": false,
@@ -135,7 +121,7 @@
           }
         },
         {
-          "id": "item-010",
+          "id": "item-009",
           "nameJa": "その他",
           "allergens": {
             "そば": false,
@@ -149,7 +135,7 @@
           }
         },
         {
-          "id": "item-011",
+          "id": "item-010",
           "nameJa": "うどん季節①",
           "allergens": {
             "そば": false,
@@ -163,7 +149,7 @@
           }
         },
         {
-          "id": "item-012",
+          "id": "item-011",
           "nameJa": "うどん季節②",
           "allergens": {
             "そば": false,
@@ -177,7 +163,7 @@
           }
         },
         {
-          "id": "item-013",
+          "id": "item-012",
           "nameJa": "季節天ぷら",
           "allergens": {
             "そば": false,
@@ -191,7 +177,7 @@
           }
         },
         {
-          "id": "item-014",
+          "id": "item-013",
           "nameJa": "季節弁当",
           "allergens": {
             "そば": false,
@@ -205,7 +191,7 @@
           }
         },
         {
-          "id": "item-015",
+          "id": "item-014",
           "nameJa": "ﾃﾞﾘﾊﾞﾘ専用メニュー",
           "allergens": {
             "そば": false,
@@ -219,21 +205,7 @@
           }
         },
         {
-          "id": "item-016",
-          "nameJa": "ご飯物",
-          "allergens": {
-            "そば": false,
-            "落花生": "",
-            "小麦": "",
-            "卵": "",
-            "乳": "",
-            "えび": "",
-            "かに": "",
-            "くるみ": ""
-          }
-        },
-        {
-          "id": "item-017",
+          "id": "item-015",
           "nameJa": "沖縄限定一部店舗",
           "allergens": {
             "そば": false,
@@ -247,7 +219,7 @@
           }
         },
         {
-          "id": "item-018",
+          "id": "item-016",
           "nameJa": "吉野家メ",
           "allergens": {
             "そば": false,
@@ -261,7 +233,7 @@
           }
         },
         {
-          "id": "item-019",
+          "id": "item-017",
           "nameJa": "ニュー食材使用店舗",
           "allergens": {
             "そば": false,
@@ -275,7 +247,7 @@
           }
         },
         {
-          "id": "item-020",
+          "id": "item-018",
           "nameJa": "沖縄限定",
           "allergens": {
             "そば": false,
@@ -289,7 +261,7 @@
           }
         },
         {
-          "id": "item-021",
+          "id": "item-019",
           "nameJa": "吉野家",
           "allergens": {
             "そば": false,

@@ -2208,20 +2208,6 @@
         },
         {
           "id": "item-158",
-          "nameJa": "アイスカフェラテ(M)",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-159",
           "nameJa": "アイスキャラメルラテ(L)",
           "allergens": {
             "そば": false,
@@ -2235,21 +2221,7 @@
           }
         },
         {
-          "id": "item-160",
-          "nameJa": "アイスキャラメルラテ(M)",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-161",
+          "id": "item-159",
           "nameJa": "アイスチョコレート(L)",
           "allergens": {
             "そば": false,
@@ -2263,7 +2235,7 @@
           }
         },
         {
-          "id": "item-162",
+          "id": "item-160",
           "nameJa": "アイスチョコレート(M)",
           "allergens": {
             "そば": false,
@@ -2277,7 +2249,7 @@
           }
         },
         {
-          "id": "item-163",
+          "id": "item-161",
           "nameJa": "アメリカーノ(M)",
           "allergens": {
             "そば": false,
@@ -2291,7 +2263,7 @@
           }
         },
         {
-          "id": "item-164",
+          "id": "item-162",
           "nameJa": "アメリカーノ(S)",
           "allergens": {
             "そば": false,
@@ -2305,7 +2277,7 @@
           }
         },
         {
-          "id": "item-165",
+          "id": "item-163",
           "nameJa": "エクストラショット",
           "allergens": {
             "そば": false,
@@ -2319,7 +2291,7 @@
           }
         },
         {
-          "id": "item-166",
+          "id": "item-164",
           "nameJa": "エクストラシロップ キャラメル",
           "allergens": {
             "そば": false,
@@ -2333,7 +2305,7 @@
           }
         },
         {
-          "id": "item-167",
+          "id": "item-165",
           "nameJa": "エスプレッソ(S)",
           "allergens": {
             "そば": false,
@@ -2347,7 +2319,7 @@
           }
         },
         {
-          "id": "item-168",
+          "id": "item-166",
           "nameJa": "エスプレッソフラッペ",
           "allergens": {
             "そば": false,
@@ -2361,7 +2333,7 @@
           }
         },
         {
-          "id": "item-169",
+          "id": "item-167",
           "nameJa": "カプチーノ(M)",
           "allergens": {
             "そば": false,
@@ -2375,7 +2347,7 @@
           }
         },
         {
-          "id": "item-170",
+          "id": "item-168",
           "nameJa": "カプチーノ(S)",
           "allergens": {
             "そば": false,
@@ -2389,7 +2361,7 @@
           }
         },
         {
-          "id": "item-171",
+          "id": "item-169",
           "nameJa": "カプチーノ(テイクアウト用)(M)",
           "allergens": {
             "そば": false,
@@ -2403,7 +2375,7 @@
           }
         },
         {
-          "id": "item-172",
+          "id": "item-170",
           "nameJa": "カプチーノ(テイクアウト用)(S)",
           "allergens": {
             "そば": false,
@@ -2417,7 +2389,7 @@
           }
         },
         {
-          "id": "item-173",
+          "id": "item-171",
           "nameJa": "グリーンスムージー",
           "allergens": {
             "そば": false,
@@ -2431,7 +2403,7 @@
           }
         },
         {
-          "id": "item-174",
+          "id": "item-172",
           "nameJa": "チョコフラッペ オレオ® クッキー",
           "allergens": {
             "そば": false,
@@ -2445,7 +2417,7 @@
           }
         },
         {
-          "id": "item-175",
+          "id": "item-173",
           "nameJa": "トリプルチョコ&キャラメルスコーン",
           "allergens": {
             "そば": false,
@@ -2459,7 +2431,7 @@
           }
         },
         {
-          "id": "item-176",
+          "id": "item-174",
           "nameJa": "ニトロブリューコーヒー アイスブラック",
           "allergens": {
             "そば": false,
@@ -2473,7 +2445,7 @@
           }
         },
         {
-          "id": "item-177",
+          "id": "item-175",
           "nameJa": "ニトロブリューコーヒー アイスミルク",
           "allergens": {
             "そば": false,
@@ -2487,7 +2459,7 @@
           }
         },
         {
-          "id": "item-178",
+          "id": "item-176",
           "nameJa": "プリンケーキ",
           "allergens": {
             "そば": false,
@@ -2501,7 +2473,7 @@
           }
         },
         {
-          "id": "item-179",
+          "id": "item-177",
           "nameJa": "ホイップクリーム",
           "allergens": {
             "そば": false,
@@ -2515,7 +2487,7 @@
           }
         },
         {
-          "id": "item-180",
+          "id": "item-178",
           "nameJa": "ホットカフェモカ(M)",
           "allergens": {
             "そば": false,
@@ -2529,7 +2501,7 @@
           }
         },
         {
-          "id": "item-181",
+          "id": "item-179",
           "nameJa": "ホットカフェモカ(S)",
           "allergens": {
             "そば": false,
@@ -2543,7 +2515,7 @@
           }
         },
         {
-          "id": "item-182",
+          "id": "item-180",
           "nameJa": "ホットカフェモカ(テイクアウト用)(M)",
           "allergens": {
             "そば": false,
@@ -2557,7 +2529,7 @@
           }
         },
         {
-          "id": "item-183",
+          "id": "item-181",
           "nameJa": "ホットカフェモカ(テイクアウト用)(S)",
           "allergens": {
             "そば": false,
@@ -2571,7 +2543,7 @@
           }
         },
         {
-          "id": "item-184",
+          "id": "item-182",
           "nameJa": "ホットカフェラテ(M)",
           "allergens": {
             "そば": false,
@@ -2585,7 +2557,7 @@
           }
         },
         {
-          "id": "item-185",
+          "id": "item-183",
           "nameJa": "ホットカフェラテ(S)",
           "allergens": {
             "そば": false,
@@ -2599,7 +2571,7 @@
           }
         },
         {
-          "id": "item-186",
+          "id": "item-184",
           "nameJa": "ホットカフェラテ(テイクアウト用)(M)",
           "allergens": {
             "そば": false,
@@ -2613,7 +2585,7 @@
           }
         },
         {
-          "id": "item-187",
+          "id": "item-185",
           "nameJa": "ホットカフェラテ(テイクアウト用)(S)",
           "allergens": {
             "そば": false,
@@ -2627,7 +2599,7 @@
           }
         },
         {
-          "id": "item-188",
+          "id": "item-186",
           "nameJa": "ホットキャラメルラテ(M)",
           "allergens": {
             "そば": false,
@@ -2641,7 +2613,7 @@
           }
         },
         {
-          "id": "item-189",
+          "id": "item-187",
           "nameJa": "ホットキャラメルラテ(S)",
           "allergens": {
             "そば": false,
@@ -2655,7 +2627,7 @@
           }
         },
         {
-          "id": "item-190",
+          "id": "item-188",
           "nameJa": "ホットキャラメルラテ(テイクアウト用)(M)",
           "allergens": {
             "そば": false,
@@ -2669,7 +2641,7 @@
           }
         },
         {
-          "id": "item-191",
+          "id": "item-189",
           "nameJa": "ホットキャラメルラテ(テイクアウト用)(S)",
           "allergens": {
             "そば": false,
@@ -2683,7 +2655,7 @@
           }
         },
         {
-          "id": "item-192",
+          "id": "item-190",
           "nameJa": "ホットチョコレート(M)",
           "allergens": {
             "そば": false,
@@ -2697,7 +2669,7 @@
           }
         },
         {
-          "id": "item-193",
+          "id": "item-191",
           "nameJa": "ホットチョコレート(S)",
           "allergens": {
             "そば": false,
@@ -2711,7 +2683,7 @@
           }
         },
         {
-          "id": "item-194",
+          "id": "item-192",
           "nameJa": "ホットチョコレート(テイクアウト用)(M)",
           "allergens": {
             "そば": false,
@@ -2725,7 +2697,7 @@
           }
         },
         {
-          "id": "item-195",
+          "id": "item-193",
           "nameJa": "ホットチョコレート(テイクアウト用)(S)",
           "allergens": {
             "そば": false,
@@ -2739,7 +2711,7 @@
           }
         },
         {
-          "id": "item-196",
+          "id": "item-194",
           "nameJa": "マカロン チョコレート",
           "allergens": {
             "そば": false,
@@ -2753,7 +2725,7 @@
           }
         },
         {
-          "id": "item-197",
+          "id": "item-195",
           "nameJa": "マカロン バニラ",
           "allergens": {
             "そば": false,
@@ -2767,7 +2739,7 @@
           }
         },
         {
-          "id": "item-198",
+          "id": "item-196",
           "nameJa": "マカロン ラズベリー",
           "allergens": {
             "そば": false,
@@ -2781,7 +2753,7 @@
           }
         },
         {
-          "id": "item-199",
+          "id": "item-197",
           "nameJa": "マンゴースムージー",
           "allergens": {
             "そば": false,
@@ -2795,7 +2767,7 @@
           }
         },
         {
-          "id": "item-200",
+          "id": "item-198",
           "nameJa": "ロールケーキ オレオ® クッキー",
           "allergens": {
             "そば": false,
@@ -2809,7 +2781,7 @@
           }
         },
         {
-          "id": "item-201",
+          "id": "item-199",
           "nameJa": "宇治抹茶フラッペ",
           "allergens": {
             "そば": false,

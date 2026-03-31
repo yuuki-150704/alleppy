@@ -3829,20 +3829,6 @@
             "かに": false,
             "くるみ": false
           }
-        },
-        {
-          "id": "item-274",
-          "nameJa": "追加ふわとろホイップ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
         }
       ]
     }

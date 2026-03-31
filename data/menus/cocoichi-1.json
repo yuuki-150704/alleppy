@@ -262,34 +262,6 @@
         },
         {
           "id": "item-019",
-          "nameJa": "ニコニコジュニアカレー",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-020",
-          "nameJa": "ニコニコジュニアカレー",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-021",
           "nameJa": "フライドチキン2個",
           "allergens": {
             "そば": "",
@@ -303,7 +275,7 @@
           }
         },
         {
-          "id": "item-022",
+          "id": "item-020",
           "nameJa": "ほうれん草(ハーフ)",
           "allergens": {
             "そば": "",
@@ -317,7 +289,7 @@
           }
         },
         {
-          "id": "item-023",
+          "id": "item-021",
           "nameJa": "ハンバーグ",
           "allergens": {
             "そば": "",
@@ -331,7 +303,7 @@
           }
         },
         {
-          "id": "item-024",
+          "id": "item-022",
           "nameJa": "スクランブルエッグ(ハーフ)",
           "allergens": {
             "そば": "",
@@ -345,7 +317,7 @@
           }
         },
         {
-          "id": "item-025",
+          "id": "item-023",
           "nameJa": "とろ～りたまフライ",
           "allergens": {
             "そば": false,
@@ -359,7 +331,7 @@
           }
         },
         {
-          "id": "item-026",
+          "id": "item-024",
           "nameJa": "クリーミータルタルソース",
           "allergens": {
             "そば": false,
@@ -373,7 +345,7 @@
           }
         },
         {
-          "id": "item-027",
+          "id": "item-025",
           "nameJa": "半熟タマゴ",
           "allergens": {
             "そば": false,
@@ -387,7 +359,7 @@
           }
         },
         {
-          "id": "item-028",
+          "id": "item-026",
           "nameJa": "ゆでタマゴ",
           "allergens": {
             "そば": false,
@@ -401,7 +373,7 @@
           }
         },
         {
-          "id": "item-029",
+          "id": "item-027",
           "nameJa": "コーン",
           "allergens": {
             "そば": false,
@@ -415,7 +387,7 @@
           }
         },
         {
-          "id": "item-030",
+          "id": "item-028",
           "nameJa": "単品ポテト",
           "allergens": {
             "そば": false,
@@ -429,21 +401,7 @@
           }
         },
         {
-          "id": "item-031",
-          "nameJa": "ツナ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-032",
+          "id": "item-029",
           "nameJa": "半熟タマゴタルタルソース",
           "allergens": {
             "そば": false,
@@ -457,7 +415,7 @@
           }
         },
         {
-          "id": "item-033",
+          "id": "item-030",
           "nameJa": "旨辛にんにく",
           "allergens": {
             "そば": false,
@@ -471,21 +429,7 @@
           }
         },
         {
-          "id": "item-034",
-          "nameJa": "ハンバーグ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": true,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-035",
+          "id": "item-031",
           "nameJa": "フィッシュフライ",
           "allergens": {
             "そば": false,
@@ -499,7 +443,7 @@
           }
         },
         {
-          "id": "item-036",
+          "id": "item-032",
           "nameJa": "プチエビフライ",
           "allergens": {
             "そば": false,
@@ -513,7 +457,7 @@
           }
         },
         {
-          "id": "item-037",
+          "id": "item-033",
           "nameJa": "ホットコーヒー",
           "allergens": {
             "そば": false,
@@ -527,7 +471,7 @@
           }
         },
         {
-          "id": "item-038",
+          "id": "item-034",
           "nameJa": "キリン ノンアルコールビール",
           "allergens": {
             "そば": false,
@@ -541,7 +485,7 @@
           }
         },
         {
-          "id": "item-039",
+          "id": "item-035",
           "nameJa": "コーンスープ",
           "allergens": {
             "そば": false,
@@ -555,7 +499,7 @@
           }
         },
         {
-          "id": "item-040",
+          "id": "item-036",
           "nameJa": "オリジナルドレッシング",
           "allergens": {
             "そば": false,
@@ -569,7 +513,7 @@
           }
         },
         {
-          "id": "item-041",
+          "id": "item-037",
           "nameJa": "ごまドレッシング",
           "allergens": {
             "そば": false,
@@ -583,7 +527,7 @@
           }
         },
         {
-          "id": "item-042",
+          "id": "item-038",
           "nameJa": "とろ～り甘くなるソース",
           "allergens": {
             "そば": false,

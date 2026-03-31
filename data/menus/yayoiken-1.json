@@ -850,20 +850,6 @@
         },
         {
           "id": "item-061",
-          "nameJa": "冷奴",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-062",
           "nameJa": "【だし茶漬用】ほぐし鮭小鉢",
           "allergens": {
             "そば": false,
@@ -877,7 +863,7 @@
           }
         },
         {
-          "id": "item-063",
+          "id": "item-062",
           "nameJa": "【だし茶漬用】ミニサバ小鉢",
           "allergens": {
             "そば": false,
@@ -891,7 +877,7 @@
           }
         },
         {
-          "id": "item-064",
+          "id": "item-063",
           "nameJa": "蒸し鶏と海藻のぽん酢和え",
           "allergens": {
             "そば": true,
@@ -905,7 +891,7 @@
           }
         },
         {
-          "id": "item-065",
+          "id": "item-064",
           "nameJa": "玉子焼き",
           "allergens": {
             "そば": true,
@@ -919,7 +905,7 @@
           }
         },
         {
-          "id": "item-066",
+          "id": "item-065",
           "nameJa": "天ぷら小鉢",
           "allergens": {
             "そば": true,
@@ -933,7 +919,7 @@
           }
         },
         {
-          "id": "item-067",
+          "id": "item-066",
           "nameJa": "牛肉のすき焼き小鉢",
           "allergens": {
             "そば": false,
@@ -947,7 +933,7 @@
           }
         },
         {
-          "id": "item-068",
+          "id": "item-067",
           "nameJa": "フライドポテト",
           "allergens": {
             "そば": false,
@@ -961,7 +947,7 @@
           }
         },
         {
-          "id": "item-069",
+          "id": "item-068",
           "nameJa": "フライドポテト&ウインナー",
           "allergens": {
             "そば": false,
@@ -975,7 +961,7 @@
           }
         },
         {
-          "id": "item-070",
+          "id": "item-069",
           "nameJa": "コロッケ",
           "allergens": {
             "そば": true,
@@ -989,7 +975,7 @@
           }
         },
         {
-          "id": "item-071",
+          "id": "item-070",
           "nameJa": "イカのから揚げ",
           "allergens": {
             "そば": true,
@@ -1003,7 +989,7 @@
           }
         },
         {
-          "id": "item-072",
+          "id": "item-071",
           "nameJa": "ミニから揚げ",
           "allergens": {
             "そば": true,
@@ -1017,7 +1003,7 @@
           }
         },
         {
-          "id": "item-073",
+          "id": "item-072",
           "nameJa": "から揚げ（5個）",
           "allergens": {
             "そば": true,
@@ -1031,7 +1017,7 @@
           }
         },
         {
-          "id": "item-074",
+          "id": "item-073",
           "nameJa": "みそ汁",
           "allergens": {
             "そば": false,
@@ -1045,7 +1031,7 @@
           }
         },
         {
-          "id": "item-075",
+          "id": "item-074",
           "nameJa": "豚汁",
           "allergens": {
             "そば": false,
@@ -1059,7 +1045,7 @@
           }
         },
         {
-          "id": "item-076",
+          "id": "item-075",
           "nameJa": "貝汁",
           "allergens": {
             "そば": false,

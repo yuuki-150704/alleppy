@@ -546,20 +546,6 @@
             "かに": false,
             "くるみ": false
           }
-        },
-        {
-          "id": "item-037",
-          "nameJa": "【お持ち帰り】いちごとチョコのミルクティー",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
         }
       ]
     },
@@ -569,7 +555,7 @@
       "displayOrder": 7,
       "items": [
         {
-          "id": "item-038",
+          "id": "item-037",
           "nameJa": "【お持ち帰り】(ｱｲｽ)珈琲",
           "allergens": {
             "そば": false,
@@ -583,7 +569,7 @@
           }
         },
         {
-          "id": "item-039",
+          "id": "item-038",
           "nameJa": "【お持ち帰り】(ｱｲｽ)カフェラテ",
           "allergens": {
             "そば": false,
@@ -597,7 +583,7 @@
           }
         },
         {
-          "id": "item-040",
+          "id": "item-039",
           "nameJa": "【お持ち帰り】(ｱｲｽ)ショコラ",
           "allergens": {
             "そば": false,
@@ -611,7 +597,7 @@
           }
         },
         {
-          "id": "item-041",
+          "id": "item-040",
           "nameJa": "【お持ち帰り】(ｱｲｽ)抹茶ラテ",
           "allergens": {
             "そば": false,
@@ -625,7 +611,7 @@
           }
         },
         {
-          "id": "item-042",
+          "id": "item-041",
           "nameJa": "【お持ち帰り】(ｱｲｽ)キャラメルマキアート",
           "allergens": {
             "そば": false,
@@ -639,7 +625,7 @@
           }
         },
         {
-          "id": "item-043",
+          "id": "item-042",
           "nameJa": "【お持ち帰り】(ｱｲｽ)ストロベリーショコララテ",
           "allergens": {
             "そば": false,
@@ -660,7 +646,7 @@
       "displayOrder": 8,
       "items": [
         {
-          "id": "item-044",
+          "id": "item-043",
           "nameJa": "【お持ち帰り】(ﾎｯﾄ)カフェインレス珈琲",
           "allergens": {
             "そば": false,
@@ -674,7 +660,7 @@
           }
         },
         {
-          "id": "item-045",
+          "id": "item-044",
           "nameJa": "【お持ち帰り】(ｱｲｽ)カフェインレス珈琲",
           "allergens": {
             "そば": false,
@@ -695,7 +681,7 @@
       "displayOrder": 9,
       "items": [
         {
-          "id": "item-046",
+          "id": "item-045",
           "nameJa": "【お持ち帰り】バナナスムージー",
           "allergens": {
             "そば": false,
@@ -709,7 +695,7 @@
           }
         },
         {
-          "id": "item-047",
+          "id": "item-046",
           "nameJa": "【お持ち帰り】いちごバナナスムージー",
           "allergens": {
             "そば": false,
@@ -723,7 +709,7 @@
           }
         },
         {
-          "id": "item-048",
+          "id": "item-047",
           "nameJa": "【お持ち帰り】フローズンキャラメルラテ",
           "allergens": {
             "そば": false,
@@ -737,7 +723,7 @@
           }
         },
         {
-          "id": "item-049",
+          "id": "item-048",
           "nameJa": "【お持ち帰り】フローズンダークモカチップラテ",
           "allergens": {
             "そば": false,
@@ -758,7 +744,7 @@
       "displayOrder": 10,
       "items": [
         {
-          "id": "item-050",
+          "id": "item-049",
           "nameJa": "【お持ち帰り】アイスティー（アールグレイ）",
           "allergens": {
             "そば": false,
@@ -772,7 +758,7 @@
           }
         },
         {
-          "id": "item-051",
+          "id": "item-050",
           "nameJa": "【お持ち帰り】ピーチアイスティー",
           "allergens": {
             "そば": false,
@@ -786,7 +772,7 @@
           }
         },
         {
-          "id": "item-052",
+          "id": "item-051",
           "nameJa": "【お持ち帰り】ミラベルシトラスソーダ",
           "allergens": {
             "そば": false,
@@ -800,7 +786,7 @@
           }
         },
         {
-          "id": "item-053",
+          "id": "item-052",
           "nameJa": "【お持ち帰り】ラズベリーＭＩＸソーダ",
           "allergens": {
             "そば": false,
@@ -814,7 +800,7 @@
           }
         },
         {
-          "id": "item-054",
+          "id": "item-053",
           "nameJa": "【お持ち帰り】濃縮還元100%オレンジジュース",
           "allergens": {
             "そば": false,
@@ -828,7 +814,7 @@
           }
         },
         {
-          "id": "item-055",
+          "id": "item-054",
           "nameJa": "【お持ち帰り】濃縮還元100%アップルジュース",
           "allergens": {
             "そば": false,
@@ -842,7 +828,7 @@
           }
         },
         {
-          "id": "item-056",
+          "id": "item-055",
           "nameJa": "【お持ち帰り】フルーツwithアイスティー（１杯分）",
           "allergens": {
             "そば": false,
@@ -856,7 +842,7 @@
           }
         },
         {
-          "id": "item-057",
+          "id": "item-056",
           "nameJa": "【お持ち帰り】フルーツソーダ",
           "allergens": {
             "そば": false,
@@ -870,7 +856,7 @@
           }
         },
         {
-          "id": "item-058",
+          "id": "item-057",
           "nameJa": "【お持ち帰り】ぷるぷる珈琲ゼリーｉｎアイスカフェオレ",
           "allergens": {
             "そば": false,
@@ -891,7 +877,7 @@
       "displayOrder": 11,
       "items": [
         {
-          "id": "item-059",
+          "id": "item-058",
           "nameJa": "【お持ち帰り】むさしの森ブレンド珈琲豆100g",
           "allergens": {
             "そば": false,
@@ -905,7 +891,7 @@
           }
         },
         {
-          "id": "item-060",
+          "id": "item-059",
           "nameJa": "【お持ち帰り】むさしの森アイス珈琲豆100g",
           "allergens": {
             "そば": false,
@@ -919,7 +905,7 @@
           }
         },
         {
-          "id": "item-061",
+          "id": "item-060",
           "nameJa": "【お持ち帰り】「森林珈琲」エチオピアモカ豆100g",
           "allergens": {
             "そば": false,
@@ -933,7 +919,7 @@
           }
         },
         {
-          "id": "item-062",
+          "id": "item-061",
           "nameJa": "【お持ち帰り】カフェインレス珈琲豆100g(レインフォレスト・アライアンス/有機W認証）",
           "allergens": {
             "そば": false,
@@ -947,7 +933,7 @@
           }
         },
         {
-          "id": "item-063",
+          "id": "item-062",
           "nameJa": "【お持ち帰り】ブルーマウンテン№１珈琲豆100g",
           "allergens": {
             "そば": false,

@@ -1284,48 +1284,6 @@
         },
         {
           "id": "item-092",
-          "nameJa": "タラコソースシシリー風",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-093",
-          "nameJa": "パルマ風スパゲッティ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-094",
-          "nameJa": "ミートソースボロニア風",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-095",
           "nameJa": "牛100％オニオンソースのハンバーグ",
           "allergens": {
             "そば": false,
@@ -1339,7 +1297,7 @@
           }
         },
         {
-          "id": "item-096",
+          "id": "item-093",
           "nameJa": "牛100％ディアボラ風ハンバーグ",
           "allergens": {
             "そば": false,
@@ -1353,133 +1311,7 @@
           }
         },
         {
-          "id": "item-097",
-          "nameJa": "ライス",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-098",
-          "nameJa": "フォッカチオ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-099",
-          "nameJa": "ガーリックフォッカチオ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-100",
-          "nameJa": "辛味チキン",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": true,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-101",
-          "nameJa": "バッファローモッツァレラのマルゲリータピザ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-102",
-          "nameJa": "たっぷりコーンのピザ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-103",
-          "nameJa": "ソーセージピザ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-104",
-          "nameJa": "野菜ときのこのピザ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-105",
-          "nameJa": "ミラノ風ドリア",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": true,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-106",
+          "id": "item-094",
           "nameJa": "冷凍イタリアンプリン（1個）",
           "allergens": {
             "そば": false,
@@ -1493,7 +1325,7 @@
           }
         },
         {
-          "id": "item-107",
+          "id": "item-095",
           "nameJa": "冷凍辛味チキン（1.5kg）",
           "allergens": {
             "そば": false,
@@ -1507,7 +1339,7 @@
           }
         },
         {
-          "id": "item-108",
+          "id": "item-096",
           "nameJa": "サイゼリヤドレッシング（500ml）",
           "allergens": {
             "そば": false,
@@ -1521,7 +1353,7 @@
           }
         },
         {
-          "id": "item-109",
+          "id": "item-097",
           "nameJa": "エクストラ・バージン・オリーブオイル（500ml）",
           "allergens": {
             "そば": false,
@@ -1535,7 +1367,7 @@
           }
         },
         {
-          "id": "item-110",
+          "id": "item-098",
           "nameJa": "ハンバーグステーキモーニング",
           "allergens": {
             "そば": false,
@@ -1549,7 +1381,7 @@
           }
         },
         {
-          "id": "item-111",
+          "id": "item-099",
           "nameJa": "タラコスパゲッティモーニング",
           "allergens": {
             "そば": false,
@@ -1563,7 +1395,7 @@
           }
         },
         {
-          "id": "item-112",
+          "id": "item-100",
           "nameJa": "フォッカチオモーニング",
           "allergens": {
             "そば": false,
@@ -1577,21 +1409,7 @@
           }
         },
         {
-          "id": "item-113",
-          "nameJa": "フォッカチオ",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": true,
-            "乳": false,
-            "えび": true,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-114",
+          "id": "item-101",
           "nameJa": "フォッカチオセット",
           "allergens": {
             "そば": false,
@@ -1605,7 +1423,7 @@
           }
         },
         {
-          "id": "item-115",
+          "id": "item-102",
           "nameJa": "焼きシナモンフォッカチオ",
           "allergens": {
             "そば": false,
@@ -1619,7 +1437,7 @@
           }
         },
         {
-          "id": "item-116",
+          "id": "item-103",
           "nameJa": "焼きシナモンフォッカチオセット",
           "allergens": {
             "そば": false,
@@ -1633,7 +1451,7 @@
           }
         },
         {
-          "id": "item-117",
+          "id": "item-104",
           "nameJa": "焼きシナモンフォッカチオコンビ",
           "allergens": {
             "そば": false,
@@ -1647,7 +1465,7 @@
           }
         },
         {
-          "id": "item-118",
+          "id": "item-105",
           "nameJa": "パンチェッタとチーズのパニーニ",
           "allergens": {
             "そば": false,
@@ -1661,7 +1479,7 @@
           }
         },
         {
-          "id": "item-119",
+          "id": "item-106",
           "nameJa": "パンチェッタとチーズのパニーニセット",
           "allergens": {
             "そば": false,
@@ -1675,7 +1493,7 @@
           }
         },
         {
-          "id": "item-120",
+          "id": "item-107",
           "nameJa": "パンチェッタとチーズのパニーニコンビ",
           "allergens": {
             "そば": false,
@@ -1689,7 +1507,7 @@
           }
         },
         {
-          "id": "item-121",
+          "id": "item-108",
           "nameJa": "パンチェッタと卵のパニーニ",
           "allergens": {
             "そば": false,
@@ -1703,7 +1521,7 @@
           }
         },
         {
-          "id": "item-122",
+          "id": "item-109",
           "nameJa": "パンチェッタと卵のパニーニ コンビ",
           "allergens": {
             "そば": false,
@@ -1717,7 +1535,7 @@
           }
         },
         {
-          "id": "item-123",
+          "id": "item-110",
           "nameJa": "パンチェッタと卵のパニーニ コンビ セット",
           "allergens": {
             "そば": false,
@@ -1731,7 +1549,7 @@
           }
         },
         {
-          "id": "item-124",
+          "id": "item-111",
           "nameJa": "朝のバッファローモッツァレラのカプレーゼ",
           "allergens": {
             "そば": false,
@@ -1745,7 +1563,7 @@
           }
         },
         {
-          "id": "item-125",
+          "id": "item-112",
           "nameJa": "モーニングサラダ(コーン)",
           "allergens": {
             "そば": false,
@@ -1759,7 +1577,7 @@
           }
         },
         {
-          "id": "item-126",
+          "id": "item-113",
           "nameJa": "モーニングサラダ(ミニトマト)",
           "allergens": {
             "そば": false,

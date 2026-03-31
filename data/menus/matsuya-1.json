@@ -1956,20 +1956,6 @@
         },
         {
           "id": "item-135",
-          "nameJa": "冷奴",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-136",
           "nameJa": "牛皿",
           "allergens": {
             "そば": false,
@@ -1983,7 +1969,7 @@
           }
         },
         {
-          "id": "item-137",
+          "id": "item-136",
           "nameJa": "ミニ牛皿",
           "allergens": {
             "そば": false,
@@ -1997,7 +1983,7 @@
           }
         },
         {
-          "id": "item-138",
+          "id": "item-137",
           "nameJa": "ソーセージ半熟玉子",
           "allergens": {
             "そば": false,
@@ -2011,7 +1997,7 @@
           }
         },
         {
-          "id": "item-139",
+          "id": "item-138",
           "nameJa": "ソーセージエッグ",
           "allergens": {
             "そば": false,
@@ -2025,7 +2011,7 @@
           }
         },
         {
-          "id": "item-140",
+          "id": "item-139",
           "nameJa": "ネギたま",
           "allergens": {
             "そば": false,
@@ -2039,7 +2025,7 @@
           }
         },
         {
-          "id": "item-141",
+          "id": "item-140",
           "nameJa": "青ネギ",
           "allergens": {
             "そば": false,
@@ -2053,7 +2039,7 @@
           }
         },
         {
-          "id": "item-142",
+          "id": "item-141",
           "nameJa": "“炙り”焼鮭",
           "allergens": {
             "そば": false,
@@ -2067,7 +2053,7 @@
           }
         },
         {
-          "id": "item-143",
+          "id": "item-142",
           "nameJa": "みそ汁",
           "allergens": {
             "そば": false,
@@ -2081,7 +2067,7 @@
           }
         },
         {
-          "id": "item-144",
+          "id": "item-143",
           "nameJa": "ポテサラ生野菜",
           "allergens": {
             "そば": false,
@@ -2095,7 +2081,7 @@
           }
         },
         {
-          "id": "item-145",
+          "id": "item-144",
           "nameJa": "ゼリー3個",
           "allergens": {
             "そば": false,
@@ -2109,7 +2095,7 @@
           }
         },
         {
-          "id": "item-146",
+          "id": "item-145",
           "nameJa": "ライス",
           "allergens": {
             "そば": false,
@@ -2130,7 +2116,7 @@
       "displayOrder": 12,
       "items": [
         {
-          "id": "item-147",
+          "id": "item-146",
           "nameJa": "生野菜生玉子セット",
           "allergens": {
             "そば": false,
@@ -2144,7 +2130,7 @@
           }
         },
         {
-          "id": "item-148",
+          "id": "item-147",
           "nameJa": "生野菜半熟玉子セット",
           "allergens": {
             "そば": false,
@@ -2158,7 +2144,7 @@
           }
         },
         {
-          "id": "item-149",
+          "id": "item-148",
           "nameJa": "豚汁生玉子セット",
           "allergens": {
             "そば": false,
@@ -2172,7 +2158,7 @@
           }
         },
         {
-          "id": "item-150",
+          "id": "item-149",
           "nameJa": "豚汁半熟玉子セット",
           "allergens": {
             "そば": false,
@@ -2186,7 +2172,7 @@
           }
         },
         {
-          "id": "item-151",
+          "id": "item-150",
           "nameJa": "お新香生玉子セット",
           "allergens": {
             "そば": false,
@@ -2200,7 +2186,7 @@
           }
         },
         {
-          "id": "item-152",
+          "id": "item-151",
           "nameJa": "お新香半熟玉子セット",
           "allergens": {
             "そば": false,
@@ -2214,7 +2200,7 @@
           }
         },
         {
-          "id": "item-153",
+          "id": "item-152",
           "nameJa": "とろろ生玉子セット",
           "allergens": {
             "そば": false,
@@ -2228,7 +2214,7 @@
           }
         },
         {
-          "id": "item-154",
+          "id": "item-153",
           "nameJa": "とろろ半熟玉子セット",
           "allergens": {
             "そば": false,
@@ -2242,7 +2228,7 @@
           }
         },
         {
-          "id": "item-155",
+          "id": "item-154",
           "nameJa": "ミニ牛皿生玉子セット",
           "allergens": {
             "そば": false,
@@ -2256,7 +2242,7 @@
           }
         },
         {
-          "id": "item-156",
+          "id": "item-155",
           "nameJa": "ミニ牛皿半熟玉子セット",
           "allergens": {
             "そば": false,
@@ -2270,7 +2256,7 @@
           }
         },
         {
-          "id": "item-157",
+          "id": "item-156",
           "nameJa": "キムチ生玉子セット",
           "allergens": {
             "そば": false,
@@ -2284,7 +2270,7 @@
           }
         },
         {
-          "id": "item-158",
+          "id": "item-157",
           "nameJa": "キムチ半熟玉子セット",
           "allergens": {
             "そば": false,
@@ -2305,7 +2291,7 @@
       "displayOrder": 13,
       "items": [
         {
-          "id": "item-159",
+          "id": "item-158",
           "nameJa": "コカ・コーラ",
           "allergens": {
             "そば": false,
@@ -2319,7 +2305,7 @@
           }
         },
         {
-          "id": "item-160",
+          "id": "item-159",
           "nameJa": "ビール中瓶（アサヒスーパードライ）",
           "allergens": {
             "そば": false,
@@ -2333,7 +2319,7 @@
           }
         },
         {
-          "id": "item-161",
+          "id": "item-160",
           "nameJa": "生ジョッキ缶",
           "allergens": {
             "そば": false,
@@ -2347,7 +2333,7 @@
           }
         },
         {
-          "id": "item-162",
+          "id": "item-161",
           "nameJa": "ブレンド茶",
           "allergens": {
             "そば": false,
@@ -2361,7 +2347,7 @@
           }
         },
         {
-          "id": "item-163",
+          "id": "item-162",
           "nameJa": "マミー",
           "allergens": {
             "そば": false,
@@ -2382,7 +2368,7 @@
       "displayOrder": 14,
       "items": [
         {
-          "id": "item-164",
+          "id": "item-163",
           "nameJa": "醤油(5g)",
           "allergens": {
             "そば": false,
@@ -2396,7 +2382,7 @@
           }
         },
         {
-          "id": "item-165",
+          "id": "item-164",
           "nameJa": "紅生姜(5g)",
           "allergens": {
             "そば": false,
@@ -2410,7 +2396,7 @@
           }
         },
         {
-          "id": "item-166",
+          "id": "item-165",
           "nameJa": "七味唐辛子(0.2g)",
           "allergens": {
             "そば": false,
@@ -2424,7 +2410,7 @@
           }
         },
         {
-          "id": "item-167",
+          "id": "item-166",
           "nameJa": "フレンチドレッシング(30g)",
           "allergens": {
             "そば": false,
@@ -2438,7 +2424,7 @@
           }
         },
         {
-          "id": "item-168",
+          "id": "item-167",
           "nameJa": "ごまドレッシング(25g)",
           "allergens": {
             "そば": false,
@@ -2452,7 +2438,7 @@
           }
         },
         {
-          "id": "item-169",
+          "id": "item-168",
           "nameJa": "ポン酢だれ(20g)",
           "allergens": {
             "そば": false,
@@ -2466,7 +2452,7 @@
           }
         },
         {
-          "id": "item-170",
+          "id": "item-169",
           "nameJa": "バーベキューだれ(20g)",
           "allergens": {
             "そば": false,
@@ -2480,7 +2466,7 @@
           }
         },
         {
-          "id": "item-171",
+          "id": "item-170",
           "nameJa": "焼肉のタレ甘口（カルビソース）(20g)",
           "allergens": {
             "そば": false,

@@ -1228,20 +1228,6 @@
       "items": [
         {
           "id": "item-085",
-          "nameJa": "惣菜",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-086",
           "nameJa": "ポテトフライ",
           "allergens": {
             "そば": false,
@@ -1255,7 +1241,7 @@
           }
         },
         {
-          "id": "item-087",
+          "id": "item-086",
           "nameJa": "単品角煮かつ",
           "allergens": {
             "そば": false,
@@ -1269,7 +1255,7 @@
           }
         },
         {
-          "id": "item-088",
+          "id": "item-087",
           "nameJa": "単品ハニーレモン唐揚げ(5個)",
           "allergens": {
             "そば": false,
@@ -1283,7 +1269,7 @@
           }
         },
         {
-          "id": "item-089",
+          "id": "item-088",
           "nameJa": "単品“牛”サーロインかつ",
           "allergens": {
             "そば": false,
@@ -1297,7 +1283,7 @@
           }
         },
         {
-          "id": "item-090",
+          "id": "item-089",
           "nameJa": "単品ささみかつ",
           "allergens": {
             "そば": false,
@@ -1311,7 +1297,7 @@
           }
         },
         {
-          "id": "item-091",
+          "id": "item-090",
           "nameJa": "単品カキフライ（2個）",
           "allergens": {
             "そば": false,
@@ -1325,7 +1311,7 @@
           }
         },
         {
-          "id": "item-092",
+          "id": "item-091",
           "nameJa": "単品アジフライ（1枚）",
           "allergens": {
             "そば": false,
@@ -1339,7 +1325,7 @@
           }
         },
         {
-          "id": "item-093",
+          "id": "item-092",
           "nameJa": "単品有頭大海老フライ",
           "allergens": {
             "そば": false,
@@ -1353,7 +1339,7 @@
           }
         },
         {
-          "id": "item-094",
+          "id": "item-093",
           "nameJa": "単品ロースかつ（1枚）",
           "allergens": {
             "そば": false,
@@ -1367,7 +1353,7 @@
           }
         },
         {
-          "id": "item-095",
+          "id": "item-094",
           "nameJa": "単品海老フライ（1尾）",
           "allergens": {
             "そば": false,
@@ -1381,7 +1367,7 @@
           }
         },
         {
-          "id": "item-096",
+          "id": "item-095",
           "nameJa": "単品本格唐揚げ（1個）",
           "allergens": {
             "そば": false,
@@ -1395,7 +1381,7 @@
           }
         },
         {
-          "id": "item-097",
+          "id": "item-096",
           "nameJa": "単品本格唐揚げ（3個）",
           "allergens": {
             "そば": false,
@@ -1409,7 +1395,7 @@
           }
         },
         {
-          "id": "item-098",
+          "id": "item-097",
           "nameJa": "単品本格唐揚げ（5個）",
           "allergens": {
             "そば": false,
@@ -1423,7 +1409,7 @@
           }
         },
         {
-          "id": "item-099",
+          "id": "item-098",
           "nameJa": "単品本格唐揚げ（8個）",
           "allergens": {
             "そば": false,
@@ -1437,7 +1423,7 @@
           }
         },
         {
-          "id": "item-100",
+          "id": "item-099",
           "nameJa": "単品コロッケ（1個）",
           "allergens": {
             "そば": false,
@@ -1458,35 +1444,7 @@
       "displayOrder": 8,
       "items": [
         {
-          "id": "item-101",
-          "nameJa": "サイドメニュー",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-102",
-          "nameJa": "豚汁",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-103",
+          "id": "item-100",
           "nameJa": "単品濃厚コク旨カレー",
           "allergens": {
             "そば": false,
@@ -1500,7 +1458,7 @@
           }
         },
         {
-          "id": "item-104",
+          "id": "item-101",
           "nameJa": "タルタルソース",
           "allergens": {
             "そば": false,
@@ -1514,7 +1472,7 @@
           }
         },
         {
-          "id": "item-105",
+          "id": "item-102",
           "nameJa": "単品ふりかけ（さけ）",
           "allergens": {
             "そば": false,
@@ -1528,7 +1486,7 @@
           }
         },
         {
-          "id": "item-106",
+          "id": "item-103",
           "nameJa": "単品ふりかけ（たまご）",
           "allergens": {
             "そば": false,
@@ -1542,7 +1500,7 @@
           }
         },
         {
-          "id": "item-107",
+          "id": "item-104",
           "nameJa": "生玉子",
           "allergens": {
             "そば": false,
@@ -1556,7 +1514,7 @@
           }
         },
         {
-          "id": "item-108",
+          "id": "item-105",
           "nameJa": "トッピングポテサラ",
           "allergens": {
             "そば": false,
@@ -1570,7 +1528,7 @@
           }
         },
         {
-          "id": "item-109",
+          "id": "item-106",
           "nameJa": "ミニポテキャベ",
           "allergens": {
             "そば": false,
@@ -1584,7 +1542,7 @@
           }
         },
         {
-          "id": "item-110",
+          "id": "item-107",
           "nameJa": "千切りキャベツ",
           "allergens": {
             "そば": false,
@@ -1598,7 +1556,7 @@
           }
         },
         {
-          "id": "item-111",
+          "id": "item-108",
           "nameJa": "ポテキャベ",
           "allergens": {
             "そば": false,
@@ -1612,7 +1570,7 @@
           }
         },
         {
-          "id": "item-112",
+          "id": "item-109",
           "nameJa": "トッピングソーセージ（1本）",
           "allergens": {
             "そば": false,
@@ -1626,7 +1584,7 @@
           }
         },
         {
-          "id": "item-113",
+          "id": "item-110",
           "nameJa": "浅漬けお新香",
           "allergens": {
             "そば": false,
@@ -1640,7 +1598,7 @@
           }
         },
         {
-          "id": "item-114",
+          "id": "item-111",
           "nameJa": "納豆",
           "allergens": {
             "そば": false,
@@ -1654,21 +1612,7 @@
           }
         },
         {
-          "id": "item-115",
-          "nameJa": "冷奴",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-116",
+          "id": "item-112",
           "nameJa": "鬼おろしポン酢",
           "allergens": {
             "そば": false,
@@ -1682,7 +1626,7 @@
           }
         },
         {
-          "id": "item-117",
+          "id": "item-113",
           "nameJa": "味噌ソース",
           "allergens": {
             "そば": false,
@@ -1696,7 +1640,7 @@
           }
         },
         {
-          "id": "item-118",
+          "id": "item-114",
           "nameJa": "目玉焼き＆ソーセージ",
           "allergens": {
             "そば": false,
@@ -1710,7 +1654,7 @@
           }
         },
         {
-          "id": "item-119",
+          "id": "item-115",
           "nameJa": "ライス",
           "allergens": {
             "そば": false,
@@ -1724,7 +1668,7 @@
           }
         },
         {
-          "id": "item-120",
+          "id": "item-116",
           "nameJa": "みそ汁",
           "allergens": {
             "そば": false,

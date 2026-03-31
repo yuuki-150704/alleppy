@@ -2404,34 +2404,6 @@
         },
         {
           "id": "item-172",
-          "nameJa": "麦茶",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-173",
-          "nameJa": "緑茶",
-          "allergens": {
-            "そば": false,
-            "落花生": false,
-            "小麦": false,
-            "卵": false,
-            "乳": false,
-            "えび": false,
-            "かに": false,
-            "くるみ": false
-          }
-        },
-        {
-          "id": "item-174",
           "nameJa": "黒鳥龍茶",
           "allergens": {
             "そば": false,
@@ -2445,7 +2417,7 @@
           }
         },
         {
-          "id": "item-175",
+          "id": "item-173",
           "nameJa": "ホットコーヒー（砂糖・ミルクを除く）",
           "allergens": {
             "そば": false,
@@ -2459,7 +2431,7 @@
           }
         },
         {
-          "id": "item-176",
+          "id": "item-174",
           "nameJa": "アイスコーヒー（砂糖・ミルクを除く）",
           "allergens": {
             "そば": false,
@@ -2473,7 +2445,7 @@
           }
         },
         {
-          "id": "item-177",
+          "id": "item-175",
           "nameJa": "フェアトレードコーヒー",
           "allergens": {
             "そば": false,
@@ -2487,7 +2459,7 @@
           }
         },
         {
-          "id": "item-178",
+          "id": "item-176",
           "nameJa": "ガムシロップ",
           "allergens": {
             "そば": false,
@@ -2501,7 +2473,7 @@
           }
         },
         {
-          "id": "item-179",
+          "id": "item-177",
           "nameJa": "スティックシュガー",
           "allergens": {
             "そば": false,
@@ -2515,7 +2487,7 @@
           }
         },
         {
-          "id": "item-180",
+          "id": "item-178",
           "nameJa": "コーヒーフレッシュ",
           "allergens": {
             "そば": false,
@@ -2529,7 +2501,7 @@
           }
         },
         {
-          "id": "item-181",
+          "id": "item-179",
           "nameJa": "りんごジュース",
           "allergens": {
             "そば": false,
@@ -2543,7 +2515,7 @@
           }
         },
         {
-          "id": "item-182",
+          "id": "item-180",
           "nameJa": "ぶどうジュース",
           "allergens": {
             "そば": false,
@@ -2557,7 +2529,7 @@
           }
         },
         {
-          "id": "item-183",
+          "id": "item-181",
           "nameJa": "アールグレイティーレモネード",
           "allergens": {
             "そば": false,
@@ -2571,7 +2543,7 @@
           }
         },
         {
-          "id": "item-184",
+          "id": "item-182",
           "nameJa": "Sukiシェイク バニラ",
           "allergens": {
             "そば": false,
@@ -2585,7 +2557,7 @@
           }
         },
         {
-          "id": "item-185",
+          "id": "item-183",
           "nameJa": "Sukiシェイク 抹茶",
           "allergens": {
             "そば": false,
@@ -2599,7 +2571,7 @@
           }
         },
         {
-          "id": "item-186",
+          "id": "item-184",
           "nameJa": "Sukiシェイク 北海道メロン",
           "allergens": {
             "そば": false,
@@ -2613,7 +2585,7 @@
           }
         },
         {
-          "id": "item-187",
+          "id": "item-185",
           "nameJa": "Sukiシェイク リッチチョコレート",
           "allergens": {
             "そば": false,
