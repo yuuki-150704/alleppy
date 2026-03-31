@@ -628,5 +628,47 @@
       }
     ],
     "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "katsuya",
+    "nameJa": "かつや",
+    "brandCode": "katsuya",
+    "groupName": "アークランドサービス",
+    "sourceUrl": "https://www.arclandservice.co.jp/katsuya/menu/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "freshness",
+    "nameJa": "フレッシュネスバーガー",
+    "brandCode": "freshness",
+    "groupName": "コロワイドG",
+    "sourceUrl": "https://www.freshnessburger.co.jp/menu",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
+  },
+  {
+    "id": "kappasushi",
+    "nameJa": "かっぱ寿司",
+    "brandCode": "kappasushi",
+    "groupName": "コロワイドG",
+    "sourceUrl": "https://kappasushi.jp/",
+    "usageTypes": [
+      {
+        "id": 1,
+        "nameJa": "店内メニュー"
+      }
+    ],
+    "lastScrapedAt": "2026-03-31T00:00:00Z"
   }
 ]

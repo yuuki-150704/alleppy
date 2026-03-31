@@ -69,6 +69,11 @@ import misdo from "@/data/menus/misdo-1.json";
 import tullys from "@/data/menus/tullys-1.json";
 // ジョイフル
 import joyfull from "@/data/menus/joyfull-1.json";
+// アークランドサービス
+import katsuya from "@/data/menus/katsuya-1.json";
+// コロワイドG
+import freshness from "@/data/menus/freshness-1.json";
+import kappasushi from "@/data/menus/kappasushi-1.json";
 
 export const allergens: Allergen[] = allergensJson;
 export const brands: Brand[] = brandsJson;
@@ -140,6 +145,11 @@ const menuDataMap: Record<string, MenuData> = {
   "tullys-1": tullys as MenuData,
   // ジョイフル
   "joyfull-1": joyfull as MenuData,
+  // アークランドサービス
+  "katsuya-1": katsuya as MenuData,
+  // コロワイドG
+  "freshness-1": freshness as MenuData,
+  "kappasushi-1": kappasushi as MenuData,
 };
 
 export function getMenuData(brandId: string, usageType: number): MenuData | null {
